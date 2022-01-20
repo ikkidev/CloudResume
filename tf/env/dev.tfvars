@@ -1,6 +1,6 @@
-domain_name = "www.ikkidev.com"
-bucket_name = "ikkidev.com"
-
+domain_name = "www.devsandbox.com"
+bucket_name = "devsandbox.com"
+aws_profile = "dev"
 common_tags = {
-  Project = "ikki-cloud-resume"
+  Project = "aws sandbox"
 }

@@ -1,5 +1,6 @@
 # S3 bucket for website.
 resource "aws_s3_bucket" "www_bucket" {
+  provider = aws.s3
   bucket = "www.${var.bucket_name}"
   acl = "public-read"
   policy = templatefile("templates/s3-policy.json", { bucket = "www.${var.bucket_name}" })
@@ -20,6 +21,7 @@ resource "aws_s3_bucket" "www_bucket" {
 
 # S3 bucket for redirecting non-www to www.
 resource "aws_s3_bucket" "root_bucket" {
+  provider = aws.s3
   bucket = var.bucket_name
   acl = "public-read"
   policy = templatefile("templates/s3-policy.json", { bucket = var.bucket_name })
