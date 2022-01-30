@@ -3,4 +3,5 @@ bucket_name = "ikkidev.com"
 aws_profile = "prod"
 common_tags = {
   Project = "ikki-cloud-resume"
+  Environment = "prod"
 }

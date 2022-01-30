@@ -1,0 +1,2 @@
+bucket = "ikkidev.com-terraform"
+key = "prod/ikki-cloud-resume/terraform.tfstate"
