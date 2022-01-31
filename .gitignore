@@ -10,3 +10,4 @@
 *.iml
 .terraform*
 *tfstate*
+*terraform_log.txt

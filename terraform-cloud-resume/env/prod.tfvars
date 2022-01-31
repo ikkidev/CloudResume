@@ -1,6 +1,6 @@
-domain_name = "www.ikkidev.com"
+domain_name = "ikkidev.com"
 bucket_name = "ikkidev.com"
-aws_profile = "prod"
+aws_profile = "admin-prod-role"
 common_tags = {
   Project = "ikki-cloud-resume"
   Environment = "prod"
