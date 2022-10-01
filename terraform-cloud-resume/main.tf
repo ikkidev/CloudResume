@@ -6,6 +6,11 @@ module "s3" {
   aws_profile = var.aws_profile
 }
 
+module "dynamodb" {
+  source = "./modules/dynamodb"
+  common_tags = var.common_tags
+}
+
 module "acm" {
   source = "./modules/acm"
   common_tags = var.common_tags
@@ -33,3 +38,4 @@ module "route53" {
   www_s3_distribution_domain_name = module.cloudfront.www_s3_distribution_domain_name
   www_s3_distribution_hosted_zone_id = module.cloudfront.www_s3_distribution_hosted_zone_id
 }
+
