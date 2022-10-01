@@ -4,28 +4,20 @@ import boto3  # import the boto3 module
 from botocore.exceptions import ClientError
 
 logger = logging.getLogger(__name__)
-dynamodb = boto3.resource('dynamodb')  # get the DynamoDB resource
-table = dynamodb.Table('visitor_count')
 
-'''
-Use the following test event structure to test the lambda function from the aws console
-{
-  "body": "{\"domain\": \"ikkidev.com\"}"
-}
-
+"""
+Lambda function that updates and return the number of visitor counts to our website.
 Sample Response:
 {
-  "domain": "ikkidev.com",
   "visitor_count": 4
 }
+"""
 
-'''
 
 def lambda_handler(event, context):
-
-    event_body = json.loads(event['body'])
-    domain = event_body['domain']
-
+    dynamodb = boto3.resource('dynamodb')  # get the DynamoDB resource
+    table = dynamodb.Table('visitor_count')
+    domain = 'ikkidev.com'
     try:
         response = table.update_item(
             Key={'domain': domain},
@@ -39,4 +31,8 @@ def lambda_handler(event, context):
             err.response['Error']['Code'], err.response['Error']['Message'])
         raise
     else:
-        return response['Attributes']
+        visitor_count = int(response.get("Attributes").get("visitor_count"))
+        return {
+            "statusCode": 200,
+            "body": json.dumps({"visitor_count": visitor_count}),
+        }
