@@ -14,7 +14,7 @@ Sample Response:
 """
 
 
-def lambda_handler(event, context):
+def get_visitor_count(event, context):
     dynamodb = boto3.resource('dynamodb')  # get the DynamoDB resource
     table = dynamodb.Table('visitor_count')
     domain = 'ikkidev.com'

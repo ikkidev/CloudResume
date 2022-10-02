@@ -1,2 +1,2 @@
-bucket = "test-cloudresume"
+bucket = "devsandbox.com-terraform"
 key = "dev/aws-sandbox/terraform.tfstate"

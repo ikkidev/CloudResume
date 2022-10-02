@@ -17,3 +17,8 @@ variable "aws_profile" {
   type = string
   description = "The AWS profile to use for deploying AWS resources"
 }
+
+variable "terraform_bucket_name" {
+  type = string
+  description = "The S3 bucket name that holds terraform config"
+}
