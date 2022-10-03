@@ -4,7 +4,7 @@
     I use awsume to manage my aws profile configurations
     To assume a profile simply do
         awsume dev
-        awsume prod
+        awsume admin-prod-role
 
     To configure an aws profile
         aws configure --profile dev
