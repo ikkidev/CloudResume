@@ -1,38 +1,3 @@
-#Resource based policy to grant API gateway access to execute the lambda function
-#{
-#"Version": "2012-10-17",
-#"Id": "default",
-#"Statement": [
-#{
-#"Sid": "lambda-270c0307-97cd-49ef-a737-f5909e78d103",
-#"Effect": "Allow",
-#"Principal": {
-#"Service": "apigateway.amazonaws.com"
-#},
-#"Action": "lambda:InvokeFunction",
-#"Resource": "arn:aws:lambda:us-east-1:151967713887:function:lambda_handler",
-#"Condition": {
-#"ArnLike": {
-#"AWS:SourceArn": "arn:aws:execute-api:us-east-1:151967713887:mfdgb0h6z8/*/*/lambda_handler"
-#}
-#}
-#},
-#{
-#"Sid": "2f85f34d-ace8-5a5f-816e-69c4e2ac5885",
-#"Effect": "Allow",
-#"Principal": {
-#"Service": "apigateway.amazonaws.com"
-#},
-#"Action": "lambda:InvokeFunction",
-#"Resource": "arn:aws:lambda:us-east-1:151967713887:function:lambda_handler",
-#"Condition": {
-#"ArnLike": {
-#"AWS:SourceArn": "arn:aws:execute-api:us-east-1:151967713887:mfdgb0h6z8/*/*/api/v1/visitor_count"
-#}
-#}
-#}
-#]
-#}
 data "archive_file" "lambda_visit" {
   type = "zip"
 

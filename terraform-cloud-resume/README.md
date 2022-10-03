@@ -26,3 +26,32 @@ To provision the entire AWS resources for the cloud resume website run:
 - cd terraform-cloud-resume
 - run terraform init -reconfigure -backend-config="env\dev.s3.tfbackend"
 - terraform apply -var-file="env\dev.tfvars"
+
+##Testing:
+To invoke the lambda manually:
+- aws lambda invoke --region=us-east-1 --function-name=$(terraform
+  output -raw lambda_function_name) response.json  
+```
+{
+    "StatusCode": 200,
+    "ExecutedVersion": "$LATEST"
+}
+```
+- cat response.json  
+```
+{
+   "statusCode": 200, 
+   "body": "{\"visitor_count\": 1}"
+}
+```
+
+To invoke the API gateway endpoint manually:
+- curl "$(terraform output -raw apigateway_base_url)/api/v1/visitor
+   _count"  
+```
+    StatusCode        : 200
+    StatusDescription : OK
+    Content           : {"visitor_count": 3}
+```
+
+
