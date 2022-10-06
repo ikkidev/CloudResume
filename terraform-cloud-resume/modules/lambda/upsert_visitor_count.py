@@ -14,16 +14,21 @@ Sample Response:
 """
 
 
+def update_table(table, domain):
+    response = table.update_item(
+        Key={'domain': domain},
+        UpdateExpression="ADD visitor_count :value",
+        ExpressionAttributeValues={':value': 1},
+        ReturnValues="ALL_NEW")
+    return response
+
+
 def get_visitor_count(event, context):
     dynamodb = boto3.resource('dynamodb')  # get the DynamoDB resource
     table = dynamodb.Table('visitor_count')
     domain = 'ikkidev.com'
     try:
-        response = table.update_item(
-            Key={'domain': domain},
-            UpdateExpression="ADD visitor_count :value",
-            ExpressionAttributeValues={':value': 1},
-            ReturnValues="ALL_NEW")
+        response = update_table(table, domain)
     except ClientError as err:
         logger.error(
             "Couldn't update visitor count for domain %s in table visitor_count. Here's why: %s: %s",
