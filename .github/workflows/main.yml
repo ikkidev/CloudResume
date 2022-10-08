@@ -21,18 +21,24 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
     env:
-      working_dir: ./terraform-cloud-resume
+      tf_actions_working_dir: ./terraform-cloud-resume
       AWS_DEFAULT_REGION: ca-central-1
 
     defaults:
       run:
         shell: bash
+        working-directory: ${{ env.tf_actions_working_dir }}
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout
         uses: actions/checkout@v3
+        
+      - name: Check working directory
+        run: |
+          pwd
+          ls -lstr
 
       - name: Configure aws credentials
         uses: aws-actions/configure-aws-credentials@v1
@@ -46,11 +52,6 @@ jobs:
         with:
           terraform_version: 1.1.4
 
-      - name: Terraform fmt
-        id: fmt
-        run: terraform tmt - check
-        continue-on-error: true
-
       - name: Terraform Init
         id: init
         run: terraform init -reconfigure -backend-config="./env/prod.s3.tfbackend"
@@ -61,5 +62,8 @@ jobs:
 
       - name: Terraform Plan
         id: plan
-        run: terraform plan -no-color -var-file="env/prod.tfvars"
-        continue-on-error: true
+        run: terraform plan -no-color -var-file="./env/prod.tfvars"
+
+      - name: Terraform Apply
+        id: apply
+        run: terraform apply -no-color -var-file="./env/prod.tfvars" -auto-approve
