@@ -1,7 +1,7 @@
 ## About:
 This repo contains the code to provision my Cloud Resume Website at [https://www.ikkidev.com](https://www.ikkidev.com) 
 inspired by the [Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/aws/). I have a more 
-detailed write-up on my journey with the challenge up on my blog: [https://miraclecoder.com](https://miraclecoder.com/). 
+detailed write-up on my journey with the challenge up on my blog: [https://miraclecoder.com](https://miraclecoder.com/my-journey-with-the-cloud-resume-challenge/). 
 The AWS services that I used for hosting my website on AWS is recorded on the architecture diagram below:
 ![architecture diagram](Cloud_Resume_Architecture_Diagram.png)
 
