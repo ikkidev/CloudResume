@@ -37,7 +37,7 @@ jobs:
       - name: Setup python
         uses: actions/setup-python@v4.3.0
         with:
-          python-version: 3.9.5
+          python-version: 3.11.2
 
       - name: Setup python virtual env and run test
         run: |
