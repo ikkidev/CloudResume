@@ -3,6 +3,5 @@
 provider "aws" {
   alias = "cloudfront_provider"
   region = "us-east-1"
-  profile = var.aws_profile
 }
 
