@@ -5,7 +5,7 @@ data "archive_file" "lambda_visit" {
   output_path = "${path.module}/upsert_visitor_count.zip"
 }
 
-resource "aws_s3_bucket_object" "file_upload" {
+resource "aws_s3_object" "file_upload" {
   bucket = var.terraform_bucket_name
   key    = "${var.environment}/lambda/upsert_visitor_count.zip"
   source =  data.archive_file.lambda_visit.output_path
@@ -16,7 +16,7 @@ resource "aws_lambda_function" "dynamodb_visitor_count" {
   function_name = "get_visitor_count"
   description   = "get visitor count from dynamoDB"
   s3_bucket   = var.terraform_bucket_name
-  s3_key      = aws_s3_bucket_object.file_upload.key
+  s3_key      = aws_s3_object.file_upload.key
   runtime          = "python3.9"
   role             = aws_iam_role.lambda_exec.arn
   source_code_hash = filebase64sha256(data.archive_file.lambda_visit.output_path)
