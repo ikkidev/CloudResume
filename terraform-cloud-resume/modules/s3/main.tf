@@ -19,6 +19,7 @@ resource "aws_s3_bucket" "www_bucket" {
 }
 
 resource "aws_s3_bucket_cors_configuration" "www_bucket" {
+  provider = aws.s3
   bucket = aws_s3_bucket.www_bucket.id
   cors_rule {
     allowed_headers = ["Authorization", "Content-Length"]
@@ -29,12 +30,14 @@ resource "aws_s3_bucket_cors_configuration" "www_bucket" {
 }
 
 resource "aws_s3_bucket_policy" "www_bucket" {
+  provider = aws.s3
   bucket = aws_s3_bucket.www_bucket.id
   policy = templatefile("${path.module}/templates/s3-policy.json", { bucket = "www.${var.bucket_name}" })
 }
 
 
 resource "aws_s3_bucket_ownership_controls" "www_bucket" {
+  provider = aws.s3
   bucket = aws_s3_bucket.www_bucket.id
   rule {
     object_ownership = "BucketOwnerPreferred"
@@ -42,6 +45,7 @@ resource "aws_s3_bucket_ownership_controls" "www_bucket" {
 }
 
 resource "aws_s3_bucket_public_access_block" "www_bucket" {
+  provider = aws.s3
   bucket = aws_s3_bucket.www_bucket.id
 
   block_public_acls       = false
@@ -56,11 +60,13 @@ resource "aws_s3_bucket_acl" "www_bucket" {
     aws_s3_bucket_public_access_block.www_bucket,
   ]
 
+  provider = aws.s3
   bucket = aws_s3_bucket.www_bucket.id
   acl    = "public-read"
 }
 
 resource "aws_s3_bucket_website_configuration" "www_bucket" {
+  provider = aws.s3
   bucket = aws_s3_bucket.www_bucket.id
   index_document {
     suffix = "index.html"
@@ -70,6 +76,7 @@ resource "aws_s3_bucket_website_configuration" "www_bucket" {
 # Upload latest resume to s3 bucket
 resource "aws_s3_object" "upload_static_web_files" {
   for_each = fileset("${path.module}/../../../Webpage/src/", "**")
+  provider = aws.s3
   bucket = aws_s3_bucket.www_bucket.id
 
   key    = each.value
@@ -86,11 +93,13 @@ resource "aws_s3_bucket" "root_bucket" {
 }
 
 resource "aws_s3_bucket_policy" "root_bucket" {
+  provider = aws.s3
   bucket = aws_s3_bucket.root_bucket.id
   policy = templatefile("${path.module}/templates/s3-policy.json", { bucket = var.bucket_name })
 }
 
 resource "aws_s3_bucket_ownership_controls" "root_bucket" {
+  provider = aws.s3
   bucket = aws_s3_bucket.root_bucket.id
   rule {
     object_ownership = "BucketOwnerPreferred"
@@ -98,6 +107,7 @@ resource "aws_s3_bucket_ownership_controls" "root_bucket" {
 }
 
 resource "aws_s3_bucket_public_access_block" "root_bucket" {
+  provider = aws.s3
   bucket = aws_s3_bucket.root_bucket.id
 
   block_public_acls       = false
@@ -111,12 +121,13 @@ resource "aws_s3_bucket_acl" "root_bucket" {
     aws_s3_bucket_ownership_controls.root_bucket,
     aws_s3_bucket_public_access_block.root_bucket,
   ]
-
+  provider = aws.s3
   bucket = aws_s3_bucket.root_bucket.id
   acl    = "public-read"
 }
 
 resource "aws_s3_bucket_website_configuration" "root_bucket" {
+  provider = aws.s3
   bucket = aws_s3_bucket.root_bucket.id
 
   redirect_all_requests_to {
