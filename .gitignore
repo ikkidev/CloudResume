@@ -11,3 +11,4 @@
 .terraform*
 *tfstate*
 *terraform_log.txt
+*response.json
