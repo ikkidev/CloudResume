@@ -1,0 +1,125 @@
+.wpgdprc-tabs__header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: rem-calc(10);
+}
+
+.wpgdprc-tabs__title-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: rem-calc(20);
+    margin-bottom: rem-calc(10);
+}
+
+:root .wpgdprc-tabs__title {
+    margin-right: rem-calc(20);
+    margin-bottom: 0;
+}
+
+:root .wpgdprc-tabs__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: rem-calc(-10 -10 0 -10);
+}
+
+.wpgdprc-tabs__item {
+    margin: rem-calc(10);
+    text-align: center;
+}
+
+a.wpgdprc-tabs__anchor,
+.wpgdprc-tabs__item button.wpgdprc-tabs__anchor {
+    @include text-s();
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: $color-gray-light-xx;
+    transition: color $transition;
+    text-align: center;
+
+    @include hocus {
+        @include font-weight-semibold();
+        color: $color-primary;
+    }
+
+    &::after {
+        @include font-weight-semibold();
+        content: attr(data-title);
+        height: 0;
+        transition: opacity $transition;
+        display: block;
+        overflow: hidden;
+        visibility: hidden;
+    }
+}
+
+a.wpgdprc-tabs__anchor[aria-selected='true'],
+.wpgdprc-tabs__item button.wpgdprc-tabs__anchor[aria-selected='true'] {
+    @include font-weight-semibold();
+    color: $color-gray-dark;
+}
+
+a.wpgdprc-tabs__anchor[aria-selected='false'],
+.wpgdprc-tabs__item button.wpgdprc-tabs__anchor[aria-selected='false'] {
+    @include font-weight-normal();
+
+    @include hocus {
+        @include font-weight-semibold();
+    }
+}
+
+.wpgdprc-tabs__block[aria-hidden='false'] {
+    animation-name: fade-in;
+    animation-duration: $duration;
+    animation-timing-function: $easing;
+    animation-fill-mode: forwards;
+}
+
+.wpgdprc-tabs__block[aria-hidden='true'] {
+    display: none;
+}
+
+/**
+ * Variation
+ */
+
+.wpgdprc-tabs--alt {
+    .wpgdprc-tabs__header {
+        border-bottom: $border;
+        margin-bottom: rem-calc(24);
+    }
+
+    :root & .wpgdprc-tabs__list {
+        margin: rem-calc(-12 -12 0 -12);
+    }
+
+    .wpgdprc-tabs__item {
+        margin: rem-calc(0 12);
+    }
+
+    .wpgdprc-tabs__anchor {
+        @include text();
+        display: block;
+        color: $color-gray-dark;
+        padding: rem-calc(12 0);
+        text-decoration: underline;
+        text-decoration-thickness: rem-calc(3);
+        text-decoration-skip-ink: auto;
+        text-decoration-color: transparent;
+        text-underline-offset: rem-calc(12);
+
+        @include hocus {
+            @include font-weight-semibold();
+            color: $color-primary;
+        }
+    }
+
+    .wpgdprc-tabs__anchor[aria-selected='true'] {
+        color: $color-primary;
+        text-decoration-color: currentColor;
+    }
+}

@@ -1,0 +1,52 @@
+figure.cace-gif {
+	display: block;
+	width: 274px;
+	max-width: 100%;
+
+	overflow: hidden;
+	border-radius: 10px;
+
+	video {
+		display: block;
+		margin-bottom: 0;
+	}
+
+	figcaption {
+		padding: 4px 10px;
+
+		text-align: $right;
+		font-size: 11px;
+		line-height: 13px;
+
+		background-color: #e6e6e6;
+		background-color: var(--g1-border-color, #e6e6e6);
+		color: #999;
+		color: var(--g1-mtxt-color, #999);
+	}
+}
+
+.cace-gif-src {
+	display: inline-block;
+	width: 100px;
+	height: 11px;
+
+	font-size: 0;
+	line-height: 11px;
+	vertical-align: middle;
+
+	background-image: url(./../images/powered-by-light.png);
+	background-image: var(--cace-gif-src, url(./../images/powered-by-light.png));
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100px 11px;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.cace-gif-src {
+		background-image: url(./../images/powered-by-light@2x.png);
+		background-image: var(--cace-gif-src-2x, url(./../images/powered-by-light@2x.png));
+	}
+}

@@ -1,0 +1,174 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: newfold-labswp-module-staging\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-02-13T09:55:55+00:00\n"
+"PO-Revision-Date: 2025-02-19 17:00\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-File: wp-module-coming-soon.pot\n"
+"X-Crowdin-File-ID: 54\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-Project: newfold-labswp-module-staging\n"
+"X-Crowdin-Project-ID: 764889\n"
+"X-Domain: wp-module-coming-soon\n"
+"X-Generator: WP-CLI 2.11.0\n"
+
+#: bootstrap.php:48
+msgid "Coming Soon"
+msgstr "Binnenkort beschikbaar"
+
+#: includes/AdminBarSiteStatusBadge.php:42
+#: static/js/coming-soon.js:127
+#: static/js/coming-soon.js:142
+msgid "Coming soon"
+msgstr "Binnenkort beschikbaar"
+
+#: includes/AdminBarSiteStatusBadge.php:43
+#: build/sitePreviewPortal/bundle.js:1
+#: static/js/coming-soon.js:131
+#: static/js/coming-soon.js:146
+msgid "Live"
+msgstr "Zichtbaar"
+
+#: includes/API/ComingSoon.php:138
+msgid "You cannot access the resource."
+msgstr "U hebt geen toegang tot de bron."
+
+#: includes/API/ComingSoon.php:141
+msgid "Coming Soon module service provider error."
+msgstr "Binnenkort komt er een fout in de serviceprovider."
+
+#: includes/ComingSoon.php:49
+msgid "Your site has Coming Soon mode active."
+msgstr "De site is binnenkort actief."
+
+#: includes/ComingSoon.php:50
+msgid "Coming Soon!"
+msgstr "Binnenkort beschikbaar!"
+
+#: includes/ComingSoon.php:57
+msgid "Thank you, please check your email to confirm your subscription."
+msgstr "Bedankt, controleer je e-mail om je abonnement te bevestigen."
+
+#: includes/ComingSoon.php:58
+msgid "Your email address is already subscribed to this website.<br>Stay tuned to your inbox for our updates or try a different email address."
+msgstr "Uw e-mailadres is al geabonneerd op deze website.<br>Blijf op de hoogte van uw inbox voor onze updates of probeer een ander e-mailadres."
+
+#: includes/ComingSoon.php:59
+msgid "There was an error with your submission and you were not subscribed.<br>Please try again with a valid email address."
+msgstr "Er is een fout opgetreden bij het indienen van uw aanmelding.<br>Probeer het opnieuw met een geldig e-mailadres."
+
+#: includes/ComingSoon.php:60
+msgid "Enter your email address"
+msgstr "Voer uw e-mailadres in"
+
+#: includes/ComingSoon.php:61
+msgid "Subscribe"
+msgstr "Abonneren"
+
+#: includes/ComingSoon.php:367
+msgid "Gotcha!"
+msgstr "Gotcha!"
+
+#: includes/ComingSoon.php:372
+msgid "Please provide a valid email address"
+msgstr "Geef een geldig e-mailadres op"
+
+#: includes/ComingSoon.php:382
+msgid "Jetpack encountered an error with the subscription"
+msgstr "Jetpack ondervond een fout met het abonnement"
+
+#: includes/ComingSoon.php:404
+msgid "There was an error with the subscription"
+msgstr "Er is een fout opgetreden met het abonnement"
+
+#: includes/ComingSoon.php:409
+msgid "Subscription successful"
+msgstr "Abonnement succesvol"
+
+#: includes/SitePreviewWarning.php:27
+msgid "Site Preview - This site is NOT LIVE, only admins can see this view."
+msgstr "Voorbeeld van de site - Deze site is NIET LIVE, alleen admins kunnen deze weergave zien."
+
+#: includes/template/index.php:126
+msgid "Admin Login"
+msgstr "Inloggen voor beheerder"
+
+#: build/prePublishWarning/bundle.js:1
+msgid "Ready to launch your Site?"
+msgstr "Klaar om uw site te starten?"
+
+#: build/prePublishWarning/bundle.js:1
+msgid "Pages and posts you publish will not be visible to the public until you launch your site."
+msgstr "Pagina's en berichten die u publiceert zullen niet zichtbaar zijn voor het publiek totdat u uw site opstart."
+
+#: build/prePublishWarning/bundle.js:1
+msgid "Publish & Launch Site"
+msgstr "Publiceer & start site"
+
+#: build/prePublishWarning/bundle.js:1
+msgid "Publish Without Launching"
+msgstr "Publiceren zonder starten"
+
+#: includes/ComingSoon.php:25
+msgid "A new website is on the way!"
+msgstr "Een nieuwe website is onderweg!"
+
+#: includes/ComingSoon.php:56
+msgid "Signup to be the first to know when we launch."
+msgstr "Meld je aan om als eerste op de hoogte te zijn wanneer we lanceren."
+
+#: includes/template/index.php:100
+msgid "Is this your website?"
+msgstr "Is dit uw website?"
+
+#: includes/template/index.php:102
+#: includes/template/index.php:106
+msgid "Login to WordPress"
+msgstr "Inloggen op WordPress"
+
+#: build/sitePreviewPortal/bundle.js:1
+msgid "Site Preview"
+msgstr "Voorbeeld van de site"
+
+#: build/sitePreviewPortal/bundle.js:1
+msgid "Not Live"
+msgstr "Niet live"
+
+#: build/sitePreviewPortal/bundle.js:1
+msgid "Your website is currently displaying a \"Coming Soon\" page."
+msgstr "Op uw website wordt momenteel een pagina 'Binnenkort beschikbaar' weergegeven."
+
+#: build/sitePreviewPortal/bundle.js:1
+msgid "Your website is live to the world!"
+msgstr "Uw website is live voor de wereld!"
+
+#: build/sitePreviewPortal/bundle.js:1
+msgid "View"
+msgstr "Bekijken"
+
+#: build/sitePreviewPortal/bundle.js:1
+msgid "Edit"
+msgstr "Bewerken"
+
+#: build/sitePreviewPortal/bundle.js:1
+msgid "Ready to publish?"
+msgstr "Klaar om te publiceren?"
+
+#: build/sitePreviewPortal/bundle.js:1
+msgid "Launch Site"
+msgstr "Lanceerplaats"
+
+#: build/sitePreviewPortal/bundle.js:1
+msgid "Not ready to share it?"
+msgstr "Nog niet klaar om het te delen?"
+
+#: build/sitePreviewPortal/bundle.js:1
+msgid "Enable Coming Soon"
+msgstr "Binnenkort beschikbaar maken"

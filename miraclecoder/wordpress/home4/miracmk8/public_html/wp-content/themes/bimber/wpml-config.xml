@@ -1,0 +1,48 @@
+<wpml-config>
+    <admin-texts>
+        <key name="bimber_theme">
+            <key name="branding_logo" />
+            <key name="branding_logo_hdpi" />
+            <key name="branding_logo_inverted" />
+            <key name="branding_logo_inverted_hdpi" />
+            <key name="branding_logo_small" />
+            <key name="branding_logo_small_hdpi" />
+            <key name="branding_logo_small_inverted" />
+            <key name="branding_logo_small_inverted_hdpi" />
+            <key name="footer_text" />
+            <key name="footer_stamp_label" />
+            <key name="home_featured_entries_title" />
+            <key name="home_title" />
+            <key name="post_link_visit_direct_link_label" />
+            <key name="archive_featured_entries_title" />
+            <key name="archive_title" />
+            <key name="search_input_placeholder" />
+            <key name="snax_header_create_button_label" />
+            <key name="links_above_collection_title" />
+            <key name="links_above_footer_title" />
+            <key name="promoted_products_title" />
+            <key name="promoted_products_description" />
+            <key name="promoted_products_link_label" />
+            <key name="promoted_product_title" />
+            <key name="promoted_product_link_label" />
+            <key name="newsletter_privacy" />
+            <key name="newsletter_popup_title" />
+            <key name="newsletter_popup_subtitle" />
+            <key name="newsletter_slideup_title" />
+            <key name="newsletter_slideup_subtitle" />
+            <key name="newsletter_before_collection_title" />
+            <key name="newsletter_before_collection_subtitle" />
+            <key name="newsletter_in_collection_title" />
+            <key name="newsletter_in_collection_subtitle" />
+            <key name="newsletter_after_post_content_title" />
+            <key name="newsletter_after_post_content_subtitle" />
+            <key name="newsletter_before_footer_title" />
+            <key name="newsletter_before_footer_subtitle" />
+            <key name="newsletter_other_title" />
+        </key>
+        <key name="bimber_theme_options">
+            <key name="gdpr_wpsl_consent" />
+        </key>
+    </admin-texts>
+</wpml-config>
+

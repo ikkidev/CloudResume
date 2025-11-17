@@ -1,0 +1,107 @@
+.wpgdprc-tile {
+    position: relative;
+    background-color: $color-gray-light;
+    padding: rem-calc(25);
+    border-radius: $radius-l;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 50px);
+}
+
+.wpgdprc-tile__content {
+    margin-bottom: $spacing-l;
+}
+
+p.wpgdprc-tile__title {
+    margin-bottom: rem-calc(10);
+}
+
+.wpgdprc-tile__text {
+    @include text();
+
+    &--success {
+        color: $color-success;
+    }
+
+    &--warning {
+        color: $color-warning;
+    }
+}
+
+.wpgdprc-tile__footer {
+    margin-top: auto;
+}
+
+:root .wpgdprc-tile__message {
+    @include text-xs();
+    line-height: rem-calc(18);
+}
+
+.wpgdprc-tile__check {
+    margin-top: rem-calc(13);
+}
+
+.wpgdprc-tile--primary {
+    color: $color-white;
+    background-color: $color-primary;
+
+    .wpgdprc-tile__title {
+        color: $color-white;
+    }
+
+    .wpgdprc-tile__text {
+        opacity: 0.8;
+    }
+}
+
+.wpgdprc-tile--manage {
+    .wpgdprc-tile__title {
+        @include text();
+        @include font-weight-normal();
+        color: $color-gray-dark;
+        margin-bottom: 0;
+
+        span {
+            display: block;
+        }
+    }
+
+    .wpgdprc-tile__text {
+        @include text-s();
+        color: $color-gray-medium;
+        margin-top: $spacing;
+        padding-top: rem-calc(9);
+        border-top: rem-calc(1) solid $color-gray-light-x;
+    }
+
+    .wpgdprc-link {
+        @include hocus {
+            svg.icon {
+                transform: rotate(180deg);
+            }
+        }
+    }
+}
+
+.wpgdprc-tile--text {
+    color: $color-gray-medium;
+
+
+    .wpgdprc-tile__content {
+        margin-bottom: rem-calc(20);
+    }
+
+    .wpgdprc-tile__text {
+        @include text-s();
+    }
+}
+
+.wpgdprc-tile--green-light {
+    color: $color-green;
+    background-color: $color-green-light;
+
+    .wpgdprc-tile__title {
+        color: $color-green;
+    }
+}
+

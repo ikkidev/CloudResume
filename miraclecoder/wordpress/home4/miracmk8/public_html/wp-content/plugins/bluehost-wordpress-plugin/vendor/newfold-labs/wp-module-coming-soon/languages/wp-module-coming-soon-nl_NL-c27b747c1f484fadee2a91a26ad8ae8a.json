@@ -1,0 +1,27 @@
+{
+    "translation-revision-date": "2025-02-19 17:00",
+    "generator": "WP-CLI\/2.11.0",
+    "source": "build\/prePublishWarning\/bundle.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "nl_NL",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Ready to launch your Site?": [
+                "Klaar om uw site te starten?"
+            ],
+            "Pages and posts you publish will not be visible to the public until you launch your site.": [
+                "Pagina's en berichten die u publiceert zullen niet zichtbaar zijn voor het publiek totdat u uw site opstart."
+            ],
+            "Publish & Launch Site": [
+                "Publiceer & start site"
+            ],
+            "Publish Without Launching": [
+                "Publiceren zonder starten"
+            ]
+        }
+    }
+}

@@ -1,0 +1,411 @@
+/**
+ * Consent modal.
+ * ----------------------------------------------------------------------------
+ */
+
+@use 'sass:math';
+
+.wpgdprc.modal {
+    display: none;
+}
+
+.wpgdprc.modal.is-open {
+    display: block !important;
+}
+
+.wpgdprc.modal[aria-hidden='false'] .wpgdprc-modal__overlay {
+    animation: wpgdprcFadeIn 0.3s cubic-bezier(0, 0, 0.2, 1);
+}
+
+.wpgdprc.modal[aria-hidden='true'] .wpgdprc-modal__overlay {
+    animation: wpgdprcFadeOut 0.3s cubic-bezier(0, 0, 0.2, 1);
+}
+
+.wpgdprc-modal__overlay {
+    will-change: transform;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #000000;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 999999;
+}
+
+.wpgdprc-modal__inner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    width: 90vw;
+    max-height: 80vh;
+    max-width: 800px;
+    overflow-y: auto;
+    background: $color-white;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2);
+    border-radius: $radius-l;
+}
+
+.wpgdprc-modal__header {
+    padding: rem-calc(15);
+    border-bottom: 1px solid #ededed;
+}
+
+:root .wpgdprc-modal__title {
+    font-family: $heading-font-family;
+    font-size: rem-calc(20);
+    font-weight: bold;
+    color: $color-black;
+    margin-bottom: 0;
+    letter-spacing: 0;
+    margin-right: rem-calc(100);
+}
+
+:root .wpgdprc-sign-up-modal__title--description {
+    font-size: rem-calc(24);
+    margin-bottom: rem-calc(10);
+}
+
+:root .wpgdprc-modal {
+    button.wpgdprc-modal__close,
+    button.wpgdprc-modal__back {
+        position: absolute;
+        top: rem-calc(12);
+        right: rem-calc(10);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        width: 40px;
+        height: 40px;
+        color: $color-gray-dark;
+        background-color: transparent;
+        border: 0;
+        border-radius: $radius;
+        transition: all $transition;
+
+        @include hocus {
+            background-color: var(--wp-gdpr--button--background-color--darken);
+            color: var(--wp-gdpr--button--color);
+            box-shadow: $shadow;
+        }
+
+        svg {
+            width: rem-calc(14);
+            pointer-events: none;
+
+            path {
+                fill: currentColor;
+            }
+        }
+    }
+}
+
+.wpgdprc-modal__body {
+    flex-grow: 1;
+    border-bottom: 1px solid #ededed;
+}
+
+.wpgdprc-form-modal__body {
+    padding: rem-calc(32) 0;
+    margin: auto;
+
+    // all hubspot specific style to make it more consistent.
+    ul {
+        margin: 0 rem-calc(16) 0 0;
+    }
+
+    li {
+        margin: 0 0 rem-calc(16);
+    }
+
+    .hs-error-msg {
+        color: $color-alert;
+    }
+
+    .hs-button[type='submit'] {
+        margin-top: rem-calc(8);
+        @extend .wpgdprc-button; /* stylelint-disable-line */
+    }
+
+    .hs-form-booleancheckbox-display {
+        display: flex;
+        align-items: center;
+
+        span {
+            margin-left: 0 !important;
+        }
+    }
+}
+
+.wpgdprc-sign-up-modal__description {
+    color: #8a8a8a;
+    display: none;
+    flex-direction: column;
+    height: 100%;
+}
+
+.wpgdprc-sign-up-modal__description--active {
+    display: block;
+}
+
+.wpgdprc-sign-up-modal__navigation,
+.wpgdprc-sign-up-modal__information {
+    position: relative;
+    padding: rem-calc(15);
+}
+
+.wpgdprc-sign-up-modal__information {
+    flex-grow: 1;
+}
+
+.wpgdprc-sign-up-modal__navigation {
+    flex-shrink: 0;
+    border-bottom: 1px solid #ededed;
+}
+
+.wpgdprc-sign-up-modal__navigation > a {
+    display: block;
+    margin-top: 10px;
+}
+
+.wpgdprc-sign-up-modal__navigation > a:first-child {
+    margin-top: 0;
+}
+
+:root .wpgdprc-sign-up-modal__navigation-list {
+    margin: 0;
+    list-style: none;
+}
+
+:root .wpgdprc button.wpgdprc-sign-up-modal__navigation-button {
+    border: 0;
+    background-color: transparent;
+    padding: 0;
+
+    font-size: rem-calc(16);
+    line-height: math.div(36, 16);
+    letter-spacing: 0;
+    color: #878787;
+    text-align: left;
+    outline: none;
+
+    @include hocus {
+        color: var(--wp-gdpr--button--background-color--darken);;
+    }
+}
+
+:root .wpgdprc button.wpgdprc-sign-up-modal__navigation-button--active {
+    color: var(--wp-gdpr--button--background-color);
+    font-weight: bold;
+}
+
+:root .wpgdprc-content-modal__content {
+    @include text();
+    line-height: math.div(26, 16);
+    letter-spacing: 0;
+    color: $color-gray-dark;
+
+    > * {
+        margin-bottom: rem-calc(26);
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+:root .wpgdprc button.wpgdprc-modal__back {
+    display: none;
+    right: rem-calc(60) !important;
+
+    svg.icon {
+        vertical-align: baseline;
+    }
+}
+
+.wpgdprc-content-modal__options {
+    margin-top: auto;
+
+    > * {
+        margin-top: rem-calc(26);
+    }
+}
+
+.wpgdprc-sign-up-modal__footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: rem-calc(15);
+
+    :root & .wpgdprc-button:not(.has-background) {
+        @include vo-button;
+
+        color: var(--wp-gdpr--button--color);
+        background-color: var(--wp-gdpr--button--background-color);
+
+        @include hocus {
+            background-color: var(--wp-gdpr--button--background-color--darken);
+            border-color: var(--wp-gdpr--button--background-color--darken);
+        }
+    }
+}
+
+.wpgdprc-sign-up-modal__footer__information {
+    flex-grow: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .wpgdprc-modal__header {
+        padding: rem-calc(24 25);
+    }
+
+    :root .wpgdprc-modal {
+        button.wpgdprc-modal__close,
+        button.wpgdprc-modal__back {
+            top: rem-calc(20);
+            right: rem-calc(15);
+        }
+    }
+
+    .wpgdprc-modal__body {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .wpgdprc-sign-up-modal__navigation,
+    .wpgdprc-sign-up-modal__information {
+        padding: rem-calc(25);
+    }
+
+    .wpgdprc-sign-up-modal__navigation {
+        width: rem-calc(227);
+        border-bottom: 0;
+    }
+
+    .wpgdprc-sign-up-modal__footer {
+        padding: rem-calc(25);
+    }
+}
+
+abbr.wpgdprc-required + abbr.required {
+    display: none !important;
+}
+
+.wpgdprc-sign-up-modal__choose-type {
+    height: 100%;
+    padding: rem-calc(25) rem-calc(25) 0;
+
+    > p:first-child {
+        margin: 0 rem-calc(16);
+    }
+
+    .wpgdprc-sign-up-modal__column p {
+        margin: 0 0 rem-calc(16);
+    }
+
+    .wpgdprc-sign-up-modal__column .h3 {
+        margin: rem-calc(32) 0 rem-calc(24);
+    }
+}
+
+.wpgdprc-sign-up-modal__sign-up {
+    height: 100%;
+    min-height: 50vh;
+
+    > p {
+        padding: rem-calc(25);
+        margin: 0 rem-calc(16);
+    }
+}
+
+.wpgdprc-sign-up-modal__columns {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+
+
+    span.icon--wrap,
+    svg.icon,
+    use {
+        height: 4rem;
+        width: 4rem;
+        fill: $color-primary;
+    }
+}
+
+.wpgdprc-sign-up-modal__column {
+    flex: 1 0 25%;
+    display: flex;
+    flex-direction: column;
+
+    background-color: $color-gray;
+    border-radius: $radius;
+    padding: rem-calc(24);
+    margin: rem-calc(16);
+
+    .wpgdprc-button__wrap {
+        flex-grow: 1;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .wpgdprc-button {
+        width: 100%;
+    }
+}
+
+.wpgdprc-modal__open {
+    background-color: transparent;
+    border: 0;
+
+    padding: rem-calc(2);
+
+    &,
+    svg {
+        height: rem-calc(16);
+        width: rem-calc(16);
+
+        path {
+            fill: transparent;
+            transition: fill $duration;
+        }
+    }
+
+    &:hover svg path {
+        fill: $color-primary;
+    }
+
+    &:nth-of-type(2) {
+        transform: rotate(180deg) scaleX(-1);
+    }
+}
+
+
+@keyframes wpgdprcFadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes wpgdprcFadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}

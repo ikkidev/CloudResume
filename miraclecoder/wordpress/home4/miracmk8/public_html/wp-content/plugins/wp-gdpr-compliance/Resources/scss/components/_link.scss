@@ -1,0 +1,70 @@
+.wpgdprc-link {
+    @include text-s();
+    @include font-weight-bold();
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: $color-primary;
+
+    @include hocus {
+        color: darken($color-primary, 10%);
+        opacity: 0.7;
+
+        svg.icon {
+            transform: translateX(4px);
+        }
+    }
+
+    .icon--wrap {
+        position: relative;
+        top: rem-calc(-2);
+        font-size: rem-calc(16);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: rem-calc(16);
+        width: rem-calc(16);
+
+        &:first-child {
+            margin: 0 0 0 rem-calc(10);
+        }
+
+        &:last-child {
+            margin: 0 rem-calc(10) 0 0;
+        }
+
+        svg {
+            transition: transform $transition;
+            margin: 0;
+        }
+    }
+}
+
+.wpgdprc-link.is-hidden {
+    display: none;
+}
+
+.wpgdprc-link--white {
+    color: $color-white;
+
+    @include hocus {
+        color: $color-white;
+    }
+}
+
+.wpgdprc-link--edit {
+    @include text();
+    font-style: italic;
+    text-decoration: none;
+
+    .icon--wrap {
+        display: none;
+    }
+}
+
+.wpgdprc-sign-up-button {
+    .icon--wrap {
+        display: none;
+    }
+}

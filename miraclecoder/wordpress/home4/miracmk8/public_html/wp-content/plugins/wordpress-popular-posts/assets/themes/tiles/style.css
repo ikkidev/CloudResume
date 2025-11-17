@@ -1,0 +1,74 @@
+.wpp-tiles {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+    .wpp-tiles li {
+        position: relative;
+        list-style: none;
+        margin: 0 0 1.2em 0;
+        padding: 0;
+    }
+
+    .in-preview-mode .wpp-tiles li {
+        margin: 0 0 1.2em 0;
+        padding: 0;
+    }
+
+    .wpp-tiles li:last-of-type {
+        margin: 0;
+    }
+
+        .wpp-tiles li .wpp-thumbnail {
+            overflow: hidden;
+            display: block;
+            margin: 0;
+            width: 100%;
+            height: auto;
+            font-size: 0.8em;
+            line-height: 1;
+            background: #f0f0f0;
+            border: none;
+        }
+
+        .wpp-tiles li .wpp-thumbnail.wpp_def_no_src {
+            object-fit: contain;
+        }
+
+        .wpp-tiles li a {
+            text-decoration: none;
+        }
+
+        .wpp-tiles li a:hover {
+            text-decoration: underline;
+        }
+
+        .wpp-tiles li .wpp-post-data {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            padding: .75em 1em 1em;
+            width: 100%;
+            box-sizing: border-box;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+            .wpp-tiles li .wpp-post-data .category,
+            .wpp-tiles li .wpp-post-data .wpp-post-title {
+                color: #fff;
+                font-weight: bold;
+            }
+
+            .wpp-tiles li .wpp-post-data .category {
+                margin: 0;
+                font-size: 0.7em;
+                line-height: 1;
+            }
+
+            .wpp-tiles li .wpp-post-data .wpp-post-title {
+                display: block;
+                margin: 0 0 0;
+                font-size: 1em;
+                line-height: 1.2;
+            }

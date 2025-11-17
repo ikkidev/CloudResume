@@ -1,0 +1,2 @@
+<?php
+return ['domain'=>'wp-module-facebook','plural-forms'=>'nplurals=2; plural=(n != 1);','language'=>'de_DE','project-id-version'=>'newfold-labswp-module-staging','pot-creation-date'=>'2025-02-13T10:03:26+00:00','po-revision-date'=>'2025-02-19 16:31','x-generator'=>'WP-CLI 2.11.0','messages'=>['Facebook'=>'Facebook','Details not found.'=>'Details nicht gefunden.','Connected'=>'Verbunden','Connect Facebook'=>'Facebook verbinden']];

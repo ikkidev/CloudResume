@@ -1,0 +1,643 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-4.9.1"
+
+msgid "Author"
+msgstr ""
+
+msgid "says:"
+msgstr ""
+
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Copy Link of a Comment"
+msgstr ""
+
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+msgid "This comment was reported."
+msgstr ""
+
+msgid "Report"
+msgstr ""
+
+msgid "Pingback:"
+msgstr ""
+
+msgid "Powered by GIPHY"
+msgstr ""
+
+msgctxt "Sort order"
+msgid "Top"
+msgstr ""
+
+msgctxt "Sort order"
+msgid "Most Voted"
+msgstr ""
+
+msgctxt "Sort order"
+msgid "Newest"
+msgstr ""
+
+msgctxt "Sort order"
+msgid "Oldest"
+msgstr ""
+
+msgctxt "Notice"
+msgid "Facebook App ID not set. Please check %s"
+msgstr ""
+
+msgid "settings"
+msgstr ""
+
+msgctxt "Debug Mode"
+msgid "Password protected post. Comments hidden."
+msgstr ""
+
+msgctxt "Notice"
+msgid "Disqus Shortname not set. Please check %s"
+msgstr ""
+
+msgctxt "Comment Submission"
+msgid "Commend %d successfully added."
+msgstr ""
+
+msgctxt "Reporting"
+msgid "Commend %d successfully reported."
+msgstr ""
+
+msgctxt "Reporting"
+msgid "Report rejected."
+msgstr ""
+
+msgctxt "Reporting"
+msgid "Comment moved to the Approved"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "You must be logged in to perform that action"
+msgstr ""
+
+msgid "Copied to your clipboard"
+msgstr ""
+
+msgid "Vote Up"
+msgstr ""
+
+msgid "Vote Down"
+msgstr ""
+
+msgid "Comments are closed."
+msgstr ""
+
+msgctxt "Debug mode"
+msgid ""
+"To enable, click \"Edit Post\" page on top WP admin bar, find \"Discussion\" "
+"metabox and check \"Allow comments\" in it."
+msgstr ""
+
+msgid "There are no comments yet"
+msgstr ""
+
+msgid "Show:"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "Published"
+msgstr ""
+
+msgid "Pending"
+msgstr ""
+
+msgid "Go"
+msgstr ""
+
+msgid "Upvoted"
+msgstr ""
+
+msgid "Downvoted"
+msgstr ""
+
+msgctxt "pagination"
+msgid "Pages"
+msgstr ""
+
+msgid "One Ping"
+msgid_plural "%1$s Pings & Trackbacks"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Reply with GIF"
+msgstr ""
+
+msgid "Reply with <abbr>GIF</abbr>"
+msgstr ""
+
+msgid "GIPHY App Key not set. Please check %s"
+msgstr ""
+
+msgid "Search GIFs&hellip;"
+msgstr ""
+
+msgid "View replies (%d)"
+msgstr ""
+
+msgid "Sort by"
+msgstr ""
+
+msgid "Expand All Replies"
+msgstr ""
+
+msgid "Expand All"
+msgstr ""
+
+msgid "Collapse All Replies"
+msgstr ""
+
+msgid "Collapse All"
+msgstr ""
+
+msgctxt "Reporting"
+msgid "Please explain the reason why this comment should be removed"
+msgstr ""
+
+msgctxt "Reporting"
+msgid "Cancel"
+msgstr ""
+
+msgctxt "Reporting"
+msgid "Report"
+msgstr ""
+
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Comments"
+msgstr ""
+
+msgid "%1$s on %2$s <span class=\"screen-reader-text says\">says:</span>"
+msgstr ""
+
+msgctxt "BuddyPress > Comments > Sub Nav"
+msgid "My"
+msgstr ""
+
+msgctxt "BuddyPress > Comments > Sub Nav"
+msgid "Voted"
+msgstr ""
+
+msgctxt "BuddyPress component name"
+msgid "Comments"
+msgstr ""
+
+msgctxt "BuddyPress component description"
+msgid ""
+"Allow your users to manage their comments directly from within their "
+"profiles."
+msgstr ""
+
+msgid "Viewing %1$s comment"
+msgid_plural "Viewing %1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Viewing comment %2$s (of %4$s total)"
+msgid_plural "Viewing %1$s comments - %2$s through %3$s (of %4$s total)"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "View all comments"
+msgstr ""
+
+msgctxt "Settings Page"
+msgid "WP Comments"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Enable?"
+msgstr ""
+
+msgctxt "Settings Section"
+msgid "Appearance"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Cards Design"
+msgstr ""
+
+msgctxt "Cards design"
+msgid "none"
+msgstr ""
+
+msgctxt "Cards design"
+msgid "solid"
+msgstr ""
+
+msgctxt "Cards design"
+msgid "simple"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Show Author Badge?"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Collapse Replies On Load?"
+msgstr ""
+
+msgctxt "Settings Section"
+msgid "Load More"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Enable Load More?"
+msgstr ""
+
+msgctxt "Settings"
+msgid "If unchecked, all comments are loaded at once"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Load More Type"
+msgstr ""
+
+msgctxt "Load More Type"
+msgid "Load More Button"
+msgstr ""
+
+msgctxt "Load More Type"
+msgid "Infinite Scroll (first load via click)"
+msgstr ""
+
+msgctxt "Load More Type"
+msgid "Infinite Scroll"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Max Number of Comments To Load At A Time"
+msgstr ""
+
+msgctxt "Settings Section"
+msgid "Comment Actions"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Enable Reporting?"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Report Text Length"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Leave empty to use the default limit."
+msgstr ""
+
+msgctxt "Settings"
+msgid "Email Me Whenever Anyone Reports A Comment?"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Enable Copy Link?"
+msgstr ""
+
+msgctxt "Settings Section"
+msgid "Featured Comments"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Enable Featured Comments?"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Min Score To Be Featured"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Max Number of Featured Comments"
+msgstr ""
+
+msgctxt "Settings Section"
+msgid "Sorting"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Enable Sorting?"
+msgstr ""
+
+msgctxt "Settings"
+msgid ""
+"When unchecked, comments are sorted based on WP Dashboard > Settings > "
+"Discussion > Other comment settings"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Sort Types"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Uncheck to disable. Type a custom label to overwrite the default one"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Default Sorting"
+msgstr ""
+
+msgctxt "Settings"
+msgid "displayed first"
+msgstr ""
+
+msgctxt "Settings Section"
+msgid "Voting"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Enable Voting?"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Allow Guest Voting"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Voting Icon"
+msgstr ""
+
+msgctxt "Voting icon"
+msgid "arrow"
+msgstr ""
+
+msgctxt "Voting icon"
+msgid "caret"
+msgstr ""
+
+msgctxt "Voting icon"
+msgid "chevron"
+msgstr ""
+
+msgctxt "Voting icon"
+msgid "plus"
+msgstr ""
+
+msgctxt "Voting icon"
+msgid "smile"
+msgstr ""
+
+msgctxt "Voting icon"
+msgid "thumb"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Show Number of Upvotes and Downvotes?"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Show Vote Score?"
+msgstr ""
+
+msgctxt "Settings Section"
+msgid "Ads"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Use the %s ad slot to place ads between comments."
+msgstr ""
+
+msgctxt "Settings"
+msgid "Activate the AdAce plugin to enable ads."
+msgstr ""
+
+msgctxt "Settings Page"
+msgid "WP Comment Form"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Form Position"
+msgstr ""
+
+msgctxt "Settings"
+msgid "before comments"
+msgstr ""
+
+msgctxt "Settings"
+msgid "after comments"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Comment Length"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Leave empty to use the characters limit defined by WordPress."
+msgstr ""
+
+msgctxt "Settings"
+msgid "Enable Character Countdown?"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Enable \"Reply with GIF\"?"
+msgstr ""
+
+msgctxt "Settings"
+msgid "GIPHY App Key"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Required to access Giphy API and load GIF library"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Where do I get it?"
+msgstr ""
+
+msgctxt "Settings Page"
+msgid "Facebook"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Facebook App ID"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Required to access Facebook API and load comments"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Number of Comments"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Sort by"
+msgstr ""
+
+msgctxt "Sort order"
+msgid "Social. Uses social signals to surface the highest quality comments"
+msgstr ""
+
+msgctxt "Settings Page"
+msgid "Disqus"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Disqus Shortname"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Required to access Disqus API and load comments"
+msgstr ""
+
+msgctxt "Settings Page"
+msgid "Settings"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Enable On Post Types"
+msgstr ""
+
+msgctxt "Sorting activity info"
+msgid "inactive, enable Voting to activate"
+msgstr ""
+
+msgctxt "Reporting"
+msgid "%s Comment reported"
+msgid_plural "%s Comments reported"
+msgstr[0] ""
+msgstr[1] ""
+
+msgctxt "Comments Filter"
+msgid "Reported"
+msgstr ""
+
+msgctxt "Admin Comment List"
+msgid "Reported"
+msgstr ""
+
+msgctxt "Admin Comment List"
+msgid "Reported to delete by %s due:"
+msgstr ""
+
+msgctxt "Comment List Action"
+msgid "Reject report for this comment"
+msgstr ""
+
+msgctxt "Comment List Action"
+msgid "Reject report"
+msgstr ""
+
+msgid ""
+"You're using the CommentAce plugin so please refer to its %s to adjust "
+"sorting"
+msgstr ""
+
+msgctxt "Settings Link"
+msgid "settings"
+msgstr ""
+
+msgctxt "Comment List Action"
+msgid "Rejected %s reports."
+msgid_plural "Rejected %s reports."
+msgstr[0] ""
+msgstr[1] ""
+
+msgctxt "Comment Type Name"
+msgid "Facebook"
+msgstr ""
+
+msgctxt "Comment Type Name"
+msgid "Disqus"
+msgstr ""
+
+msgid "Start the discussion&hellip;"
+msgstr ""
+
+msgid "Join the discussion&hellip;"
+msgstr ""
+
+msgctxt "Comment Type Name"
+msgid "Our site"
+msgstr ""
+
+msgid "Load more comments"
+msgstr ""
+
+msgid "Loading comments..."
+msgstr ""
+
+msgid "(CommentAce) Recent Comments"
+msgstr ""
+
+msgid "Display recent comments, with animated GIFs"
+msgstr ""
+
+msgctxt "Widget"
+msgid "Title"
+msgstr ""
+
+msgctxt "Widget"
+msgid "Number of comments to show"
+msgstr ""
+
+msgctxt "Widget"
+msgid "Sort by"
+msgstr ""
+
+msgctxt "Widget"
+msgid "Recent"
+msgstr ""
+
+msgctxt "Widget"
+msgid "Most Voted"
+msgstr ""
+
+msgctxt "Widget"
+msgid "On a single post, show only comments from that post"
+msgstr ""
+
+msgid "Recent Comments"
+msgstr ""
+
+msgid "CommentAce"
+msgstr ""
+
+msgid "CommentAce Settings"
+msgstr ""
+
+msgid "Save Changes"
+msgstr ""
+
+msgid "WordPress, Facebook and Disqus comments"
+msgstr ""
+
+msgid "bringthepixel"
+msgstr ""
+
+msgid "http://www.bringthepixel.com"
+msgstr ""

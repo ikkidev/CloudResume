@@ -1,0 +1,19 @@
+.wpgdprc-text--warning {
+    color: $color-red;
+}
+
+.wpgdprc pre,
+span.wpgdprc-pre {
+    display: inline;
+    font-family: monospace;
+    font-style: normal;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+
+span.wpgdprc-pre--strong {
+    font-weight: bold;
+}

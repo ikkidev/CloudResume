@@ -1,0 +1,208 @@
+/**
+ * Message (admin/font)
+ */
+
+// Admin/Front
+
+.wpgdprc-message {
+    display: flex;
+    position: relative;
+    margin-bottom: rem-calc(16);
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    &.fade-out {
+        animation-name: fade-out;
+        animation-duration: $duration;
+        animation-timing-function: $easing;
+        animation-fill-mode: forwards;
+    }
+}
+
+.wpgdprc-message__icon {
+    order: 0;
+    margin-top: unset;
+    align-self: flex-start;
+
+    svg {
+        width: rem-calc(24);
+    }
+}
+
+.wpgdprc-message__content {
+    order: 1;
+}
+
+.wpgdprc-message.is-hidden {
+    display: none;
+}
+
+// Admin
+
+@if ($admin) {
+    @include breakpoint(xlarge) {
+        .wpgdprc-message {
+            flex-wrap: unset;
+            justify-content: space-between;
+        }
+
+        .wpgdprc-message__container {
+            padding: rem-calc(20);
+        }
+
+        :root .wpgdprc-message__title {
+            padding-right: 0;
+        }
+
+        .wpgdprc-message__icon {
+            padding: rem-calc(0 7);
+        }
+
+        .wpgdprc-message__action {
+            flex-shrink: 0;
+            position: relative;
+            top: unset;
+            right: unset;
+        }
+
+        :root .wpgdprc-message__button {
+            margin-top: rem-calc(-10);
+
+            span {
+                display: inline;
+            }
+        }
+    }
+
+    .wpgdprc-message {
+        color: $color-primary;
+        background-color: $color-primary-light;
+        border: 1px solid $color-primary-medium;
+        border-radius: $radius-l;
+        padding: rem-calc(10);
+
+        > * {
+            padding: rem-calc(10);
+        }
+    }
+
+    .wpgdprc-message__container {
+        display: flex;
+        align-items: center;
+
+        .wpgdprc-button {
+            color: $color-white !important;
+        }
+    }
+
+    .wpgdprc-message__content {
+        a:not(.wpgdprc-button) {
+            @include link();
+        }
+    }
+
+    .wpgdprc .wpgdprc-message__title {
+        color: $color-primary;
+        padding-right: rem-calc(35);
+    }
+
+    .wpgdprc-message__action {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .wpgdprc .wpgdprc-message__button {
+        @include text-s();
+        align-items: center;
+        background-color: transparent;
+        border: 0;
+        color: $color-primary;
+        cursor: pointer;
+        display: flex;
+        margin-left: rem-calc(-13);
+        position: relative;
+        transition: all $transition;
+
+        @include hocus {
+            opacity: 1;
+            color: darken($color-primary, 10%);
+        }
+
+        .icon--wrap {
+            font-size: rem-calc(14);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: inherit;
+            height: rem-calc(32);
+            width: rem-calc(32);
+        }
+    }
+
+    .wpgdprc-message__icon {
+        .wpgdprc-message--large-icon & {
+            margin-right: rem-calc(16);
+
+            svg {
+                width: rem-calc(72);
+            }
+        }
+
+        path {
+            fill: $color-primary;
+        }
+    }
+
+    /**
+   * Variation
+   */
+
+    // Warning
+
+    .wpgdprc-message--warning {
+        color: $color-orange-dark;
+        background-color: $color-orange-light;
+        border-color: $color-orange-medium;
+
+        .wpgdprc & .wpgdprc-message__title {
+            color: $color-orange-dark;
+        }
+
+        .wpgdprc & .wpgdprc-message__button {
+            color: $color-orange-dark;
+            @include hocus {
+                color: darken($color-orange-dark, 10%);
+            }
+        }
+
+        .wpgdprc-message__icon path {
+            fill: $color-orange-dark;
+        }
+    }
+
+    // Error
+
+    .wpgdprc-message--error {
+        color: $color-red-dark;
+        background-color: $color-red-light;
+        border-color: $color-red-medium;
+
+        .wpgdprc & .wpgdprc-message__title {
+            color: $color-red-dark;
+        }
+
+        .wpgdprc & .wpgdprc-message__button {
+            color: $color-red-dark;
+            @include hocus {
+                color: darken($color-red-dark, 10%);
+            }
+        }
+
+        .wpgdprc-message__icon path {
+            fill: $color-red-dark;
+        }
+    }
+}

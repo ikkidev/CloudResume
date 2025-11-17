@@ -1,0 +1,48 @@
+{
+    "translation-revision-date": "2025-02-19 17:00",
+    "generator": "WP-CLI\/2.11.0",
+    "source": "build\/sitePreviewPortal\/bundle.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "nl_NL",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Live": [
+                "Zichtbaar"
+            ],
+            "Site Preview": [
+                "Voorbeeld van de site"
+            ],
+            "Not Live": [
+                "Niet live"
+            ],
+            "Your website is currently displaying a \"Coming Soon\" page.": [
+                "Op uw website wordt momenteel een pagina 'Binnenkort beschikbaar' weergegeven."
+            ],
+            "Your website is live to the world!": [
+                "Uw website is live voor de wereld!"
+            ],
+            "View": [
+                "Bekijken"
+            ],
+            "Edit": [
+                "Bewerken"
+            ],
+            "Ready to publish?": [
+                "Klaar om te publiceren?"
+            ],
+            "Launch Site": [
+                "Lanceerplaats"
+            ],
+            "Not ready to share it?": [
+                "Nog niet klaar om het te delen?"
+            ],
+            "Enable Coming Soon": [
+                "Binnenkort beschikbaar maken"
+            ]
+        }
+    }
+}

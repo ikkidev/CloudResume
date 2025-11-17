@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://github.com/newfold-labs/wp-module-marketplace/issues\n"
+"Last-Translator: Carlos Rodriguez <carlos.rodriguez@newfold.com>\n"
+"Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-02-13T09:55:55+00:00\n"
+"PO-Revision-Date: 2025-05-07 12:04+0100\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Domain: wp-module-marketplace\n"
+"X-Generator: WP-CLI 2.11.0\n"
+
+#: bootstrap.php:15
+#: includes/Marketplace.php:57
+#: components/marketplace/index.js:9
+msgid "Marketplace"
+msgstr "Mercado"
+
+#: includes/PluginsMarketplace.php:89
+#: includes/Themes.php:149
+msgid "Premium"
+msgstr "Premium"
+
+#. translators: The brand from the plugin is inserted into the string
+#: includes/PluginsMarketplace.php:121
+#, php-format
+msgid "Unlock the full potential of your WordPress website with premium plugins from %s."
+msgstr "Desbloqueie todo o potencial do seu site WordPress com plugins premium de %s."
+
+#: components/marketplace/index.js:10
+msgid "Explore our featured collection of tools and services."
+msgstr "Explore nossa coleção em destaque de ferramentas e serviços."
+
+#: components/marketplace/index.js:14
+msgid "Oops, there was an error loading the marketplace, please try again later."
+msgstr "Ops, houve um erro ao carregar o mercado. Por favor, tente novamente mais tarde."
+
+#: components/marketplace/index.js:18
+msgid "Sorry, no marketplace items. Please, try again later."
+msgstr "Desculpe, nenhum item no mercado. Por favor, tente novamente mais tarde."
+
+#: components/marketplace/index.js:22
+msgid "Load More"
+msgstr "Carregar mais"
+
+#: components/marketplace/index.js:23
+#: components/marketplaceSubnav/Mobilenav.js:15
+#: components/marketplaceSubnav/Sidebar.js:12
+msgid "Categories"
+msgstr "Categorias"
+
+#: components/productPage/index.js:14
+msgid "Oops! Something Went Wrong"
+msgstr "Ops! Algo deu errado"
+
+#: components/productPage/index.js:18
+msgid "An error occurred while loading the content. Please try again later."
+msgstr "Ocorreu um erro ao carregar o conteúdo. Por favor, tente novamente mais tarde."
+
+#: components/marketplaceBody/Body.js:40
+msgid "All"
+msgstr "Todo"
+
+#: components/marketplaceFilters/Filters.js:19
+msgid "Filter by type"
+msgstr "Filtrar por tipo"

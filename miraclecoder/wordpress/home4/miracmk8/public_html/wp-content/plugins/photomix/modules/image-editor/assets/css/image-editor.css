@@ -1,0 +1,379 @@
+.photomix-workspace {
+    position: relative;
+    /*margin-top: 20px;*/
+}
+
+.media_page_photomix-new-image-edit .photomix-workspace {
+    position: relative;
+    margin-top: 0px
+}
+
+.media_page_photomix-new-image-edit .wrap{
+    margin-top:0px;
+}
+.media_page_photomix-new-image-edit #wpcontent{
+    padding-left:0px;
+}
+
+.photomix-canvas-actions {
+    margin-top: 0;
+    text-align: right;
+    display:inline-block;
+    float:right;
+    padding: 8px;
+}
+
+.photomix-editor {
+    max-width: 800px;
+    margin: 0 auto 1.5em;
+}
+
+.photomix-icon {
+    display: inline-block;
+    width: 25px;
+    height: 24px;
+
+    overflow: hidden;
+
+    cursor: pointer;
+    text-align: center;
+
+    color: #666;
+}
+
+.photomix-icon:hover {
+    color: #000;
+}
+
+.photomix-icon:before {
+    display: block;
+    width: 24px;
+    vertical-align: middle;
+
+    font-size: 20px;
+    line-height: 32px;
+    font-family: Dashicons;
+}
+
+.photomix-flip-image:before { content: "\f169"; }
+.photomix-remove-image:before { content: "\f182"; }
+.photomix-reset-image:before { content: "\f531"; }
+
+#photomix-image-editor {
+    background-color: #fff;
+}
+
+
+.photomix-actions-wrapper:after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.photomix-image-left {
+    float: left;
+    width: 33%;
+
+    text-align: center;
+}
+
+.photomix-image-middle {
+    float: left;
+    width: 33%;
+
+    text-align: center;
+}
+
+.photomix-image-right {
+    float: left;
+    width: 33%;
+
+    text-align: center;
+}
+
+
+.photomix-tpl-2-01 .photomix-image-left,
+.photomix-tpl-2-01 .photomix-image-right,
+.photomix-tpl-2-03 .photomix-image-left,
+.photomix-tpl-2-03 .photomix-image-right{
+    width: 50%;
+}
+
+.photomix-tpl-3-01 .photomix-image-left,
+.photomix-tpl-3-01 .photomix-image-middle,
+.photomix-tpl-3-01 .photomix-image-right {
+    width: 33.333333%;
+}
+
+.photomix-tpl-4-01 .photomix-image-first,
+.photomix-tpl-4-01 .photomix-image-second,
+.photomix-tpl-4-01 .photomix-image-third,
+.photomix-tpl-4-01 .photomix-image-fourth {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.photomix-tpl-window .photomix-image-right{
+    float:right;
+}
+
+.photomix-image-actions-disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.ui-slider {
+    position: relative;
+    text-align: left;
+    background: #ccc;
+}
+.ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    width: 16px;
+    height: 16px;
+
+    cursor: pointer;
+    outline: none;
+
+    border-radius: 50%;
+
+    background-color: #888;
+}
+.ui-slider .ui-slider-range {
+    position: absolute;
+    z-index: 1;
+    font-size: .7em;
+    display: block;
+    border: 0;
+}
+
+.ui-slider-horizontal { height: 2px; }
+.ui-slider-horizontal .ui-slider-handle { top: -8px; margin-left: -8px; }
+.ui-slider-horizontal .ui-slider-range { top: 0; height: 100%; }
+.ui-slider-horizontal .ui-slider-range-min { left: 0; }
+.ui-slider-horizontal .ui-slider-range-max { right: 0; }
+
+.ui-slider-vertical { width: .8em; height: 100px; }
+.ui-slider-vertical .ui-slider-handle { left: -.3em; margin-left: 0; margin-bottom: -.6em; }
+.ui-slider-vertical .ui-slider-range { left: 0; width: 100%; }
+.ui-slider-vertical .ui-slider-range-min { bottom: 0; }
+.ui-slider-vertical .ui-slider-range-max { top: 0; }
+
+
+
+.photomix-toolbar {
+    width: 160px;
+    padding: 10px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    background: #fff;
+}
+
+.photomix-toolbar .photomix-actions {
+    margin-top: 30px;
+}
+
+.photomix-toolbar .photomix-actions .button {
+    width: 100%;
+    margin-top: 5px;
+
+    text-align: center;
+}
+
+
+.photomix-templates {
+    clear: both;
+}
+
+.photomix-template-items {
+    margin: 0;
+    list-style: none;
+    font-size: 0;
+}
+
+.photomix-template-item {
+    display: inline-block;
+    margin: 0 2px 4px;
+
+    vertical-align: top;
+    font-size: 14px;
+}
+
+.photomix-template {
+    box-sizing: border-box;
+
+    display: block;
+    width: 200px;
+    height: 150px;
+    padding: 15px;
+
+    line-height: 120px;
+    text-align: center;
+    text-decoration: none;
+
+    background: #fff;
+}
+
+.photomix-template img {
+    display: block;
+    margin: 0 auto;
+}
+
+.photomix-library {
+    display:inline-block;
+    right: 10px;
+    top: 40px;
+    font-size:14px;
+}
+
+.photomix-header-button{
+    padding: 6px 2px;
+    display:inline-block;
+}
+.photomix-header-button:hover{
+    background: #fff;
+}
+
+.photomix-library-active-object{
+    margin-left:-4px;
+}
+
+.photomix-library .photomix-icon{
+    padding:0 8px;
+}
+
+.photomix-library-tab {
+    display: inline-block;
+    padding: 5px;
+    border-width: 0 0 1px;
+
+    margin-left: -3px;
+    text-decoration: none;
+    border-style: solid;
+
+    border-color: #e6e6e6;
+}
+
+.photomix-library-tab:focus{
+    box-shadow:none;
+}
+
+.photomix-library-tab-current {
+    border-width: 1px 1px 0;
+}
+
+.photomix-library-panel {
+    display: none;
+}
+
+.photomix-library-panel-current {
+    display: block;
+}
+
+.photomix-items {
+    width: 100%;
+    margin: 0 -2px;
+    list-style: none;
+
+    font-size: 0;
+}
+.photomix-item {
+    display: inline-block;
+    padding: 2px;
+
+    vertical-align: top;
+
+    font-size: 12px;
+}
+
+.photomix-item > a {
+    display: block;
+    padding: 6px;
+
+    position: relative;
+
+    text-align: center;
+}
+
+.photomix-item > a > span {
+    display: none;
+    padding: 2px 4px;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    background: #000;
+    color: #fff;
+}
+
+.photomix-item > a:hover > span {
+    display: block;
+}
+
+.photomix-libray-toggle:before { content: "\f132"; }
+
+
+.photomix-workspace-header{
+    border-bottom:1px solid #dddddd;
+    margin-bottom:20px;
+    line-height: 28px;
+    z-index:10;
+}
+
+.photomix-canvas-actions{
+    border-left:1px solid #dddddd;
+}
+
+.photomix-header-label{
+    padding: 12px;
+    position:relative;
+    top:-3px;
+}
+
+.photomix-library-menu-button:hover .photomix-library-dropdown{
+    display:block;
+}
+
+.photomix-library-dropdown:hover{
+    display:block;
+}
+
+
+.photomix-library-dropdown{
+    display:none;
+    background: #fff;
+    padding:12px 24px;
+    position:absolute;
+    z-index:2;
+    margin-left:-2px;
+}
+
+.photomix-image-actions:only-child{
+    float:none;
+    margin:0 auto;
+}
+
+.photomix-libray-toggle:before{
+    margin-top:2px;
+}
+
+.photomix-object-not-selected .photomix-remove-image{
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.photomix-object-not-selected:hover {
+    background:inherit;
+}
+
+.photomix-active-object-id{
+    padding: 9px 9px 9px 0px;
+    position:relative;
+    top:-3px;
+}

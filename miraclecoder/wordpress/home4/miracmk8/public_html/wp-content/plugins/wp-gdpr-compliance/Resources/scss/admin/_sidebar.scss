@@ -1,0 +1,133 @@
+@use 'sass:math';
+
+.wpgdprc-sidebar {
+    order: 1;
+}
+
+:root .wpgdprc-sidebar__list {
+    margin: 0;
+}
+
+.wpgdprc-sidebar__item {
+    margin: 0;
+}
+
+.wpgdprc-sidebar__anchor {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: $color-gray-medium;
+    text-decoration: none;
+    border-radius: $radius;
+
+    .icon--wrap {
+        @include font-weight-light();
+        content: '';
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: inherit;
+        border: 0 !important;
+        height: rem-calc(58);
+        width: rem-calc(58);
+        margin: 0 !important;
+
+        svg.icon {
+            height: rem-calc(20);
+            width: rem-calc(20);
+            margin: 0;
+        }
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        height: 0;
+        width: 0;
+        border-left: rem-calc(11) solid $color-primary;
+        border-top: rem-calc(27) solid transparent;
+        border-bottom: rem-calc(27) solid transparent;
+        right: rem-calc(-11);
+        top: rem-calc(2);
+        opacity: 0;
+        transition: all $transition;
+    }
+
+    .wpgdprc-sidebar__anchor-svg {
+        svg path {
+            fill: $color-gray-medium;
+        }
+    }
+
+    &:hover,
+    &:focus,
+    &.active {
+        color: $color-white;
+        background-color: $color-primary;
+
+        &::after {
+            opacity: 1;
+        }
+
+        .wpgdprc-sidebar__anchor-svg {
+            svg path {
+                fill: $color-white;
+            }
+        }
+    }
+
+    &:focus span {
+        border-bottom: 3px solid currentColor;
+    }
+
+    &.active {
+        box-shadow: $shadow-l;
+
+        .wpgdprc-sidebar__anchor-text {
+            @include font-weight-bold();
+        }
+    }
+}
+
+.wpgdprc-sidebar__anchor-svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: rem-calc(58);
+    width: rem-calc(58);
+}
+
+.wpgdprc-sidebar__anchor-text {
+    @include font-weight-semibold();
+    font-family: $font-primary;
+    line-height: math.div(20, 16);
+    position: relative;
+    top: rem-calc(1);
+    display: none;
+}
+
+.wpgdprc-sidebar__anchor--checklist {
+    &::before {
+        content: '';
+        display: none;
+    }
+
+    .wpgdprc-sidebar__anchor-svg {
+        svg {
+            width: rem-calc(9);
+        }
+    }
+}
+
+@include breakpoint($wp-medium) {
+    .wpgdprc-sidebar {
+        flex-shrink: 0;
+        width: 100%;
+        max-width: rem-calc(205);
+    }
+
+    .wpgdprc-sidebar__anchor-text {
+        display: inline;
+    }
+}

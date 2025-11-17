@@ -1,0 +1,32 @@
+.newfold-marketplace-isloading {
+    overflow-x: hidden;
+}
+
+.filterbar-skeleton {
+    margin-bottom: 1.8rem;
+}
+
+.marketplace-item-skeleton {
+    overflow: hidden;
+
+    .marketplace-item-img-skeleton {
+        aspect-ratio: 16 / 9;
+    }
+
+    .skeleton-item-body {
+        margin: 16px 10px;
+    }
+    
+    .marketplace-item-title-skeleton {
+        margin-bottom: 16px;
+    }
+    
+    .marketplace-item-desc-skeleton {
+        margin-bottom: 6px;
+    }
+
+    .marketplace-item-button-skeleton {
+        margin-top: 20px;
+    }
+
+}

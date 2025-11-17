@@ -1,0 +1,48 @@
+{
+    "translation-revision-date": "2025-02-13 18:33+0530",
+    "generator": "WP-CLI\/2.11.0",
+    "source": "build\/sitePreviewPortal\/bundle.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "en_GB",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Live": [
+                "Live"
+            ],
+            "Site Preview": [
+                "Site Preview"
+            ],
+            "Not Live": [
+                "Not Live"
+            ],
+            "Your website is currently displaying a \"Coming Soon\" page.": [
+                "Your website is currently displaying a \"Coming Soon\" page."
+            ],
+            "Your website is live to the world!": [
+                "Your website is live to the world!"
+            ],
+            "View": [
+                "View"
+            ],
+            "Edit": [
+                "Edit"
+            ],
+            "Ready to publish?": [
+                "Ready to publish?"
+            ],
+            "Launch Site": [
+                "Launch Site"
+            ],
+            "Not ready to share it?": [
+                "Not ready to share it?"
+            ],
+            "Enable Coming Soon": [
+                "Enable Coming Soon"
+            ]
+        }
+    }
+}

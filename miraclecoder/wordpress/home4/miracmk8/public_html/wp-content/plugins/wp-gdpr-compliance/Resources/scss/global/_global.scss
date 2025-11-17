@@ -1,0 +1,73 @@
+/**
+ * Global styles and elements used throughout the site.
+ * ----------------------------------------------------------------------------
+ */
+
+.wpgdprc {
+    ::selection {
+        background: $color-primary;
+        color: $color-white;
+    }
+
+    ::selection {
+        background: $color-primary;
+        color: $color-white;
+    }
+
+    a {
+        transition: all $transition;
+    }
+
+    p {
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    form {
+        margin-bottom: 0;
+    }
+
+    .no-bullet {
+        list-style: none;
+    }
+
+    .video-container {
+        position: relative;
+        height: 0;
+        opacity: 0;
+        transition: opacity $transition;
+        padding: {
+            top: 25px;
+            bottom: 56.25%;
+        }
+
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        &.active {
+            opacity: 1;
+        }
+    }
+
+    img {
+        display: inline-block;
+        vertical-align: middle;
+        max-width: 100%;
+        height: auto;
+        box-sizing: inherit;
+    }
+
+    svg.icon {
+        fill: currentColor;
+        vertical-align: sub;
+        height: rem-calc(16);
+        width: rem-calc(16);
+        margin: 0;
+    }
+}

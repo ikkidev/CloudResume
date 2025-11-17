@@ -1,0 +1,123 @@
+{
+    "translation-revision-date": "2025-04-28 13:00+0100",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "src\/components\/App\/getAppText.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "es_ES",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Cancel": [
+                "Cancelar"
+            ],
+            "Cloned to Staging": [
+                "Clonado a preproducci\u00f3n"
+            ],
+            "Cloning production to staging, this should take about a minute.": [
+                "Clonando producci\u00f3n a preproducci\u00f3n, esto deber\u00eda tomar aproximadamente un minuto."
+            ],
+            "Created": [
+                "Creado"
+            ],
+            "Staging Created": [
+                "Preproducci\u00f3n creada"
+            ],
+            "Creating a staging site, this should take about a minute.": [
+                "Creando un sitio de preproducci\u00f3n, esto deber\u00eda tomar aproximadamente un minuto."
+            ],
+            "Currently editing": [
+                "Edici\u00f3n actual"
+            ],
+            "Delete": [
+                "Eliminar"
+            ],
+            "Confirm Delete": [
+                "Confirmar eliminaci\u00f3n"
+            ],
+            "Deleted Staging": [
+                "Preproducci\u00f3n eliminada"
+            ],
+            "Deleting the staging site, this should take about a minute.": [
+                "Eliminando el sitio de preproducci\u00f3n, esto tomar\u00e1 aproximadamente un minuto."
+            ],
+            "Deploy": [
+                "Desplegar"
+            ],
+            "Deploy all changes": [
+                "Desplegar todos los cambios"
+            ],
+            "Confirm Deployment": [
+                "Confirmar Despliegue"
+            ],
+            "Deploy database only": [
+                "Desplegar s\u00f3lo base de datos"
+            ],
+            "This will deploy staging to production and overwrite current production site. Are you sure you want to proceed?": [
+                "Esto desplegar\u00e1 la preproducci\u00f3n a producci\u00f3n y sobrescribir\u00e1 el sitio actual de producci\u00f3n. \u00bfEst\u00e1 seguro de que desea continuar?"
+            ],
+            "Deploy files only": [
+                "Desplegar s\u00f3lo archivos"
+            ],
+            "Deployed": [
+                "Desplegado"
+            ],
+            "Deploying from staging to production, this should take about a minute.": [
+                "Desplegando de preproducci\u00f3n a producci\u00f3n, esto deber\u00eda tomar aproximadamente un minuto."
+            ],
+            "Deploy Site": [
+                "Desplegar sitio"
+            ],
+            "Error": [
+                "Error"
+            ],
+            "Not currently editing": [
+                "Actualmente no se est\u00e1 editando"
+            ],
+            "Proceed": [
+                "Continuar"
+            ],
+            "A staging site is a duplicate of your live site, offering a secure environment to experiment, test updates, and deploy when ready.": [
+                "Un sitio de preproducci\u00f3n es un duplicado de su sitio en vivo, ofreciendo un entorno seguro para experimentar, probar actualizaciones y desplegar cuando est\u00e9 listo."
+            ],
+            "Switch": [
+                "Cambiar"
+            ],
+            "Switching": [
+                "Cambiando"
+            ],
+            "Switch to Production": [
+                "Cambiar a producci\u00f3n"
+            ],
+            "This will navigate you to the production environment": [
+                "Esto le llevar\u00e1 al entorno de producci\u00f3n"
+            ],
+            "Loading the production environment now.": [
+                "Cargando el entorno de producci\u00f3n ahora."
+            ],
+            "Switching to the production environment, this should take about a minute.": [
+                "Cambiando al entorno de producci\u00f3n, esto deber\u00eda tomar aproximadamente un minuto."
+            ],
+            "Switch to Staging": [
+                "Cambiar a preproducci\u00f3n"
+            ],
+            "This will navigate you to the staging environment": [
+                "Esto lo llevar\u00e1 al entorno de preproducci\u00f3n"
+            ],
+            "Loading the staging environment now.": [
+                "Cargando el entorno de preproducci\u00f3n ahora."
+            ],
+            "Switching to the staging environment, this should take about a minute.": [
+                "Cambiando al entorno de preproducci\u00f3n, esto deber\u00eda tomar aproximadamente un minuto."
+            ],
+            "An unknown error has occurred.": [
+                "Se ha producido un error desconocido."
+            ],
+            "Working\u2026": [
+                ""
+            ]
+        }
+    }
+}

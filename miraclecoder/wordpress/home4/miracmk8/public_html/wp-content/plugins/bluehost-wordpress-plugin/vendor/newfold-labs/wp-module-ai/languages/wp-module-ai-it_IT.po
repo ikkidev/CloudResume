@@ -1,0 +1,98 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: newfold-labswp-module-staging\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-17T17:21:08+00:00\n"
+"PO-Revision-Date: 2025-02-19 17:05\n"
+"Last-Translator: \n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-File: wp-module-ai.pot\n"
+"X-Crowdin-File-ID: 56\n"
+"X-Crowdin-Language: it\n"
+"X-Crowdin-Project: newfold-labswp-module-staging\n"
+"X-Crowdin-Project-ID: 764889\n"
+"X-Domain: wp-module-ai\n"
+"X-Generator: WP-CLI 2.11.0\n"
+
+#: bootstrap.php:29
+msgid "ai"
+msgstr "ai"
+
+#: includes/RestApi/AISearchController.php:229
+#: includes/RestApi/AISearchController.php:256
+msgid "You are not authorized to make this call"
+msgstr "Non sei autorizzato a effettuare questa chiamata"
+
+#: includes/RestApi/AISearchController.php:279
+msgid "You must be authenticated to make this call"
+msgstr "Devi essere autenticato per effettuare questa chiamata"
+
+#: includes/SiteGen/SiteGen.php:181 includes/SiteGen/SiteGen.php:223
+#: includes/SiteGen/SiteGen.php:365 includes/SiteGen/SiteGen.php:370
+#: includes/SiteGen/SiteGen.php:416 includes/SiteGen/SiteGen.php:512
+#: includes/SiteGen/SiteGen.php:517 includes/SiteGen/SiteGen.php:790
+#: includes/SiteGen/SiteGen.php:795 includes/Utils/AISearchUtil.php:53
+#: includes/Utils/AISearchUtil.php:77 includes/Utils/AISearchUtil.php:85
+#: includes/Utils/AISearchUtil.php:96 includes/Utils/AISearchUtil.php:110
+#: includes/Utils/AISearchUtil.php:131 includes/Utils/AISearchUtil.php:143
+msgid "We are unable to process the request at this moment"
+msgstr "Non siamo in grado di elaborare la richiesta in questo momento"
+
+#: includes/SiteGen/SiteGen.php:311 includes/SiteGen/SiteGen.php:435
+#: includes/SiteGen/SiteGen.php:831
+msgid "You do not have the permissions to perform this action"
+msgstr "Non hai i permessi per eseguire questa azione"
+
+#: includes/SiteGen/SiteGen.php:317
+msgid "Required values not provided"
+msgstr "Valori richiesti non forniti"
+
+#: includes/NFD_CLI.php:39
+msgid "No action provided"
+msgstr "Nessuna azione fornita"
+
+#: includes/NFD_CLI.php:40
+msgid "Usage: wp newfold ai enable <Hiive Token>"
+msgstr "Uso: wp newfold ai enable <Hiive Token>"
+
+#: includes/NFD_CLI.php:41
+msgid "wp newfold ai disable"
+msgstr "wp newfold ai disable"
+
+#: includes/NFD_CLI.php:55
+msgid "Hiive token not provided. Cannot enable AI capabilities."
+msgstr "Token Hiive non fornito. Impossibile abilitare le capacità IA."
+
+#: includes/NFD_CLI.php:78 includes/NFD_CLI.php:106
+msgid "Failed to initialize the WP Filesystem."
+msgstr "Impossibile inizializzare il sistema di file WP."
+
+#: includes/NFD_CLI.php:83
+msgid "Could not enable AI capabilities."
+msgstr "Impossibile abilitare le capacità IA."
+
+#: includes/NFD_CLI.php:85
+msgid "AI Capabilities Enabled."
+msgstr "Capacità IA abilitate."
+
+#: includes/NFD_CLI.php:89
+msgid "Hiive token encrypted and saved."
+msgstr "Token Hiive crittografato e salvato."
+
+#: includes/NFD_CLI.php:111 includes/NFD_CLI.php:116
+msgid "Could not disable AI capabilities."
+msgstr "Impossibile disabilitare le capacità IA."
+
+#: includes/NFD_CLI.php:118
+msgid "AI Capabilities Disabled."
+msgstr "Capacità IA disabilitate."
+
+#: includes/NFD_CLI.php:122
+msgid "Hiive token deleted."
+msgstr "Token Hiive eliminato."

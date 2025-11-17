@@ -1,0 +1,129 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: newfold-labswp-module-staging\n"
+"Report-Msgid-Bugs-To: https://github.com/newfold-labs/wp-module-deactivation/issues\n"
+"Last-Translator: \n"
+"Language-Team: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-12-12T19:31:01+00:00\n"
+"PO-Revision-Date: 2025-02-19 16:54\n"
+"Language: nl_NL\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: wp-module-deactivation\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: newfold-labswp-module-staging\n"
+"X-Crowdin-Project-ID: 764889\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: wp-module-deactivation.pot\n"
+"X-Crowdin-File-ID: 52\n"
+
+#: includes/DeactivationSurvey.php:28
+msgid "Plugin Deactivation Survey"
+msgstr "Plugin deactivatie enquête"
+
+#: includes/DeactivationSurvey.php:30
+#, php-format
+msgid "Thank you for using the %s plugin!"
+msgstr "Dank u voor het gebruik van de %s plugin!"
+
+#: includes/DeactivationSurvey.php:33
+msgid "Please take a moment to let us know why you're deactivating this plugin."
+msgstr "Laat ons weten waarom je deze plugin deactiveert."
+
+#: includes/DeactivationSurvey.php:34
+msgid "Plugin Deactivation Form"
+msgstr "Plugin deactivatieformulier"
+
+#: includes/DeactivationSurvey.php:35
+msgid "Why are you deactivating this plugin?"
+msgstr "Waarom deactiveert u deze plugin?"
+
+#: includes/DeactivationSurvey.php:36
+msgid "Please share the reason here..."
+msgstr "Gelieve de reden hier te delen..."
+
+#: includes/DeactivationSurvey.php:37
+msgid "Submit & Deactivate"
+msgstr "Indienen & deactiveren"
+
+#: includes/DeactivationSurvey.php:38
+msgid "Submit and Deactivate Plugin"
+msgstr "Plugin verzenden en deactiveren"
+
+#: includes/DeactivationSurvey.php:39
+msgid "Cancel"
+msgstr "annuleren"
+
+#: includes/DeactivationSurvey.php:40
+msgid "Cancel Deactivation"
+msgstr "Deactivering annuleren"
+
+#: includes/DeactivationSurvey.php:41
+msgid "Skip & Deactivate"
+msgstr "Overslaan & deactiveren"
+
+#: includes/DeactivationSurvey.php:42
+msgid "Skip and Deactivate Plugin"
+msgstr "Plugin overslaan en deactiveren"
+
+#: includes/DeactivationSurvey.php:43
+msgid "Continue"
+msgstr "Doorgaan"
+
+#: includes/DeactivationSurvey.php:44
+msgid "Continue Deactivation"
+msgstr "Doorgaan met deactiveren"
+
+#: includes/DeactivationSurvey.php:45
+msgid "Are you sure you want to deactivate?"
+msgstr "Weet u zeker dat u wilt deactiveren?"
+
+#: includes/DeactivationSurvey.php:46
+msgid "Deactivating"
+msgstr "Deactiveren"
+
+#: includes/DeactivationSurvey.php:48
+#, php-format
+msgid "If the %s plugin is deactivated, these features will no longer work:"
+msgstr "Als de %s plugin is gedeactiveerd, werken deze functies niet meer:"
+
+#: includes/DeactivationSurvey.php:54
+#, php-format
+msgid "%s Caching"
+msgstr "%s caching"
+
+#: includes/DeactivationSurvey.php:57
+msgid "Automatically clears the server page cache when your site updates"
+msgstr "Wis automatisch de serverpaginacache als uw site werkt"
+
+#: includes/DeactivationSurvey.php:62
+#, php-format
+msgid "%s Staging"
+msgstr "%s Fase"
+
+#: includes/DeactivationSurvey.php:65
+msgid "Create a staging copy of your site to safely test changes"
+msgstr "Maak een voorgehouden kopie van uw site om wijzigingen veilig te testen"
+
+#: includes/DeactivationSurvey.php:69
+msgid "WooCommerce Tools"
+msgstr "WooCommerce gereedschap"
+
+#: includes/DeactivationSurvey.php:70
+msgid "Run campaigns and promotions on your store"
+msgstr "Voer campagnes en promoties uit op uw winkel"
+
+#: includes/DeactivationSurvey.php:74
+msgid "Wonder Blocks & Patterns Library"
+msgstr "Wonder Blokken & Patronen Bibliotheek"
+
+#: includes/DeactivationSurvey.php:75
+msgid "Dozens of beautiful block templates and patterns"
+msgstr "Tientallen prachtige bloksjablonen en -patronen"
+
+#: includes/DeactivationSurvey.php:80
+#, php-format
+msgid "Need Help? Check the %1$shelp center%2$s for support."
+msgstr "Hulp nodig? Kijk dan op %1$shelp center%2$s voor ondersteuning."

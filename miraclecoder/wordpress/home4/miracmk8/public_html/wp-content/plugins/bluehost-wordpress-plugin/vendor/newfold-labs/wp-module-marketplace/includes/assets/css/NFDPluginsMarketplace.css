@@ -1,0 +1,128 @@
+.nfd-plugin-card-content {
+    position: relative;
+    padding: 20px 20px 40px;
+}
+
+@media screen and (min-width: 1600px) {
+    .nfd-plugin-card-content {
+        padding-bottom: 20px;
+    }
+}
+
+.nfd-plugin-card-thumbnail {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 128px;
+    height: 128px;
+    margin: 0 20px 20px 0;
+    background-color: rgba(160, 170, 192, 0.35);
+}
+
+.nfd-plugin-card-title {
+    margin-left: 148px;
+    margin-right: 128px;
+}
+
+.nfd-plugin-card-title h3 {
+    color: #3c434a;
+    font-size: .95rem;
+}
+
+.nfd-plugin-card-desc {
+    margin-left: 148px;
+    margin-right: 128px;
+}
+
+.nfd-plugin-card-desc p {
+    margin-bottom: 0;
+}
+
+.nfd-plugin-card-actions {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+@media screen and (max-width: 1100px) and (min-width: 782px), (max-width: 480px) {
+    .nfd-plugin-card-actions {
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-bottom: 12px !important;
+    }
+
+    .nfd-plugin-card-desc p {
+        margin-top: 12px;
+    }
+}
+
+.nfd-plugin-card-actions .nfd-ctb-btn {
+    max-width: fit-content;
+}
+
+.nfd-skeleton {
+    position: relative;
+    background-color: rgba(160, 170, 192, .35);
+    overflow: hidden;
+    border-radius: 2px;
+}
+
+.nfd-skeleton::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.2) 20%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0));
+    animation: marketplace-skeleton 3s infinite;
+    content: '';
+}
+
+@keyframes marketplace-skeleton {
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.nfd-premium-marketplace-loading-error {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.nfd-premium-marketplace-loading-error-content {
+    width: 425px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.nfd-premium-marketplace-loading-error-content h2 {
+    font-size: 1.55rem;
+    margin-top: 1.6rem;
+}
+
+.nfd-premium-marketplace-loading-error-content p {
+    font-size: 1.1rem;
+    margin-bottom: 1.85rem;
+}
+
+.nfd-premium-marketplace-loading-error-content a.button-primary {
+    font-size: 1rem;
+}
+
+.nfd-premium-marketplace-loading-error-content img {
+    max-width: 100%;
+}
+
+.plugin-install-tab-premium-marketplace .search-plugins {
+    display: none;
+}

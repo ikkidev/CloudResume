@@ -1,0 +1,46 @@
+/**
+ * Custom variables
+ * ----------------------------------------------------------------------------
+ */
+
+/* Transitions */
+$duration: 0.25s;
+$easing: cubic-bezier(0, 0.6, 0.7, 1);
+$transition: $duration $easing;
+
+/* z-index */
+$z-index-negative: -1;
+$z-index-default: 0;
+$z-index-overlay: 1;
+$z-index-screen-reader: 1000;
+
+/* Spacing */
+$spacing: 0.9375rem;
+$spacing-xs: $spacing * 0.25;
+$spacing-s: $spacing * 0.5;
+$spacing-m: $spacing * 1.5;
+$spacing-l: $spacing * 2;
+$spacing-xl: $spacing * 3;
+$spacing-xxl: $spacing * 4;
+$spacing-xxxl: $spacing * 6;
+
+/* Border */
+$border: rem-calc(1) solid $color-gray-light-x;
+
+/* Border Radius */
+$radius: 3px;
+$radius-l: 5px;
+
+/* Shadow */
+$shadow-s: 0 2px 5px 0 rgba($color-black, 0.1);
+$shadow: 0 2px 4px 0 rgba($color-black, 0.2);
+$shadow-l: 0 5px 10px 0 rgba($color-black, 0.1);
+
+/* WP breakpoints */
+$wp-medium: 783;
+$wp-large: 961;
+
+/* WP admin bar */
+$wp-admin-bar-height-mobile: rem-calc(46);
+$wp-admin-bar-height-desktop: rem-calc(32);
+$wp-breakpoint-admin-bar: 783;

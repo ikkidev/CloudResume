@@ -1,0 +1,114 @@
+/**
+ * Typography
+ * ----------------------------------------------------------------------------
+ */
+
+@use 'sass:math';
+
+.wpgdprc {
+    font-family: $body-font-family;
+    font-size: rem-calc(16);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: $color-gray-dark;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: $heading-font-family;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    h1,
+    .h1,
+    h2,
+    .h2,
+    h3,
+    .h3,
+    h4,
+    .h4,
+    h5,
+    .h5,
+    h6,
+    .h6 {
+        @include font-weight-bold();
+        font-family: $heading-font-family;
+        line-height: 1.2;
+        color: $color-black;
+    }
+
+    h1,
+    .h1 {
+        @include h1();
+    }
+
+    h2,
+    .h2 {
+        @include h2();
+    }
+
+    h3,
+    .h3 {
+        @include h3();
+    }
+
+    h4,
+    .h4 {
+        @include h4();
+    }
+
+    h5,
+    .h5 {
+        @include h5();
+    }
+
+    h6,
+    .h6 {
+        @include h6();
+    }
+
+    p {
+        @include text();
+        line-height: math.div(26, 16);
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    ul,
+    ol {
+        margin: 0 0 1rem 1rem;
+    }
+
+    blockquote {
+        p {
+            &::before {
+                content: '“';
+            }
+
+            &::after {
+                content: '”';
+            }
+        }
+
+        cite {
+            color: $color-gray-dark;
+        }
+    }
+
+    .screen-reader-text {
+        position: absolute !important;
+        width: 1px !important;
+        height: 1px !important;
+        padding: 0 !important;
+        overflow: hidden !important;
+        clip: rect(0, 0, 0, 0) !important;
+        white-space: nowrap !important;
+        border: 0 !important;
+    }
+}

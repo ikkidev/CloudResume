@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: newfold-labswp-module-staging\n"
+"Report-Msgid-Bugs-To: https://github.com/newfold-labs/wp-module-sso/issues\n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-02-13T09:55:55+00:00\n"
+"PO-Revision-Date: 2025-02-19 14:21\n"
+"Language: de_DE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: wp-module-sso\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: newfold-labswp-module-staging\n"
+"X-Crowdin-Project-ID: 764889\n"
+"X-Crowdin-Language: de\n"
+"X-Crowdin-File: wp-module-sso.pot\n"
+"X-Crowdin-File-ID: 22\n"
+
+#: bootstrap.php:19
+msgid "SSO"
+msgstr "SSO"
+
+#. Translators: %d number
+#: includes/SSO_CLI.php:75
+#, php-format
+msgid "Single-use login link valid for %d minutes"
+msgstr "Einmaliger Anmeldelink gültig für %d Minuten"
+
+#: includes/SSO_CLI.php:196
+msgid "Success: "
+msgstr "Erfolg: "
+
+#: includes/SSO_CLI.php:229
+msgid "Error: "
+msgstr "Fehler: "
+
+#: includes/SSO_CLI.php:278
+msgid "Provided $data wasn't valid array or JSON string."
+msgstr "Die bereitgestellte $data war kein gültiges Array oder keine gültige JSON-Zeichenkette."
+
+#: includes/SSO_REST_Controller.php:69
+msgid "Sorry, you are not allowed to access this endpoint."
+msgstr "Entschuldigung, Sie sind nicht berechtigt, auf diesen Endpunkt zuzugreifen."

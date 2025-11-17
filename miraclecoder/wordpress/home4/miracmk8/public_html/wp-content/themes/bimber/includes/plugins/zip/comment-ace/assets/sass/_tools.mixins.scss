@@ -1,0 +1,65 @@
+@mixin if-stack( $_s ) {
+    @if $_s == $stack {
+        @content;
+    }
+}
+
+@mixin if-not-stack( $_s ) {
+    @if $_s != $stack {
+        @content;
+    }
+}
+
+@mixin display( $value: flex ) {
+    @if $value == flex {
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+    } @else {
+        display: $value;
+    }
+}
+
+@mixin justify-content( $value: flex-start ) {
+    @if $value == flex-start {
+        -ms-flex-pack: start;
+    } @else if $value == flex-end {
+        -ms-flex-pack: end;
+    } @else if $value == space-between {
+        -ms-flex-pack: justify;
+    } @else if $value == space-around {
+        -ms-flex-pack: distribute;
+    } @else {
+        -ms-flex-pack: $value;
+    }
+    -webkit-justify-content: $value;
+    justify-content: $value;
+}
+
+@mixin align-items($value: stretch) {
+    @if $value == flex-start {
+        -ms-flex-align: start;
+    } @else if $value == flex-end {
+        -ms-flex-align: end;
+    } @else {
+        -ms-flex-align: $value;
+    }
+    -webkit-align-items: $value;
+    align-items: $value;
+}
+
+@mixin flex-wrap($value: nowrap) {
+    @if $value == nowrap {
+        -ms-flex-wrap: none;
+    } @else {
+        -ms-flex-wrap: $value;
+    }
+    -webkit-flex-wrap: $value;
+    flex-wrap: $value;
+}
+
+@mixin flex($fg: 1, $fs: null, $fb: null) {
+    -webkit-flex: $fg $fs $fb;
+    -ms-flex: $fg $fs $fb;
+    flex: $fg $fs $fb;
+}

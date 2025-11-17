@@ -1,0 +1,24 @@
+.wpgdprc {
+    padding: rem-calc(0 10 0 0);
+    max-width: rem-calc(1400);
+}
+
+.wpgdprc-main {
+    display: flex;
+}
+
+@include breakpoint($wp-medium) {
+    .wpgdprc {
+        padding: rem-calc(0 20 0 0);
+    }
+
+    .wpgdprc-main {
+        flex-wrap: unset;
+    }
+}
+
+@include breakpoint(xlarge) {
+    .wpgdprc {
+        padding: rem-calc(0 30 0 30);
+    }
+}

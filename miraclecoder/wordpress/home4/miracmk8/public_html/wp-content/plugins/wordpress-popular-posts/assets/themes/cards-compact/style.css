@@ -1,0 +1,73 @@
+.wpp-cards-compact {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+    .wpp-cards-compact li {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        margin: 0 0 1.2em 0;
+        padding: 0 0 1em 0;
+        border-bottom: #ddd 1px solid;
+    }
+
+    .in-preview-mode .wpp-cards-compact li {
+        margin: 0 0 1.2em 0;
+        padding: 0 0 1em 0;
+    }
+
+    .wpp-cards-compact li:last-of-type,
+    .wpp-cards-compact li:only-child {
+        margin: 0;
+        padding: 0;
+        border-bottom: none;
+    }
+
+        .wpp-cards-compact li .wpp-thumbnail {
+            overflow: hidden;
+            display: inline-block;
+            flex-grow: 0;
+            flex-shrink: 0;
+            margin-right: 1em;
+            font-size: 0.8em;
+            line-height: 1;
+            background: #f0f0f0;
+            border: none;
+        }
+
+        .wpp-cards-compact li .wpp-thumbnail.wpp_def_no_src {
+            object-fit: contain;
+        }
+
+        .wpp-cards-compact li a {
+            text-decoration: none;
+        }
+
+        .wpp-cards-compact li a:hover {
+            text-decoration: underline;
+        }
+
+        .wpp-cards-compact li .taxonomies,
+        .wpp-cards-compact li .wpp-post-title {
+            display: block;
+            font-weight: bold;
+        }
+
+        .wpp-cards-compact li .taxonomies {
+            margin-bottom: 0.25em;
+            font-size: 0.7em;
+            line-height: 1;
+        }
+
+        .wpp-cards-compact li .wpp-post-title {
+            margin-bottom: 0.5em;
+            font-size: 1.2em;
+            line-height: 1.2;
+        }
+
+        .wpp-cards-compact li .wpp-excerpt {
+            margin: 0;
+            font-size: 0.8em;
+        }

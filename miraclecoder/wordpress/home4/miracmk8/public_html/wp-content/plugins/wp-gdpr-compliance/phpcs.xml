@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Example Project"
+         xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/squizlabs/PHP_CodeSniffer/master/phpcs.xsd">
+
+    <description>Our custom set of rules for WPGDPRC</description>
+
+    <!-- Exclude WP Core folders and files from being checked. -->
+    <exclude-pattern>/docroot/wp-admin/*</exclude-pattern>
+    <exclude-pattern>/docroot/wp-includes/*</exclude-pattern>
+    <exclude-pattern>/docroot/wp-*.php</exclude-pattern>
+    <exclude-pattern>/docroot/index.php</exclude-pattern>
+    <exclude-pattern>/docroot/xmlrpc.php</exclude-pattern>
+    <exclude-pattern>/docroot/wp-content/plugins/*</exclude-pattern>
+
+    <!-- Exclude the Composer Vendor directory. -->
+    <exclude-pattern>/vendor/*</exclude-pattern>
+
+    <!-- Exclude the Node Modules directory. -->
+    <exclude-pattern>/node_modules/*</exclude-pattern>
+
+    <!-- Exclude the Tests directory. -->
+    <exclude-pattern>/Tests/*</exclude-pattern>
+
+    <!-- Exclude minified asset files. -->
+    <exclude-pattern>*.js</exclude-pattern>
+    <exclude-pattern>*.css</exclude-pattern>
+
+    <!-- Include the WordPress-Security standard. -->
+    <rule ref="WordPress.Security">
+        <exclude name="WordPress.Security.NonceVerification"/>
+    </rule>
+
+
+
+    <!--
+    To get the optimal benefits of using WPCS, we should add a couple of
+    custom properties.
+    Adjust the values of these properties to fit our needs.
+    For information on additional custom properties available, check out
+    the wiki:
+    https://github.com/WordPress/WordPress-Coding-Standards/wiki/Customizable-sniff-properties
+    -->
+
+    <config name="minimum_supported_wp_version" value="5.3"/>
+    <config name="php_version" value="7.0"/>
+</ruleset>

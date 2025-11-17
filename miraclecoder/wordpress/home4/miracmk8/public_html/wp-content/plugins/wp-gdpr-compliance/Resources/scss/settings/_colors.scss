@@ -1,0 +1,38 @@
+/**
+ * Color scheme
+ * ----------------------------------------------------------------------------
+ */
+$color-gray: #f1f1f1;
+$color-gray-light: #f8f8f9;
+$color-gray-light-x: #d8d8d8;
+$color-gray-light-xx: #afafaf;
+$color-gray-medium: #888888;
+$color-gray-dark: #5a5a5a;
+
+$color-black: #000000;
+$color-white: #ffffff;
+
+$color-purple: #5843be;
+$color-purple-light: #f6f4ff;
+$color-turquoise: #3ecdb7;
+$color-green: #176f3e;
+$color-green-light: #c1eed5;
+$color-red: #d03343;
+$color-red-medium: #f1cec6;
+$color-red-dark: #600404;
+$color-red-light: #ffebed; /* @Lex, maybe find better color? */
+$color-blue: #3c7c96;
+$color-blue-light: #ecf3f6;
+$color-blue-medium: #adcbd8;
+$color-orange: #faa21b;
+$color-orange-dark: #733312;
+$color-orange-medium: #f6e1c0;
+$color-orange-light: #fef8ea;
+
+$color-primary: $color-blue;
+$color-primary-light: $color-blue-light;
+$color-primary-medium: $color-blue-medium;
+$color-secondary: #767676;
+$color-success: $color-green;
+$color-warning: #ffae00;
+$color-alert: $color-red;

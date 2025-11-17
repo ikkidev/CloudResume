@@ -1,0 +1,797 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://github.com/newfold-labs/wp-module-next-steps/issues\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: nl_NL <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-06-06T06:30:00+00:00\n"
+"PO-Revision-Date: 2025-01-21 17:05:00+0000\n"
+"Language: nl_NL\n"
+"X-Domain: wp-module-next-steps\n"
+"X-Generator: WP-CLI 2.12.0\n"
+
+#: bootstrap.php:30
+#: includes/NextSteps.php:83
+#: includes/NextStepsWidget.php:39
+msgid "Next Steps"
+msgstr "Volgende stappen"
+
+#: includes/Data/Plans/StorePlan.php:31
+msgid "Store Setup"
+msgstr "Winkel instellen"
+
+#: includes/Data/Plans/StorePlan.php:32
+msgid "Complete your ecommerce store setup with these essential steps:"
+msgstr "Voltooi de installatie van uw e-commerce winkel met deze essentiële stappen:"
+
+#: includes/Data/Plans/BlogPlan.php:52
+#: includes/Data/Plans/CorporatePlan.php:71
+msgid "Build"
+msgstr "Bouwen"
+
+#: includes/Data/Plans/BlogPlan.php:62
+#: includes/Data/Plans/CorporatePlan.php:81
+msgid "Quick Setup"
+msgstr "Snelle installatie"
+
+#: includes/Data/Plans/BlogPlan.php:82
+#: includes/Data/Plans/StorePlan.php:53
+msgid "Upload Logo"
+msgstr "Logo uploaden"
+
+#: includes/Data/Plans/BlogPlan.php:93
+#: includes/Data/Plans/StorePlan.php:65
+msgid "Choose Colors and Fonts"
+msgstr "Kies kleuren en lettertypen"
+
+#: includes/Data/Plans/BlogPlan.php:104
+#: includes/Data/Plans/CorporatePlan.php:123
+#: includes/Data/Plans/StorePlan.php:77
+msgid "Customize Header"
+msgstr "Header aanpassen"
+
+#: includes/Data/Plans/BlogPlan.php:115
+#: includes/Data/Plans/CorporatePlan.php:134
+#: includes/Data/Plans/StorePlan.php:89
+msgid "Customize Footer"
+msgstr "Voettekst aanpassen"
+
+#: includes/Data/Plans/StorePlan.php:101
+msgid "Customize Homepage"
+msgstr "Homepage aanpassen"
+
+#: includes/Data/Plans/BlogPlan.php:247
+#: includes/Data/Plans/CorporatePlan.php:238
+msgid "Brand"
+msgstr "Merk"
+
+#: includes/Data/Plans/BlogPlan.php:345
+msgid "Submit Site to Google Search Console"
+msgstr "Site indienen bij Google Search Console"
+
+#: includes/Data/Plans/BlogPlan.php:371
+#: includes/Data/Plans/CorporatePlan.php:383
+msgid "Grow"
+msgstr "Groeien"
+
+#: includes/Data/Plans/BlogPlan.php:47
+msgid "Blog Setup"
+msgstr "Blog instellen"
+
+#: includes/Data/Plans/BlogPlan.php:48
+msgid "Get your blog up and running with these essential steps:"
+msgstr "Zet je blog aan de slag met deze essentiële stappen:"
+
+#: includes/Data/Plans/BlogPlan.php:132
+msgid "Add Your First Blog Post"
+msgstr "Voeg je eerste blogpost toe"
+
+#: includes/Data/Plans/BlogPlan.php:143
+msgid "Create an \"About\" Page"
+msgstr "Maak een 'Over'-pagina"
+
+#: includes/Data/Plans/BlogPlan.php:154
+msgid "Set a Featured Image for One Post"
+msgstr "Stel een uitgelichte afbeelding in voor één bericht"
+
+#: includes/Data/Plans/BlogPlan.php:171
+#: includes/Data/Plans/CorporatePlan.php:162
+msgid "Add Pages for Home, Blog, About, Contact"
+msgstr "Pagina's toevoegen voor Home, Blog, Over, Contact"
+
+#: includes/Data/Plans/BlogPlan.php:182
+#: includes/Data/Plans/CorporatePlan.php:173
+msgid "Create a Primary Menu"
+msgstr "Een primair menu maken"
+
+#: includes/Data/Plans/BlogPlan.php:193
+msgid "Create a Footer Menu"
+msgstr "Maak een voettekstmenu"
+
+#: includes/Data/Plans/BlogPlan.php:210
+#: includes/Data/Plans/CorporatePlan.php:201
+msgid "Add a Privacy Policy"
+msgstr "Voeg een privacybeleid toe"
+
+#: includes/Data/Plans/BlogPlan.php:221
+#: includes/Data/Plans/CorporatePlan.php:212
+msgid "Add Terms & Conditions"
+msgstr "Algemene voorwaarden toevoegen"
+
+#: includes/Data/Plans/BlogPlan.php:232
+#: includes/Data/Plans/CorporatePlan.php:223
+msgid "Add an Accessibility Statement"
+msgstr "Een toegankelijkheidsverklaring toevoegen"
+
+#: includes/Data/Plans/BlogPlan.php:251
+msgid "First Audience-Building Steps"
+msgstr "Eerste stappen om het publiek op te bouwen"
+
+#: includes/Data/Plans/BlogPlan.php:255
+msgid "Add a Welcome-Subscribe Popup"
+msgstr "Voeg een pop-up voor welkom en abonneer toe"
+
+#: includes/Data/Plans/BlogPlan.php:317
+msgid "Embed a Social Media Feed on Homepage"
+msgstr "Sluit een social media-feed in op de startpagina"
+
+#: includes/Data/Plans/BlogPlan.php:334
+msgid "Optimize On-Page SEO"
+msgstr "Optimaliseer on-page SEO"
+
+#: includes/Data/Plans/BlogPlan.php:356
+msgid "Generate & Submit XML Sitemap"
+msgstr "XML-sitemap genereren en verzenden"
+
+#: includes/Data/Plans/BlogPlan.php:390
+msgid "Customize Author/Profile Boxes"
+msgstr "Auteurs-/profielvakken aanpassen"
+
+#: includes/Data/Plans/BlogPlan.php:401
+msgid "Display Testimonials or Highlighted Comments"
+msgstr "Getuigenissen of gemarkeerde opmerkingen weergeven"
+
+#: includes/Data/Plans/BlogPlan.php:412
+msgid "Create a Favicon"
+msgstr "Maak een favicon"
+
+#: includes/Data/Plans/BlogPlan.php:429
+msgid "Build an Email Newsletter"
+msgstr "Bouw een e-mailnieuwsbrief"
+
+#: includes/Data/Plans/BlogPlan.php:440
+msgid "Draft an Influencer/Guest-Post Outreach List"
+msgstr "Stel een lijst met influencers/gastposten op"
+
+#: includes/Data/Plans/BlogPlan.php:462
+msgid "Track Campaigns with UTM Links"
+msgstr "Volg campagnes met UTM-links"
+
+#: includes/Data/Plans/BlogPlan.php:479
+msgid "Plan a Content Series or Editorial Calendar"
+msgstr "Een inhoudsreeks of redactionele kalender plannen"
+
+#: includes/Data/Plans/BlogPlan.php:490
+msgid "Implement Internal-Linking Strategy"
+msgstr "Implementeer een strategie voor interne koppelingen"
+
+#: includes/Data/Plans/BlogPlan.php:501
+msgid "Install Yoast Premium for Advanced Schemas"
+msgstr "Installeer Yoast Premium voor geavanceerde schema's"
+
+#: includes/Data/Plans/BlogPlan.php:540
+msgid "Create a Staging Site"
+msgstr "Een testsite maken"
+
+#: includes/Data/Plans/CorporatePlan.php:67
+msgid "Set up your corporate website with these essential steps:"
+msgstr "Zet uw bedrijfswebsite op met deze essentiële stappen:"
+
+#: includes/Data/Plans/CorporatePlan.php:101
+msgid "Upload Company Logo"
+msgstr "Bedrijfslogo uploaden"
+
+#: includes/Data/Plans/CorporatePlan.php:112
+msgid "Choose Brand Colors and Fonts"
+msgstr "Kies merkkleuren en lettertypen"
+
+#: includes/Data/Plans/CorporatePlan.php:145
+msgid "Customize Homepage Layout"
+msgstr "De lay-out van de startpagina aanpassen"
+
+#: includes/Data/Plans/CorporatePlan.php:184
+msgid "Add a Footer Menu"
+msgstr "Een voettekstmenu toevoegen"
+
+#: includes/Data/Plans/CorporatePlan.php:246
+msgid "Set Up a Custom Domain"
+msgstr "Een aangepast domein instellen"
+
+#: includes/Data/Plans/CorporatePlan.php:268
+msgid "Connect Your Google Business Profile"
+msgstr "Koppel uw Google-bedrijfsprofiel"
+
+#: includes/Data/Plans/CorporatePlan.php:279
+msgid "Create a Branded Email Address"
+msgstr "Maak een merk-e-mailadres aan"
+
+#: includes/Data/Plans/CorporatePlan.php:307
+msgid "Connect Google Search Console"
+msgstr "Verbind Google Search Console"
+
+#: includes/Data/Plans/CorporatePlan.php:357
+msgid "Embed a Map or Location"
+msgstr "Een kaart of locatie insluiten"
+
+#: includes/Data/Plans/CorporatePlan.php:368
+msgid "Link to Social Media Profiles"
+msgstr "Link naar profielen op sociale media"
+
+#: includes/Data/Plans/CorporatePlan.php:402
+msgid "Add Certifications, Memberships, or Awards"
+msgstr "Certificeringen, lidmaatschappen of onderscheidingen toevoegen"
+
+#: includes/Data/Plans/CorporatePlan.php:419
+msgid "Publish Your First Company Blog Post"
+msgstr "Publiceer uw eerste bedrijfsblogpost"
+
+#: includes/Data/Plans/CorporatePlan.php:430
+msgid "Create a FAQ Page"
+msgstr "Maak een pagina met veelgestelde vragen"
+
+#: includes/Data/Plans/CorporatePlan.php:441
+msgid "Optimize Your Key Pages for Keywords"
+msgstr "Optimaliseer uw belangrijkste pagina's voor zoekwoorden"
+
+#: includes/Data/Plans/CorporatePlan.php:452
+msgid "Generate and Submit XML Sitemap"
+msgstr "XML-sitemap genereren en verzenden"
+
+#: includes/Data/Plans/CorporatePlan.php:469
+msgid "Set Up an Email Capture Form"
+msgstr "Een formulier voor het vastleggen van e-mail instellen"
+
+#: includes/Data/Plans/CorporatePlan.php:480
+msgid "Connect to CRM or Email Tool"
+msgstr "Verbinding maken met CRM of e-mailtool"
+
+#: includes/Data/Plans/CorporatePlan.php:491
+msgid "Add a Call-to-Action Section to Homepage"
+msgstr "Voeg een call-to-action-sectie toe aan de startpagina"
+
+#: includes/Data/Plans/CorporatePlan.php:530
+msgid "Install a Security Plugin"
+msgstr "Installeer een beveiligingsplug-in"
+
+#: includes/Data/Plans/CorporatePlan.php:541
+msgid "Set Up a Staging Site"
+msgstr "Een testsite instellen"
+
+#: includes/Data/Plans/CorporatePlan.php:569
+msgid "Run a Speed Test"
+msgstr "Voer een snelheidstest uit"
+
+#: includes/Data/Plans/CorporatePlan.php:580
+msgid "Plan Your Next Content or Campaign Update"
+msgstr "Plan uw volgende inhouds- of campagne-update"
+
+#: includes/StepsApi.php:362
+#: includes/StepsApi.php:410
+msgid "No plan found."
+msgstr "Geen plan gevonden."
+
+#: includes/StepsApi.php:416
+msgid "No tracks found in plan."
+msgstr "Geen sporen gevonden in plan."
+
+#: includes/StepsApi.php:422
+msgid "No sections found in track."
+msgstr "Geen secties gevonden in het spoor."
+
+#: includes/StepsApi.php:497
+#: includes/StepsApi.php:595
+#: includes/StepsApi.php:711
+msgid "Invalid parameters provided."
+msgstr "Ongeldige parameters opgegeven."
+
+#: includes/StepsApi.php:500
+msgid "Invalid status provided."
+msgstr "Ongeldige status opgegeven."
+
+#: includes/StepsApi.php:529
+msgid "Step not found."
+msgstr "Stap niet gevonden."
+
+#: includes/StepsApi.php:606
+#: includes/StepsApi.php:645
+msgid "Section not found."
+msgstr "Sectie niet gevonden."
+
+#: includes/StepsApi.php:821
+msgid "Invalid plan type provided."
+msgstr "Ongeldig abonnementstype opgegeven."
+
+#: includes/StepsApi.php:892
+msgid "Failed to add task to section."
+msgstr "Kan geen taak toevoegen aan sectie."
+
+#: build/next-steps-portal/bundle.js:1
+#: build/next-steps-widget/bundle.js:1
+msgid "Mark Complete"
+msgstr "Markeer Voltooid"
+
+#: build/next-steps-portal/bundle.js:1
+#: build/next-steps-widget/bundle.js:1
+msgid "Skip"
+msgstr "Overslaan"
+
+#: build/next-steps-portal/bundle.js:1
+#: build/next-steps-widget/bundle.js:1
+msgid "Restart"
+msgstr "Herstarten"
+
+#: build/next-steps-portal/bundle.js:1
+#: build/next-steps-widget/bundle.js:1
+msgid "Unskip"
+msgstr "Niet overslaan"
+
+#: build/next-steps-portal/bundle.js:1
+#: build/next-steps-widget/bundle.js:1
+msgid "Hide skipped tasks"
+msgstr "Overgeslagen taken verbergen"
+
+#: build/next-steps-portal/bundle.js:1
+#: build/next-steps-widget/bundle.js:1
+msgid "View skipped tasks"
+msgstr "Overgeslagen taken weergeven"
+
+#: build/next-steps-portal/bundle.js:1
+#: build/next-steps-widget/bundle.js:1
+msgid "Loading next steps..."
+msgstr "Volgende stappen laden..."
+
+#: includes/Data/Plans/BlogPlan.php:256
+msgid "Convert visitors to email subscribers."
+msgstr "Zet bezoekers om in e-mailabonnees."
+
+#: includes/Data/Plans/BlogPlan.php:451
+msgid "Run pillar article promotion on social ad"
+msgstr "Promotie van pijlerartikelen uitvoeren op sociale advertenties"
+
+#: includes/Data/Plans/CorporatePlan.php:318
+msgid "Explore SEO Plugin"
+msgstr "Ontdek SEO-plug-in"
+
+#: includes/Data/Plans/CorporatePlan.php:346
+msgid "Add a Contact Form with email routing"
+msgstr "Een contactformulier met e-mailroutering toevoegen"
+
+#: includes/Data/Plans/CorporatePlan.php:391
+msgid "Add Client Logos or Testimonials or Reviews"
+msgstr "Voeg logo's, getuigenissen of recensies van klanten toe"
+
+#: includes/StepsApi.php:722
+#: includes/StepsApi.php:740
+#: includes/StepsApi.php:751
+msgid "Track not found."
+msgstr "Track niet gevonden."
+
+#: build/next-steps-portal/bundle.js:1
+#: build/next-steps-widget/bundle.js:1
+msgid "All complete!"
+msgstr "Helemaal compleet!"
+
+#: build/next-steps-portal/bundle.js:1
+#: build/next-steps-widget/bundle.js:1
+msgid "Close"
+msgstr "Sluiten"
+
+#: build/next-steps-portal/bundle.js:1
+#: build/next-steps-widget/bundle.js:1
+msgid "We encountered a connection error. Please check your internet connection and try again."
+msgstr "Er is een verbindingsfout opgetreden. Controleer uw internetverbinding en probeer het opnieuw."
+
+#: build/next-steps-portal/bundle.js:1
+#: build/next-steps-widget/bundle.js:1
+msgid "We encountered an unexpected error. Please try refreshing the page or contact support if the problem persists."
+msgstr "We zijn een onverwachte fout tegengekomen. Probeer de pagina te vernieuwen of neem contact op met de ondersteuning als het probleem zich blijft voordoen."
+
+#: build/next-steps-portal/bundle.js:1
+#: build/next-steps-widget/bundle.js:1
+msgid "Connection Error"
+msgstr "Verbinding fout"
+
+#: build/next-steps-portal/bundle.js:1
+#: build/next-steps-widget/bundle.js:1
+msgid "Something went wrong"
+msgstr "Er is iets misgegaan"
+
+#: build/next-steps-portal/bundle.js:1
+#: build/next-steps-widget/bundle.js:1
+msgid "Try Again"
+msgstr "Probeer het opnieuw"
+
+#: build/next-steps-portal/bundle.js:1
+#: build/next-steps-widget/bundle.js:1
+msgid "Refresh Page"
+msgstr "Pagina vernieuwen"
+
+#: build/next-steps-portal/bundle.js:1
+#: build/next-steps-widget/bundle.js:1
+msgid "Technical Details"
+msgstr "Technische gegevens"
+
+#: build/next-steps-portal/bundle.js:1
+#: build/next-steps-widget/bundle.js:1
+msgid "Next Steps Unavailable"
+msgstr "Volgende stappen niet beschikbaar"
+
+#: build/next-steps-portal/bundle.js:1
+#: build/next-steps-widget/bundle.js:1
+msgid "The Next Steps module encountered an error and cannot be displayed right now."
+msgstr "Er is een fout opgetreden in de module Volgende stappen en deze kan momenteel niet worden weergegeven."
+
+#: build/next-steps-portal/bundle.js:1
+#: build/next-steps-widget/bundle.js:1
+msgid "Task temporarily unavailable"
+msgstr "Taak tijdelijk niet beschikbaar"
+
+#: includes/Data/Plans/BlogPlan.php:267
+msgid "Customize Notification Emails"
+msgstr "E-mails met meldingen aanpassen"
+
+#: includes/Data/Plans/BlogPlan.php:278
+msgid "Connect Jetpack Stats (or Google Analytics 4)"
+msgstr "Koppel Jetpack-statistieken (of Google Analytics 4)"
+
+#: includes/Data/Plans/BlogPlan.php:295
+msgid "Connect Facebook Page Auto-Sharing"
+msgstr "Verbind Facebook-pagina automatisch delen"
+
+#: includes/Data/Plans/BlogPlan.php:306
+msgid "Add Social-Sharing Buttons"
+msgstr "Knoppen voor sociaal delen toevoegen"
+
+#: includes/Data/Plans/BlogPlan.php:379
+msgid "Enable & Style Comments Section"
+msgstr "Sectie Opmerkingen inschakelen en opmaken"
+
+#: includes/Data/Plans/BlogPlan.php:518
+msgid "Speed-up Site with Jetpack Boost"
+msgstr "Versnel de site met Jetpack Boost"
+
+#: includes/Data/Plans/BlogPlan.php:529
+#: includes/Data/Plans/CorporatePlan.php:519
+msgid "Enable Automatic Backups & Update Alerts"
+msgstr "Automatische back-ups inschakelen en waarschuwingen bijwerken"
+
+#: includes/Data/Plans/BlogPlan.php:557
+msgid "Monitor Traffic & Engagement"
+msgstr "Monitor verkeer en betrokkenheid"
+
+#: includes/Data/Plans/CorporatePlan.php:296
+msgid "Set Up Jetpack Stats"
+msgstr "Jetpack-statistieken instellen"
+
+#: includes/Data/Plans/CorporatePlan.php:329
+msgid "Add Social Sharing Settings"
+msgstr "Instellingen voor sociaal delen toevoegen"
+
+#: includes/Data/Plans/CorporatePlan.php:508
+msgid "Install Jetpack Boost or Caching Plugin"
+msgstr "Installeer Jetpack Boost of caching plugin"
+
+#: includes/Data/Plans/CorporatePlan.php:558
+msgid "Review Traffic & Engagement"
+msgstr "Bekijk Traffic & Engagement"
+
+#: includes/Data/Plans/StorePlan.php:42
+msgid "Congrats — you’ve built your store! Now it’s time to make it yours. Customize the header, footer, and homepage to give your site a personal touch."
+msgstr "Gefeliciteerd - je hebt je winkel gebouwd! Nu is het tijd om het de jouwe te maken. Pas de koptekst, voettekst en startpagina aan om uw site een persoonlijk tintje te geven."
+
+#: includes/Data/Plans/StorePlan.php:43
+msgid "Customize Store"
+msgstr "Winkel aanpassen"
+
+#: includes/Data/Plans/StorePlan.php:46
+msgid "Customize your Store"
+msgstr "Pas uw winkel aan"
+
+#: includes/Data/Plans/StorePlan.php:47
+msgid "Customize the header, footer, and homepage — just few steps to give your site a personal touch."
+msgstr "Pas de koptekst, voettekst en startpagina aan - slechts een paar stappen om uw site een persoonlijk tintje te geven."
+
+#: includes/Data/Plans/StorePlan.php:115
+msgid "Step 2: Add your first product"
+msgstr "Stap 2: Voeg je eerste product toe"
+
+#: includes/Data/Plans/StorePlan.php:116
+#: includes/Data/Plans/StorePlan.php:126
+msgid "Start bringing your store to life by adding a product in just a few simple steps."
+msgstr "Begin met het tot leven brengen van uw winkel door in slechts een paar eenvoudige stappen een product toe te voegen."
+
+#: includes/Data/Plans/StorePlan.php:117
+#: includes/Data/Plans/StorePlan.php:125
+msgid "Add product"
+msgstr "Product toevoegen"
+
+#: includes/Data/Plans/StorePlan.php:142
+msgid "Set up payments to start selling — choose your preferred payment methods and connect them in just a few clicks."
+msgstr "Stel betalingen in om te beginnen met verkopen - kies de betaalmethoden van uw voorkeur en koppel ze met slechts een paar klikken."
+
+#: includes/Data/Plans/StorePlan.php:143
+msgid "Set up Payments"
+msgstr "Betalingen instellen"
+
+#: includes/Data/Plans/StorePlan.php:165
+msgid "Personalize your cart and checkout to match your brand and give customers a seamless shopping experience"
+msgstr "Personaliseer uw winkelwagentje en afrekenservice zodat ze bij uw merk passen en bied klanten een naadloze winkelervaring"
+
+#: includes/Data/Plans/StorePlan.php:166
+msgid "Start Now"
+msgstr "Begin nu"
+
+#: includes/Data/Plans/StorePlan.php:164
+#: includes/Data/Plans/StorePlan.php:168
+msgid "Setup the shopping experience"
+msgstr "Stel de winkelervaring in"
+
+#: includes/Data/Plans/StorePlan.php:169
+msgid "Personalize your cart and checkout experience, and configure taxes and shipping options"
+msgstr "Personaliseer uw winkelwagentje en afrekenervaring en configureer belastingen en verzendopties"
+
+#: includes/Data/Plans/StorePlan.php:173
+msgid "Customize the shop page"
+msgstr "Pas de winkelpagina aan"
+
+#: includes/Data/Plans/StorePlan.php:185
+msgid "Customize the cart page"
+msgstr "Pas de winkelwagenpagina aan"
+
+#: includes/Data/Plans/StorePlan.php:197
+msgid "Customize the checkout flow"
+msgstr "Pas de afrekenstroom aan"
+
+#: includes/Data/Plans/StorePlan.php:211
+#: includes/Data/Plans/StorePlan.php:215
+msgid "Build your marketing strategy"
+msgstr "Bouw uw marketingstrategie"
+
+#: includes/Data/Plans/StorePlan.php:212
+msgid "Kickstart your store’s success with smart marketing strategies. Just few steps to build visibility, attract shoppers, and turn visits into loyal sales."
+msgstr "Geef het succes van uw winkel een kickstart met slimme marketingstrategieën. Slechts enkele stappen om zichtbaarheid op te bouwen, shoppers aan te trekken en bezoeken om te zetten in loyale verkopen."
+
+#: includes/Data/Plans/StorePlan.php:213
+#: includes/Data/Plans/StorePlan.php:260
+#: includes/Data/Plans/StorePlan.php:283
+#: includes/Data/Plans/StorePlan.php:305
+#: includes/Data/Plans/StorePlan.php:327
+msgid "Start now"
+msgstr "Begin nu"
+
+#: includes/Data/Plans/StorePlan.php:216
+msgid "Kickstart your store’s success with smart marketing strategies"
+msgstr "Geef het succes van uw winkel een kickstart met slimme marketingstrategieën"
+
+#: includes/Data/Plans/StorePlan.php:220
+msgid "Configure a welcome discount popup"
+msgstr "Configureer een pop-up met welkomstkorting"
+
+#: includes/Data/Plans/StorePlan.php:232
+msgid "Create a gift card to sell in your shop"
+msgstr "Maak een cadeaubon aan om in je winkel te verkopen"
+
+#: includes/Data/Plans/StorePlan.php:244
+msgid "Customize your store emails"
+msgstr "Pas de e-mails van uw winkel aan"
+
+#: includes/Data/Plans/StorePlan.php:258
+#: includes/Data/Plans/StorePlan.php:266
+msgid "Improve the performance and speed of your shop"
+msgstr "Verbeter de prestaties en snelheid van uw winkel"
+
+#: includes/Data/Plans/StorePlan.php:259
+msgid "Speed up your store by optimizing page performance with Jetpack Boost. Easily activate one-click optimizations to boost your Core Web Vitals."
+msgstr "Versnel je winkel door de paginaprestaties te optimaliseren met Jetpack Boost. Activeer eenvoudig optimalisaties met één klik om uw Core Web Vitals een boost te geven."
+
+#: includes/Data/Plans/StorePlan.php:280
+msgid "Collect and show reviews for your products"
+msgstr "Verzamel en toon reviews voor uw producten"
+
+#: includes/Data/Plans/StorePlan.php:281
+msgid "Collect authentic reviews from your customers to build trust, highlight product quality, and help increase conversions."
+msgstr "Verzamel authentieke beoordelingen van uw klanten om vertrouwen op te bouwen, de productkwaliteit te benadrukken en conversies te verhogen."
+
+#: includes/Data/Plans/StorePlan.php:288
+msgid "Collect and Show Reviews for Your Products"
+msgstr "Verzamel en toon beoordelingen voor uw producten"
+
+#: includes/Data/Plans/StorePlan.php:302
+#: includes/Data/Plans/StorePlan.php:310
+msgid "Launch an affiliate program"
+msgstr "Start een affiliate programma"
+
+#: includes/Data/Plans/StorePlan.php:303
+msgid "Launch your own affiliate program to promote your products, reach new audiences and grow sales."
+msgstr "Start uw eigen partnerprogramma om uw producten te promoten, nieuwe doelgroepen te bereiken en de verkoop te laten groeien."
+
+#: includes/Data/Plans/StorePlan.php:324
+#: includes/Data/Plans/StorePlan.php:332
+msgid "Setup Yoast Premium to drive traffic to your store"
+msgstr "Stel Yoast Premium in om verkeer naar je winkel te leiden"
+
+#: includes/Data/Plans/StorePlan.php:325
+msgid "Optimize your content for search engines to improve rankings, attract more visitors, and boost your store’s visibility online."
+msgstr "Optimaliseer uw inhoud voor zoekmachines om de positie te verbeteren, meer bezoekers aan te trekken en de online zichtbaarheid van uw winkel te vergroten."
+
+#: build/next-steps-portal/bundle.js:1
+msgid "No Pending tasks"
+msgstr "Geen taken in behandeling"
+
+#: build/next-steps-portal/bundle.js:1
+msgid "Hooray!"
+msgstr "Hoera!"
+
+#: build/next-steps-portal/bundle.js:1
+msgid "You don’t have any pending tasks today"
+msgstr "Je hebt vandaag geen openstaande taken"
+
+#: build/next-steps-portal/bundle.js:1
+msgid "Completed"
+msgstr "Volbracht"
+
+#: build/next-steps-portal/bundle.js:1
+msgid "Skipped"
+msgstr "Overgeslagen"
+
+#: build/next-steps-portal/bundle.js:1
+msgid "Skip it"
+msgstr "Sla het over"
+
+#: build/next-steps-portal/bundle.js:1
+msgid "Undo"
+msgstr "Ongedaan maken"
+
+#: includes/StepsApi.php:506
+#: includes/StepsApi.php:535
+#: includes/StepsApi.php:601
+#: includes/StepsApi.php:651
+#: includes/StepsApi.php:717
+#: includes/StepsApi.php:746
+msgid "Plan not found."
+msgstr "Plan niet gevonden."
+
+#: includes/StepsApi.php:511
+msgid "Task not found."
+msgstr "Taak niet gevonden."
+
+#: includes/StepsApi.php:540
+msgid "Updated task not found."
+msgstr "Bijgewerkte taak niet gevonden."
+
+#: includes/StepsApi.php:656
+msgid "Updated section not found."
+msgstr "Bijgewerkte sectie niet gevonden."
+
+#: includes/Data/Plans/StorePlan.php:36
+msgid "Next Steps for your store"
+msgstr "Volgende stappen voor uw winkel"
+
+#: includes/Data/Plans/BlogPlan.php:57
+msgid "Basic blog setup"
+msgstr "Basis blog instellen"
+
+#: includes/Data/Plans/BlogPlan.php:77
+msgid "Customize your blog"
+msgstr "Pas je blog aan"
+
+#: includes/Data/Plans/BlogPlan.php:128
+msgid "Create content"
+msgstr "Content maken"
+
+#: includes/Data/Plans/BlogPlan.php:167
+msgid "Set up navigation"
+msgstr "Navigatie instellen"
+
+#: includes/Data/Plans/BlogPlan.php:206
+msgid "Set up essential pages"
+msgstr "Essentiële pagina's instellen"
+
+#: includes/Data/Plans/BlogPlan.php:291
+msgid "Social presence"
+msgstr "Sociale aanwezigheid"
+
+#: includes/Data/Plans/BlogPlan.php:330
+msgid "SEO & visibility"
+msgstr "SEO & zichtbaarheid"
+
+#: includes/Data/Plans/BlogPlan.php:375
+msgid "Enhance reader experience"
+msgstr "Verbeter de lezerservaring"
+
+#: includes/Data/Plans/BlogPlan.php:425
+msgid "Advanced social & influencer marketing"
+msgstr "Geavanceerde social & influencer marketing"
+
+#: includes/Data/Plans/BlogPlan.php:475
+msgid "Content & traffic strategy"
+msgstr "Content & traffic strategie"
+
+#: includes/Data/Plans/BlogPlan.php:514
+msgid "Performance & security"
+msgstr "Prestaties en beveiliging"
+
+#: includes/Data/Plans/BlogPlan.php:553
+msgid "Blog analytics"
+msgstr "Blog analyse"
+
+#: includes/Data/Plans/CorporatePlan.php:66
+msgid "Corporate setup"
+msgstr "Zakelijke opzet"
+
+#: includes/Data/Plans/CorporatePlan.php:76
+msgid "Basic site setup"
+msgstr "Basisinstellingen van de site"
+
+#: includes/Data/Plans/CorporatePlan.php:96
+msgid "Customize your website"
+msgstr "Pas uw website aan"
+
+#: includes/Data/Plans/CorporatePlan.php:158
+msgid "Configure navigation"
+msgstr "Navigatie configureren"
+
+#: includes/Data/Plans/CorporatePlan.php:197
+msgid "Add legal & trust content"
+msgstr "Voeg juridische en vertrouwensinhoud toe"
+
+#: includes/Data/Plans/CorporatePlan.php:242
+msgid "Establish your brand online"
+msgstr "Vestig uw merk online"
+
+#: includes/Data/Plans/CorporatePlan.php:257
+msgid "Create a favicon"
+msgstr "Maak een favicon"
+
+#: includes/Data/Plans/CorporatePlan.php:292
+msgid "Launch essential marketing tools"
+msgstr "Lanceer essentiële marketingtools"
+
+#: includes/Data/Plans/CorporatePlan.php:342
+msgid "Set up contact & engagement"
+msgstr "Contact & engagement instellen"
+
+#: includes/Data/Plans/CorporatePlan.php:387
+msgid "Strengthen online presence"
+msgstr "Versterk de online aanwezigheid"
+
+#: includes/Data/Plans/CorporatePlan.php:415
+msgid "Build content for SEO & trust"
+msgstr "Bouw inhoud voor SEO en vertrouwen"
+
+#: includes/Data/Plans/CorporatePlan.php:465
+msgid "Marketing & lead generation"
+msgstr "Marketing & leadgeneratie"
+
+#: includes/Data/Plans/CorporatePlan.php:504
+msgid "Site performance & security"
+msgstr "Prestaties en beveiliging van de site"
+
+#: includes/Data/Plans/CorporatePlan.php:554
+msgid "Monitor & improve"
+msgstr "Monitoren en verbeteren"
+
+#: includes/Data/Plans/StorePlan.php:41
+msgid "Step 1: Build your store"
+msgstr "Stap 1: Bouw je winkel"
+
+#: includes/Data/Plans/StorePlan.php:141
+msgid "Step 3: Set up payments"
+msgstr "Stap 3: Betalingen instellen"
+
+#: includes/Data/Plans/StorePlan.php:150
+msgid "Set up payments"
+msgstr "Betalingen instellen"

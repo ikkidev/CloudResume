@@ -1,0 +1,61 @@
+.wpgdprc-comparison-slider {
+    justify-self: center;
+    align-self: center;
+
+    position: relative;
+    height: auto;
+
+    margin: rem-calc(12);
+}
+
+.wpgdprc-comparison-slider__top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+    clip: rect(auto, auto, auto, auto);
+}
+
+.wpgdprc-comparison-slider__image-wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+.wpgdprc-comparison-slider__line {
+    height: 100%;
+    width: rem-calc(4);
+    background-color: $color-primary;
+
+    cursor: grabbing;
+
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+.wpgdprc-comparison-slider__button {
+    height: rem-calc(32);
+    width: rem-calc(32);
+    background-color: $color-primary;
+    border-radius: 100%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translateX(-50%) translateY(-50%);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .icon--wrap {
+        height: rem-calc(16);
+
+        svg.icon {
+            fill: $color-white;
+            vertical-align: bottom;
+        }
+    }
+}

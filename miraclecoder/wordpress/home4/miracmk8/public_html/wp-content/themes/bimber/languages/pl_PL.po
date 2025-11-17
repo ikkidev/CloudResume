@@ -1,0 +1,3868 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bimber\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2020-05-14 08:13+0000\n"
+"Last-Translator: admin <dev-email@flywheel.local>\n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10 >= 2 && n%10<=4 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"POT-Creation-Date: 2020-05-11 14:35+0000\n"
+"X-Loco-Version: 2.3.1; wp-5.4.1"
+
+msgctxt "widgets"
+msgid ""
+"<div class=\"g1-meta\">%1$s on </div><div class=\"entry-title g1-epsilon g1-"
+"epsilon-1st\">%2$s</div>"
+msgstr ""
+"<div class=\"g1-meta\">%1$s do </div><div class=\"entry-title g1-epsilon g1-"
+"epsilon-1st\">%2$s</div>"
+
+msgid "Ooops, sorry! We couldn't find it"
+msgstr "Ups, wybacz! Strona nie została znaleziona"
+
+msgid "You have requested a page or file which doesn't exist"
+msgstr "Żądana strona lub plik nie istnieje"
+
+msgid "Search Our Website"
+msgstr "Przeszukaj naszą stronę"
+
+msgid "Report a Problem"
+msgstr "Zgłoś problem"
+
+msgid ""
+"Please write some descriptive information about your problem, and email our "
+"<a href=\"%s\">webmaster</a>."
+msgstr ""
+"Proszę napisz konkretnie co poszło nie tak, i wyślij maila do naszego <a "
+"href=\"%s\">webmasters</a>."
+
+msgid "Back to the Homepage"
+msgstr "Wróć do strony głównej"
+
+msgid ""
+"You can also <a href=\"%s\">go back to the homepage</a> and start browsing "
+"from there."
+msgstr "Możesz również wrócić do strony głównej i przeglądać od nowa."
+
+msgid "Page: Intermediate"
+msgstr "Strona: Pośrednia"
+
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "Jeden komentarz"
+msgstr[1] "%1$s komentarze"
+msgstr[2] "%1$s komentarzy"
+
+msgid "Leave a Reply"
+msgstr "Dodaj odpowiedź"
+
+msgid "Pages"
+msgstr "Strony"
+
+msgid "One Ping"
+msgid_plural "%1$s Pings & Trackbacks"
+msgstr[0] "Jeden ping"
+msgstr[1] "%1$s pingi oraz trackbacki"
+msgstr[2] "%1$s pingów oraz trackbacków"
+
+msgid "Posts by %s"
+msgstr "Wpisy dodane przez %s"
+
+msgid "Continue reading"
+msgstr "Czytaj dalej"
+
+msgid "Page: No Sidebar"
+msgstr "Strona: bez paska bocznego"
+
+msgid "Search Results for: %s"
+msgstr "Wyniki wyszukiwania dla: %s"
+
+msgid "Yearly Archives"
+msgstr "Archiwum roczne"
+
+msgid "Monthly Archives"
+msgstr "Archiwum miesięczne"
+
+msgid "Daily Archives"
+msgstr "Archiwum dzienne"
+
+msgid "Back to Top"
+msgstr "Wróć do góry"
+
+msgid "View community profile"
+msgstr "Zobacz profil społecznościowy"
+
+msgctxt "placeholder"
+msgid "Search for:"
+msgstr "Szukaj:"
+
+msgctxt "submit button"
+msgid "Search"
+msgstr "Szukaj"
+
+msgid ""
+"This product cannot be displayed. Please check if there are products in the "
+"product injection category you selected."
+msgstr ""
+"Produkt nie może zostać wyświetlony. Proszę sprawdź czy do wybranej "
+"kategorii przypisane są jakieś produkty."
+
+msgid ""
+"This product cannot be displayed. The <strong>%s</strong> plugin is not "
+"activated."
+msgstr ""
+"Produkt nie może zostać wyświetlony. Wtyczka <strong>%s</strong> nie jest "
+"aktywna."
+
+msgid "Rank"
+msgstr "Ranking"
+
+msgid "Injection slot %d"
+msgstr "Pozycja wstrzyknięcia %d"
+
+msgid "No \"id\" was set in the arguments array for the slot."
+msgstr "Argument \"id\" nie został podany dla tego miejsca na reklamę."
+
+msgid "No \"render_callback\" was set in the arguments array for the slot."
+msgstr ""
+"Argument \"render_callback\" nie został ustawiony dla tego miejsca na "
+"reklamę."
+
+msgid "Primary Navigation"
+msgstr "Podstawowa nawigacja"
+
+msgid "Secondary Navigation"
+msgstr "Dodatkowa nawigacja"
+
+msgid "User Navigation"
+msgstr "Nawigacja użytkownika"
+
+msgid "Footer Navigation"
+msgstr "Nawigacja w stopce"
+
+msgid "Home Filters"
+msgstr "Filtry strony głównej"
+
+msgid "More stories"
+msgstr "Więcej treści"
+
+msgid "Latest stories"
+msgstr "Ostatnie treści"
+
+msgid "Most Viewed"
+msgstr "Najczęściej oglądane"
+
+msgid "Most Shared"
+msgstr "Najczęściej udostępniane"
+
+msgid "Subterms"
+msgstr "Podkategorie"
+
+msgid "View Gallery"
+msgstr "Zobacz galerię"
+
+msgid "Read More"
+msgstr "Czytaj więcej"
+
+msgid "More"
+msgstr "Więcej"
+
+msgctxt "formatted number suffix"
+msgid "M"
+msgstr "mln."
+
+msgctxt "formatted number suffix"
+msgid "k"
+msgstr "tys."
+
+msgctxt "Type of comments"
+msgid "Our site <span class=\"count\">%d</span>"
+msgstr "Nasza strona <span class=\"count\">%d</span>"
+
+msgctxt "Type of comments"
+msgid "Our site"
+msgstr "Nasza strona"
+
+msgctxt "font family"
+msgid "Font"
+msgstr "Font"
+
+msgctxt "font style"
+msgid "Style"
+msgstr "Styl"
+
+msgctxt "font size"
+msgid "Size"
+msgstr "Rozmiar"
+
+msgid "Line Height"
+msgstr "Wysokość linii"
+
+msgid "Letter Spacing"
+msgstr "Odstęp międzyliterowy"
+
+msgid "Text Transform"
+msgstr "Transformacja tekstu"
+
+msgid "- None -"
+msgstr "- Żadny -"
+
+msgctxt "text transform"
+msgid "don't change"
+msgstr "nie zmieniaj"
+
+msgctxt "text transform"
+msgid "UPPERCASE"
+msgstr "DUŻE LITERY"
+
+msgctxt "text transform"
+msgid "lowercase"
+msgstr "małe litery"
+
+msgctxt "text transform"
+msgid "Capitalize Each Word"
+msgstr "Każde Słowo Z Wielkiej Litery"
+
+msgid "Sans Serif Google Fonts"
+msgstr "Fonty bezszeryfowe z Google Fonts"
+
+msgid "Serif Google Fonts"
+msgstr "Fonty szeryfowe z Google Fonts"
+
+msgid "Display Google Fonts"
+msgstr "Fonty nagłówkowe z Google Fonts"
+
+msgid "Handwriting Google Fonts"
+msgstr "Fonty odręczne z Google Fonts"
+
+msgid "Monospace Google Fonts"
+msgstr "Fonty o stałej szerokości liter z Google Fonts"
+
+msgctxt "font option"
+msgid "Thin"
+msgstr "Nacieńszy"
+
+msgctxt "font option"
+msgid "Extra Light"
+msgstr "Cieńszy"
+
+msgctxt "font option"
+msgid "Light"
+msgstr "Cienki"
+
+msgctxt "font option"
+msgid "Normal"
+msgstr "Zwykły"
+
+msgctxt "font option"
+msgid "Medium"
+msgstr "Lekko pogrubiony"
+
+msgctxt "font option"
+msgid "Semi Bold"
+msgstr "Półgruby"
+
+msgctxt "font option"
+msgid "Bold"
+msgstr "Gruby"
+
+msgctxt "font option"
+msgid "Extra Bold"
+msgstr "Grubszy"
+
+msgctxt "font option"
+msgid "Black"
+msgstr "Najgrubszy"
+
+msgctxt "font option"
+msgid "Italic"
+msgstr "Pochylony"
+
+msgctxt "font option"
+msgid "Regular"
+msgstr "Podstawowy"
+
+msgid "Default Web Fonts"
+msgstr "Standardowe fonty"
+
+msgid "Search term not set!"
+msgstr "Nie ustawiono frazy wyszukiwania!"
+
+msgid "Search params missing!"
+msgstr "Brakuje parametrów wyszukiwania!"
+
+msgid "Post id not set!"
+msgstr "Nie ustawiono identyfikatora wpisu!"
+
+msgctxt "tag delimiter"
+msgid ","
+msgstr ","
+
+msgid "Shares"
+msgstr "Polubienia"
+
+msgid "Views"
+msgstr "Odsłony"
+
+msgid "<strong itemprop=\"commentCount\">0</strong> <span>Comments</span>"
+msgstr "<strong itemprop=\"commentCount\">0</strong> <span>komentarzy</span>"
+
+msgid "<strong itemprop=\"commentCount\">1</strong> <span>Comment</span>"
+msgstr "<strong itemprop=\"commentCount\">1</strong> <span>komentarz</span>"
+
+msgid "<strong itemprop=\"commentCount\">%</strong> <span>Comments</span>"
+msgstr "<strong itemprop=\"commentCount\">%</strong> <span>komentarzy</span>"
+
+msgid "Downloads"
+msgstr "Pobrania"
+
+msgid "Votes"
+msgstr "Głosy"
+
+msgid "in"
+msgstr "w"
+
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr "% temu"
+
+msgid "by"
+msgstr "przez"
+
+msgid "Trending"
+msgstr "Wschodzące"
+
+msgid "Hot"
+msgstr "Gorące"
+
+msgid "Popular"
+msgstr "Popularne"
+
+msgid "Open list"
+msgstr "Otwarta lista"
+
+msgid "Next post"
+msgstr "Następny wpis"
+
+msgctxt "sidebar name"
+msgid "Primary"
+msgstr "Podstawowy"
+
+msgctxt "sidebar name"
+msgid "Secondary"
+msgstr "Dodatkowy"
+
+msgctxt "sidebar name"
+msgid "Home"
+msgstr "Strona główna"
+
+msgid "Leave empty to use the Primary sidebar"
+msgstr "Pozostaw pusty aby użyć Podstawowego Paska Bocznego"
+
+msgid "Home 2nd"
+msgstr "Strona główna 2"
+
+msgid "Leave empty to use the Secondary sidebar"
+msgstr "Pozostaw pusty aby użyć Dodatkowego Paska Bocznego"
+
+msgctxt "sidebar name"
+msgid "Single Post"
+msgstr "Pojedynczy wpis"
+
+msgctxt "sidebar name"
+msgid "Post Archives"
+msgstr "Archiwa wpisów"
+
+msgid ""
+"For posts archive pages (categories, tags). Leave empty to use the Primary "
+"sidebar"
+msgstr ""
+"Dla stron archiwum wpisów (kategorie, tagi). Pozostaw puste by użyć głównego "
+"paska bocznego"
+
+msgid "Post Archives 2nd"
+msgstr "Archiwum wpisów 2"
+
+msgid ""
+"For posts archive pages (categories, tags). Leave empty to use the Secondary "
+"sidebar"
+msgstr ""
+"Dla stron archiwum wpisów (kategorie, tagi). Pozostaw puste by użyć "
+"dodatkowego paska bocznego"
+
+msgctxt "sidebar name"
+msgid "Pages"
+msgstr "Strony"
+
+msgctxt "sidebar name"
+msgid "Footer %d"
+msgstr "Stopka %d"
+
+msgid "Not Safe For Work"
+msgstr "Not Safe For Work"
+
+msgid "Click to view this post"
+msgstr "Kliknij by zobaczyć wpis"
+
+msgid "View full post"
+msgstr "Zobacz pełny wpis"
+
+msgid "Native comments tab"
+msgstr "Zakładka natywnych komentarzy"
+
+msgid "Latest"
+msgstr "Ostatnie"
+
+msgctxt "Top page"
+msgid "Today"
+msgstr "Dzisiaj"
+
+msgctxt "Top page"
+msgid "This month"
+msgstr "Ten miesiąc"
+
+msgctxt "Top page"
+msgid "All time"
+msgstr "Wszechczasów"
+
+msgid "Logo"
+msgstr "Logo"
+
+msgid "Mobile Logo"
+msgstr "Mobilne logo"
+
+msgid "Primary Nav"
+msgstr "Nawigacja główna"
+
+msgid "Secondary Nav"
+msgstr "Nawigacja pomicnicza"
+
+msgid "Hamburger"
+msgstr "Hamburger menu"
+
+msgid "Quick Nav"
+msgstr "Szybka nawigacja"
+
+msgid "Top X link"
+msgstr "Link Najlepsze X "
+
+msgid "Quick Nav (small)"
+msgstr "Szybka nawigacja (mała)"
+
+msgid "Social icons list"
+msgstr "Lista ikonek społecznościowych"
+
+msgid "Social icons dropdown"
+msgstr "Element rozwijany Ikony społecznościowe"
+
+msgid "Search Dropdown"
+msgstr "Pole wyszukiwania typu dropdown"
+
+msgid "Search Form"
+msgstr "Formularz wyszukiwania"
+
+msgid "Skin Switcher"
+msgstr "Przełącznik skórek"
+
+msgid "NSFW Switcher"
+msgstr "Przełącznik NSFW"
+
+msgid "User Dropdown"
+msgstr "List użytkowników typu dropdown"
+
+msgid "Create Button"
+msgstr "Przycisk Stwórz"
+
+msgid "Language Selector"
+msgstr "Wybór języka"
+
+msgid "Cart Dropdown"
+msgstr "Pole Koszyk typu dropdow"
+
+msgid "Ad Slot"
+msgstr "Miejsce na reklamę"
+
+msgid "Newsletter Dropdown"
+msgstr "Element rozwijany Newsletter"
+
+msgid "says:"
+msgstr "mówi:"
+
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s o %2$s"
+
+msgid "Edit"
+msgstr "Edytuj"
+
+msgid "Your comment is awaiting moderation."
+msgstr "Twój komentarz oczekuje na moderację."
+
+msgid "Pingback:"
+msgstr "Pingback:"
+
+msgid "Name"
+msgstr "Nazwa"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Website"
+msgstr "Strona internetowa"
+
+msgid "Comment"
+msgstr "Komentarz"
+
+msgid "Recent"
+msgstr "Ostatnie"
+
+msgid "none"
+msgstr "żadny"
+
+msgid "All time"
+msgstr "Wszechczasów"
+
+msgid "Last 30 days"
+msgstr "Ostatnie 30 dni"
+
+msgid "Last 7 days"
+msgstr "Ostatnie 7 dni"
+
+msgid "Last 24 hours"
+msgstr "Ostatnie 24 godziny"
+
+msgid "Load More"
+msgstr "Załaduj więcej"
+
+msgid "Infinite Scroll"
+msgstr "Nieskończone przewijanie"
+
+msgid "Infinite Scroll (first load via click)"
+msgstr "Nieskończone przewijanie (pierwsze załadowanie po kliknięciu)"
+
+msgid "Prev/Next Pages"
+msgstr "Poprzednia/Następna strony"
+
+msgid "Featured Media"
+msgstr "Wyróżnione media"
+
+msgid "Categories"
+msgstr "Kategorie"
+
+msgid "Subtitle"
+msgstr "Podtytuł"
+
+msgid "Summary"
+msgstr "Podsumowanie"
+
+msgid "Author"
+msgstr "Autor"
+
+msgid "Avatar"
+msgstr "Awatar"
+
+msgid "Date"
+msgstr "Data"
+
+msgid "Comments Link"
+msgstr "Link do komentarzy"
+
+msgid "Call to Action"
+msgstr "Wezwanie do działania"
+
+msgid "Archive Image"
+msgstr "Obrazek Archiwum"
+
+msgid "Breadcrumbs"
+msgstr "Nawigacja okruszkowa"
+
+msgid "Title"
+msgstr "Tytuł"
+
+msgid "Description"
+msgstr "Opis"
+
+msgid "Archive Filters"
+msgstr "Filtry archiwum"
+
+msgid "inject into post collection"
+msgstr "wstrzyknij do kolekcji wpisów"
+
+msgid "Hide"
+msgstr "Schowaj"
+
+msgid "Yes"
+msgstr "Tak"
+
+msgid "No"
+msgstr "Nie"
+
+msgid "Oldest"
+msgstr "Najstarsze"
+
+msgid "Most Discussed"
+msgstr "Najczęściej komentowane"
+
+msgid "3 columns"
+msgstr "3 kolumny"
+
+msgid "4 columns"
+msgstr "4 kolumny"
+
+msgid "Become a Patron"
+msgstr "Zostań patronem"
+
+msgid "<strong>%d</strong> submission already"
+msgid_plural "<strong>%d</strong> submissions already"
+msgstr[0] "<strong>%d</strong> zgłoszenie dotychczas"
+msgstr[1] "<strong>%d</strong> zgłoszenia dotychczas"
+msgstr[2] "<strong>%d</strong> zgłoszeń dotychczas"
+
+msgid "End date:"
+msgstr "Data zakończenia:"
+
+msgid "Ends in"
+msgstr "Kończy się za"
+
+msgid "+ Add yours"
+msgstr "+ Dodaj Twój"
+
+msgid "+ Add first item"
+msgstr "+ Dodaj pierwszą pozycję"
+
+msgid "Most viewed stories"
+msgstr "Najczęściej oglądane treści"
+
+msgid "Most shared stories"
+msgstr "Najczęściej udostępnione treści"
+
+msgid "Previous"
+msgstr "Poprzedni"
+
+msgid "Next"
+msgstr "Następny"
+
+msgid "No featured entries match the criteria."
+msgstr "Żaden wyróżniony wpis nie spełnia kryteriów."
+
+msgid "For more information please refer to the documentation."
+msgstr "Aby uzyskać więcej informacji odwołaj się proszę do dokumentacji."
+
+msgid "You May Also Like"
+msgstr "Może Ci się spodobać"
+
+msgid "Written by <a href=\"%s\"><span itemprop=\"name\" >%s</span></a>"
+msgstr "Napisane przez <a href=\"%s\"><span itemprop=\"name\" >%s</span></a>"
+
+msgid "See more"
+msgstr "Zobacz więcej"
+
+msgid "Previous article"
+msgstr "Poprzedni artykuł"
+
+msgid "Next article"
+msgstr "Następny artykuł"
+
+msgid "Sorry. No data so far."
+msgstr "Przepraszamy. Brak danych."
+
+msgid "Total"
+msgstr "Łącznie"
+
+msgid "Today"
+msgstr "Dzisiaj"
+
+msgid "Best"
+msgstr "Najlepszy"
+
+msgid "View all points"
+msgstr "Zobacz wszystkie punkty"
+
+msgid "Apologies, but no results were found."
+msgstr "Wybacz, ale nie znaleziono żadnych wyników."
+
+msgid "View comments"
+msgstr "Zobacz komentarze"
+
+msgid "Comments"
+msgstr "Komentarze"
+
+msgid "Don't Miss"
+msgstr "Nie przegap"
+
+msgid "View all formats"
+msgstr "Zobacz wszystkie formaty"
+
+msgid "List item"
+msgstr "Pozycja na liście"
+
+msgid "Submitted to <a href=\"%s\">\"%s\"</a>"
+msgstr "Przesłane do \"%s\""
+
+msgid "Approved"
+msgstr "Zatwierdzony"
+
+msgid "Pending for review"
+msgstr "Oczekuje na akceptację"
+
+msgid "View all results"
+msgstr "Zobacz wszystkie wyniki"
+
+msgid "More From: <a href=\"%s\">%s</a>"
+msgstr "Więcej z: <a href=\"%s\">%s</a>"
+
+msgctxt "Top page"
+msgid "All collections are disabled."
+msgstr "Wszystkie kolekcje są wyłączone."
+
+msgid ""
+"Please check if the Wordpress Popular Posts plugin is activated. The theme "
+"uses it to calculate this list entries."
+msgstr ""
+"Sprawdź proszę czy wtyczka Wordpress Popular Posts jest aktywowana. Motyw "
+"używa jej by wygenerować tę listę."
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "See the full version of this page"
+msgstr "Zobacz pełną wersję strony"
+
+msgid "Go to the Shop"
+msgstr "Idź do Sklepu"
+
+msgid "Body text"
+msgstr "Zwykły tekst"
+
+msgid "Giga Heading"
+msgstr "Nagłówek giga"
+
+msgid "Mega Heading"
+msgstr "Nagłówek mega"
+
+msgid "H1 Heading"
+msgstr "Nagłówek H1"
+
+msgid "H2 Heading"
+msgstr "Nagłówek H2"
+
+msgid "H3 Heading"
+msgstr "Nagłówek H3"
+
+msgid "H4 Heading"
+msgstr "Nagłówek H4"
+
+msgid "H5 Heading"
+msgstr "Nagłówek H5"
+
+msgid "H6 Heading"
+msgstr "Nagłówek H6"
+
+msgid "Subheading H3"
+msgstr "Podtytuł H3"
+
+msgid "Subheading H4"
+msgstr "Podtytuł H4"
+
+msgid "Metatext"
+msgstr "Metatekst"
+
+msgid "Submenus"
+msgstr "Podmenu"
+
+msgid "Buttons"
+msgstr "Przyciski"
+
+msgid "Tabs"
+msgstr "Zakładki"
+
+msgid "Blockquotes"
+msgstr "Cytaty"
+
+msgid "Loading&hellip;"
+msgstr "Ładowanie&hellip;"
+
+msgctxt "Type of comments"
+msgid "Disqus <span class=\"count\">%d</span>"
+msgstr "Disqus <span class=\"count\">%d</span>"
+
+msgctxt "Type of comments"
+msgid "Disqus"
+msgstr "Disqus"
+
+msgctxt "Type of comments"
+msgid "Facebook <span class=\"count\">%d</span>"
+msgstr "Facebook <span class=\"count\">%d</span>"
+
+msgctxt "Type of comments"
+msgid "Facebook"
+msgstr "Facebook"
+
+msgctxt "Youzer Integration"
+msgid ""
+"Youzer plugin is active and overrides this option. Manage the login popup "
+"using Youzer %s"
+msgstr ""
+"Wtyczka Youzer jest aktywna i nadpisuje tą opcje. Zarządzaj Okienkiem "
+"Logowania używając Youzer"
+
+msgctxt "Youzer Integration"
+msgid ""
+"Youzer plugin is active and overrides this option. Manage the social login "
+"using Youzer %s"
+msgstr ""
+"Wtyczka Youzer jest aktywna i nadpisuje tą opcje. Zarządzaj Logowanie przy "
+"użyciu portali społecznościowych używając Youzer"
+
+msgctxt "Youzer Integration"
+msgid ""
+"Youzer plugin is active and overrides this option. Manage the captcha "
+"protection using Youzer %s"
+msgstr ""
+"Wtyczka Youzer jest aktywna i nadpisuje tą opcje. Zarządzaj Ochroną Captcha "
+"używając Youzer"
+
+msgctxt "BuddyPress register form"
+msgid "Register with your social network:"
+msgstr "Zarejestruj się przez twoją sięć społecznościową:"
+
+msgctxt "BuddyPress register form"
+msgid "With social network:"
+msgstr "Używając sieci społecznościowej:"
+
+msgctxt "BuddyPress register form"
+msgid "Or register with your email:"
+msgstr "Lub zarejestruj się przez adres email:"
+
+msgid "Before header theme area"
+msgstr "Przed nagłówkiem"
+
+msgid "Before content theme area"
+msgstr "Przed główną treścią"
+
+msgid "After featured entries"
+msgstr "Za wyróżnionymi wpisami"
+
+msgid "Before \"You May Also Like\" section"
+msgstr "Przed sekcją \"Może Ci się spodobać\""
+
+msgid "Before \"More From\" section"
+msgstr "Przed sekcją \"Więcej z\""
+
+msgid "Before comments area"
+msgstr "Przed komentarzami"
+
+msgid "Before \"Don't Miss\" section"
+msgstr "Przed sekcją \"Nie przegap\""
+
+msgid "Inside grid collection"
+msgstr "Wewnątrz kolekcji siatka"
+
+msgid "Inside list collection"
+msgstr "Wewnątrz kolekcji lista"
+
+msgid "Inside classic collection"
+msgstr "Wewnątrz kolekcji klasycznej"
+
+msgid "Inside stream collection"
+msgstr "Wewnątrz kolekcji strumień"
+
+msgid "On the left side of stream collection"
+msgstr "Po lewej stronie kolekcji strumień."
+
+msgid "On the right side of stream collection"
+msgstr "Po prawej stronie kolekcji strumień"
+
+msgid "Media"
+msgstr "Pliki medialne"
+
+msgid "Icon"
+msgstr "Ikona"
+
+msgid "Add Image"
+msgstr "Dodaj obrazek"
+
+msgid "Remove Image"
+msgstr "Usuń obrazek"
+
+msgid "Image"
+msgstr "Obrazek"
+
+msgid "Label"
+msgstr "Etykieta"
+
+msgid "Background Color"
+msgstr "Kolor tła"
+
+msgid "Header"
+msgstr "Nagłówek"
+
+msgid "Edit Default Options"
+msgstr "Edytuj opcje domyślne"
+
+msgid "Header Composition"
+msgstr "Kompozycja nagłówka"
+
+msgid "default (%s)"
+msgstr "domyślnie (%s)"
+
+msgid "Hide Elements"
+msgstr "Schowaj elementy"
+
+msgid "Default"
+msgstr "Domyślnie"
+
+msgid "Change"
+msgstr "Zmień"
+
+msgid "Optional Background Gradient"
+msgstr "Opcjonalny gradient tła"
+
+msgid "Optional Text Color"
+msgstr "Opcjonalny kolor tekstu"
+
+msgid "Background Image"
+msgstr "Obrazek tła"
+
+msgid "Background Size"
+msgstr "Rozmiar tła"
+
+msgctxt "background size option"
+msgid "auto"
+msgstr "automatyczny"
+
+msgctxt "background size option"
+msgid "cover"
+msgstr "wypełnij obszar w całości"
+
+msgctxt "background size option"
+msgid "contain"
+msgstr "zmieść w obszarze"
+
+msgid "Background Repeat"
+msgstr "Powtarzanie tła"
+
+msgctxt "background repeat option"
+msgid "no repeat"
+msgstr "nie powtarzaj"
+
+msgctxt "background repeat option"
+msgid "repeat"
+msgstr "powtarzaj"
+
+msgctxt "background repeat option"
+msgid "repeat x"
+msgstr "powtarzaj w poziomie"
+
+msgctxt "background repeat option"
+msgid "repeat y"
+msgstr "powtarzaj w pionie"
+
+msgid "Featured Entries"
+msgstr "Wyróżnione wpisy"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Leave empty to use the default value"
+msgstr "Pozostaw puste by użyć domyślnej wartości"
+
+msgid "Hide Title"
+msgstr "Schowaj tytuł"
+
+msgid "Template"
+msgstr "Szablon"
+
+msgid "Gutter"
+msgstr "Przerwa między kolumnami"
+
+msgid "Time Range"
+msgstr "Zakres czasowy"
+
+msgid "Main Collection"
+msgstr "Główna kolekcja"
+
+msgid "Sidebar Location"
+msgstr "Pozycja paska bocznego"
+
+msgid "Sidebar"
+msgstr "Pasek boczny"
+
+msgid "Inject embeds into featured media"
+msgstr "Wstrzyknij kod osadzenia do wyróżnionych mediów"
+
+msgid "Entries per page"
+msgstr "Wpisów na stronie"
+
+msgid "Leave empty to use the default value (%s)"
+msgstr "Pozostaw puste by użyć domyślnej wartości (%s)"
+
+msgid "Pagination"
+msgstr "Paginacja"
+
+msgid "Call to Action - Hide Buttons"
+msgstr "Wezwanie do działania - Schowaj przyciski"
+
+msgid "Newsletter"
+msgstr "Newsletter"
+
+msgid "Inject newsletter after post"
+msgstr "Wstrzyknij newsletter za wpisem"
+
+msgid "Ad"
+msgstr "Reklama"
+
+msgid "Inject ad after post"
+msgstr "Wstrzyknij reklamę za wpisem"
+
+msgid "Product"
+msgstr "Produkt"
+
+msgid "Inject product after post"
+msgstr "Wstrzyknij produkt za wpisem"
+
+msgid ""
+"<a style=\"color: #ff0000;\" href=\"%s\">Register theme to unblock it</a>"
+msgstr ""
+"<a style=\"color: #ff0000;\" href=\"%s\">Zarejestruj motyw żeby "
+"odblokować</a>"
+
+msgid "Viral Front-End Uploader with Open Lists"
+msgstr "Edytor treści viralowych z otwartymi listami"
+
+msgid "Social media profile icons"
+msgstr "Ikonki do profili społecznościowych"
+
+msgid "Share your reaction to a post, using nice looking badges"
+msgstr "Zareaguj na posta, używając ładnie wyglądających symboli."
+
+msgid "Your media assistant"
+msgstr "Twój asystent obsługi mediów"
+
+msgid "Ad manager"
+msgstr "Menedżer reklam"
+
+msgid "Mix photos without a graphics editor"
+msgstr "Miksuj zdjęcia bez użycia edytora graficznego"
+
+msgid "Frontend and backend page builder"
+msgstr "Wizualny konstruktor stron"
+
+msgid "Automatic theme updates"
+msgstr "Automatyczne uaktualnienia motywu"
+
+msgid "Facebook Comments support"
+msgstr "Wsparcie komentarzy serwisu Facebook"
+
+msgid "Install Required Plugins"
+msgstr "Zainstaluj wymagane wtyczki"
+
+msgid "Install Plugins"
+msgstr "Zainstaluj wtyczki"
+
+msgid "Installing Plugin: %s"
+msgstr "Instalowanie wtyczki: %s"
+
+msgid "Something went wrong with the plugin API."
+msgstr "Coś poszło nie tak z API wtyczki."
+
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Ten motyw wymaga następującej wtyczki: %1$s."
+msgstr[1] "Ten motyw wymaga następujących wtyczek: %1$s."
+msgstr[2] "Ten motyw wymaga następujących wtyczek: %1$s."
+
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Ten motyw zaleca następującą wtyczkę: %1$s."
+msgstr[1] "Ten motyw zaleca następujące wtyczki: %1$s."
+msgstr[2] "Ten motyw zaleca następujące wtyczki: %1$s."
+
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s plugins."
+" Contact the administrator of this site for help on getting the plugins "
+"installed."
+msgstr[0] ""
+"Niestety nie posiadasz odpowiednich uprawnień aby zainstalować wtyczkę %s. "
+"Skontaktuj się z administratorem strony, aby uzyskać pomoc w instalacji "
+"wtyczki."
+msgstr[1] ""
+"Niestety nie posiadasz odpowiednich uprawnień aby zainstalować wtyczki %s. "
+"Skontaktuj się z administratorem strony, aby uzyskać pomoc w instalacji "
+"wtyczek."
+msgstr[2] ""
+"Niestety nie posiadasz odpowiednich uprawnień aby zainstalować wtyczki %s. "
+"Skontaktuj się z administratorem strony, aby uzyskać pomoc w instalacji "
+"wtyczek."
+
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Następująca wymagana wtyczka jest obecnie nieaktywna: %1$s."
+msgstr[1] "Następujące wymagane wtyczki są obecnie nieaktywne: %1$s."
+msgstr[2] "Następujące wymagane wtyczki są obecnie nieaktywne: %1$s."
+
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Następująca zalecana wtyczka jest obecnie nieaktywna: %1$s."
+msgstr[1] "Następująca zalecane wtyczki są obecnie nieaktywne: %1$s."
+msgstr[2] "Następująca zalecane wtyczki są obecnie nieaktywne: %1$s."
+
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s plugin."
+" Contact the administrator of this site for help on getting the plugin "
+"activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+"Niestety nie posiadasz odpowiednich uprawnień aby aktywować wtyczkę %s. "
+"Skontaktuj się z administratorem strony, aby uzyskać pomoc w aktywacji "
+"wtyczki."
+msgstr[1] ""
+"Niestety nie posiadasz odpowiednich uprawnień aby aktywować wtyczki %s. "
+"Skontaktuj się z administratorem strony, aby uzyskać pomoc w aktywacji "
+"wtyczek."
+msgstr[2] ""
+"Niestety nie posiadasz odpowiednich uprawnień aby aktywować wtyczki %s. "
+"Skontaktuj się z administratorem strony, aby uzyskać pomoc w aktywacji "
+"wtyczek."
+
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"Następująca wtyczka musi zostać uaktualniona, aby zapewnić maksymalną "
+"kompatybilność z tym motywem: %1$s."
+msgstr[1] ""
+"Następujące wtyczki muszą zostać uaktualnione, aby zapewnić maksymalną "
+"kompatybilność z tym motywem: %1$s."
+msgstr[2] ""
+"Następujące wtyczki muszą zostać uaktualnione, aby zapewnić maksymalną "
+"kompatybilność z tym motywem: %1$s."
+
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+"Niestety nie posiadasz odpowiednich uprawnień aby uaktualnić wtyczkę %s. "
+"Skontaktuj się z administratorem strony, aby uzyskać pomoc w uaktualnieniu "
+"wtyczki."
+msgstr[1] ""
+"Niestety nie posiadasz odpowiednich uprawnień aby uaktualnić wtyczki %s. "
+"Skontaktuj się z administratorem strony, aby uzyskać pomoc w uaktualnieniu "
+"wtyczek."
+msgstr[2] ""
+"Niestety nie posiadasz odpowiednich uprawnień aby uaktualnić wtyczki %s. "
+"Skontaktuj się z administratorem strony, aby uzyskać pomoc w uaktualnieniu "
+"wtyczek."
+
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Rozpocznij instalowanie wtyczki"
+msgstr[1] "Rozpocznij instalowanie wtyczek"
+msgstr[2] "Rozpocznij instalowanie wtyczek"
+
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] "Aktywuj zainstalowaną wtyczkę"
+msgstr[1] "Aktywuj zainstalowane wtyczki"
+msgstr[2] "Aktywuj zainstalowane wtyczki"
+
+msgid "Return to Required Plugins Installer"
+msgstr "Wróć do Instalatora Wymaganych Wtyczek"
+
+msgid "Plugin activated successfully."
+msgstr "Wtyczka została pomyślnie aktywowana."
+
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Wszystkie wtyczki zostały pomyślnie zainstalowane i aktywowane. %s"
+
+msgid "updated"
+msgstr "uaktualniony"
+
+msgid "Featured Image"
+msgstr "Obrazek wyróżniony"
+
+msgid "inherit"
+msgstr "dziedzicz"
+
+msgctxt "sidebar location"
+msgid "Left"
+msgstr "po lewej"
+
+msgctxt "sidebar location"
+msgid "Right"
+msgstr "po prawej"
+
+msgctxt "Admin page label"
+msgid "Bimber, Link Landing Page"
+msgstr "Bimber, Strona przekierowania formatu Link"
+
+msgctxt "Admin page label"
+msgid "Bimber, Top Posts Page"
+msgstr "Bimber, Strona Top Posts"
+
+msgctxt "Admin page label"
+msgid "Bimber, Trending Posts Page"
+msgstr "Bimber, Strona Trending Posts"
+
+msgctxt "Admin page label"
+msgid "Bimber, Hot Posts Page"
+msgstr "Bimber, Strona Hot Posts"
+
+msgctxt "Admin page label"
+msgid "Bimber, Popular Posts Page"
+msgstr "Bimber, Strona Popular Posts"
+
+msgctxt "Spartan font: on or off"
+msgid "on"
+msgstr "włącz"
+
+msgctxt "Work Sans font: on or off"
+msgid "on"
+msgstr "włącz"
+
+msgctxt "Roboto font: on or off"
+msgid "on"
+msgstr "on"
+
+msgctxt "Rajdhani font: on or off"
+msgid "on"
+msgstr "on"
+
+msgctxt "Amethysta font: on or off"
+msgid "on"
+msgstr "on"
+
+msgctxt "Poppins font: on or off"
+msgid "on"
+msgstr "on"
+
+msgctxt "Roboto Condensed font: on or off"
+msgid "on"
+msgstr "włącz"
+
+msgctxt "Fira Sans font: on or off"
+msgid "on"
+msgstr "włącz"
+
+msgctxt "Fira Sans Condensed font: on or off"
+msgid "on"
+msgstr "włącz"
+
+msgctxt "PT Serif font: on or off"
+msgid "on"
+msgstr "on"
+
+msgctxt "IBM Plex Sans font: on or off"
+msgid "on"
+msgstr "włącz"
+
+msgctxt "Rubik font: on or off"
+msgid "on"
+msgstr "on"
+
+msgctxt "Shares"
+msgid "Facebook App Id not set in Theme Options > Shares"
+msgstr "ID aplikacji Facebook nie ustawione w Theme Options > Shares"
+
+msgctxt "Shares"
+msgid "Share on Facebook"
+msgstr "Udostępnij na Facebook-a"
+
+msgctxt "Shares"
+msgid "Share on Twitter"
+msgstr "Udostępnij na Twitter-a"
+
+msgctxt "Shares"
+msgid "Share on Pinterest"
+msgstr "Udostępnij na Pinterest"
+
+msgctxt "Shares"
+msgid "Post Content Images"
+msgstr "Obrazki w treści posta"
+
+msgctxt "Shares > Position Type"
+msgid "built-in"
+msgstr "wbydowane"
+
+msgctxt "Shares"
+msgid "New Badge Popup"
+msgstr "Okinenko \"Nowa odznaka\""
+
+msgctxt "Shares > Position Type"
+msgid "myCRED plugin integration"
+msgstr "Integracja z wtyczką myCRED"
+
+msgctxt "Shares"
+msgid "%s plugin is not activated"
+msgstr "% wtyczka nie jest aktywna"
+
+msgctxt "Shares"
+msgid "New Rank Popup"
+msgstr "Okienko \"Nowy ranking\""
+
+msgctxt "Shares"
+msgid "Gallery Lightbox"
+msgstr "Galeria Lightbox"
+
+msgctxt "Shares > Position Type"
+msgid "MediaAce plugin integration"
+msgstr "Integracja z wtyczką MediaAce"
+
+msgctxt "Shares"
+msgid "Snax"
+msgstr "Snax"
+
+msgctxt "Shares > Position Type"
+msgid "plugin"
+msgstr "wtyczka"
+
+msgctxt "Shares"
+msgid "Easy Social Share Buttons for WordPress"
+msgstr "Easy Social Share Buttons for WordPress"
+
+msgctxt "Shares"
+msgid "Mashshare Share Buttons"
+msgstr "Mashshare Share Buttons"
+
+msgid "Cache file was successfully saved on disk."
+msgstr "Plik bufora został pomyślnie zapisany na dysku."
+
+msgid "Caching process failed. Cache file was not saved on disk."
+msgstr ""
+"Buforowanie nie powiodło się. Plik bufora nie został zapisany na dysku."
+
+msgid ""
+"Please check if the directory \"wp-content/uploads\" is writable by your web "
+"server."
+msgstr ""
+"Sprawdź proszę, czy folder \"wp-content/uploads\" jest zapisywalny przez "
+"twój serwer."
+
+msgid ""
+"When fixed, please apply some changes in WP Customizer and publish them to "
+"rebuild cache file. Back here then to see if it works."
+msgstr ""
+"Kiedy naprawione, proszę dokonać zmian w WP Customizer i opublikować je aby "
+"przegenerować plik wynikowy. Wróć tutaj potem aby sprawdzić czy działa"
+
+msgid "Posted by <a href=\"%s\"><span itemprop=\"name\" >%s</span></a>"
+msgstr "Dodane przez <a href=\"%s\"><span itemprop=\"name\" >%s</span></a>"
+
+msgid "Pages:"
+msgstr "Strony:"
+
+msgid "Page %1$d of %2$d"
+msgstr "Strona %1$d z %2$d"
+
+msgid "Next page"
+msgstr "Następna strona"
+
+msgid "Previous page"
+msgstr "Poprzednia strona"
+
+msgctxt "Menu"
+msgid "Go to"
+msgstr "Idź do"
+
+msgctxt "Newsletter"
+msgid "Check out this great article: %subject%"
+msgstr "Sprawdź ten świetny artykuł: %subject%"
+
+msgctxt "BuddyPress Profile Link"
+msgid "More"
+msgstr "Więcej"
+
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Szukaj&hellip;"
+
+msgid "Remove Sidebar"
+msgstr "Usuń pasek boczny"
+
+msgid "Are you sure you want to do this?"
+msgstr "Jesteś pewien że chcesz to zrobić?"
+
+msgid "Some errors occurred. Sidebar couldn't be removed."
+msgstr "Wystąpiły błędy. Pasek boczny nie mógł zostać usunięty."
+
+msgid "Removing&hellip;"
+msgstr "Usuwanie&hellip;"
+
+msgid "Sidebar is not empty. Plese remove all widgets first."
+msgstr "Pasek boczny nie jest pusty. Usuń proszę najpierw wszystkie widżety."
+
+msgid "Add a new sidebar"
+msgstr "Dodaj nowy pasek boczny"
+
+msgid "Enter a unique name"
+msgstr "Wprowadź unikalną nazwę"
+
+msgid "Add"
+msgstr "Dodaj"
+
+msgid "The \"%s\" sidebar already exists! Please use a different name."
+msgstr "Pasek boczny \"%s\" już istnieje! Użyj proszę innej nazwy."
+
+msgid "Profile page of %s"
+msgstr "Strona profilowa dla %s"
+
+msgid "Inside header"
+msgstr "Wewnątrz nagłówka"
+
+msgid "Inside zigzag collection"
+msgstr "Wewnątrz kolekcji zigzag"
+
+msgid ""
+"The %s ad cannot be displayed. The <strong>%s</strong> plugin is not "
+"activated."
+msgstr ""
+"Reklama %s nie może zostać wyświetlona. Wtyczka <strong>%s</strong> nie jest "
+"aktywowana."
+
+msgid "After featured content"
+msgstr "Za wyróżnioną treścią"
+
+msgid "Inside small grid collection"
+msgstr "Wewnątrz kolekcji \"mała siatka\""
+
+msgid "The %s ad cannot be displayed here due to one of following reasons"
+msgstr "Reklama %s nie może zostać tutaj wyświetlona z następujących powodów"
+
+msgid "ad is not assigned to this location"
+msgstr "reklama nie jest przypisana do tej lokacji"
+
+msgid "maximum number of ads on a single page has been reached"
+msgstr "została osiągnięta maksymalna ilość reklam na pojedynczej stronie"
+
+msgid "This content is restricted to paid subscribers"
+msgstr "Treść dostępna dla płacących subsrybentów"
+
+msgid "New here?"
+msgstr "Nowy tutaj?"
+
+msgid "Register"
+msgstr "Zarejestruj się"
+
+msgid "Already have an account?"
+msgstr "Masz już konto?"
+
+msgid "Login"
+msgstr "Zaloguj się"
+
+msgid "This content is restricted to registered users"
+msgstr "Treść dostępna dla zarejestrowanych użytkowników"
+
+msgid "Redirecting you to \"%s\""
+msgstr "Przekierowuję Cię do \"%s\""
+
+msgid "in %s second"
+msgid_plural "in %s seconds"
+msgstr[0] "za %s sekundę"
+msgstr[1] "za %s sekundy"
+msgstr[2] "za %s sekund"
+
+msgid ""
+"Please <a href=\"%s\">click here</a> if you have not been redirected "
+"automatically."
+msgstr ""
+"Proszę <a href=\"%s\">kliknąć tutaj</a> jeśli nie przekierowano cię "
+"automatycznie."
+
+msgid "Share"
+msgstr "Podziel się"
+
+msgid "Congratulations. You've reached the end of the internet."
+msgstr "Gratulacje. Dotarłeś do końca internetu."
+
+msgid "Downloading \"%s\""
+msgstr "Pobieranie \"%s\""
+
+msgid ""
+"Please <a href=\"%s\">click here</a> if downloading doesn't run "
+"automatically."
+msgstr ""
+"Proszę <a href=\"%s\">kliknąć tutaj</a> jeśli pobieranie nie rozpoczęło się "
+"automatycznie."
+
+msgid "Please enter some text to search."
+msgstr "Proszę wprowadzić tekst do wyszukania."
+
+msgid "Promoted Product"
+msgstr "Promowany produkt"
+
+msgid "Shop <em>With</em> Me"
+msgstr "Kupuj ze mną"
+
+msgctxt "button"
+msgid "Close"
+msgstr "Zamknij"
+
+msgid ""
+"This newsletter cannot be displayed. The <strong>%s</strong> plugin is not "
+"activated."
+msgstr ""
+"Newsletter nie może zostać wyświetlony. Wtyczka <strong>%s</strong> nie jest "
+"aktywowana."
+
+msgid ""
+"If you want to use other newsletter plugin, please refer to the <a "
+"href=\"%s\" target=\"_blank\">documentation</a>."
+msgstr ""
+"Jeśli chcesz użyć innej wtyczki do obsługi newslettera, proszę odnieś się do "
+"<a href=\"%s\" target=\"_blank\">dokumentacji</a>."
+
+msgid "Activate the G1 Socials plugin to use the Instagram module."
+msgstr "Aktywuj wtyczkę G1 Socials aby użyć modułu Instagram"
+
+msgid ""
+"Instagram module disabled. Please enable it in the WP Admin > Settings > G1 "
+"Socials > Instagram."
+msgstr ""
+"Moduł Instagram wyłączony. Proszę włączyć go w WP Admin > Settings > G1 "
+"Socials > Instagram."
+
+msgid ""
+"Instagram not configured. Please set it up in the WP Admin > Settings > G1 "
+"Socials > Instagram."
+msgstr ""
+"Instagram nie został poprawnie skonfigurowany. Proszę skonfigurować go w WP "
+"Admin > Settings > G1 Socials > Instagram."
+
+msgid ""
+"Instagram module not configured. Please set it up in the WP Admin > Settings "
+"> G1 Socials > Instagram."
+msgstr ""
+"Moduł Instagram nie został poprawnie skonfigurowany. Proszę skonfigurować go "
+"w WP Admin > Settings > G1 Socials > Instagram."
+
+msgid "I've earned a badge! "
+msgstr "Mam nową odznakę!"
+
+msgid "Congratulations!"
+msgstr "Gratulacje!"
+
+msgid "You earned a badge!"
+msgstr "Masz nową odznakę!"
+
+msgid "- level "
+msgstr "- poziom"
+
+msgctxt "Share button"
+msgid "Facebook"
+msgstr "Facebook"
+
+msgctxt "Share button"
+msgid "Twitter"
+msgstr "Twitter"
+
+msgid "I've earned a rank! "
+msgstr "Mam nową rangę!"
+
+msgid "You have been promoted!"
+msgstr "Twoja ranga została podniesiona!"
+
+msgid "You have been demoted!"
+msgstr "Twoja ranga została obniżona!"
+
+msgid "What do you think?"
+msgstr "Co myślisz?"
+
+msgid "Take the Poll"
+msgstr "Rozwiąż sondę"
+
+msgid "Item navigation"
+msgstr "Nawigacja pozycji"
+
+msgid "Previous submission"
+msgstr "Poprzednie zgłoszenie"
+
+msgid "Next submission"
+msgstr "Następne zgłoszenie"
+
+msgid "View full list"
+msgstr "Zobacz pełną listę"
+
+msgid "Add your submission"
+msgstr "Dodaj swoją propozycję"
+
+msgid "Bimber Newsletter Form"
+msgstr "Bimber: Formularz newslettera"
+
+msgid "Get the best viral stories straight into your inbox!"
+msgstr "Łap najlepsze viralowe treści prosto do twojej skrzynki odbiorczej!"
+
+msgid "Don't worry, we don't spam"
+msgstr "Nie przejmuj się, nie spamujemy"
+
+msgid "Hey Friend!<br>Before You Go..."
+msgstr "Cześć przyjacielu! Zanim pójdziesz..."
+
+msgid ""
+"Get the best viral stories straight into your inbox before everyone else!"
+msgstr ""
+"Łap najlepsze viralowe treści prosto do skrzynki mailowej zanim zrobią to "
+"inni!"
+
+msgid "Don't miss out on new posts!"
+msgstr "Nie przegap nowych postów!"
+
+msgid "Want more stuff like this?"
+msgstr "Chcesz więcej podobnych treści?"
+
+msgid "Mailchimp for WP Plugin"
+msgstr "Wtyczka Mailchimp for WP"
+
+msgid "Privacy"
+msgstr "Prywatność"
+
+msgid "Privacy text"
+msgstr "Wzmianka o prywatności"
+
+msgid "Popup"
+msgstr "Wyskakujące okienko"
+
+msgid "Enabled?"
+msgstr "Włączone?"
+
+msgid "Cover"
+msgstr "Obrazek"
+
+msgid "Slide Up"
+msgstr "Wysuń w górę"
+
+msgid "works only with background templates"
+msgstr "działa tylko z szablonami tła"
+
+msgid "Before Collection"
+msgstr "Przed kolekcją"
+
+msgid "In Collection"
+msgstr "Wewnątrz kolekcji"
+
+msgid "After Post Content"
+msgstr "Za treścią wpisu"
+
+msgid "Before footer"
+msgstr "Przed stopką"
+
+msgid "Widget"
+msgstr "Widżet"
+
+msgid "Use the [bimber_mc4wp_form] shortcode."
+msgstr "Użyj skrótowego kodu [bimber_mc4wp]."
+
+msgctxt "newsletter template"
+msgid "Box vertical"
+msgstr "Ramka wertykalna"
+
+msgctxt "newsletter template"
+msgid "Box horizontal"
+msgstr "Ramka horyzontalna"
+
+msgctxt "newsletter template"
+msgid "Box horizontal large"
+msgstr "Ramka horyzontalna, duża"
+
+msgctxt "newsletter template"
+msgid "Background vertical"
+msgstr "Tło wertykalne"
+
+msgctxt "newsletter template"
+msgid "Background horizontal"
+msgstr "Tło horyzontalne"
+
+msgid "What's Your Reaction Plugin"
+msgstr "Wtyczka What's Your Reaction"
+
+msgid "General"
+msgstr "Ogólne"
+
+msgid "Show reactions in header"
+msgstr "Pokaż reakcje w nagłówku"
+
+msgid "Show entry reactions in collections"
+msgstr "Pokaż reakcje na wpis w kolekcji"
+
+msgid "Show entry reactions on single post"
+msgstr "Pokaż reakcje na wpis na stronie pojedynczego wpisu"
+
+msgid "WooCommerce Single Product"
+msgstr "Pojedynczy produkt WooCommerce"
+
+msgid "Leave empty to use the WooCommerce sidebar"
+msgstr "Pozostaw puste by użyć paska bocznego WooCommerce"
+
+msgid "%d product"
+msgid_plural "%d products"
+msgstr[0] "%d produkt"
+msgstr[1] "%d produkty"
+msgstr[2] "%d produktów"
+
+msgid "Bimber Setup"
+msgstr "Ustawienia motywu Bimber"
+
+msgid "Show Cart in the Header"
+msgstr "Pokaż koszyk w nagłówku"
+
+msgid "always"
+msgstr "zawsze"
+
+msgid "on WooCommerce pages"
+msgstr "na stronach WooCommerce"
+
+msgid "no"
+msgstr "nie"
+
+msgid "Show sidebar on single product"
+msgstr "Pokaż pasek boczny na stronie pojedynczego produktu"
+
+msgid "Show"
+msgstr "Pokaż"
+
+msgid "Open product links"
+msgstr "Otwórz linki produktu"
+
+msgid "in a new window"
+msgstr "w nowym oknie"
+
+msgid "in the same window"
+msgstr "w tym samym oknie"
+
+msgid "Open affiliate links"
+msgstr "Otwórz linki afiliacyjne"
+
+msgid "On download page"
+msgstr "Na stronie pobierania"
+
+msgid "Download Monitor Plugin"
+msgstr "Wtyczka Download Monitor"
+
+msgid "Hide downloads"
+msgstr "Schowaj pobrania"
+
+msgid ""
+"If you fill in any number here, the downloads for a specific post are not "
+"shown until the download count of this number is reached."
+msgstr ""
+"Jeśli wprowadzisz tutaj jakąkolwiek liczbę, pobierania dla wpisów nie "
+"zostaną pokazane jeśli ich ilość nie osiągnie tej liczby."
+
+msgid "Download method"
+msgstr "Metoda pobierania"
+
+msgid "Direct download"
+msgstr "Pobieranie bezpośrednie"
+
+msgid "Download page"
+msgstr "Strona pobierania"
+
+msgid "Run a download action from a separate page."
+msgstr "Rozpocznij akcję pobierania z osobnej strony."
+
+msgid "Download delay (in seconds)"
+msgstr "Opóźnienie pobierania (w sekundach)"
+
+msgid "Set to 0 to disable the delay counter."
+msgstr "Ustaw 0 by wyłączyć licznik opóźnienia"
+
+msgid "Item Design"
+msgstr "Dizajn pozycji"
+
+msgid "Show if highlighted"
+msgstr "Pokaż jeśli wyeksponowany"
+
+msgctxt "Admin page label"
+msgid "Bimber, Download landing page"
+msgstr "Bimber, Strona przekierowania dla formatu Download"
+
+msgid "Here are my links!"
+msgstr "Oto moje linki!"
+
+msgid "Shop with me"
+msgstr "Kupuj ze mną"
+
+msgid "More products"
+msgstr "Więcej produktów"
+
+msgid "AdAce Plugin"
+msgstr "Wtyczka AdAce"
+
+msgid "Links Before Main Collection"
+msgstr "Linki przed główną kolekcją"
+
+msgid "Show affiliate disclosure"
+msgstr "Ujawnij, że korzystasz z programów afiliacyjnych"
+
+msgid "Links Category"
+msgstr "Kategoria linków"
+
+msgid "Simple list."
+msgstr "Prosta lista."
+
+msgid "Semitransparent"
+msgstr "Półprzezroczysty"
+
+msgid "Links Before Footer"
+msgstr "Linki przed stopką"
+
+msgid "Promoted Products"
+msgstr "Promowane produkty"
+
+msgid "Embed code"
+msgstr "Kod osadzania"
+
+msgid "You can choose more than one."
+msgstr "Możesz wybrać więcej niż jeden."
+
+msgid "Embed Code"
+msgstr "Kod osadzania"
+
+msgid "E.g. from ShopStyle Collective or rewardStyle"
+msgstr "Np. z ShopStyle Collective lub rewardStyle"
+
+msgid "Hide price"
+msgstr "Schowaj cenę"
+
+msgid "Hide add to cart"
+msgstr "Schowaj Dodaj do koszyka"
+
+msgid "\"More\" Link Label"
+msgstr "Etykieta linku \"Więcej\""
+
+msgid "Promoted Single Product"
+msgstr "Promowany pojedynczy produkt"
+
+msgid "WooCommerce Product"
+msgstr "Produkt WooCommerce"
+
+msgid "Activate the %s plugin"
+msgstr "Aktywuj wtyczkę %s"
+
+msgid "Coupon %s Inside"
+msgstr "Kupon %s w środku"
+
+msgid "Coupon Inside"
+msgstr "Kupon w środku"
+
+msgid "Bimber Custom Slots"
+msgstr "Specjalne miejsca na reklamę w motywie Bimber"
+
+msgid "Before \"Comments\" section"
+msgstr "Przed sekcją \"Komentarze\""
+
+msgid "After link exit counter"
+msgstr "Za linkiem z licznikiem przekierowania"
+
+msgctxt "Restrict Content Pro menu endpoint"
+msgid "Paid"
+msgstr "Płatne"
+
+msgctxt "Restrict Content Pro menu endpoint"
+msgid "Free"
+msgstr "Darmowe"
+
+msgid "Members %s Only"
+msgstr "Tylko %s dla członków"
+
+msgid "Members Only"
+msgstr "Tylko dla członków"
+
+msgid "Elementor Page Builder Content"
+msgstr "Treść z wtyczki Elementor"
+
+msgid "Inject content from page"
+msgstr "Wstrzyknij treść strony"
+
+msgid "Only top level pages allowed"
+msgstr "Tylko strony pierwszego poziomu dozwolone"
+
+msgid ""
+"<a class=\"bimber-elementor-page-id\" href=\"%s\" target=\"_blank\">Edit "
+"page</a>"
+msgstr "Edytuj stronę"
+
+msgid ""
+"<a class=\"bimber-elementor-page-id\" href=\"%s\" target=\"_blank\">Edit "
+"using front-end builder</a>"
+msgstr "Edytuj używająć front-end builder"
+
+msgid "Elementor Page Builder is inactive"
+msgstr "Wtyczka Elementor jest nieaktywna"
+
+msgid ""
+"Please install and activate the Elementor Page Builder plugin to edit your "
+"homepage."
+msgstr ""
+"Proszę zainstalować i aktywować wtyczkę Elementor aby edytować stronę główną."
+
+msgctxt "Admin page label"
+msgid "Bimber, Elementor Home Injected Page"
+msgstr "Bimber, strona Elementora dodana do strony głównej"
+
+msgctxt "Easy Social Share Buttons integration"
+msgid "Bimber: Before Content"
+msgstr "Bimber, Przed treścią"
+
+msgctxt "Easy Social Share Buttons integration"
+msgid "Bimber: After Content"
+msgstr "Bimber, Po treścią"
+
+msgctxt "Easy Social Share Buttons integration"
+msgid "Bimber: Compact"
+msgstr "Bimber, Tryb kompaktowy"
+
+msgctxt "Easy Social Share Buttons integration"
+msgid "Bimber: Mini"
+msgstr "Bimber, Tryb Mini"
+
+msgctxt "Easy Social Share Buttons integration"
+msgid "Bimber: Content Side"
+msgstr "Bimber, Content Side"
+
+msgctxt "Easy Social Share Buttons integration"
+msgid "Bimber: Side"
+msgstr "Bimber: Side"
+
+msgid "Bimber Featured Author"
+msgstr "Bimber: Wyróżniony autor"
+
+msgid "Show a featured author member card"
+msgstr "Pokaż kartę wyróżnionego członka"
+
+msgid "BuddyPress Plugin"
+msgstr "Wtyczka BuddyPress"
+
+msgid "Show sidebar on BuddyPress pages"
+msgstr "Pokaż pasek boczny na stronach BuddyPress"
+
+msgid "Posts"
+msgstr "Wpisy"
+
+msgid "Home"
+msgstr "Strona główna"
+
+msgid "Short Description"
+msgstr "Krótki opis"
+
+msgid "Long Description"
+msgstr "Dłuższy opis"
+
+msgid "BuddyPress Members"
+msgstr "BuddyPress Członkowie"
+
+msgid "Leave empty to use the Buddypress sidebar"
+msgstr "Pozostaw puste by użyć paska bocznego BuddyPress"
+
+msgid "BuddyPress Single Member"
+msgstr "BuddyPress Pojedynczy Członek"
+
+msgid "Leave empty to use the Buddypress Members sidebar"
+msgstr "Pozostaw puste by użyć paska bocznego BuddyPress Członkowie"
+
+msgid "BuddyPress Single Member Home"
+msgstr "BuddyPress Strona główna pojedynczego członka"
+
+msgid "BuddyPress profile Home section"
+msgstr "BuddyPress Strona główna profilu"
+
+msgid "BuddyPress Groups"
+msgstr "Grupy BuddyPress"
+
+msgid "BuddyPress Single Group"
+msgstr "Pojedyncza grupa BuddyPress"
+
+msgid "Leave empty to use the Buddypress Groups sidebar"
+msgstr "Zostaw puste aby użyć sidebar-a dla grup BuddyPress"
+
+msgid "Less than five minutes ago"
+msgstr "Mniej niż pięć minut temu"
+
+msgid "Never"
+msgstr "Nigdy"
+
+msgid "Additional info"
+msgstr "Dodatkowe informacje"
+
+msgid "Member since"
+msgstr "Członek od"
+
+msgid "Last online"
+msgstr "Ostatnio zalogowany"
+
+msgid "Followers"
+msgstr "Obserwujący"
+
+msgid "Show a list of member avatars of the user's followers."
+msgstr "Wyświetl listę awatarów członków którzy obserwują użytkownika."
+
+msgid "Play the Quiz"
+msgstr "Zagraj w quiz"
+
+msgid "Add to List"
+msgstr "Dodaj do listy"
+
+msgid "Data"
+msgstr "Dane"
+
+msgid "Filter by Snax format"
+msgstr "Filtruj po formacie Snax"
+
+msgid "Most Upvoted"
+msgstr "Najlepiej ocenione"
+
+msgctxt "Snax integration"
+msgid "Play quiz in new window"
+msgstr "Zagraj w quiz w nowym oknie"
+
+msgctxt "Snax integration"
+msgid "Take poll in new window"
+msgstr "Wypełnij ankietę w nowym oknie"
+
+msgid "Voting Box"
+msgstr "Głosowanie"
+
+msgid "Color scheme"
+msgstr "Schemat kolorystyczny"
+
+msgid "Dark"
+msgstr "Ciemny"
+
+msgid "WPBakery Page Builder Home Static"
+msgstr "Strona główna statyczna zbudowana wtyczką WPBakery Page Builder"
+
+msgctxt "Admin page label"
+msgid "Bimber, WP Bakery Home Injected Page"
+msgstr "Bimber, Strona dodana z WP Bakery do strony głównej"
+
+msgid "WPBakery Page Builder Content"
+msgstr "Treść z WPBakery Page Builder"
+
+msgid ""
+"<a class=\"bimber-vc-page-id\" href=\"%s\" target=\"_blank\">Edit page</a>"
+msgstr ""
+"<a class=\"bimber-vc-page-id\" href=\"%s\" target=\"_blank\">Edytuj "
+"stronę</a>"
+
+msgid ""
+"<a class=\"bimber-vc-page-id\" href=\"%s\" target=\"_blank\">Edit using "
+"front-end builder</a>"
+msgstr ""
+"<a class=\"bimber-vc-page-id\" href=\"%s\" target=\"_blank\">Edytuj używając "
+"konstruktora stron</a>"
+
+msgid "WPBakery Page Builder is inactive"
+msgstr "WPBakery Page Builder jest nieaktywny"
+
+msgid ""
+"Please install and activate the WPBakery Page Builder plugin to edit your "
+"homepage."
+msgstr ""
+"Proszę zainstaluj i aktywuj wtyczkę WPBakery Page Builder by edytować twoją "
+"stronę główną."
+
+msgid "pts"
+msgstr "pkt"
+
+msgid "Users with badge: "
+msgstr "Użytkownicy z odznaką:"
+
+msgid "Level: "
+msgstr "Poziom:"
+
+msgid "Locked"
+msgstr "Zablokowany"
+
+msgid "Widget title"
+msgstr "Tytuł widżetu"
+
+msgid "HTML id attribute (optional)"
+msgstr "Atrybut id dokumentu HTML (opcjonalnie)"
+
+msgid "HTML class(es) attribute (optional)"
+msgstr "Klasa/y HTML (opcjonalnie)"
+
+msgid "Points"
+msgstr "Punkty"
+
+msgid "Activate plugin to enable this option"
+msgstr "Aktywuj wtyczkę by użyć tej opcji"
+
+msgid "Badges"
+msgstr "Odznaki"
+
+msgid "Most points"
+msgstr "Najwięcej punktów"
+
+msgid "Design"
+msgstr "Wzornictwo"
+
+msgid "Footer"
+msgstr "Stopka"
+
+msgctxt "Customizer"
+msgid "-- don't inject --"
+msgstr "-- nie dodawa --"
+
+msgid "Enter tablet landscape preview mode"
+msgstr "Przejdź do widoku wertykalnego na tablecie"
+
+msgid "Enter mobile landscape preview mode"
+msgstr "Przejdź do widoku wertykalnego na telefonie"
+
+msgid "Visit Direct Link"
+msgstr "Zobacz link bezpośredni"
+
+msgid "Create"
+msgstr "Stwórz"
+
+msgid "Cheatin&#8217; uh?"
+msgstr "Oszukujesz, co?"
+
+msgid "Demo data import type not allowed. Allowed values: %s."
+msgstr "Niedozwolony typ importowanych danych demo. Dozwolone wartości: %s."
+
+msgid "Image number has to be specified."
+msgstr "Liczba obrazków musi zostać podana."
+
+msgid "Demo data uninstall type not allowed. Allowed values: %s."
+msgstr ""
+"Niedozwolony typ odinstalowywanych danych demo. Dozwolone wartości: %s."
+
+msgid "%s (Invalid)"
+msgstr "%s (Nieprawidłowy)"
+
+msgid "%s (Pending)"
+msgstr "%s (Oczekujący)"
+
+msgid "sub item"
+msgstr "podpozycja"
+
+msgid "Move up"
+msgstr "Przesuń w górę"
+
+msgid "Move down"
+msgstr "Przesuń w dół"
+
+msgid "Edit menu item"
+msgstr "Edytuj pozycję menu"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "Navigation Label"
+msgstr "Etykieta nawigacji"
+
+msgid "Title Attribute"
+msgstr "Atrybut Tytuł"
+
+msgid "Open link in a new tab"
+msgstr "Otwórz link w nowej zakładce"
+
+msgid "CSS Classes (optional)"
+msgstr "Klasy CSS (opcjonalnie)"
+
+msgid "Turn into Mega Menu"
+msgstr "Przekształć w mega menu"
+
+msgid "Link Relationship (XFN)"
+msgstr "Powiązanie linku (XFN)"
+
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr "Opis zostanie wyświetlony w menu jeśli obecny motyw wspiera opisy"
+
+msgid "Move"
+msgstr "Przesuń"
+
+msgid "Up one"
+msgstr "Jedną pozycję w górę"
+
+msgid "Down one"
+msgstr "Jedną pozycję w dół"
+
+msgid "To the top"
+msgstr "Do góry."
+
+msgid "Original: %s"
+msgstr "Oryginał: %s"
+
+msgid "Remove"
+msgstr "Usuń"
+
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgid "Tracking code (in &lsaquo;head&rsaquo;)"
+msgstr "Kod śledzenia (w tagu &lsaquo;head&rsaquo;)"
+
+msgid "Tracking code (after <body>)"
+msgstr "Kod śledzenia (za tagiem <body>)"
+
+msgid "AMP Tracking code (in <head>)"
+msgstr "Kod śledzenia AMP (w tagu <head>)"
+
+msgid "AMP Tracking code (after <body>)"
+msgstr "Kod śledzenia AMP (za tagiem <body>)"
+
+msgid "Tracking"
+msgstr "Śledzenie"
+
+msgid "Popular Collection"
+msgstr "Kolekcja Popularne"
+
+msgid "Hot Collection"
+msgstr "Kolekcja Gorące"
+
+msgid "Trending Collection"
+msgstr "Kolekcja Wschodzące"
+
+msgid "Import myCRED content"
+msgstr "Zaimportuj treści myCRED"
+
+msgid "Remove myCRED content"
+msgstr "Usuń treści myCRED"
+
+msgid "Update"
+msgstr "Uaktualnij"
+
+msgid "Integrations"
+msgstr "Integracje"
+
+msgid "myCRED elements"
+msgstr "Elementy myCRED"
+
+msgid "Hooks"
+msgstr "Haczyki"
+
+msgid "Ranks"
+msgstr "Rankingi"
+
+msgid "Import"
+msgstr "Importuj"
+
+msgid "Show details"
+msgstr "Pokaż szczegóły"
+
+msgid "Generated at"
+msgstr "Wygenerowano"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Tasks"
+msgstr "Zadania"
+
+msgid "Lists are calculated based on"
+msgstr "Listy są wyliczane na bazie"
+
+msgid "Change criteria in"
+msgstr "Zmień kryteria w"
+
+msgid "Theme Options"
+msgstr "Opcje motywu"
+
+msgid "Dashboard"
+msgstr "Kokpit"
+
+msgid "Registration"
+msgstr "Rejestracja"
+
+msgid "Demos"
+msgstr "Dema"
+
+msgid "GDPR"
+msgstr "GDPR"
+
+msgid "Advanced"
+msgstr "Zaawansowane"
+
+msgid "Save Changes"
+msgstr "Zapisz zmiany"
+
+msgid "Select an image"
+msgstr "Wybierz obrazek"
+
+msgid "Clear"
+msgstr "Wyczyść"
+
+msgid "All options imported successfuly."
+msgstr "Wszystkie opcje zostały zaimportowane pomyślnie."
+
+msgid "Popular posts generated successfully."
+msgstr "Popularne posty zostały wygenerowane pomyślnie."
+
+msgid "Hot posts generated successfully."
+msgstr "Gorące posty zostały wygenerowane pomyślnie."
+
+msgid "Trending posts generated successfully."
+msgstr "Wschodzące posty zostały wygenerowane pomyślnie."
+
+msgid ""
+"To use social login you have to agree with the storage and handling of your "
+"data by this website."
+msgstr ""
+"By użyć logowania przez serwis społecznościowy musisz zgodzić się na "
+"przechowywanie i obsługę Twoich danych przez tę stronę internetową."
+
+msgid "Welcome to Bimber Theme"
+msgstr "Zapoznaj się z motywem Bimber"
+
+msgid "Join Our Community"
+msgstr "Dołącz do naszej społeczności"
+
+msgid "Never Miss a News"
+msgstr "Nie przegap nowinek"
+
+msgid ""
+"Stay up to date with all upcoming updates, important notes and announcements."
+" Follow us on <a href=\"%s\" target=\"_blank\">Facebook</a> or <a "
+"href=\"%s\" target=\"_blank\">Twitter</a>."
+msgstr ""
+"Bądź na bieżąco z nadchodzącymi uaktualnieniami, ważnymi wzmiankami i "
+"ogłoszeniami. Śledź nas na <a href=\"%s\" target=\"_blank\">Facebooku</a> "
+"lub <a href=\"%s\" target=\"_blank\">Twitterze</a>."
+
+msgid "Rate the Theme"
+msgstr "Oceń motyw"
+
+msgid ""
+"If you are happy with our theme and support, please don't forget to rate the "
+"theme on <a href=\"%s\" target=\"_blank\">ThemeForest</a>. Thanks in advance."
+msgstr ""
+"Jeśli jesteś zadowolony z naszego motywu i pomocy technicznej, prosimy nie "
+"zapomnij ocenić motyw na <a href=\"%s\" target=\"_blank\">ThemeForest</a>. Z "
+"góry dziękujemy."
+
+msgid "Need Some Help?"
+msgstr "Potrzebujesz pomocy?"
+
+msgid "Check Online Documentation"
+msgstr "Sprawdź dokumentację internetową"
+
+msgid ""
+"All information about theme installation, configuration and customization "
+"can be found in our <a href=\"%s\" target=\"_blank\">online documentation</a>"
+"."
+msgstr ""
+"Wszystkie informacje odnośnie instalacji, konfiguracji i personalizacji "
+"motywu można znaleźć w naszej <a href=\"%s\" target=\"_blank\">dokumentacji "
+"internetowej</a>."
+
+msgid "Use Support Centre"
+msgstr "Skorzystaj z centrum pomocy technicznej"
+
+msgid ""
+"Support is conducted through our <a href=\"%s\" target=\"_blank\">Support "
+"Centre</a>, where you can submit your questions, bug-findings, etc."
+msgstr ""
+"Pomoc techniczna realizowana jest przez nasze <a href=\"%s\" "
+"target=\"_blank\">Centrum Pomocy Technicznej</a>, gdzie możesz przesłać "
+"swoje pytania, znalezione błędy, itp."
+
+msgid "Enable GDPR"
+msgstr "Włącz GDPR"
+
+msgid "WP Social Login consent text"
+msgstr "Tekst akceptacji warunków z wtyczki WP Social Login"
+
+msgid ""
+"You can use: %privacy_policy% to create a link to the Privacy Policy page."
+msgstr "Możesz użyć %privacy_policy% by stworzyć link do Strony Prywatności."
+
+msgid "Enable GDPR integration"
+msgstr "Włącz integrację GDPR"
+
+msgid "The Bimber theme uses the WP GDPR Compliance for GDPR integration."
+msgstr ""
+"Motym Bimber używa wtyczki WP GDPR Compliance by zapewnić kompatybilność z "
+"GDPR."
+
+msgid ""
+"<a href=\"%s\" class=\"g1-install-wp-gdpr-compliance\">Install the WP GDPR "
+"Compliance</a> plugin."
+msgstr ""
+"<a href=\"%s\" class=\"g1-install-wp-gdpr-compliance\">Zainstaluj wtyczkę WP "
+"GDPR Compliance</a>."
+
+msgid ""
+"<a href=\"%s\" class=\"g1-install-wp-gdpr-compliance\">Activate the WP GDPR "
+"Compliance</a> plugin."
+msgstr ""
+"<a href=\"%s\" class=\"g1-install-wp-gdpr-compliance\">Aktywuj wtyczkę WP "
+"GDPR Compliance</a>."
+
+msgid "Installing the WP GDPR Compliance plugin..."
+msgstr "Instalowanie wtyczki WP GDPR Compliance..."
+
+msgid ""
+"WP GDPR Compliance is ready to use, <a href=\"%s\">go to the plugin's "
+"settings</a>."
+msgstr ""
+"Wtyczka WP GDPR Compliance jest gotowa do użycia, <a href=\"%s\">przejdź do "
+"ustawień wtyczki</a>."
+
+msgid "The WP GDPR Compliance plugin installation failed."
+msgstr "Nie powiodła się instalacja wtyczki WP GDPR Compliance."
+
+msgid "<a href=\"%s\" target=\"_blank\">See details</a>."
+msgstr "<a href=\"%s\" target=\"_blank\">Zobacz szczegóły</a>."
+
+msgid "You have to register the Bimber Theme to import demos"
+msgstr "Musisz zarejestrować motyw Bimber by zaimportować dema"
+
+msgid ""
+"Please visit the %s section and follow activation steps to import all demos."
+msgstr ""
+"Odwiedź proszę sekcję %s i wypełnij  kroki aktywacji by zaimportować dema."
+
+msgid "Choose Your Demo"
+msgstr "Wybierz demo"
+
+msgid "Select components to uninstall:"
+msgstr "Wybierz komponenty do odinstalowania"
+
+msgid "This component was not installed"
+msgstr "Ten komponent nie został zainstalowany"
+
+msgid "Content (posts, pages, images, menus)"
+msgstr "Treść (wpisy, strony, obrazki, menu)"
+
+msgid "Widgets"
+msgstr "Widżety"
+
+msgid "Import:"
+msgstr "Importuj:"
+
+msgid "All"
+msgstr "Wszystko"
+
+msgid "Install"
+msgstr "Zainstaluj"
+
+msgid "Preview"
+msgstr "Podejrzyj"
+
+msgid "Uninstall"
+msgstr "Odinstaluj"
+
+msgid "Dismiss this notice."
+msgstr "Zignoruj tę notkę."
+
+msgctxt "Theme Options"
+msgid ""
+"ERROR. External CSS file cannot be saved to disk. Change permissions to "
+"allow server to write to directory %s"
+msgstr ""
+"BŁĄD. Zewnętrzny plik CSS nie może zostać zapisany na dysku. Zmień "
+"uprawnienia aby zezwolić serwerowi na zapis do folderu %s"
+
+msgid "Last action status"
+msgstr "Status ostatniej akcji"
+
+msgid "Load dynamic CSS using"
+msgstr "Załaduj dynamiczny CSS używając"
+
+msgid "internal stylesheet (inside <head>)"
+msgstr "wewnętrzny arkusz stylów (wewnątrz tagu <head>) "
+
+msgid "external CSS file (recommended)"
+msgstr "zewnętrzny plik CSS (zalecane)"
+
+msgid "Register theme"
+msgstr "Zarejestruj theme"
+
+msgid ""
+"You're almost done. Just one more step. In order to gain full access to all "
+"demos, premium plugins and support, please register your theme's purchase "
+"code."
+msgstr ""
+"Już prawie koniec. Jeszcze tylko jeden krok. Aby uzyskać pełen dostęp do "
+"wszystkich demo, wtyczek premium i wsparcia technicznego, proszę "
+"zarejestrować swój kod zakupu theme-a."
+
+msgid "Registration Completed &#127881;"
+msgstr "Rejestracja Zakończona"
+
+msgid "Your theme is registered and ready to use."
+msgstr "Twój motyw jest zarejestrowany i gotowy do użycia."
+
+msgid "Your Envato Purchase Code"
+msgstr "Twój Kod Zakupy Envato"
+
+msgid "Where to find the code?"
+msgstr "Gdzie znaleźć kod?"
+
+msgid "Deregister the purchase code"
+msgstr "Wyrejestruj kod zakupu"
+
+msgid ""
+"I confirm that, according to the Envato License Terms, I am licensed to use "
+"the purchase code for a single project. Using it on multiple installations "
+"is a copyright violation."
+msgstr ""
+"Potwierdzam, zgodnie z zasadami licencyjnymi Envato, że jestem uprawniony to "
+"użycia kodu zakupu dla jednego projektu. Używanie go na wielu instalacjach "
+"jest naruszeniem praw autorskich."
+
+msgid "License details."
+msgstr "Szczegóły licencji."
+
+msgctxt "Theme activation"
+msgid "Register Theme"
+msgstr "Zarejestruj motyw"
+
+msgid "Token Registration"
+msgstr "Rejestracja za pomocą Tokenu"
+
+msgid ""
+"When automatic registration fails, please unlock the theme using this token "
+"method. Click the following link to get your individual token and enter it "
+"below."
+msgstr ""
+"Kiedy automatyczna rejestracja zawiedzie, odblokuj theme używając Tokenu. "
+"Kliknij link aby uzyskać swój indywidualny token i wstaw go poniżej "
+
+msgid "Generate token"
+msgstr "Generuj token"
+
+msgctxt "Theme activation"
+msgid "Register Theme with Token"
+msgstr "Zarejestruj theme używając Tokenu"
+
+msgid "Fake Views"
+msgstr "Pozorowane odsłony"
+
+msgid "Fake view count"
+msgstr "Licznik pozorowanych odsłon"
+
+msgid ""
+"Leave empty to use global settings or use a positive number (inclusive 0) to "
+"override them."
+msgstr ""
+"Pozostaw puste by użyć ustawień globalnych albo użyj dodatniej liczby (a "
+"także 0) by je nadpisać."
+
+msgid "Nonce incorrect!"
+msgstr "Nieprawidłowy nonce!"
+
+msgid "Single Page"
+msgstr "Pojedyncza strona"
+
+msgid ""
+"If option is set to \"inherit\" it uses <a href=\"%s\">Single Post</a> "
+"global setup."
+msgstr ""
+"Jeśli opcja ma ustawioną wartość \"dziedzicz\", zostaną użyte globalne "
+"ustawienia dla pojedynczego wpisu."
+
+msgid "Global Featured Entries"
+msgstr "Globalne wpisy wyróżnione"
+
+msgctxt "Metabox title"
+msgid "Video Options"
+msgstr "Opcje video"
+
+msgid ""
+"The \"Auto Video Length\" module from the MediaAce plugin is not enabled. "
+"Video length cannot be set automatically."
+msgstr ""
+"Moduł \"Automatyczna Długość Video\" z wtyczki MediaAce nie został włączony. "
+"Długość video nie może zostać ustalona automatycznie."
+
+msgctxt "Link to documentation"
+msgid "Learn more"
+msgstr "Dowiedz się więcej"
+
+msgid "Video length"
+msgstr "Długość video"
+
+msgctxt "Video meta box label"
+msgid "unknown"
+msgstr "niedostępne"
+
+msgid "Error"
+msgstr "Błąd"
+
+msgid "Manual video length"
+msgstr "Nieautomatyczna długość video"
+
+msgid "seconds"
+msgstr "sekundy"
+
+msgctxt "Video metabox field description"
+msgid "Use this field if the video length cannot be automatically obtained"
+msgstr ""
+"Użyj tego pola jeśli długość video nie może zostać pobrana automatycznie"
+
+msgid "Video URL"
+msgstr "Adres URL video"
+
+msgid "Random post"
+msgstr "Losowy wpis"
+
+msgid "Add to Menu"
+msgstr "Dodaj do menu"
+
+msgid "Single Page Header Options"
+msgstr "Opcje nagłówka pojedynczej strony"
+
+msgid "Composition"
+msgstr "Kompozycja"
+
+msgctxt "Shares Settings"
+msgid "Enabled"
+msgstr "Włączone"
+
+msgctxt "Shares Settings"
+msgid "Debug mode"
+msgstr "Tryb śledzenia błędów"
+
+msgctxt "Settings"
+msgid "Facebook App ID"
+msgstr "ID aplikacji Facebook"
+
+msgid "Positions"
+msgstr "Pozycje"
+
+msgid "yes"
+msgstr "tak"
+
+msgctxt "Shares Settings"
+msgid "Use this option to disable entire module and all share slots at once"
+msgstr ""
+"Użyj tej opcji aby wyłączyć cały moduł i wszystkie sloty udostępniania naraz"
+
+msgid "disabled"
+msgstr "wyłączone"
+
+msgid "enabled"
+msgstr "włączone"
+
+msgctxt "Shares Settings"
+msgid ""
+"Enable to log share details into the JavaScript console (Google Chrome "
+"DevTools, Firefox Developer Tools)"
+msgstr ""
+"Włącz aby logować detale udostępniania w konsoli JavaScript (Google Chrome "
+"DevTools, Firefox Developer Tools)"
+
+msgid ""
+"How do I get my <strong>App ID</strong>? Use the <a href=\"%s\" "
+"target=\"_blank\">Register and Configure an App</a> guide for help."
+msgstr ""
+"Jak mam pobrać ID mojej aplikacji? Użyj przewodnika \"Rejestruj i Konfiguruj "
+"Aplikację\" aby uzyskać pomoc"
+
+msgctxt "Shares"
+msgid "Available"
+msgstr "Dostępne"
+
+msgctxt "Shares"
+msgid "Not available"
+msgstr "Niedostępne"
+
+msgctxt "Shares"
+msgid "Enabled"
+msgstr "Włączone"
+
+msgctxt "Shares"
+msgid "Networks"
+msgstr "Sieci"
+
+msgid "Tag Archives: %s"
+msgstr "Archiwum tagu: %s"
+
+msgid "Author Archives: %s"
+msgstr "Archiwum autora: %s"
+
+msgid "Search results"
+msgstr "Wyniki wyszukiwania"
+
+msgid "404 - page not found"
+msgstr "404 - nie znaleziono strony"
+
+msgid "You are here: "
+msgstr "Jesteś tutaj:"
+
+msgid "Bimber Posts"
+msgstr "Bimber: Posty"
+
+msgid "A list of trending posts."
+msgstr "Lista wschodzących wpisów."
+
+msgid "The max. number of entries to show"
+msgstr "Maksymalna ilość wpisów do wyświetlenia"
+
+msgid "Sort by"
+msgstr "Sortuj wg"
+
+msgid "Publish date"
+msgstr "Data publikacji"
+
+msgid "Categories (optional)"
+msgstr "Kategorie (opcjonalnie)"
+
+msgid "Tags (optional)"
+msgstr "Tagi (opcjonalnie)"
+
+msgid "Trending Now"
+msgstr "Wschodzące teraz"
+
+msgid "Bimber Sticky Start Point"
+msgstr "Bimber: Przylepiony punkt początkowy"
+
+msgid "Use this widget to define place where sticky elements starts"
+msgstr ""
+"Użyt tego widżetu by zdefiniować miejsce gdzie zaczynają się elementy "
+"przylepione"
+
+msgid "Offset"
+msgstr "Przesunięcie"
+
+msgid ""
+"If you have some sticky elements on your site (e.g. menu), they can overlap "
+"on sticky sidebar. Set offset here to move the sidebar down."
+msgstr ""
+"Jeśli masz już jakieś przylepione elementy na stronie (np. menu), mogą one "
+"nachodzić na przylepiony pasek boczny. Ustaw kompensację, by przesunąć pasek "
+"boczny w dół."
+
+msgid "Sticky widget container height (in px)"
+msgstr "Wysokość kontenera na przylepione widżety (w pikselach)"
+
+msgid ""
+"Space inside which a sticky widget can float while scrolling (e.g. 1000). 0 -"
+" all subsequent widgets float together"
+msgstr ""
+"Przestrzeń w której przylepiony widżet może się poruszać podczas przewijania "
+"(np. 1000). 0 - wszystkie następujące widżety będą przylepione jednocześnie"
+
+msgid "Number of subsequent widgets to be sticky"
+msgstr "Liczba kolejnych widżetów które mają zostać przylepione"
+
+msgid "0 - all subsequent widgets will be sticky"
+msgstr "0 - wszystkie następujące widżety będą przyklejone"
+
+msgid "Previous Member"
+msgstr "Poprzedni członek"
+
+msgid "Next Member"
+msgstr "Następny członek"
+
+msgid "Search"
+msgstr "Szukaj"
+
+msgid "Subscribe"
+msgstr "Zapisz się"
+
+msgid "Cart"
+msgstr "Koszyk"
+
+msgid "Log Out"
+msgstr "Wyloguj"
+
+msgid "Toggle NSFW"
+msgstr "Przełącz NSFW"
+
+msgid "NSFW"
+msgstr "NSFW"
+
+msgid ""
+"Disable the <abbr title=\"Not Suitable For Work\">NSFW</abbr> warnings that "
+"refer to content considered inappropriate in the workplace (<strong>"
+"N</strong>ot <strong>S</strong>uitable <strong>F</strong>or <strong>"
+"W</strong>ork)."
+msgstr ""
+"Wyłącz ostrzeżenia <abbr title=\"Not Suitable For Work\">NSFW</abbr> które "
+"odnoszą się do treści uznawanych za nieodpowiednie w miejscu pracy (<strong>"
+"N</strong>ot <strong>S</strong>uitable <strong>F</strong>or <strong>"
+"W</strong>ork)."
+
+msgid "Follow us"
+msgstr "Obserwuj nas"
+
+msgid "Switch skin"
+msgstr "Przełącz skórkę"
+
+msgid "Switch to the light mode that's kinder on your eyes at day time."
+msgstr "Włącz jasny motyw, który jest przyjemniejszy dla oczu podczas dnia."
+
+msgid "Switch to the dark mode that's kinder on your eyes at night time."
+msgstr "  Włącz ciemny motyw, który jest przyjemnieszy dla oczu podczas nocy."
+
+msgid "Latest <span>story</span>"
+msgstr "Ostatni <span>artykuł</span>"
+
+msgid "Most <span>shared</span>"
+msgstr "Najczęściej <span>udostępniane</span>"
+
+msgid "Most <span>viewed</span>"
+msgstr "Najczęściej <span>oglądane</span>"
+
+msgid "Latest story"
+msgstr "Ostatni artykuł"
+
+msgid "View All"
+msgstr "Pokaż Wszystko"
+
+msgid "%d entry"
+msgid_plural "%d entries"
+msgstr[0] "%d wpis"
+msgstr[1] "%d wpisy"
+msgstr[2] "%d wpisów"
+
+msgid "Bimber"
+msgstr "Bimber"
+
+msgid "Leave empty to use the default value."
+msgstr "Pozostaw puste by użyć domyślnej wartości."
+
+msgid "Bimber Collection"
+msgstr "Bimber: Kolekcja"
+
+msgid "Select display style for items."
+msgstr "Wybierz styl wyświetlania dla pozycji."
+
+msgid "Card Style"
+msgstr "Style Karty"
+
+msgid "None"
+msgstr "Żadny"
+
+msgid "Solid"
+msgstr "Pełny"
+
+msgid "Simple"
+msgstr "Prosty"
+
+msgid "Subtle"
+msgstr "Subtelny"
+
+msgid "Columns"
+msgstr "Kolumny"
+
+msgid "Size"
+msgstr "Rozmiar"
+
+msgid "Align"
+msgstr "Wyrównaj"
+
+msgid "Center"
+msgstr "Środek"
+
+msgid "Narrow posts to a specific period of time."
+msgstr "Ogranicz wpisy do zakresu czasowego."
+
+msgid "Total Items"
+msgstr "Liczba wszysktich elementów"
+
+msgid "Set max limit for items or enter -1 to display all."
+msgstr " Ustaw limit pozycji lub wpisz -1 by wyświetlić wszystkie."
+
+msgid "Number of posts to displace or pass over."
+msgstr "Liczba wpisów do przesunięcia lub pominięcia."
+
+msgid "Filter by Category"
+msgstr "Filtruj po Kategorii"
+
+msgid "Filter by Tag"
+msgstr "Filtruj po Tagu"
+
+msgid "Filter by Post Format"
+msgstr "Filtruj po Formacie Posta"
+
+msgid "Filter by Author"
+msgstr "Filtruj po Authorze"
+
+msgid "Action Links"
+msgstr "Link akcji"
+
+msgid "Bimber Categories"
+msgstr "Bimber: Kategorie"
+
+msgid "Order by"
+msgstr "Sortuj według"
+
+msgid "Number of Entries"
+msgstr "Liczba wpisów"
+
+msgid "Bimber Title"
+msgstr "Bimber: Tytuł"
+
+msgid "Text"
+msgstr "Tekst"
+
+msgid "HTML id"
+msgstr "HTML id"
+
+msgid "HTML class"
+msgstr "Klasa HTML"
+
+msgid "Number of columns to use for grid template."
+msgstr "Liczba kolumn dla szablonu siatki."
+
+msgid "Standard"
+msgstr "Standardowy"
+
+msgid "Total items"
+msgstr "Łączna ilość pozycji"
+
+msgid "Filter by category"
+msgstr "Filtruj po kategoriach"
+
+msgid "Filter by tag"
+msgstr "Filtuj po tagach"
+
+msgid "Filter by post format"
+msgstr "Filtruj po formacie wpisu"
+
+msgid "Maximum items"
+msgstr "Maksymalna ilość pozycji"
+
+msgid "Bimber Featured Collection"
+msgstr "Bimber: Wyróżniona kolekcja"
+
+msgid "Show Tagline"
+msgstr "Pokaż opis"
+
+msgid "Logo Width"
+msgstr "Szerokość logo"
+
+msgid "Logo Height"
+msgstr "Wysokość logo"
+
+msgid "Logo HDPI"
+msgstr "Logo HDPI"
+
+msgid "An image for High DPI screen (like Retina) should be twice as big."
+msgstr ""
+"Obrazek dla ekranów High DPI (jak Retina) powinien być dwa razy większy."
+
+msgid "Logo inverted"
+msgstr "Logo odwrócone kolorystycznie"
+
+msgid "Logo inverted HDPI"
+msgstr "Logo HDPI odwrócone kolorystycznie"
+
+msgid "Mobile Logo Width"
+msgstr "Szerokość mobilnego logo"
+
+msgid "Mobile Logo Height"
+msgstr "Wysokość mobilnego logo"
+
+msgid "Mobile Logo HDPI"
+msgstr "Mobilne logo HDPI"
+
+msgid "Mobile Logo inverted"
+msgstr "Mobilne logo odwrócone kolorystycznie"
+
+msgid "Mobile Logo inverted HDPI"
+msgstr "Mobilne logo HDPI odwrócone kolorystycznie"
+
+msgid "Footer Text"
+msgstr "Tekst w stopce"
+
+msgid "Footer Stamp"
+msgstr "Znaczek w stopce"
+
+msgid "Footer Stamp Width"
+msgstr "Szerokość znaczka w stopce"
+
+msgid "Footer Stamp Height"
+msgstr "Wysokość znaczka w stopce"
+
+msgid "Footer Stamp HDPI"
+msgstr "Znaczek HDPI w stopce"
+
+msgid "Footer Stamp Label"
+msgstr "Etykieta znaczka w stopce"
+
+msgid "Hide footer stamp label"
+msgstr "Schowaj etykietę znaczku w stopce"
+
+msgid "Footer Stamp URL"
+msgstr "Adres URL znaczka w stopce"
+
+msgid "http://"
+msgstr "http://"
+
+msgid "Input placeholder"
+msgstr "Tekst zastępczy dla pola tekstowego"
+
+msgid "Available tags: %s"
+msgstr "Dostępne tagi: %s"
+
+msgid "Enable AJAX search results"
+msgstr "Włącz wyniki wyszukiwania AJAX"
+
+msgid "Add New Control"
+msgstr "Dodaj nową kontrolkę"
+
+msgid "Desktop"
+msgstr "Desktop"
+
+msgid "Tablet"
+msgstr "Tablet"
+
+msgid "Mobile"
+msgstr "Mobile"
+
+msgid "Failed to import content"
+msgstr "Nie udało się zaimportować treści"
+
+msgid "Widgets imported successfully"
+msgstr "Widżety zaimportowane pomyślnie"
+
+msgid "Failed to import widgets"
+msgstr "Nie udało się zaimportować widżetów"
+
+msgid "Theme options imported successfully."
+msgstr "Opcje motywu zostały pomyślnie zaimportowane."
+
+msgid "Failed to import theme options"
+msgstr "Nie udało się zaimportować opcji motywu"
+
+msgid "Import completed successfully."
+msgstr "Import zakończony pomyślnie."
+
+msgid "Tags"
+msgstr "Tagi"
+
+msgid "Before Main Collection"
+msgstr " Przed główną kolekcją"
+
+msgid "Show Newsletter"
+msgstr "Pokaż Newsletter"
+
+msgid "Activate the %s plugin to use this option"
+msgstr "Aktywuj wtyczkę %s by użyć tej opcji"
+
+msgid "Show Patreon"
+msgstr "Pokaż Patreon"
+
+msgid "Show Instagram"
+msgstr "Pokaż Instagram"
+
+msgid "Show Links"
+msgstr "Pokaż Linki"
+
+msgid "Show Promoted Products"
+msgstr "Pokaż promowane produkty"
+
+msgid "Show Promoted Single Product"
+msgstr "Pokaż promowany pojedynczy produkt"
+
+msgid "Activate the AdAce and WooCommerce plugins to use this option"
+msgstr "Aktywuj wtyczki AdAce oraz WooCommerce by użyć tej opcji"
+
+msgid "Links"
+msgstr "Linki"
+
+msgid "Sections order"
+msgstr "Kolejność sekcji"
+
+msgid "Drag and drop to reorder."
+msgstr "Przeciągnij i upuść by zmienić kolejność."
+
+msgid "Exclude categories"
+msgstr "Wyklucz kategorie"
+
+msgid "Use embeds instead of featured images"
+msgstr "Użyj kodów osadzania zamiast wyróżnionego obrazka"
+
+msgid "Highlight items"
+msgstr "Wyróżnij wpisy"
+
+msgid "Highlight item at position"
+msgstr "Wyróżnij wpisy na pozycji"
+
+msgid "Repeat highlighted item after each X positions"
+msgstr "Powtórz wyróżnione wpisy co każde X pozycji"
+
+msgid "Inject newsletter at position"
+msgstr "Wstrzyknij newsletter na pozycji"
+
+msgid "e.g., %s"
+msgstr "np. %s"
+
+msgid "Repeat newsletter after each X positions"
+msgstr "Powtórz newsletter co każde X pozycji"
+
+msgid "Inject ad at position"
+msgstr "Wstrzyknij reklamę na pozycji"
+
+msgid "Repeat ad after each X positions"
+msgstr "Powtórz reklamę co każde X pozycji"
+
+msgid "Inject product at position"
+msgstr "Wstrzyknij produkt na pozycji"
+
+msgid "Repeat product after each X positions"
+msgstr "Powtórz produkt co każde X pozycji"
+
+msgid "Inject products from category"
+msgstr "Wstrzyknij produkty z kategorii"
+
+msgid "Theme Color"
+msgstr "Kolor theme-a"
+
+msgid "Define colors for elements of the browser."
+msgstr "Zdefiniuj kolory elementów w przeglądarce"
+
+msgid "Keep in mind that it may only work on certain platforms or browsers."
+msgstr ""
+"Miej na uwadze że to może działać tylko na wybranych platformach i "
+"przeglądarkach."
+
+msgid "Boxed Layout Background"
+msgstr "Tło układu nierozciągniętego"
+
+msgid "Skinmode Boxed Layout Background"
+msgstr "Kolor tła w układzie Boxed"
+
+msgid "Basic Color Scheme"
+msgstr "Podstawowy schemat kolorystyczny"
+
+msgid "Accent Color"
+msgstr "Kolor wyróżniający"
+
+msgid "Archive header"
+msgstr "Nagłówek archiwum"
+
+msgid "Secondary Color Scheme"
+msgstr "Dodatkowy schemat kolorystyczny"
+
+msgid "Will be applied to buttons, badges &amp; flags."
+msgstr "Dotyczy przycisków, liczników i flag."
+
+msgid "Text Color"
+msgstr "Kolor tekstu"
+
+msgid "Enable Bending Cat"
+msgstr "Włącz Rociągniętego Kota"
+
+msgid "Page Width"
+msgstr "Szerokość strony"
+
+msgid "Typography"
+msgstr "Typografia"
+
+msgid "Google Font Subset"
+msgstr "Podzbiór Google Font"
+
+msgctxt "font subset"
+msgid "Latin"
+msgstr "Łaciński"
+
+msgctxt "font subset"
+msgid "Latin Extended"
+msgstr "Łaciński rozszerzony"
+
+msgctxt "font subset"
+msgid "Cyrillic"
+msgstr "Cyrylica"
+
+msgctxt "font subset"
+msgid "Cyrillic Extended"
+msgstr "Cyrylica rozszerzona"
+
+msgctxt "font subset"
+msgid "Greek"
+msgstr "Grecki"
+
+msgctxt "font subset"
+msgid "Greek Extended"
+msgstr "Grecki rozszerzony"
+
+msgctxt "font subset"
+msgid "Vietnamese"
+msgstr "Wietnamski"
+
+msgid "Add new"
+msgstr "Dodaj nowy"
+
+msgid "Body Text"
+msgstr "Tekst sekcji \"body\""
+
+msgid "Short meta information like post date, author etc."
+msgstr "Krótkie informacje jak data publikacji, autor itp."
+
+msgid "Metatext link"
+msgstr "Link w metatekście"
+
+msgid "Button"
+msgstr "Przycisk"
+
+msgid "Category label"
+msgstr "Etykietka kategorii"
+
+msgid "Tag label"
+msgstr "Etykietka tagu"
+
+msgid "Tab"
+msgstr "Zakładka"
+
+msgid "Submenu link"
+msgstr "Link podmenu"
+
+msgid "Dropdown toggle"
+msgstr "Przełącznik elementu rozwijanego"
+
+msgid "Post Content"
+msgstr "Treść artykułu"
+
+msgid "Mega Heading as Section Title"
+msgstr "Nagłówek mega jako tytuł sekcji"
+
+msgid "H1 as Section Title"
+msgstr "Nagłówek H1 jako tytuł sekcji"
+
+msgid "H2 as Section Title"
+msgstr "Nagłówek H2 jako tytuł sekcji"
+
+msgid "H3 as Section Title"
+msgstr "Nagłówek H3 jako tytuł sekcji"
+
+msgid "H3 as Subtitle"
+msgstr "Nagłówek H3 jako podtytuł"
+
+msgid "H4 as Section Title"
+msgstr "Nagłówek H4 jako tytuł sekcji"
+
+msgid "H4 as Subtitle"
+msgstr "Nagłówek H4 jako podtytuł"
+
+msgid "H5 as Section Title"
+msgstr "Nagłówek H5 jako tytuł sekcji"
+
+msgid "H5 as Subtitle"
+msgstr "Nagłówek H5 jako podtytuł"
+
+msgid "H6 as Section Title"
+msgstr "Nagłówek H6 jako tytuł sekcji"
+
+msgid "H6 as Subtitle"
+msgstr "Nagłówek H6 jako podtytuł"
+
+msgid "Show an ellipsis for longer items"
+msgstr "Użyj wielokropka dla dłuższych elementów"
+
+msgid "Cards"
+msgstr "Karty"
+
+msgid "Home Content"
+msgstr "Treść (strona główna)"
+
+msgid "Home Sidebars"
+msgstr "Paski boczne (strona główna)"
+
+msgid "Archive Content"
+msgstr "Treść (lista)"
+
+msgid "Archive Sidebars"
+msgstr "Paski boczne (lista)"
+
+msgid "Search Page Content"
+msgstr "Przeszukaj treść strony"
+
+msgid "Search Page Sidebars"
+msgstr "Przeszukaj paski boczne strony"
+
+msgid "Single Content"
+msgstr "Treść (pojedynczy artykuł)"
+
+msgid "Single Sidebars"
+msgstr "Paski boczne (pojedynczy artykuł)"
+
+msgid "Single Comments"
+msgstr "Komentarze (pojedynczy artykuł)"
+
+msgid "Builder"
+msgstr "Edytor wizualny"
+
+msgid "Colors"
+msgstr "Kolory"
+
+msgid "Flags"
+msgstr "Flagi"
+
+msgid "Style"
+msgstr "Styl"
+
+msgid "Skin"
+msgstr "Skórka"
+
+msgctxt "skin"
+msgid "Light"
+msgstr "Jasna"
+
+msgctxt "skin"
+msgid "Dark"
+msgstr "Ciemna"
+
+msgid "Layout"
+msgstr "Układ"
+
+msgctxt "layout"
+msgid "Boxed"
+msgstr "Nierozciągnięty"
+
+msgctxt "layout"
+msgid "Stretched"
+msgstr "Rozciągnięty"
+
+msgid "Icon Style"
+msgstr "Styl ikonek"
+
+msgctxt "icon style"
+msgid "Solid"
+msgstr "Solidny"
+
+msgctxt "icon style"
+msgid "Line"
+msgstr "Liniowy"
+
+msgid "Headings &amp; Titles"
+msgstr "Nagłówki i tytuły"
+
+msgid "Regular Text"
+msgstr "Regularny tekst"
+
+msgid "Small Text Descriptions"
+msgstr "Małe opisy"
+
+msgid "Background Image Repeat"
+msgstr "Powtarzalność obrazka tła"
+
+msgid "Background Image Size"
+msgstr "Rozmiar obrazka tła"
+
+msgid "Background Image Position"
+msgstr "Pozycja obrazka tła"
+
+msgctxt "background position option"
+msgid "top left"
+msgstr "na górze po lewej"
+
+msgctxt "background position option"
+msgid "top center"
+msgstr "na górze pośrodku"
+
+msgctxt "background position option"
+msgid "top right"
+msgstr "na górze po prawej"
+
+msgctxt "background position option"
+msgid "center left"
+msgstr "na środku po lewej"
+
+msgctxt "background position option"
+msgid "center center"
+msgstr "na środku"
+
+msgctxt "background position option"
+msgid "center right"
+msgstr "na środku po prawej"
+
+msgctxt "background position option"
+msgid "bottom left"
+msgstr "na dole po lewej"
+
+msgctxt "background position option"
+msgid "bottom center"
+msgstr "na dole pośrodku"
+
+msgctxt "background position option"
+msgid "bottom right"
+msgstr "na dole po prawej"
+
+msgid "Background Image Opacity"
+msgstr "Przezroczystość obrazka tła"
+
+msgid "Dark or Light Skin Mode"
+msgstr "Ciemny lub jasny tryb skórki"
+
+msgid "Modules"
+msgstr "Moduły"
+
+msgid "Social Media Profile Links"
+msgstr "Linki do profili społecznościowych"
+
+msgid "Newsletter Color Scheme"
+msgstr "Newsletter: schemat kolorystyczny"
+
+msgid "Light"
+msgstr "Jasny"
+
+msgid "Newsletter Title"
+msgstr "Newsletter: tytuł"
+
+msgid "Patreon Color Scheme"
+msgstr "Patreon: schemat kolorystyczny"
+
+msgid "Links Color Scheme"
+msgstr "Linki: schemat kolorystyczny"
+
+msgid "Instagram Color Scheme"
+msgstr "Instagram: schemat kolorystyczny"
+
+msgid "Instagram - single row"
+msgstr "Instagram: pojedynczy wiersz"
+
+msgid "Show Social Media Profile Links"
+msgstr "Pokaż linki do profili społecznościowych"
+
+msgid "Social Media Links Color Scheme"
+msgstr "Link do profili społecznościowych: schemat kolorystyczny"
+
+msgid "Social Media Links"
+msgstr "Link do profili społecznościowych"
+
+msgid "Show Social Media Profile Links in the footer"
+msgstr "Pokaż linki do profili społecznościowych w stopce"
+
+msgid "Show \"Back to Top\" Button?"
+msgstr "Pokazać przycisk \"Wróć na góre\"?"
+
+msgid "Don't know what NSFW is?"
+msgstr "Nie wiesz co to jest NSFW?"
+
+msgid "Read more about it in our <a href=\"%1$s\">online documentation</a>."
+msgstr "Czytaj więcej na ten temat w naszej dokumentacji"
+
+msgid "NSFW Categories"
+msgstr "Kategorie NSFW"
+
+msgid "Enable \"%s\" Collection"
+msgstr "Włącz kolekcję \"%s\""
+
+msgid "Generate collections based on"
+msgstr "Generuj kolekcje na bazie"
+
+msgid "Top in menu"
+msgstr "Najlepsze w menu"
+
+msgid "single"
+msgstr "pojedynczy"
+
+msgid "separate"
+msgstr "oddzielnie"
+
+msgid "Top posts page"
+msgstr "Strona z najlepszymi wpisami"
+
+msgid "Latest posts page"
+msgstr "Strona z ostatnimi wpisami"
+
+msgid "Hot posts page"
+msgstr "Strona z gorącymi wpisami"
+
+msgid "Popular posts page"
+msgstr "Strona z popularnymi wpisami"
+
+msgid "Trending posts page"
+msgstr "Strona z wschodzącymi wpisami"
+
+msgid "Excerpt Length (in words)"
+msgstr "Długość wycinka (w słowach)"
+
+msgid "Hide Views"
+msgstr "Schowaj odsłony"
+
+msgid ""
+"If you fill in any number here, the views for a specific post are not shown "
+"until the view count of this number is reached."
+msgstr ""
+"Jeśli wprowadzisz tutaj jakąkolwiek liczbę, odsłony dla wpisów nie zostaną "
+"pokazane jeśli ich ilość nie osiągnie tej liczby."
+
+msgid "Fake view count base"
+msgstr "Baza licznika pozorowanych odsłon"
+
+msgid "Disable fake views for new submissions"
+msgstr "Wyłącz pozorowane odsłony dla nowych zgłoszeń"
+
+msgid "New users' submitted posts won't be affected with fake views."
+msgstr ""
+"Pozorowane odsłony nie bedą uwzględnione dla postów nowo przesłanych przez "
+"użytkowników."
+
+msgid "Hide Comments"
+msgstr "Schowaj komentarze"
+
+msgid ""
+"If you fill in any number here, the comments for a specific post are not "
+"shown until the comment count of this number is reached."
+msgstr ""
+"Jeśli wprowadzisz tutaj jakąkolwiek liczbę, komentarze dla wpisów nie "
+"zostaną pokazane jeśli ich ilość nie osiągnie tej liczby."
+
+msgid "Convert date to time ago"
+msgstr "Konwertuj daty do jakiś czas temu"
+
+msgid ""
+"Instead of displaying full date, use timestamps like \"4 minutes ago\", \"1 "
+"day ago\"."
+msgstr ""
+"Zamiast pokazywania pełnej daty, użyj skrótów takich jak \"4 minuty temu\", "
+"\"1 dzień temu\"."
+
+msgid "Disabled"
+msgstr "Wyłączone"
+
+msgid "Enabled"
+msgstr "Włączone"
+
+msgid "Auto play videos in Stream collections"
+msgstr "Automatycznie odtwarzaj video w kolekcji Strumień"
+
+msgid "Use GIF player"
+msgstr "Użyj odtwarzacza GIF"
+
+msgid "Open links in new window for infinite scroll in collections"
+msgstr "Otwieraj linki w nowym oknie dla nieskończonego przewijania w kolekcji"
+
+msgid "Use pagination URLs for infinite scroll in collections"
+msgstr "Użyj adresów URL paginacji dla nieskończonego przewijania w kolekcjach"
+
+msgid "Autoload Next Post"
+msgstr "Autoładowanie następnego posta"
+
+msgid "From the same category?"
+msgstr "Z tej samej kategorii?"
+
+msgid "Max posts to load (0 for infinite)"
+msgstr "Maksymalna ilość wpisów do załadowania (0 dla nieskończoności)"
+
+msgid "Gallery Post Format"
+msgstr "Post format Galeria"
+
+msgid "Show Featured Image Icon"
+msgstr "Pokaż ikonkę na wyróżnionym obrazku"
+
+msgid "Archive"
+msgstr "Archiwum"
+
+msgid "Set up <strong>the default options</strong> for all post archive pages."
+msgstr "Ustaw opcje domyślne dla wszystkich stron archiwum dla postów"
+
+msgid ""
+"You can override them for any individual category or tag while editing it."
+msgstr "Możesz nadpisać je dla każdej kategorii lub taga podczas jego edycji"
+
+msgid "Order by Filters"
+msgstr "Filtry sortowania"
+
+msgid "Hide Archive Header Elements"
+msgstr "Schowaj elementy nagłówka archiwum"
+
+msgid "Video Post Format"
+msgstr "Wpis formatu video"
+
+msgid "Hide video in post content"
+msgstr "Schowaj wideo in treści artykułu"
+
+msgid "Link Post Format"
+msgstr "Wpis formatu link"
+
+msgid "Show source domain after post title"
+msgstr "Pokaż stronę źródłową po tytule posta"
+
+msgid "Has a single page?"
+msgstr "Czy ma pojedynczą stronę?"
+
+msgid "Button label"
+msgstr "Etykieta przycisku"
+
+msgid "Open method"
+msgstr "Metoda otwierania"
+
+msgid "using landing page"
+msgstr "używając strony docelowej"
+
+msgid "Landing page"
+msgstr "Strona docelowa"
+
+msgid "Run an external link redirection from a separate page."
+msgstr "Przepuść przekierowanie do linka zewnętrznego przez osobną stronę."
+
+msgid "Redirection delay (in seconds)"
+msgstr "Opóźnienie przekierowania (w sekundach)"
+
+msgid "Single"
+msgstr "Pojedyczny"
+
+msgid "Set up <strong>the default options</strong> for all single post pages."
+msgstr "Ustaw opcje domyślne dla wszystkich stron pojedynczego posta"
+
+msgid "You can override them for any individual post while editing it."
+msgstr "Możesz napisać je dla każdego post podczas jego edycji"
+
+msgid "Prev/Next Links"
+msgstr "Linki poprzedni/następny"
+
+msgid "Author Info"
+msgstr "Informacja o autorze"
+
+msgid "More from Category"
+msgstr "Więcej z kategorii"
+
+msgid "Comments section"
+msgstr "Sekcja komentarzy"
+
+msgid "Pagination Single"
+msgstr "Paginacja na stronie pojedynczego wpisu"
+
+msgid "Nav Single"
+msgstr "Nawigacja na pojedynczym wpisie"
+
+msgid "Share buttons"
+msgstr "Przyciski udostępniania"
+
+msgid "Reactions"
+msgstr "Reakcje"
+
+msgid "Elements Order"
+msgstr "Kolejność elementów"
+
+msgid "Sticky ShareBar"
+msgstr "Przylepiony pasek udostępniania"
+
+msgid "Enable Fly-in Prev/Next Links"
+msgstr "Włącz wlatujące linki Poprzedni/Następny"
+
+msgid "Native comment section label"
+msgstr "Etykieta sekcji z natywnymi komentarzami"
+
+msgid "Our site"
+msgstr "Nasza strona"
+
+msgctxt "pagination"
+msgid "Overview"
+msgstr "Podsumowanie"
+
+msgctxt "pagination overview"
+msgid "Page links"
+msgstr "Link do stron"
+
+msgctxt "pagination overview"
+msgid "Page X of Y"
+msgstr "Strona X z Y"
+
+msgid "Labels for previous, next"
+msgstr "Etykiety dla poprzedniego, następnego"
+
+msgid "previous | next"
+msgstr "poprzedni | następny"
+
+msgid "previous page | next page"
+msgstr "poprzednia strona | następna strona"
+
+msgid "just arrows"
+msgstr "tylko strzałki"
+
+msgid "Style of previous, next"
+msgstr "Styl poprzedniego, następnego"
+
+msgid "Link"
+msgstr "Link"
+
+msgid "Next on last page redirects to next post"
+msgstr "Następny na ostatniej stronie przekierowuje do następnego wpisu"
+
+msgid "Element: %s"
+msgstr "Element: %s"
+
+msgid "Dropdown Size"
+msgstr "Rozmiar pola dropdown"
+
+msgid "Dropdown Type"
+msgstr "Typ pola dropdown"
+
+msgid "User"
+msgstr "Użytkownik"
+
+msgid "Row: A"
+msgstr "Wiersz: A"
+
+msgid "Row: B"
+msgstr "Wiersz: B"
+
+msgid "Row: C"
+msgstr "Wiersz: C"
+
+msgid "Off-Canvas"
+msgstr "Off-Canvas"
+
+msgid "Optional Border Color"
+msgstr "Opcjonalny kolor obramowania"
+
+msgid "Sticky"
+msgstr "Przylepiony"
+
+msgid "Border Color"
+msgstr "Kolor obramowania"
+
+msgid "Visibility"
+msgstr "Widoczność"
+
+msgid "Single post"
+msgstr "Pojedyczny wpis"
+
+msgid "grid"
+msgstr "siatka"
+
+msgid "list"
+msgstr "lista"
+
+msgid "Display above header"
+msgstr "Wyświetl nad nagłówkiem"
+
+msgid "Full width"
+msgstr "Pełna szerokość"
+
+msgid "Grid Size"
+msgstr "Rozmiar siatki"
+
+msgid "Grid gutter"
+msgstr "Odstępy pomiędzy kolumnami siatki"
+
+msgid "Grid image ratio"
+msgstr "Proporcje obrazka w siatce"
+
+msgid "Grid image title"
+msgstr "Tutuł obrazka w widoku siatki"
+
+msgid "Exclude from the main collection?"
+msgstr "Wykluczyć z głównej kolekcji?"
+
+msgid "Filter by Categories"
+msgstr "Filtruj po Kategoriach"
+
+msgid "Filter by Tags"
+msgstr "Filtruj po Tagach"
+
+msgid "Icons"
+msgstr "Ikony"
+
+msgid "Margin Top"
+msgstr "Margines górny"
+
+msgid "Margin Bottom"
+msgstr "Margines donly"
+
+msgid "standard"
+msgstr "standardowy"
+
+msgid "justified"
+msgstr "wyjustowany"
+
+msgid "Labels"
+msgstr "Etykiety"
+
+msgid "Icon Size"
+msgstr "Rozmiar ikony"
+
+msgid "Show Explanation"
+msgstr "Pokaż wyjaśnienie"
+
+msgid "for all"
+msgstr "dla wszystkich"
+
+msgid "for logged in users"
+msgstr "dla zalogowanych użytkowników"
+
+msgid "small"
+msgstr "mały"
+
+msgid "Create (button)"
+msgstr "Stwórz (przycisk)"
+
+msgid "Create (dropdown)"
+msgstr "Stwórz (lista rozwijana)"
+
+msgid "enable"
+msgstr "włącz"
+
+msgid "disable"
+msgstr "wyłącz"
+
+msgid "Social Icons"
+msgstr "Ikony profili społecznościowych"
+
+msgid "List Size"
+msgstr "Rozmiar listy"
+
+msgid "Form Size"
+msgstr "Rozmiar formularza"
+
+msgid "Open Header Builder"
+msgstr "Otwórz edytor wizualny"
+
+msgid "Style:"
+msgstr "Styl:"
+
+msgid "Sticky:"
+msgstr "Przylepiony:"
+
+msgid "Shadow:"
+msgstr "Cień:"
+
+msgid "Align:"
+msgstr "Wyrównaj:"
+
+msgid "Left"
+msgstr "Lewy"
+
+msgid "Right"
+msgstr "Prawy"
+
+msgid "Grow:"
+msgstr "Powiększ:"
+
+msgctxt "on off"
+msgid "On"
+msgstr "Włącz"
+
+msgctxt "on off"
+msgid "Off"
+msgstr "Wyłącz"
+
+#. Description of the theme
+msgid ""
+"Got questions? Visit our <a href=\"http://bringthepixel.com/support/\">"
+"support centre</a>."
+msgstr ""
+"Masz pytania? Odwiedź nasze <a href=\"http://bringthepixel.com/support/\">"
+"centrum pomocy technicznej</a>."
+
+msgid "http://bimber.bringthepixel.com"
+msgstr "http://bimber.bringthepixel.com"
+
+msgid "bring the pixel"
+msgstr "bring the pixel"
+
+msgid "http://www.bringthepixel.com/"
+msgstr "http://www.bringthepixel.com/"

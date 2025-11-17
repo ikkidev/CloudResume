@@ -1,0 +1,461 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CommentAce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-16 12:10+0000\n"
+"PO-Revision-Date: 2020-11-16 12:11+0000\n"
+"Last-Translator: \n"
+"Language-Team: Polski\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10 >= 2 && n%10<=4 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.4; wp-5.5.3"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/functions.php:241
+msgid "Author"
+msgstr "Autor"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/functions.php:244
+msgid "says:"
+msgstr "mówi:"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/functions.php:251
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/lib/widgets/class-widget-recent-comments.php:98
+#, php-format
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s o %2$s"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/functions.php:254
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/functions.php:314
+msgid "Edit"
+msgstr "Edytuj"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/functions.php:256
+msgid "Copy Link of a Comment"
+msgstr ""
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/functions.php:262
+msgid "Your comment is awaiting moderation."
+msgstr "Twój komentarz oczekuje na moderację."
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/functions.php:310
+msgid "Pingback:"
+msgstr ""
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/templates/facebook-comments.php:44
+msgctxt "Notice"
+msgid "Facebook App ID not set. Please check the plugin settings."
+msgstr ""
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/templates/comments.php:19
+msgctxt "Debug Mode"
+msgid "Password protected post. Comments hidden."
+msgstr ""
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/templates/comments.php:45
+msgid "Comments"
+msgstr "Komentarze"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/templates/wordpress-comments.php:48
+#, php-format
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "Jeden komentarz"
+msgstr[1] "%1$s komentarzy"
+msgstr[2] "%1$s komentarze"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/templates/wordpress-comments.php:55
+msgid "Collapse All Replies"
+msgstr "Zwiń wszystkie odpowiedzi"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/templates/wordpress-comments.php:55
+msgid "Expand All"
+msgstr "Rozwiń wszystkie"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/templates/wordpress-comments.php:56
+msgid "Expand All Replies"
+msgstr "Rozwiń wszystkie odpowiedzi"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/templates/wordpress-comments.php:56
+msgid "Collapse All"
+msgstr "Zwiń wszystkie"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/templates/wordpress-comments.php:81
+#, php-format
+msgid "One Ping"
+msgid_plural "%1$s Pings & Trackbacks"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/templates/disqus-comments.php:41
+msgctxt "Notice"
+msgid "Disqus Shortname not set. Please check the plugin settings."
+msgstr ""
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/lib/class-plugin-controller.php:140
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/templates/votes/wordpress-comment-votes.php:45
+#: Users/guru/workspace/repos/comment-ace/comment-ace/templates/votes/wordpress-comment-votes.php:47
+msgid "Vote Up"
+msgstr "Głosuj za"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/templates/votes/wordpress-comment-votes.php:74
+msgid "Vote Down"
+msgstr "Głosuj przeciw"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/templates/notices/comments-closed.php:24
+msgid "Comments are closed."
+msgstr "Komentarze są zamknięte."
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/templates/notices/comments-closed.php:27
+msgctxt "Debug mode"
+msgid ""
+"To enable, click \"Edit Post\" page on top WP admin bar, find \"Discussion\" "
+"metabox and check \"Allow comments\" in it."
+msgstr ""
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/templates/wp-comments/pagination.php:19
+msgctxt "pagination"
+msgid "Pages"
+msgstr "Strony"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/templates/wp-comments/filter-sort.php:27
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:185
+msgid "Sort by"
+msgstr "Sortuj wg"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/templates/wp-comments/filter-sort.php:31
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:82
+msgctxt "Sort order"
+msgid "Top"
+msgstr "Najlepsze"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/templates/wp-comments/filter-sort.php:32
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:83
+msgctxt "Sort order"
+msgid "Most Voted"
+msgstr "Najwięcej głosów"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/templates/wp-comments/filter-sort.php:34
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:84
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:190
+msgctxt "Sort order"
+msgid "Newest"
+msgstr "Najnowsze"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/templates/wp-comments/filter-sort.php:35
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:85
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:189
+msgctxt "Sort order"
+msgid "Oldest"
+msgstr "Najstarsze"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/templates/wp-comments/view-replies.php:15
+#, php-format
+msgid "View replies (%d)"
+msgstr "Zobacz odpowiedzi (%d)"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:18
+msgctxt "Settings Page"
+msgid "General"
+msgstr "Ogólne"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:34
+msgctxt "Settings Page"
+msgid "WP Comments"
+msgstr "WP Komentarze"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:37
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:169
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:200
+msgid "Enable?"
+msgstr "Włączyć?"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:44
+msgctxt "Settings Section"
+msgid "Appearance"
+msgstr "Wygląd"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:48
+msgid "Cards Design"
+msgstr "Styl kart"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:51
+msgctxt "cards design"
+msgid "none"
+msgstr "nie używaj"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:52
+msgctxt "cards design"
+msgid "standard"
+msgstr "pełny"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:53
+msgctxt "cards design"
+msgid "simple"
+msgstr "tylko obwódka"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:58
+msgid "Show Author Badge?"
+msgstr "Pokazać flagę \"Autor\"?"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:63
+msgid "Collapse Replies?"
+msgstr "Zwińąć odpowiedzi?"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:70
+msgctxt "Settings Section"
+msgid "Sorting"
+msgstr "Sortowanie"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:74
+msgid "Enable Sorting?"
+msgstr "Włączyć sortowanie?"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:79
+msgid "Default Sorting"
+msgstr "Domyślne sortowanie"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:92
+msgctxt "Settings Section"
+msgid "Voting"
+msgstr "Głosowanie"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:96
+msgid "Enable Voting?"
+msgstr "Włączyć głosowanie?"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:101
+msgid "Voting Icon"
+msgstr "Ikonka głosowania"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:104
+msgctxt "voting icon"
+msgid "arrow"
+msgstr "strzałka"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:105
+msgctxt "voting icon"
+msgid "chevron"
+msgstr "daszek"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:106
+msgctxt "voting icon"
+msgid "plus"
+msgstr "plusik"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:107
+msgctxt "voting icon"
+msgid "smile"
+msgstr "uśmieszek"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:108
+msgctxt "voting icon"
+msgid "thumb"
+msgstr "kciuk"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:113
+msgid "Show Number of Upvotes and Downvotes?"
+msgstr "Pokazać liczbę głosów za i przeciw?"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:118
+msgid "Show Vote Score?"
+msgstr "Pokazać wynik głosowania?"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:125
+msgctxt "Settings Section"
+msgid "Ads"
+msgstr "Reklamy"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:132
+msgctxt "Settings Page"
+msgid "WP Comment Form"
+msgstr "WP Formularz Odpowiedzi"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:135
+msgid "Form Position"
+msgstr "Pozycja formularza"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:138
+msgid "before comments"
+msgstr "przed komentarzami"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:139
+msgid "after comments"
+msgstr "po komentarzach"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:144
+msgid "Comment Max Length"
+msgstr "Maksymalna długość komentarza"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:146
+msgid "Leave empty to use the default WordPress limit."
+msgstr "Pozostaw puste by użyć domyślnego limitu WordPress."
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:149
+msgid "Enable Character Countdown?"
+msgstr "Włączyć zliczanie znaków?"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:154
+msgid "Enable \"Reply with GIF\"?"
+msgstr "Włącz \"Odpowiedz GIFem\"?"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:159
+msgid "GIPHY App ID"
+msgstr "Identyfikator aplikacji GIPHY"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:160
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:175
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:206
+msgid "Required"
+msgstr "Wymagane"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:166
+msgctxt "Settings Page"
+msgid "Facebook"
+msgstr ""
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:174
+msgid "Facebook App ID"
+msgstr "Identyfikator aplikacji Facebook"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:179
+msgid "Number of Comments"
+msgstr "Liczba komentarzy"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:188
+msgid "Social. Uses social signals to surface the highest quality comments"
+msgstr ""
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:197
+msgctxt "Settings Page"
+msgid "Disqus"
+msgstr ""
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/config.php:205
+msgid "Disqus Shortname"
+msgstr ""
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/lib/comment-types/class-facebook-comments.php:32
+msgctxt "Comment Type Name"
+msgid "Facebook"
+msgstr "Facebook"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/lib/comment-types/class-disqus-comments.php:32
+msgctxt "Comment Type Name"
+msgid "Disqus"
+msgstr "Disqus"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/lib/comment-types/class-wordpress-comments.php:51
+msgid "Start the discussion&hellip;"
+msgstr "Rozpocznij dyskusję&hellip;"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/lib/comment-types/class-wordpress-comments.php:51
+msgid "Join the discussion&hellip;"
+msgstr "Dołącz do dyskusji&hellip;"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/lib/comment-types/class-wordpress-comments.php:78
+#, php-format
+msgid ""
+"You're using the CommentAce plugin so please refer to its %s to adjust "
+"sorting"
+msgstr ""
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/lib/comment-types/class-wordpress-comments.php:78
+msgctxt "Settings Link"
+msgid "settings"
+msgstr ""
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/lib/comment-types/class-wordpress-comments.php:184
+msgid "Powered by GIPHY"
+msgstr "W oparciu o GIPHY"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/lib/comment-types/class-wordpress-comments.php:244
+msgctxt "Comment Type Name"
+msgid "Our site"
+msgstr "Nasza strona"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/lib/comment-types/class-wordpress-comments.php:283
+msgid "Search GIFs&hellip;"
+msgstr "Szukaj GIFów&hellip;"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/lib/comment-types/class-wordpress-comments.php:288
+msgid "Reply with GIF"
+msgstr "Odpowiedz GIFem"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/lib/comment-types/class-wordpress-comments.php:291
+msgid "Reply with <abbr>GIF</abbr>"
+msgstr "Odpowiedz <abbr>GIFem</abbr>"
+
+#. Base ID.
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/lib/widgets/class-widget-recent-comments.php:27
+msgid "(CommentAce) Recent Comments"
+msgstr ""
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/lib/widgets/class-widget-recent-comments.php:29
+msgid "Display recent comments, with animated GIFs"
+msgstr ""
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/lib/widgets/class-widget-recent-comments.php:133
+msgctxt "Widget"
+msgid "Title"
+msgstr ""
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/lib/widgets/class-widget-recent-comments.php:140
+msgctxt "Widget"
+msgid "Number of comments to show"
+msgstr ""
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/lib/widgets/class-widget-recent-comments.php:147
+msgctxt "Widget"
+msgid "Sort by"
+msgstr ""
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/lib/widgets/class-widget-recent-comments.php:149
+msgctxt "Widget"
+msgid "Recent"
+msgstr ""
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/lib/widgets/class-widget-recent-comments.php:150
+msgctxt "Widget"
+msgid "Most Voted"
+msgstr ""
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/lib/widgets/class-widget-recent-comments.php:161
+msgctxt "Widget"
+msgid "On a single post, show only comments from that post"
+msgstr ""
+
+#. Name of the plugin
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/lib/class-admin-settings-page.php:64
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/lib/class-admin-settings-page.php:65
+msgid "CommentAce"
+msgstr "CommentAce"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/lib/class-admin-settings-page.php:83
+msgid "CommentAce Settings"
+msgstr "Ustawienia chuju CommentAce"
+
+#: Users/guru/workspace/repos/comment-ace/comment-ace/includes/admin/settings/lib/class-admin-settings-page.php:92
+msgid "Save Changes"
+msgstr "Zapisz zmiany"
+
+#. Description of the plugin
+msgid "WordPress, Facebook and Disqus comments"
+msgstr "Komentarze WordPress, Facebook oraz Disqus"
+
+#. Author of the plugin
+msgid "bringthepixel"
+msgstr "bringthepixel"
+
+#. Author URI of the plugin
+msgid "http://www.bringthepixel.com"
+msgstr "http://www.bringthepixel.com"

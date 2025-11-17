@@ -1,0 +1,66 @@
+{
+    "translation-revision-date": "2025-04-25 14:32+0100",
+    "generator": "WP-CLI\/2.11.0",
+    "source": "build\/index.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "es_ES",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Did this result help you?": [
+                "\u00bfTe ha sido \u00fatil este resultado?"
+            ],
+            "Yes": [
+                "S\u00ed"
+            ],
+            "No": [
+                "No"
+            ],
+            "Thanks for the feedback!": [
+                "\u00a1Gracias por tus comentarios!"
+            ],
+            "You can try searching our <a href=\"{link}\">Resource center.<\/a> though to see if there\u2019s a helpful article or video on that subject.": [
+                "Puedes intentar buscar en nuestro <a href=\"{link}\">centro de recursos.<\/a> para ver si hay un art\u00edculo o v\u00eddeo \u00fatil sobre este tema."
+            ],
+            "Sorry, I don\u2019t have any information on that topic yet.": [
+                "Lo siento, todav\u00eda no tengo informaci\u00f3n sobre ese tema."
+            ],
+            "Hi! I\u2019m your WordPress AI assistant. <\/br><\/br> Ask me how to do things in WordPress and I\u2019ll provide step by step instructions.<\/br><\/br> I\u2019m still learning so I don\u2019t have all the answers just yet.": [
+                "\u00a1Hola! Soy tu asistente de IA de WordPress. <\/br><\/br> Preg\u00fantame c\u00f3mo hacer cosas en WordPress y te proporcionar\u00e9 instrucciones paso a paso.<\/br><\/br> A\u00fan estoy aprendiendo, as\u00ed que todav\u00eda no tengo todas las respuestas."
+            ],
+            "Search Help Center": [
+                "Buscar Centro de Ayuda"
+            ],
+            "Ask about WordPress": [
+                "Pregunta sobre WordPress"
+            ],
+            "submit text": [
+                "enviar texto"
+            ],
+            "Common Topics": [
+                "Temas comunes"
+            ],
+            "Please enter a specific search term to get results.": [
+                "Por favor, introduce un t\u00e9rmino de b\u00fasqueda espec\u00edfico para obtener resultados."
+            ],
+            "Account Support": [
+                "Soporte de cuenta"
+            ],
+            "If you need help with your Bluehost account, contact our support team:": [
+                "Si necesitas ayuda con tu cuenta Bluehost, contacta con nuestro equipo de soporte:"
+            ],
+            "Chat with support": [
+                "Chatea con soporte"
+            ],
+            "Help with WordPress": [
+                "Ayuda con WordPress"
+            ],
+            "Close Help Modal": [
+                "Cerrar ventana de ayuda"
+            ]
+        }
+    }
+}

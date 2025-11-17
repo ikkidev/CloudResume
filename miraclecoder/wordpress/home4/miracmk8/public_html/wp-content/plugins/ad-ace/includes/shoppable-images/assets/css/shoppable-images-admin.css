@@ -1,0 +1,224 @@
+/* Editor Wrapper */
+#adace-image-pins-editor{
+	position: relative;
+	display: block;
+
+	font-size: 0;
+	line-height: 0;
+}
+#adace-image-pins-editor:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+/* Image Pin CSS, for now added here to move later on */
+#adace-edit-pins{
+	margin-left: 10px;
+}
+#adace-save-pins,
+#adace-add-pin{
+	margin-right: 10px;
+}
+/* Pins Board */
+#adace-image-pins-board{
+	position: relative;
+	display: block;
+	float: left;
+	width: 100%;
+    counter-reset: imagemap-map-counter;
+}
+
+#adace-image-pins-editor .imagemap-pin{
+	display: none;
+}
+#adace-image-pins-editor.active .imagemap-pin{
+	display: block;
+}
+
+#adace-image-pins-editor.active #adace-image-pins-board{
+	width: 50%;
+}
+
+#adace-image-pins-board .imagemap-pin{
+	position: absolute;
+    z-index: 3;
+}
+#adace-image-pins-board .imagemap-pin .imagemap-pin-icon{
+	display: block;
+    width: 40px;
+    height: 40px;
+	z-index: 10;
+    text-align: center;
+    font-size: 14px;
+    line-height: 40px;
+	font-weight: 400;
+    border-radius: 50%;
+    color: #222;
+	background-color: #fff;
+	border: none;
+	text-decoration: none;
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, .1);
+}
+#adace-image-pins-board .imagemap-pin .imagemap-pin-icon:before{
+	counter-increment: imagemap-map-counter;
+	content: counter(imagemap-map-counter);
+}
+#adace-image-pins-board .imagemap-pin .imagemap-pin-body{
+	display: block;
+    position: absolute;
+	pointer-events: none;
+	width: 160px;
+    z-index: -5;
+    left: 50%;
+    bottom: 50%;
+    text-align: center;
+    padding: 40px 60px;
+	font-size: 14px;
+	line-height: 20px;
+	background-color: #fff;
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, .1);
+	opacity: 0;
+}
+#adace-image-pins-board .imagemap-pin .imagemap-pin-body .button{
+	float: none;
+}
+#adace-image-pins-board .imagemap-pin:hover,
+#adace-image-pins-board .imagemap-pin.active{
+	z-index: 66;
+}
+#adace-image-pins-board .imagemap-pin:hover .imagemap-pin-body{
+	pointer-events: all;
+	opacity: 1;
+}
+
+#adace-image-pins-board .imagemap-pin:hover .imagemap-pin-icon,
+#adace-image-pins-board .imagemap-pin.active .imagemap-pin-icon{
+	color: #fff;
+	background-color: #222;
+}
+
+#adace-image-pins-board .imagemap-pin.active .imagemap-pin-body{
+	pointer-events: all;
+	opacity: 1;
+}
+/* Board Surface */
+#adace-image-pins-board .board-surface{
+	position: relative;
+	display: block;
+}
+/* Board Surface Img */
+#adace-image-pins-board .board-surface img{
+	width: 100%;
+	height: auto;
+	pointer-events: none;
+}
+/* Editor Side */
+#adace-image-pins-side{
+	position: relative;
+	display: block;
+	float: left;
+	width: 50%;
+}
+/* Editor Controls */
+#adace-image-pins-side .editor-controls{
+	position: relative;
+	display: block;
+	overflow: hidden;
+
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+/* Editor Controls, Shortcode */
+#adace-image-pins-side .editor-controls .shortcode{
+	float: right;
+	font-size: 12px;
+	line-height: 28px;
+}
+/* Editor Metaboxes */
+#adace-image-pins-side .editor-metaboxes{
+	position: relative;
+	display: block;
+	overflow: hidden;
+
+	padding-left: 20px;
+    counter-reset: imagemap-metaboxes-counter;
+}
+#adace-image-pins-side .editor-metaboxes .postbox{
+	margin-bottom: 6px;
+}
+/* Editor Metabox missing icon */
+#adace-image-pins-side .editor-metaboxes .postbox .handlediv .toggle-indicator::before{
+	margin-top: 4px;
+    width: 20px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-indent: -1px;
+	content: "\f142";
+    display: inline-block;
+    font: 400 20px/1 dashicons;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none!important;
+}
+/* Editor Metabox missing icon */
+#adace-image-pins-side .editor-metaboxes .postbox.closed .handlediv .toggle-indicator::before{
+	content: "\f140";
+}
+/* Fix cursor */
+#adace-image-pins-side .editor-metaboxes .postbox .hndle{
+	cursor: pointer;
+}
+/* Update mox name */
+#adace-image-pins-side .editor-metaboxes .postbox .hndle span::after{
+	counter-increment: imagemap-metaboxes-counter;
+	content: counter(imagemap-metaboxes-counter);
+}
+/* Clear inside*/
+#adace-image-pins-side .editor-metaboxes .postbox .inside{
+	overflow: hidden;
+	padding-bottom: 0;
+}
+/* Pin Box Header */
+#adace-image-pins-side .editor-metaboxes .postbox .inside .adace-box-header{
+	display: block;
+}
+#adace-image-pins-side .editor-metaboxes .postbox .inside .adace-box-header .header-label{
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+}
+#adace-image-pins-side .editor-metaboxes .postbox .inside .adace-box-header label{
+	position: relative;
+	display: inline-block;
+	margin-left: 15px;
+}
+
+#adace-image-pins-side .editor-metaboxes .postbox .inside .adace-box-tab{
+	display: none;
+}
+#adace-image-pins-side .editor-metaboxes .postbox .inside .adace-box-tab.current{
+	display: block;
+}
+#adace-image-pins-side .editor-metaboxes .postbox .inside button{
+	float: none;
+}
+#adace-image-pins-side .editor-metaboxes .postbox .inside .adace-pin-products-picker{
+	display: block;
+	font-size: 13px;
+    line-height: 1.5;
+    margin: 1em 0;
+}
+
+#adace-image-pins-side .editor-metaboxes .postbox .inside .adace-box-footer{
+	padding: 15px 12px;
+	margin: 0 -12px !important;
+    clear: both;
+    border-top: 1px solid #ddd;
+    background: #f5f5f5;
+}

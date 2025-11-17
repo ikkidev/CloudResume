@@ -1,0 +1,23 @@
+body#tinymce.wp-editor {
+    max-width: 710px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: sans-serif;
+}
+
+
+/* Main column width */
+.wp-block {
+    max-width: 662px;
+}
+
+/* Width of "wide" blocks */
+.wp-block[data-align="wide"] {
+    max-width: 1152px;
+}
+
+/* Width of "full-wide" blocks */
+.wp-block[data-align="full"] {
+    max-width: none;
+}

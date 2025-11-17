@@ -1,0 +1,40 @@
+.adace-stp-modal-container {  display: none; }
+
+.wp-media-buttons .adace-stp-modal-button span.wp-media-buttons-icon:before {
+	font: 400 18px/1 dashicons;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	content: "\f323";
+}
+.adace-stp-modal-container .media-sidebar{
+	background-color: #fff;
+}
+
+.adace-stp-modal-container .attachments-browser .attachment-preview{
+	background-color: #fff;
+	box-shadow: none;
+}
+.adace-stp-modal-container .attachments-browser .attachment-preview:after{
+	content: '';
+	position: absolute;
+	display: block;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	box-shadow: inset 0 0 15px rgba(0,0,0,.1), inset 0 0 0 1px rgba(0,0,0,.05);
+}
+
+.adace-stp-modal-container .attachments-browser .title{
+	position: absolute;
+	margin: 0;
+	left: 1px;
+	right: 1px;
+	bottom: 1px;
+	padding: 5px 15px;
+	line-height: 14px;
+	background-color: rgba(255, 255, 255, 0.95);
+}
+.adace-stp-modal-container .attachments-browser .button-link.attachment-close{
+	z-index: 9999;
+}

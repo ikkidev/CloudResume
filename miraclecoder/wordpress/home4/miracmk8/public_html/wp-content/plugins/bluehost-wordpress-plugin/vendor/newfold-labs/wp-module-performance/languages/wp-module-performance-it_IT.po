@@ -1,0 +1,511 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-module-performance\n"
+"Report-Msgid-Bugs-To: https://github.com/newfold-labs/wp-module-performance/issues\n"
+"Last-Translator: \n"
+"Language-Team: Italian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2025-03-04 12:44\n"
+"Language: it_IT\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: wp-module-performance\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: wp-module-performance\n"
+"X-Crowdin-Project-ID: 767577\n"
+"X-Crowdin-Language: it\n"
+"X-Crowdin-File: wp-module-performance.pot\n"
+"X-Crowdin-File-ID: 15\n"
+
+#: build/performance/performance.min.js:5
+msgid "Concatenate CSS"
+msgstr "Concatena CSS"
+
+#: build/performance/performance.min.js:5
+msgid "Defer Non-Essential JavaScript"
+msgstr "Rinvia Javascript Non Essenziale"
+
+#: build/performance/performance.min.js:2
+msgid "This site no longer qualifies for image optimization as it has reached its usage limits."
+msgstr "Questo sito non si qualifica più per l'ottimizzazione dell'immagine in quanto ha raggiunto i suoi limiti di utilizzo."
+
+#: build/performance/performance.min.js:2
+msgid "Performance"
+msgstr "Prestazioni"
+
+#: build/assets/image-bulk-optimizer/image-bulk-optimizer.min.js:1
+msgid "Optimizing Images…"
+msgstr "Ottimizzazione Delle Immagini…"
+
+#: build/assets/image-bulk-optimizer/image-bulk-optimizer.min.js:1
+msgid "Preparing files…"
+msgstr "Preparazione dei file…"
+
+#: build/assets/image-bulk-optimizer/image-bulk-optimizer.min.js:1
+msgid "Done"
+msgstr "Fatto"
+
+#: build/assets/image-bulk-optimizer/image-bulk-optimizer.min.js:1
+msgid "Optimization Canceled"
+msgstr "Ottimizzazione Annullata"
+
+#: build/assets/image-bulk-optimizer/image-bulk-optimizer.min.js:1
+msgid "Optimizing:"
+msgstr "Ottimizzazione:"
+
+#: build/assets/image-bulk-optimizer/image-bulk-optimizer.min.js:1
+msgid "Optimization Complete!"
+msgstr "Ottimizzazione Completata!"
+
+#: build/assets/image-bulk-optimizer/image-bulk-optimizer.min.js:1
+msgid "An error occurred."
+msgstr "Si è verificato un errore."
+
+#: build/assets/image-bulk-optimizer/image-bulk-optimizer.min.js:1
+msgid "Optimize"
+msgstr "Ottimizza"
+
+#: build/assets/image-optimized-marker/image-optimized-marker.min.js:1
+msgid "Optimized"
+msgstr "Ottimizzato"
+
+#: build/performance/performance.min.js:2
+msgid "Exclude from cache"
+msgstr "Escludi dalla cache"
+
+#: build/performance/performance.min.js:2
+msgid "Cache Exclusion saved"
+msgstr "Esclusione dalla cache salvata"
+
+#: build/performance/performance.min.js:2
+msgid "Save"
+msgstr "Salva"
+
+#: build/performance/performance.min.js:2
+msgid "Cache Level"
+msgstr "Livello di cache"
+
+#: build/performance/performance.min.js:2
+msgid "Boost speed and performance by storing a copy of your website content, files, and images online so the pages of your website load faster for your visitors."
+msgstr "Aumenta la velocità e le prestazioni memorizzando una copia dei contenuti, dei file e delle immagini del tuo sito web online, in modo che le pagine del tuo sito web si carichino più velocemente per i tuoi visitatori."
+
+#: build/performance/performance.min.js:2
+msgid "Cache setting saved"
+msgstr "Impostazione della cache salvata"
+
+#: build/performance/performance.min.js:2
+msgid "Disabled"
+msgstr "Disabilitato"
+
+#: build/performance/performance.min.js:2
+msgid "No cache enabled. Every page load is fresh. Not recommended."
+msgstr "Nessuna cache abilitata. Ogni caricamento di pagina è nuovo. Non consigliato."
+
+#: build/performance/performance.min.js:2
+msgid "Caching disabled."
+msgstr "Memorizzazione nella cache disabilitata."
+
+#: build/performance/performance.min.js:2
+msgid "Assets Only"
+msgstr "Solo risorse"
+
+#: build/performance/performance.min.js:2
+msgid "Cache static assets like images and the appearance of your site for 1 hour. Tuned for online stores and member sites that need to be fresh."
+msgstr "Memorizza nella cache risorse statiche come immagini e l'aspetto del tuo sito per 1 ora. Ottimizzato per negozi online e siti di membri che devono essere aggiornati."
+
+#: build/performance/performance.min.js:2
+msgid "Cache enabled for assets only."
+msgstr "Cache abilitata solo per le risorse."
+
+#: build/performance/performance.min.js:2
+msgid "Assets & Web Pages"
+msgstr "Risorse e pagine web"
+
+#: build/performance/performance.min.js:2
+msgid "Cache static assets for 24 hours and web pages for 2 hours. Tuned for sites that change at least weekly."
+msgstr "Memorizza nella cache le risorse statiche per 24 ore e le pagine web per 2 ore. Ottimizzato per siti che cambiano almeno settimanalmente."
+
+#: build/performance/performance.min.js:2
+msgid "Cache enabled for assets and pages."
+msgstr "Cache abilitata per risorse e pagine."
+
+#: build/performance/performance.min.js:2
+msgid "Assets & Web Pages - Extended"
+msgstr "Risorse e pagine web - Esteso"
+
+#: build/performance/performance.min.js:2
+msgid "Cache static assets for 1 week and web pages for 8 hours. Tuned for sites that update a few times a month or less."
+msgstr "Memorizza nella cache le risorse statiche per 1 settimana e le pagine web per 8 ore. Ottimizzato per siti che si aggiornano poche volte al mese o meno."
+
+#: build/performance/performance.min.js:2
+msgid "Cache enabled for assets and pages (extended)."
+msgstr "Cache abilitata per risorse e pagine (estesa)."
+
+#: build/performance/performance.min.js:2
+msgid "Image Optimization"
+msgstr "Ottimizzazione delle immagini"
+
+#: build/performance/performance.min.js:2
+msgid "We automatically optimize your uploaded images to WebP format for faster performance and reduced file sizes. You can also choose to delete the original images to save storage space."
+msgstr "Ottimizziamo automaticamente le tue immagini caricate nel formato WebP per prestazioni più veloci e dimensioni di file ridotte. Puoi anche scegliere di eliminare le immagini originali per risparmiare spazio di archiviazione."
+
+#: build/performance/performance.min.js:2
+msgid "Usage:"
+msgstr "Utilizzo:"
+
+#: build/performance/performance.min.js:2
+msgid "images processed of"
+msgstr "immagini elaborate su"
+
+#: build/performance/performance.min.js:2
+msgid "/month"
+msgstr "/mese"
+
+#: build/performance/performance.min.js:2
+msgid "Loading settings…"
+msgstr "Caricamento impostazioni…"
+
+#: build/performance/performance.min.js:2
+msgid "Oops! Something went wrong. Please try again."
+msgstr "Ops! Qualcosa è andato storto. Per favore riprova."
+
+#: build/performance/performance.min.js:2
+msgid "No settings available."
+msgstr "Nessuna impostazione disponibile."
+
+#: build/performance/performance.min.js:2
+msgid "Enable Image Optimization"
+msgstr "Abilita ottimizzazione delle immagini"
+
+#: build/performance/performance.min.js:2
+msgid "Enable or disable image optimization globally."
+msgstr "Abilita o disabilita l'ottimizzazione delle immagini a livello globale."
+
+#: build/performance/performance.min.js:2
+msgid "Automatically Optimize Uploaded Images"
+msgstr "Ottimizza automaticamente le immagini caricate"
+
+#: build/performance/performance.min.js:2
+msgid "When enabled, all your new image uploads will be automatically optimized to WebP format, ensuring faster page loading and reduced file sizes."
+msgstr "Quando abilitato, tutti i tuoi nuovi caricamenti di immagini saranno automaticamente ottimizzati nel formato WebP, garantendo un caricamento più veloce delle pagine e dimensioni di file ridotte."
+
+#: build/performance/performance.min.js:2
+msgid "Enable Bulk Optimization of Images"
+msgstr "Abilita ottimizzazione in blocco delle immagini"
+
+#: build/performance/performance.min.js:2
+msgid "When enabled, allows bulk optimization of images in the media library."
+msgstr "Quando abilitato, consente l'ottimizzazione in blocco delle immagini nella libreria multimediale."
+
+#: build/performance/performance.min.js:2
+msgid "Go to Media Library"
+msgstr "Vai alla libreria multimediale"
+
+#: build/performance/performance.min.js:2
+msgid "Auto Delete Original Image"
+msgstr "Elimina automaticamente l'immagine originale"
+
+#: build/performance/performance.min.js:2
+msgid "When enabled, the original uploaded image is deleted and replaced with the optimized version, helping to save storage space. If disabled, the optimized image is saved as a separate file, retaining the original."
+msgstr "Quando abilitato, l'immagine originale caricata viene eliminata e sostituita con la versione ottimizzata, contribuendo a risparmiare spazio di archiviazione. Se disabilitato, l'immagine ottimizzata viene salvata come file separato, conservando l'originale."
+
+#: build/performance/performance.min.js:2
+msgid "Enable Lazy Loading"
+msgstr "Abilita caricamento differito"
+
+#: build/performance/performance.min.js:2
+msgid "Lazy loading defers the loading of images until they are visible on the screen, improving page load speed and performance."
+msgstr "Il caricamento differito ritarda il caricamento delle immagini finché non sono visibili sullo schermo, migliorando la velocità di caricamento delle pagine e le prestazioni."
+
+#: build/performance/performance.min.js:2
+msgid "Prefer Optimized Image When Exists"
+msgstr "Preferisci immagine ottimizzata quando esiste"
+
+#: build/performance/performance.min.js:2
+msgid "When enabled, optimized images will be served in place of original images when they exist, improving performance."
+msgstr "Quando abilitato, le immagini ottimizzate verranno servite al posto delle immagini originali quando esistono, migliorando le prestazioni."
+
+#: build/performance/performance.min.js:2
+msgid "Settings updated successfully"
+msgstr "Impostazioni aggiornate con successo"
+
+#: build/performance/performance.min.js:2
+msgid "Your image optimization settings have been saved."
+msgstr "Le tue impostazioni di ottimizzazione delle immagini sono state salvate."
+
+#: build/performance/performance.min.js:2
+msgid "Error Updating Settings"
+msgstr "Errore durante l'aggiornamento delle impostazioni"
+
+#: build/performance/performance.min.js:2
+msgid "Something went wrong while updating the settings. Please try again."
+msgstr "Qualcosa è andato storto durante l'aggiornamento delle impostazioni. Per favore riprova."
+
+#: build/performance/performance.min.js:2
+msgid "Advanced settings"
+msgstr "Impostazioni avanzate"
+
+#: build/performance/performance.min.js:2
+msgid "Additional speed and scalability features powered by Jetpack Boost to make your site as fast as it can be."
+msgstr "Funzionalità aggiuntive di velocità e scalabilità alimentate da Jetpack Boost per rendere il tuo sito il più veloce possibile."
+
+#: build/performance/performance.min.js:2
+msgid "Option saved correctly"
+msgstr "Opzione salvata correttamente"
+
+#: build/performance/performance.min.js:2
+#: build/performance/performance.min.js:5
+msgid "Error saving option"
+msgstr "Errore durante il salvataggio dell'opzione"
+
+#: build/performance/performance.min.js:2
+msgid "Upgrade to unlock"
+msgstr "Aggiorna per sbloccare"
+
+#: build/performance/performance.min.js:2
+msgid "Install Jetpack Boost to unlock"
+msgstr "Installa Jetpack Boost per sbloccare"
+
+#: build/performance/performance.min.js:2
+msgid "Installing Jetpack Boost…"
+msgstr "Installazione di Jetpack Boost…"
+
+#: build/performance/performance.min.js:2
+msgid "Jetpack Boost is now active"
+msgstr "Jetpack Boost è ora attivo"
+
+#: build/performance/performance.min.js:2
+msgid "Activation failed"
+msgstr "Attivazione fallita"
+
+#: build/performance/performance.min.js:2
+msgid "Optimize Critical CSS Loading (manual)"
+msgstr "Ottimizza il caricamento del CSS critico (manuale)"
+
+#: build/performance/performance.min.js:2
+msgid "Generate CSS"
+msgstr "Genera CSS"
+
+#: build/performance/performance.min.js:2
+msgid "Critical CSS generated successfully."
+msgstr "CSS critico generato con successo."
+
+#: build/performance/performance.min.js:2
+msgid "Keep this page opened until the process finish"
+msgstr "Mantieni questa pagina aperta fino al termine del processo"
+
+#: build/performance/performance.min.js:2
+msgid "Error generating Critical CSS, try again"
+msgstr "Errore durante la generazione del CSS critico, riprova"
+
+#: build/performance/performance.min.js:2
+msgid "Optimize Critical CSS Loading (UPGRADED)"
+msgstr "Ottimizza il caricamento del CSS critico (MIGLIORATO)"
+
+#: build/performance/performance.min.js:2
+msgid "Generate Critical CSS Automatically"
+msgstr "Genera automaticamente CSS critico"
+
+#: build/performance/performance.min.js:5
+msgid "Run non-essential JavaScript after the page has loaded so that styles and images can load more quickly."
+msgstr "Esegui JavaScript non essenziale dopo che la pagina è stata caricata in modo che stili e immagini possano caricarsi più velocemente."
+
+#: build/performance/performance.min.js:5
+msgid "Concatenate JS"
+msgstr "Concatena JS"
+
+#: build/performance/performance.min.js:5
+msgid "Scripts are grouped by their original placement, concatenated and minified to reduce site loading time and reduce the number of requests."
+msgstr "Gli script sono raggruppati in base alla loro posizione originale, concatenati e minificati per ridurre il tempo di caricamento del sito e ridurre il numero di richieste."
+
+#: build/performance/performance.min.js:5
+msgid "Exclude JS Strings"
+msgstr "Escludi stringhe JS"
+
+#: build/performance/performance.min.js:5
+msgid "Styles are grouped by their original placement, concatenated and minified to reduce site loading time and reduce the number of requests."
+msgstr "Gli stili sono raggruppati in base alla loro posizione originale, concatenati e minificati per ridurre il tempo di caricamento del sito e ridurre il numero di richieste."
+
+#: build/performance/performance.min.js:5
+msgid "Exclude CSS Strings"
+msgstr "Escludi stringhe CSS"
+
+#: build/performance/performance.min.js:5
+msgid "Link Prefetch"
+msgstr "Prefetch dei link"
+
+#: build/performance/performance.min.js:5
+msgid "Asks the browser to download and cache links on the page ahead of them being clicked on, so that when they are clicked they load almost instantly."
+msgstr "Chiede al browser di scaricare e memorizzare nella cache i link sulla pagina prima che vengano cliccati, in modo che quando vengono cliccati si carichino quasi istantaneamente."
+
+#: build/performance/performance.min.js:5
+msgid "Link prefetching setting saved"
+msgstr "Impostazione di prefetch dei link salvata"
+
+#: build/performance/performance.min.js:5
+msgid "Enable link prefetching on desktop"
+msgstr "Abilita prefetch dei link su desktop"
+
+#: build/performance/performance.min.js:5
+msgid "Activate on desktop"
+msgstr "Attiva su desktop"
+
+#: build/performance/performance.min.js:5
+msgid "Behavior"
+msgstr "Comportamento"
+
+#: build/performance/performance.min.js:5
+msgid "Prefetch on Mouse Down"
+msgstr "Prefetch al clic del mouse"
+
+#: build/performance/performance.min.js:5
+msgid "Prefetch on Mouse Down: Starts loading the page as soon as you click down, for faster response when you release the click."
+msgstr "Prefetch al clic del mouse: Inizia a caricare la pagina non appena fai clic, per una risposta più rapida quando rilasci il clic."
+
+#: build/performance/performance.min.js:5
+msgid "Prefetch on Mouse Hover (Recommended)"
+msgstr "Prefetch al passaggio del mouse (Consigliato)"
+
+#: build/performance/performance.min.js:5
+msgid "Prefetch on Mouse Hover: Begins loading the page the moment your cursor hovers over a link"
+msgstr "Prefetch al passaggio del mouse: Inizia a caricare la pagina nel momento in cui il cursore passa sopra un link"
+
+#: build/performance/performance.min.js:5
+msgid "Enable link prefetching on mobile"
+msgstr "Abilita prefetch dei link su mobile"
+
+#: build/performance/performance.min.js:5
+msgid "Activate on mobile"
+msgstr "Attiva su mobile"
+
+#: build/performance/performance.min.js:5
+msgid "Prefetch on Touchstart (Recommended)"
+msgstr "Prefetch al tocco (Consigliato)"
+
+#: build/performance/performance.min.js:5
+msgid "Prefetch on Touchstart: Instantly starts loading the page as soon as you tap the screen, ensuring a quicker response when you lift your finger."
+msgstr "Prefetch al tocco: Inizia istantaneamente a caricare la pagina non appena tocchi lo schermo, garantendo una risposta più rapida quando sollevi il dito."
+
+#: build/performance/performance.min.js:5
+msgid "Prefetch Above the Fold"
+msgstr "Prefetch sopra la piega"
+
+#: build/performance/performance.min.js:5
+msgid "Prefetch Above the Fold: Loads links in your current view instantly, ensuring they're ready when you need them."
+msgstr "Prefetch sopra la piega: Carica istantaneamente i link nella tua vista corrente, assicurando che siano pronti quando ne hai bisogno."
+
+#: build/performance/performance.min.js:5
+msgid "Exclude keywords"
+msgstr "Escludi parole chiave"
+
+#: build/performance/performance.min.js:5
+msgid "Exclude Keywords: A comma separated list of words or strings that will exclude a link from being prefetched. For example, excluding \"app\" will prevent https://example.com/apple from being prefetched."
+msgstr "Escludi parole chiave: Un elenco separato da virgole di parole o stringhe che escluderanno un link dall'essere prefetchato. Ad esempio, escludendo \"app\" si impedirà che https://example.com/apple venga prefetchato."
+
+#: build/performance/performance.min.js:2
+msgid "This setting controls what pages pass a “no-cache” header so that page caching and browser caching is not used."
+msgstr "Questa impostazione controlla quali pagine inviano un’intestazione “no-cache”, in modo che non venga utilizzata la cache delle pagine o del browser."
+
+#: build/performance/performance.min.js:2
+msgid "Move important styling information to the start of the page, which helps pages display your content sooner, so your users don’t have to wait for the entire page to load."
+msgstr "Sposta le informazioni di stile importanti all'inizio della pagina, per mostrare prima i contenuti e non far aspettare agli utenti il caricamento completo."
+
+#. translators: %1$s is a line break (<br>), %2$s is the opening <strong> tag, %3$s is the closing </strong> tag.
+#: build/performance/performance.min.js:5
+#, js-format
+msgid "Move important styling information to the start of the page, which helps pages display your content sooner, so your users don’t have to wait for the entire page to load.%1$s %2$sBoost will automatically generate your Critical CSS%3$s whenever you make changes to the HTML or CSS structure of your site."
+msgstr "Sposta le informazioni di stile importanti all'inizio della pagina, per mostrare prima i contenuti e non far aspettare agli utenti il caricamento completo.%1$s %2$sBoost genererà automaticamente il tuo CSS critico%3$s ogni volta che apporti modifiche alla struttura HTML o CSS del tuo sito."
+
+#: build/performance/performance.min.js:2
+msgid "Clear Cache"
+msgstr "Svuota la cache"
+
+#: build/performance/performance.min.js:2
+msgid "We automatically clear your cache as you work (creating content, changing settings, installing plugins and more). But you can manually clear it here to be confident it is fresh."
+msgstr "Svuotiamo automaticamente la cache mentre lavori (creando contenuti, modificando impostazioni, installando plugin e altro). Ma puoi anche svuotarla manualmente qui per essere sicuro che sia aggiornata."
+
+#: build/performance/performance.min.js:2
+msgid "Clear All Cache Now"
+msgstr "Svuota tutta la cache ora"
+
+#: build/performance/performance.min.js:2
+msgid "Cache cleared"
+msgstr "Cache svuotata"
+
+#: build/performance/performance.min.js:5
+msgid "Skip 404"
+msgstr "Salta 404"
+
+#: build/performance/performance.min.js:5
+msgid "When enabled, static resources like images and fonts will use a default server 404 page and not WordPress 404 pages. Pages and posts will continue using WordPress for 404 pages."
+msgstr "Quando abilitata, le risorse statiche come immagini e font useranno una pagina 404 predefinita del server e non quella di WordPress. Le pagine e gli articoli continueranno a utilizzare le pagine 404 di WordPress."
+
+#: build/performance/performance.min.js:5
+msgid "Enable Skip 404 Handling For Static Files"
+msgstr "Abilita l’ignoramento dei 404 per i file statici"
+
+#: build/performance/performance.min.js:5
+msgid "Skip 404 saved"
+msgstr "Impostazione “Salta 404” salvata"
+
+#: build/performance/performance.min.js:2
+msgid "Optimize your website by managing cache and performance settings"
+msgstr ""
+
+#: build/performance/performance.min.js:2
+msgid "Font Optimization"
+msgstr "Ottimizzazione dei font"
+
+#: build/performance/performance.min.js:2
+msgid "Improve load times by replacing Google Fonts with optimized local versions."
+msgstr "Migliora i tempi di caricamento sostituendo Google Fonts con versioni locali ottimizzate."
+
+#: build/performance/performance.min.js:2
+msgid "Optimize Fonts via Cloudflare"
+msgstr "Ottimizza i font via Cloudflare"
+
+#: build/performance/performance.min.js:2
+msgid "Replaces Google Fonts with faster, privacy-friendly versions served locally."
+msgstr "Sostituisce Google Fonts con versioni locali più veloci e rispettose della privacy."
+
+#: build/performance/performance.min.js:2
+msgid "Loading font optimization settings…"
+msgstr "Caricamento impostazioni ottimizzazione font…"
+
+#: build/performance/performance.min.js:2
+msgid "Error loading settings."
+msgstr "Errore nel caricamento delle impostazioni."
+
+#: build/performance/performance.min.js:2
+msgid "Fonts optimization updated"
+msgstr "Ottimizzazione dei font aggiornata"
+
+#: build/performance/performance.min.js:2
+msgid "Font optimization setting saved successfully."
+msgstr "Impostazione di ottimizzazione dei font salvata con successo."
+
+#: build/performance/performance.min.js:2
+msgid "Update failed"
+msgstr "Aggiornamento fallito"
+
+#: build/performance/performance.min.js:2
+msgid "Could not save font optimization setting."
+msgstr "Impossibile salvare l’impostazione di ottimizzazione dei font."
+
+#: build/performance/performance.min.js:2
+msgid "Optimize Images via Cloudflare"
+msgstr "Ottimizza le immagini via Cloudflare"
+
+#: build/performance/performance.min.js:2
+msgid "Enables Cloudflare's image compression to reduce load times and bandwidth usage."
+msgstr "Attiva la compressione delle immagini di Cloudflare per ridurre tempi di caricamento e banda."
+
+#: build/performance/performance.min.js:2
+msgid "Improve Image Loading on Slow Connections"
+msgstr "Migliora il caricamento delle immagini su connessioni lente"
+
+#: build/performance/performance.min.js:2
+msgid "Cloudflare Mirage accelerates image loading for mobile and slow networks."
+msgstr "Cloudflare Mirage accelera il caricamento delle immagini su reti mobili e lente."

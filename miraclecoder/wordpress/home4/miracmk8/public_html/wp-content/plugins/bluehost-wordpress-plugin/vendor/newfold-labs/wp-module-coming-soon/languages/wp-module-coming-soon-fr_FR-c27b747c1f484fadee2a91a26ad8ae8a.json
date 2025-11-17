@@ -1,0 +1,27 @@
+{
+    "translation-revision-date": "2025-02-19 17:00",
+    "generator": "WP-CLI\/2.11.0",
+    "source": "build\/prePublishWarning\/bundle.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "fr_FR",
+                "plural-forms": "nplurals=2; plural=(n > 1);"
+            },
+            "Ready to launch your Site?": [
+                "Pr\u00eat \u00e0 lancer votre site ?"
+            ],
+            "Pages and posts you publish will not be visible to the public until you launch your site.": [
+                "Les pages et les messages que vous publiez ne seront pas visibles au public jusqu'\u00e0 ce que vous lancez votre site."
+            ],
+            "Publish & Launch Site": [
+                "Publier et lancer le site"
+            ],
+            "Publish Without Launching": [
+                "Publier sans lancer"
+            ]
+        }
+    }
+}

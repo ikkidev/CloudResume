@@ -1,0 +1,18 @@
+.comment-list {
+	clear: both;
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+
+	.children {
+		margin: side-values(0 0 0 #{$avatar_size + $avatar_gutter});
+		padding: 0;
+
+		list-style: none;
+
+		.children {
+			margin-#{$left}: $avatar_child_size + $avatar_gutter;
+		}
+	}
+}

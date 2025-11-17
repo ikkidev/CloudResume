@@ -1,0 +1,42 @@
+.shoppable-image {
+  margin-bottom: 1.5rem;
+  color: #000;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap; }
+
+.shoppable-image-map {
+  position: relative;
+  counter-reset: shoppable-image-map-counter;
+  margin-bottom: 1rem; }
+
+.shoppable-image-pin {
+  position: absolute;
+  z-index: 5; }
+
+a.shoppable-image-hideshow-btn {
+  display: none; }
+
+.shoppable-image-pin-icon {
+  display: block;
+  width: 40px;
+  height: 40px;
+  padding: 8px 0;
+  background-color: #fff;
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  .shoppable-image-pin-icon:before {
+    counter-increment: shoppable-image-map-counter;
+    content: counter(shoppable-image-map-counter); }
+
+.shoppable-image-pin-body {
+  display: none; }
+
+.shoppable-image-items {
+  margin: 0;
+  text-align: center;
+  list-style-position: inside; }

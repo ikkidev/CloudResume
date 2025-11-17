@@ -1,0 +1,169 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: Vara Prasad Maruboina <varaprasad.maruboina@newfold.com>\n"
+"Language-Team: English (British) <(nothing)>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-02-13T09:55:55+00:00\n"
+"PO-Revision-Date: 2025-02-13 18:33+0530\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: wp-module-coming-soon\n"
+"X-Generator: WP-CLI 2.11.0\n"
+
+#: bootstrap.php:48
+msgid "Coming Soon"
+msgstr "Coming Soon"
+
+#: includes/AdminBarSiteStatusBadge.php:42
+#: static/js/coming-soon.js:127
+#: static/js/coming-soon.js:142
+msgid "Coming soon"
+msgstr "Coming soon"
+
+#: includes/AdminBarSiteStatusBadge.php:43
+#: build/sitePreviewPortal/bundle.js:1
+#: static/js/coming-soon.js:131
+#: static/js/coming-soon.js:146
+msgid "Live"
+msgstr "Live"
+
+#: includes/API/ComingSoon.php:138
+msgid "You cannot access the resource."
+msgstr "You cannot access the resource."
+
+#: includes/API/ComingSoon.php:141
+msgid "Coming Soon module service provider error."
+msgstr "Coming Soon module service provider error."
+
+#: includes/ComingSoon.php:49
+msgid "Your site has Coming Soon mode active."
+msgstr "Your site has Coming Soon mode active."
+
+#: includes/ComingSoon.php:50
+msgid "Coming Soon!"
+msgstr "Coming Soon!"
+
+#: includes/ComingSoon.php:57
+msgid "Thank you, please check your email to confirm your subscription."
+msgstr "Thank you, please check your email to confirm your subscription."
+
+#: includes/ComingSoon.php:58
+msgid "Your email address is already subscribed to this website.<br>Stay tuned to your inbox for our updates or try a different email address."
+msgstr "Your email address is already subscribed to this website.<br>Stay tuned to your inbox for our updates or try a different email address."
+
+#: includes/ComingSoon.php:59
+msgid "There was an error with your submission and you were not subscribed.<br>Please try again with a valid email address."
+msgstr "There was an error with your submission and you were not subscribed.<br>Please try again with a valid email address."
+
+#: includes/ComingSoon.php:60
+msgid "Enter your email address"
+msgstr "Enter your email address"
+
+#: includes/ComingSoon.php:61
+msgid "Subscribe"
+msgstr "Subscribe"
+
+#: includes/ComingSoon.php:367
+msgid "Gotcha!"
+msgstr "Gotcha!"
+
+#: includes/ComingSoon.php:372
+msgid "Please provide a valid email address"
+msgstr "Please provide a valid email address"
+
+#: includes/ComingSoon.php:382
+msgid "Jetpack encountered an error with the subscription"
+msgstr "Jetpack encountered an error with the subscription"
+
+#: includes/ComingSoon.php:404
+msgid "There was an error with the subscription"
+msgstr "There was an error with the subscription"
+
+#: includes/ComingSoon.php:409
+msgid "Subscription successful"
+msgstr "Subscription successful"
+
+#: includes/SitePreviewWarning.php:27
+msgid "Site Preview - This site is NOT LIVE, only admins can see this view."
+msgstr "Site Preview - This site is NOT LIVE, only admins can see this view."
+
+#: includes/template/index.php:126
+msgid "Admin Login"
+msgstr "Admin Login"
+
+#: build/prePublishWarning/bundle.js:1
+msgid "Ready to launch your Site?"
+msgstr "Ready to launch your Site?"
+
+#: build/prePublishWarning/bundle.js:1
+msgid "Pages and posts you publish will not be visible to the public until you launch your site."
+msgstr "Pages and posts you publish will not be visible to the public until you launch your site."
+
+#: build/prePublishWarning/bundle.js:1
+msgid "Publish & Launch Site"
+msgstr "Publish & Launch Site"
+
+#: build/prePublishWarning/bundle.js:1
+msgid "Publish Without Launching"
+msgstr "Publish Without Launching"
+
+#: includes/ComingSoon.php:25
+msgid "A new website is on the way!"
+msgstr "A new website is on the way!"
+
+#: includes/ComingSoon.php:56
+msgid "Signup to be the first to know when we launch."
+msgstr "Signup to be the first to know when we launch."
+
+#: includes/template/index.php:100
+msgid "Is this your website?"
+msgstr "Is this your website?"
+
+#: includes/template/index.php:102
+#: includes/template/index.php:106
+msgid "Login to WordPress"
+msgstr "Login to WordPress"
+
+#: build/sitePreviewPortal/bundle.js:1
+msgid "Site Preview"
+msgstr "Site Preview"
+
+#: build/sitePreviewPortal/bundle.js:1
+msgid "Not Live"
+msgstr "Not Live"
+
+#: build/sitePreviewPortal/bundle.js:1
+msgid "Your website is currently displaying a \"Coming Soon\" page."
+msgstr "Your website is currently displaying a \"Coming Soon\" page."
+
+#: build/sitePreviewPortal/bundle.js:1
+msgid "Your website is live to the world!"
+msgstr "Your website is live to the world!"
+
+#: build/sitePreviewPortal/bundle.js:1
+msgid "View"
+msgstr "View"
+
+#: build/sitePreviewPortal/bundle.js:1
+msgid "Edit"
+msgstr "Edit"
+
+#: build/sitePreviewPortal/bundle.js:1
+msgid "Ready to publish?"
+msgstr "Ready to publish?"
+
+#: build/sitePreviewPortal/bundle.js:1
+msgid "Launch Site"
+msgstr "Launch Site"
+
+#: build/sitePreviewPortal/bundle.js:1
+msgid "Not ready to share it?"
+msgstr "Not ready to share it?"
+
+#: build/sitePreviewPortal/bundle.js:1
+msgid "Enable Coming Soon"
+msgstr "Enable Coming Soon"

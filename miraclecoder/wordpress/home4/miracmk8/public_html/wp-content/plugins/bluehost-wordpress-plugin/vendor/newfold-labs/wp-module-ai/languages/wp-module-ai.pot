@@ -1,0 +1,101 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://github.com/newfold-labs/wp-module-ai/issues\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-02-13T09:55:55+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: wp-module-ai\n"
+
+#: bootstrap.php:29
+msgid "ai"
+msgstr ""
+
+#: includes/NFD_CLI.php:39
+msgid "No action provided"
+msgstr ""
+
+#: includes/NFD_CLI.php:40
+msgid "Usage: wp newfold ai enable <Hiive Token>"
+msgstr ""
+
+#: includes/NFD_CLI.php:41
+msgid "wp newfold ai disable"
+msgstr ""
+
+#: includes/NFD_CLI.php:55
+msgid "Hiive token not provided. Cannot enable AI capabilities."
+msgstr ""
+
+#: includes/NFD_CLI.php:78
+#: includes/NFD_CLI.php:106
+msgid "Failed to initialize the WP Filesystem."
+msgstr ""
+
+#: includes/NFD_CLI.php:83
+msgid "Could not enable AI capabilities."
+msgstr ""
+
+#: includes/NFD_CLI.php:85
+msgid "AI Capabilities Enabled."
+msgstr ""
+
+#: includes/NFD_CLI.php:89
+msgid "Hiive token encrypted and saved."
+msgstr ""
+
+#: includes/NFD_CLI.php:111
+#: includes/NFD_CLI.php:116
+msgid "Could not disable AI capabilities."
+msgstr ""
+
+#: includes/NFD_CLI.php:118
+msgid "AI Capabilities Disabled."
+msgstr ""
+
+#: includes/NFD_CLI.php:122
+msgid "Hiive token deleted."
+msgstr ""
+
+#: includes/RestApi/AISearchController.php:229
+#: includes/RestApi/AISearchController.php:256
+msgid "You are not authorized to make this call"
+msgstr ""
+
+#: includes/RestApi/AISearchController.php:279
+msgid "You must be authenticated to make this call"
+msgstr ""
+
+#: includes/SiteGen/SiteGen.php:181
+#: includes/SiteGen/SiteGen.php:223
+#: includes/SiteGen/SiteGen.php:365
+#: includes/SiteGen/SiteGen.php:370
+#: includes/SiteGen/SiteGen.php:416
+#: includes/SiteGen/SiteGen.php:512
+#: includes/SiteGen/SiteGen.php:517
+#: includes/SiteGen/SiteGen.php:790
+#: includes/SiteGen/SiteGen.php:795
+#: includes/Utils/AISearchUtil.php:53
+#: includes/Utils/AISearchUtil.php:77
+#: includes/Utils/AISearchUtil.php:85
+#: includes/Utils/AISearchUtil.php:96
+#: includes/Utils/AISearchUtil.php:110
+#: includes/Utils/AISearchUtil.php:131
+#: includes/Utils/AISearchUtil.php:143
+msgid "We are unable to process the request at this moment"
+msgstr ""
+
+#: includes/SiteGen/SiteGen.php:311
+#: includes/SiteGen/SiteGen.php:435
+#: includes/SiteGen/SiteGen.php:831
+msgid "You do not have the permissions to perform this action"
+msgstr ""
+
+#: includes/SiteGen/SiteGen.php:317
+msgid "Required values not provided"
+msgstr ""

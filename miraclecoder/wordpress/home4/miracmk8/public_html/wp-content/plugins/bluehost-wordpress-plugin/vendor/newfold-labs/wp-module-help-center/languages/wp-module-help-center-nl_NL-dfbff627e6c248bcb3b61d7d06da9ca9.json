@@ -1,0 +1,66 @@
+{
+    "translation-revision-date": "2025-02-19 16:04",
+    "generator": "WP-CLI\/2.11.0",
+    "source": "build\/index.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "nl_NL",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Did this result help you?": [
+                "Heeft dit resultaat u geholpen?"
+            ],
+            "Yes": [
+                "ja"
+            ],
+            "No": [
+                "Neen"
+            ],
+            "Thanks for the feedback!": [
+                "Bedankt voor de feedback!"
+            ],
+            "You can try searching our <a href=\"{link}\">Resource center.<\/a> though to see if there\u2019s a helpful article or video on that subject.": [
+                "Je kunt proberen in ons <a href=\"{link}\">Kenniscentrum<\/a> te zoeken om te zien of er een nuttig artikel of video over dat onderwerp is."
+            ],
+            "Sorry, I don\u2019t have any information on that topic yet.": [
+                "Sorry, ik heb nog geen informatie over dat onderwerp."
+            ],
+            "Hi! I\u2019m your WordPress AI assistant. <\/br><\/br> Ask me how to do things in WordPress and I\u2019ll provide step by step instructions.<\/br><\/br> I\u2019m still learning so I don\u2019t have all the answers just yet.": [
+                "Hallo! Ik ben jouw WordPress AI assistent. <\/br><\/br> Vraag me hoe je dingen kunt doen in WordPress, dan zal ik stap voor stap instructies geven.<\/br><\/br> Ik leer nog steeds, zodat ik nog niet alle antwoorden heb."
+            ],
+            "Search Help Center": [
+                "Zoek naar hulpcentrum"
+            ],
+            "Ask about WordPress": [
+                "Vraag over WordPress"
+            ],
+            "submit text": [
+                "dien tekst in"
+            ],
+            "Common Topics": [
+                "Algemene Onderwerpen"
+            ],
+            "Please enter a specific search term to get results.": [
+                "Voer een specifieke zoekterm in om zoekresultaten te krijgen."
+            ],
+            "Account Support": [
+                "Ondersteuning voor account"
+            ],
+            "If you need help with your Bluehost account, contact our support team:": [
+                "Als je hulp nodig hebt met je Bluehost account, neem dan contact op met ons ondersteuningsteam:"
+            ],
+            "Chat with support": [
+                "Chat met ondersteuning"
+            ],
+            "Help with WordPress": [
+                "Help met WordPress"
+            ],
+            "Close Help Modal": [
+                "Help Modal sluiten"
+            ]
+        }
+    }
+}

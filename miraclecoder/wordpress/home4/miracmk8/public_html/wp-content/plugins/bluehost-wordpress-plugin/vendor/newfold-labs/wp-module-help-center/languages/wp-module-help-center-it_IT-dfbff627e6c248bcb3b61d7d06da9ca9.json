@@ -1,0 +1,66 @@
+{
+    "translation-revision-date": "2025-02-19 16:04",
+    "generator": "WP-CLI\/2.11.0",
+    "source": "build\/index.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "it_IT",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Did this result help you?": [
+                "Questo risultato ti ha aiutato?"
+            ],
+            "Yes": [
+                "S\u00ec"
+            ],
+            "No": [
+                "No"
+            ],
+            "Thanks for the feedback!": [
+                "Grazie per il feedback!"
+            ],
+            "You can try searching our <a href=\"{link}\">Resource center.<\/a> though to see if there\u2019s a helpful article or video on that subject.": [
+                "Puoi provare a cercare il nostro centro risorse <a href=\"{link}\">.<\/a> per vedere se c'\u00e8 un utile articolo o video su questo argomento."
+            ],
+            "Sorry, I don\u2019t have any information on that topic yet.": [
+                "Mi dispiace, non ho ancora alcuna informazione su questo argomento."
+            ],
+            "Hi! I\u2019m your WordPress AI assistant. <\/br><\/br> Ask me how to do things in WordPress and I\u2019ll provide step by step instructions.<\/br><\/br> I\u2019m still learning so I don\u2019t have all the answers just yet.": [
+                "Ciao! Sono il tuo assistente WordPress AI. <\/br><\/br> Mi chiede come fare le cose in WordPress e fornir\u00f2 istruzioni passo dopo passo.<\/br><\/br> Sto ancora imparando quindi non ho ancora tutte le risposte."
+            ],
+            "Search Help Center": [
+                "Search Help Center"
+            ],
+            "Ask about WordPress": [
+                "Chiedi su WordPress"
+            ],
+            "submit text": [
+                "invia testo"
+            ],
+            "Common Topics": [
+                "Argomenti Comuni"
+            ],
+            "Please enter a specific search term to get results.": [
+                "Inserisci un termine di ricerca specifico per ottenere risultati."
+            ],
+            "Account Support": [
+                "Supporto Account"
+            ],
+            "If you need help with your Bluehost account, contact our support team:": [
+                "Se hai bisogno di aiuto con il tuo account Bluehost, contatta il nostro team di supporto:"
+            ],
+            "Chat with support": [
+                "Chatta con supporto"
+            ],
+            "Help with WordPress": [
+                "Aiuto con WordPress"
+            ],
+            "Close Help Modal": [
+                "Chiudi Aiuto Modal"
+            ]
+        }
+    }
+}

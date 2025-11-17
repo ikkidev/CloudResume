@@ -1,0 +1,123 @@
+{
+    "translation-revision-date": "2025-02-19 13:44",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "src\/components\/App\/getAppText.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "nl_NL",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Cancel": [
+                "annuleren"
+            ],
+            "Cloned to Staging": [
+                "Gekopieerd naar testomgeving"
+            ],
+            "Cloning production to staging, this should take about a minute.": [
+                "Productieomgeving wordt gekopieerd naar testomgeving, dit duurt ongeveer een minuut."
+            ],
+            "Created": [
+                "Aangemaakt"
+            ],
+            "Staging Created": [
+                "Testomgeving aangemaakt"
+            ],
+            "Creating a staging site, this should take about a minute.": [
+                "Testomgeving wordt aangemaakt, dit duurt ongeveer een minuut."
+            ],
+            "Currently editing": [
+                "Momenteel bewerken"
+            ],
+            "Delete": [
+                "Verwijderen"
+            ],
+            "Confirm Delete": [
+                "Verwijderen bevestigen"
+            ],
+            "Deleted Staging": [
+                "Testomgeving verwijderd"
+            ],
+            "Deleting the staging site, this should take about a minute.": [
+                "De testomgeving wordt verwijderd, dit duurt ongeveer een minuut."
+            ],
+            "Deploy": [
+                "Implementeren"
+            ],
+            "Deploy all changes": [
+                "Alle wijzigingen implementeren"
+            ],
+            "Confirm Deployment": [
+                "Bevestig implementatie"
+            ],
+            "Deploy database only": [
+                "Alleen database implementeren"
+            ],
+            "This will deploy staging to production and overwrite current production site. Are you sure you want to proceed?": [
+                "Dit zal de testomgeving naar productie overzetten en de huidige productiesite overschrijven. Weet u zeker dat u wilt doorgaan?"
+            ],
+            "Deploy files only": [
+                "Alleen bestanden implementeren"
+            ],
+            "Deployed": [
+                "Ge\u00efmplementeerd"
+            ],
+            "Deploying from staging to production, this should take about a minute.": [
+                "Testomgeving wordt overgezet naar productie, dit duurt ongeveer een minuut."
+            ],
+            "Deploy Site": [
+                "Site implementeren"
+            ],
+            "Error": [
+                "Foutmelding"
+            ],
+            "Not currently editing": [
+                "Momenteel niet bewerkt"
+            ],
+            "Proceed": [
+                "Doorgaan"
+            ],
+            "A staging site is a duplicate of your live site, offering a secure environment to experiment, test updates, and deploy when ready.": [
+                "Een testomgeving is een kopie van uw live website die een veilige omgeving biedt om te experimenteren, updates te testen en door te voeren wanneer u klaar bent."
+            ],
+            "Switch": [
+                "Schakelaar"
+            ],
+            "Switching": [
+                "Schakelen"
+            ],
+            "Switch to Production": [
+                "Overschakelen naar productie"
+            ],
+            "This will navigate you to the production environment": [
+                "Dit zal je naar de productieomgeving navigeren"
+            ],
+            "Loading the production environment now.": [
+                "De productieomgeving nu laden."
+            ],
+            "Switching to the production environment, this should take about a minute.": [
+                "De omschakeling naar de productieomgeving zou ongeveer een minuut moeten duren."
+            ],
+            "Switch to Staging": [
+                "Overschakelen naar testomgeving"
+            ],
+            "This will navigate you to the staging environment": [
+                "Dit brengt u naar de testomgeving"
+            ],
+            "Loading the staging environment now.": [
+                "De testomgeving wordt nu geladen."
+            ],
+            "Switching to the staging environment, this should take about a minute.": [
+                "Er wordt overgeschakeld naar de testomgeving, dit duurt ongeveer een minuut."
+            ],
+            "An unknown error has occurred.": [
+                "Er is een onbekende fout opgetreden."
+            ],
+            "Working\u2026": [
+                ""
+            ]
+        }
+    }
+}

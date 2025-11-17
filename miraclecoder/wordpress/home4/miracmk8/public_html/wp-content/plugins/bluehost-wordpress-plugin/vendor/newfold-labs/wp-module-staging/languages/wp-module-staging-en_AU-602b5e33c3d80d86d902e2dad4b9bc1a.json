@@ -1,0 +1,36 @@
+{
+    "translation-revision-date": "2025-02-19 19:17+0530",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "src\/sections\/StagingSite\/getStagingSiteText.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "en_AU",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Create staging site": [
+                "Create staging site"
+            ],
+            "This will permanently delete staging site. Are you sure you want to proceed? You can recreate another staging site at any time, but any specific changes you've made to this staging site will be lost.": [
+                "This will permanently delete staging site. Are you sure you want to proceed? You can recreate another staging site at any time, but any specific changes you've made to this staging site will be lost."
+            ],
+            "Deleted Staging": [
+                "Deleted Staging"
+            ],
+            "Deleting the staging site, this should take about a minute.": [
+                "Deleting the staging site, this should take about a minute."
+            ],
+            "Delete Staging Site": [
+                "Delete Staging Site"
+            ],
+            "You don't have a staging site yet.": [
+                "You don't have a staging site yet."
+            ],
+            "Staging Site": [
+                "Staging Site"
+            ]
+        }
+    }
+}

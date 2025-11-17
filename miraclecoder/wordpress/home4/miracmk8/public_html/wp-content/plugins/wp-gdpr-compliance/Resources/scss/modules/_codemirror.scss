@@ -1,0 +1,30 @@
+@import 'node_modules/codemirror/lib/codemirror';
+
+.CodeMirror {
+    @include text-s();
+    color: $color-gray-dark;
+    border: 1px solid $color-gray-light-x;
+    border-radius: $radius;
+    min-height: rem-calc(195);
+    box-shadow: none;
+    box-sizing: border-box;
+    line-height: 1.625;
+    outline: none;
+    appearance: none;
+    appearance: none;
+    appearance: none;
+    width: 100%;
+
+    @include placeholder {
+        color: $color-gray-medium;
+    }
+
+    &:focus,
+    &:focus-within {
+        border-color: $color-primary;
+    }
+
+    .CodeMirror-selected {
+        height: 21px !important;
+    }
+}

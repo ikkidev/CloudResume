@@ -1,0 +1,144 @@
+.wpgdprc-switch {
+    display: inline-flex;
+    align-items: center;
+
+    :root & .wpgdprc-form__label {
+        margin-bottom: 0;
+    }
+
+    &.regular-text {
+        width: auto;
+    }
+}
+
+.wpgdprc-switch__text {
+    @include text-s();
+    @include font-weight-bold();
+    margin-right: rem-calc(15);
+}
+
+.wpgdprc-switch__switch {
+    position: relative;
+    display: inline-block;
+    width: rem-calc(82);
+    height: rem-calc(36);
+}
+
+.wpgdprc-switch__input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+
+    &:focus + .wpgdprc-switch__slider {
+        box-shadow: 0 0 8px 0 $color-primary;
+    }
+
+    &:disabled {
+        border: 0;
+
+        + .wpgdprc-switch__slider {
+            &::after {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.wpgdprc-switch__slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $color-white;
+    border-radius: rem-calc(100);
+    box-shadow: $shadow-l;
+    overflow: hidden;
+    transition: 0.4s;
+
+    .icon--wrap {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: rem-calc(28);
+        width: rem-calc(39);
+        left: 4px;
+        bottom: calc((100% - #{rem-calc(28)}) / 2);
+        color: $color-white;
+        background-color: $color-gray-medium;
+        border-radius: rem-calc(100);
+        transition: 0.4s;
+        transition: 0.4s;
+    }
+
+    &::after {
+        content: ' ';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+
+        background-image: repeating-linear-gradient(+45deg,
+        transparentize($color-white, 0.6),
+        transparentize($color-white, 0.6) rem-calc(8),
+        transparentize($color-gray-medium, 0.6) rem-calc(8),
+        transparentize($color-gray-medium, 0.6) rem-calc(16));
+        background-size: 200% 200%;
+        animation: barberpole 1s linear infinite;
+
+        opacity: 0;
+        transition: opacity $transition;
+    }
+}
+
+.wpgdprc-switch__input:checked + .wpgdprc-switch__slider {
+    .icon--wrap {
+        background-color: $color-green;
+
+        &[data-icon=times] {
+            opacity: 0;
+        }
+    }
+}
+
+.wpgdprc-switch__input:checked + .wpgdprc-switch__slider .icon--wrap {
+    transform: translateX(35px);
+}
+
+/**
+ * Variations
+ */
+
+// Border
+
+.wpgdprc-switch--border {
+    .wpgdprc-switch__slider {
+        border: 1px solid $color-gray-light-x;
+    }
+}
+
+// Column
+
+.wpgdprc-switch--column {
+    flex-direction: column;
+    align-items: flex-start;
+
+    .wpgdprc-switch__text {
+        @include text-l();
+        color: $color-black;
+        margin-right: 0;
+        margin-bottom: rem-calc(10);
+    }
+}
+
+// No margin right
+
+.wpgdprc-switch--no-margin-right {
+    .wpgdprc-switch__text {
+        margin-right: 0;
+    }
+}
+
