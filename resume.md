@@ -1,6 +1,6 @@
 # Ikki Lachance
 
-Tech Lead | Senior Software Engineer | Platform Engineering | Healthcare Systems
+Staff Software Engineer | Platform Engineering | Healthcare Systems
 United States | linkedin.com/in/ikkidev | miraclecoder.com
 
 ---
@@ -27,19 +27,17 @@ August 2024 to Present | New York, NY
 **Senior Software Engineer, SRE**
 January 2021 to August 2024 | Montreal, QC
 
-- Enabled the platform to scale reliably to 100+ healthcare clients by leading its migration from a manually managed on-premises system to AWS ECS, building Terraform infrastructure across dev, staging, and production environments and modernizing the primary database to PostgreSQL.
-- Scaled software delivery to 100+ global healthcare clients by migrating the Ansible automation platform from a manually managed on-premises server to a Kubernetes deployment on AWS, enabling job workers to scale elastically and collapsing software release operations from multi-day per-site work to hours.
-- Eliminated ad-hoc credential sharing from patient-data systems by centralizing secrets management with HashiCorp Vault and AWS SSM across all cloud workloads, hardening the security posture of a HIPAA-adjacent environment.
+- Modernized the core healthcare platform from on-premises to AWS ECS, establishing Terraform infrastructure across dev, staging, and production environments and migrating the primary database to PostgreSQL, cutting software release operations from multi-day per-site work to hours across 100+ global clients.
+- Eliminated capacity constraints on concurrent client deployments by migrating the Ansible automation platform from a self-managed server to Kubernetes on AWS, enabling job workers to scale on demand across the entire client fleet.
+- Hardened the security posture of a HIPAA-adjacent cloud environment by centralizing secrets management with HashiCorp Vault and AWS SSM and implementing TLS across the internal messaging bus, eliminating both ad-hoc credential sharing and an unencrypted internal data path.
 - Cut per-build pipeline time by over 25% by restructuring Jenkins with multi-stage Docker builds, parallelized image pushes, and layer caching, compressing the feedback loop for every code change the team ships.
-- Closed a persistent plaintext data path in a HIPAA-adjacent system by implementing TLS across the internal messaging bus connecting the job scheduler, event router, and API gateway.
 
 **Software Engineer, SRE**
 April 2019 to January 2021 | Montreal, QC
 
 - Established the continuous delivery foundation the team still operates on today by building the automated CI/CD pipelines that enabled software releases to reach healthcare clients worldwide without manual intervention.
-- Gave the engineering organization a secure secrets management foundation from day one by building the HashiCorp Vault platform from scratch ΓÇö Terraform modules for dynamic database credentials, transit encryption, and AWS authentication ΓÇö and validating it with a Go integration test suite against a live cluster.
+- Gave the engineering organization a secure secrets management foundation from day one by building the HashiCorp Vault platform from scratch, including Terraform modules for dynamic database credentials, transit encryption, and AWS authentication, and validating it with a Go integration test suite against a live cluster.
 - Unblocked software delivery to clients upgrading to RHEL 8 by resolving OS-level compatibility issues across package management, SSH key generation, and Ansible automation during the CentOS 7 to RHEL 8 migration.
-- Prevented recurring data corruption in production by diagnosing and fixing a concurrency bug in the event processor's batch completion logic, eliminating a race condition that had been causing intermittent data integrity failures.
 
 ---
 
@@ -67,11 +65,11 @@ Software Developer Intern
 
 Cloud and Infrastructure: AWS (ECS, EFS, ECR, RDS PostgreSQL, SSM, IAM, CloudWatch, KMS), Terraform, HashiCorp Vault, OpenVPN
 
-Automation and CI/CD: Ansible, AWX, Jenkins, Docker (multi-stage builds, Compose, 15+ service stacks)
+Automation and CI/CD: Ansible, AWX, Jenkins, Docker, Kubernetes (EKS)
 
-Languages: Python 3, Python 2, Go, Bash, SQL
+Languages: Python 3, Go, Bash, SQL
 
-Databases and Messaging: PostgreSQL, MongoDB, AWS DocumentDB, event-driven messaging architectures
+Databases and Messaging: PostgreSQL, MongoDB, event-driven messaging architectures
 
 Security and Compliance: PKI/TLS, KMS encryption, SSM Patch Manager, CVE remediation, HIPAA-adjacent system design
 
