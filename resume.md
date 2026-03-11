@@ -1,13 +1,13 @@
 # Ikki Lachance
 
-Staff Software Engineer | Platform Engineering | Healthcare Systems
-United States | linkedin.com/in/ikkidev | miraclecoder.com
+Senior Software Engineer | Platform Engineering | Healthcare Systems
+United States | linkedin.com/in/ikkidev 
 
 ---
 
 ## Summary
 
-Platform engineering leader with 10+ years designing and operating distributed systems in regulated healthcare and financial services environments. Architect of the client connectivity platform serving 100+ global healthcare sites, owned end-to-end from Terraform infrastructure to CI/CD pipelines to operational runbooks. Known for cross-team technical leadership, eliminating systemic toil, and raising the engineering floor through mentorship, documentation, and tooling.
+Platform engineering leader with 10+ years designing and operating distributed systems in regulated healthcare and financial services environments. Architect of client connectivity platform serving 800+ global healthcare sites, owned end-to-end from Terraform infrastructure to CI/CD pipelines to operational runbooks. Known for cross-team technical leadership, eliminating systemic toil, and raising the engineering floor through mentorship, documentation, and tooling.
 
 ---
 
@@ -19,7 +19,7 @@ Platform engineering leader with 10+ years designing and operating distributed s
 **Tech Lead, Platform Services**
 August 2024 to Present | New York, NY
 
-- Brought 100+ global healthcare sites to 99.9% network uptime by redesigning the client connectivity platform on AWS ECS, replacing a brittle on-premises VPN fleet with a self-healing, fault-tolerant architecture that eliminated the class of incidents causing site outages.
+- Brought 800+ global healthcare sites to 99.9% network uptime by redesigning the client connectivity platform on AWS ECS, replacing a brittle on-premises VPN fleet with a self-healing, fault-tolerant architecture that eliminated the class of incidents causing site outages.
 - Unlocked continuous security patching across all platform services by completing the Python 2 to Python 3 migration, replacing a model where an unsupported runtime blocked automated vulnerability scanning and OS patch management.
 - Kept multi-quarter initiatives moving without ambiguity by owning architecture decisions end-to-end, from decomposing roadmap work into trackable epics to unblocking cross-team dependencies with SRE, QA, and product.
 - Raised the engineering ceiling of the team by mentoring engineers through architecture reviews, pair programming, and structured knowledge transfer, reducing dependence on senior-level involvement for day-to-day decisions.
@@ -27,7 +27,8 @@ August 2024 to Present | New York, NY
 **Senior Software Engineer, SRE**
 January 2021 to August 2024 | Montreal, QC
 
-- Modernized the core healthcare platform from on-premises to AWS ECS, establishing Terraform infrastructure across dev, staging, and production environments and migrating the primary database to PostgreSQL, cutting software release operations from multi-day per-site work to hours across 100+ global clients.
+- Modernized the core healthcare platform from on-premises to AWS ECS, establishing Terraform infrastructure across dev, staging, and production environments and migrating the primary database to PostgreSQL, cutting software release operations from multi-day per-site work to hours across 800+ global clients and 10,000+ servers.
+- Raised first-attempt deployment success rates from 50% to 80% across 800+ client sites by building LCM Precheck 2.0, an automated pre-deployment validation platform with a REST API that surfaces connectivity and service dependency failures a week before scheduled maintenance windows ΓÇö eliminating wasted client downtime slots and the rescheduling of ops and support teams each failure required.
 - Eliminated capacity constraints on concurrent client deployments by migrating the Ansible automation platform from a self-managed server to Kubernetes on AWS, enabling job workers to scale on demand across the entire client fleet.
 - Hardened the security posture of a HIPAA-adjacent cloud environment by centralizing secrets management with HashiCorp Vault and AWS SSM and implementing TLS across the internal messaging bus, eliminating both ad-hoc credential sharing and an unencrypted internal data path.
 - Cut per-build pipeline time by over 25% by restructuring Jenkins with multi-stage Docker builds, parallelized image pushes, and layer caching, compressing the feedback loop for every code change the team ships.
@@ -78,6 +79,9 @@ Engineering Practices: Distributed systems design, site reliability engineering,
 ---
 
 ## Education
+
+University of Toronto
+Bachelor of Applied Science (BASc), Computer Engineering
 
 University of Toronto
 Bachelor of Applied Science (BASc), Computer Engineering
