@@ -82,6 +82,3 @@ Engineering Practices: Distributed systems design, site reliability engineering,
 
 University of Toronto
 Bachelor of Applied Science (BASc), Computer Engineering
-
-University of Toronto
-Bachelor of Applied Science (BASc), Computer Engineering
