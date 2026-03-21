@@ -17,10 +17,8 @@
         <div class="row">
             <div class="col-md">
                 <h1>Ikki Lachance</h1>
-                <h5>Software Engineer</h5>
-                <p class="border-top pt-3">Experienced software engineer with a demonstrated work history in finance and
-                    medical industry. Skilled in cloud architecture using AWS, infrastructure as code and automated
-                    software deployment using Terraform and Ansible.</p>
+                <h5>Senior Software Engineer | Platform Runtime &amp; SDKs | Distributed Systems</h5>
+                <p class="border-top pt-3">Platform engineer with 10+ years building distributed systems from the ground up across SDK design, API infrastructure, CI/CD, and reliability engineering. Joined Intelerad when existing automation could not support the scale the company needed and built a foundation that has since scaled to 800+ global sites. Reduces toil and raises the engineering floor by designing cross-cutting developer tools, messaging systems, and caching layers across large service fleets.</p>
             </div>
         </div>
     </div>
@@ -64,7 +62,6 @@
                         <h6>B.A.Sc. Computer Engineering </h6>
                     </li>
                     <li class="text-secondary"> University of Toronto</li>
-                    <li> Sept 2010 - Apr 2016</li>
                 </ul>
             </div>
             <div class="row">
@@ -79,102 +76,47 @@
             </div>
             <div class="row">
                 <h2 class="mb-5">Skills</h2>
-                <div class="progress mb-4" style="height:25px;">
-                    <div class="progress-bar bg-info text-left pl-2" role="progressbar" style="width: 95%"
-                         aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">Python
-                    </div>
-                </div>
-                <div class="progress mb-4" style="height:25px;">
-                    <div class="progress-bar bg-info text-left pl-2" role="progressbar" style="width: 89%"
-                         aria-valuenow="89" aria-valuemin="0" aria-valuemax="100">AWS
-                    </div>
-                </div>
-                <div class="progress mb-4" style="height:25px;">
-                    <div class="progress-bar bg-info text-left pl-2" role="progressbar" style="width: 87%"
-                         aria-valuenow="87" aria-valuemin="0" aria-valuemax="100">Ansible
-                    </div>
-                </div>
-                <div class="progress mb-4" style="height:25px;">
-                    <div class="progress-bar bg-info text-left pl-2" role="progressbar" style="width: 80%"
-                         aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">Linux
-                    </div>
-                </div>
-                <div class="progress mb-4" style="height:25px;">
-                    <div class="progress-bar bg-info text-left pl-2" role="progressbar" style="width: 78%"
-                         aria-valuenow="78" aria-valuemin="0" aria-valuemax="100">Terraform
-                    </div>
-                </div>
-                <div class="progress mb-4" style="height:25px;">
-                    <div class="progress-bar bg-info text-left pl-2" role="progressbar" style="width: 77%"
-                         aria-valuenow="77" aria-valuemin="0" aria-valuemax="100">Vault
-                    </div>
-                </div>
-                <div class="progress mb-4" style="height:25px;">
-                    <div class="progress-bar bg-info text-left pl-2" role="progressbar" style="width: 75%"
-                         aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">REST Api
-                    </div>
-                </div>
-                <div class="progress mb-4" style="height:25px;">
-                    <div class="progress-bar bg-info text-left pl-2" role="progressbar" style="width: 65%"
-                         aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">System Design
-                    </div>
-                </div>
+                <ul class="no-bullet mb-5">
+                    <li class="mb-3"><strong>SDK and Platform</strong><br>SDK design, runtime environments, shared libraries, developer tooling, REST API design, Go, Python 3, Bash, SQL</li>
+                    <li class="mb-3"><strong>Cloud and Infrastructure</strong><br>AWS (ECS, EKS, RDS, SSM, IAM, CloudWatch, KMS), Terraform, HashiCorp Vault</li>
+                    <li class="mb-3"><strong>Messaging and Caching</strong><br>Messaging architectures, distributed caching, configuration management, service connectivity</li>
+                    <li class="mb-3"><strong>Platform and Delivery</strong><br>Kubernetes, Docker, Jenkins, Ansible, AWX, CI/CD pipeline design, microservices architecture</li>
+                    <li class="mb-3"><strong>Security and Compliance</strong><br>PKI/TLS, KMS encryption, SSM Patch Manager, CVE remediation, HIPAA-adjacent system design</li>
+                </ul>
             </div>
         </div>
         <div class="col-md-7 mx-auto">
             <div class="row mb-4 mx-auto">
                 <h2 class="mb-5">Work Experience</h2>
-                <h6 class="text-primary">Software Engineer, SRE | Intelerad Medical Systems | 2019 - Present</h6>
+
+                <h6 class="text-primary">Tech Lead, Platform Services | Intelerad | Aug 2024 - Present | New York, NY</h6>
                 <ul>
-                    <li>Build a distributed system to automate complex deployment of software releases to clients
-                        globally using Ansible AWX
-                    </li>
-                    <li>Migrate on-premise web services to a hybrid cloud model in AWS to achieve 30% improvement in
-                        system performance and reliability while remaining compliant with healthcare data regulations
-                    </li>
-                    <li>Engineer an automated monitoring system on critical medical system services to ensure patient
-                        safety is not compromised
-                    </li>
-                    <li>Develop a secrets management infrastructure to secure access to patient health information using
-                        HashiCorp Vault and Terraform
-                    </li>
+                    <li>Redesigned a client connectivity platform on AWS ECS, replacing a brittle on-premises VPN fleet with a self-healing architecture that achieved 99.9% uptime across 800+ global healthcare sites.</li>
+                    <li>Designed a connectivity metadata API exposing client server compatibility and connection health across 800+ sites, giving internal teams early signal on degradation before it impacted service availability.</li>
+                    <li>Led a Python 2 to Python 3 migration across all platform services, unblocking automated CVE scanning and OS patch management fleet-wide and closing a long-standing security compliance gap.</li>
+                    <li>Led two cross-functional teams of 8 engineers, introduced architecture reviews for greenfield projects, and established information-sharing practices that eliminated knowledge silos across both teams.</li>
+                </ul>
+
+                <h6 class="text-primary">Senior Software Engineer, SRE | Intelerad | Jan 2021 - Aug 2024 | Montreal, QC</h6>
+                <ul>
+                    <li>Built LCM Precheck 2.0, a REST API-backed validation platform automating pre-deployment readiness checks across configuration, connectivity, and service dependencies, raising first-attempt success from 50% to 80%.</li>
+                    <li>Designed and led the core platform migration from on-premises to AWS ECS with Terraform and PostgreSQL, cutting software release operations from multi-day per-site work to hours across 10,000+ servers.</li>
+                    <li>Migrated an Ansible-based automation platform to Kubernetes on EKS, enabling job workers to scale on demand across the full client fleet and eliminating capacity ceilings on automated operations.</li>
+                    <li>Implemented TLS across an internal messaging bus and centralized credential management with HashiCorp Vault and AWS SSM, eliminating an unencrypted data path in a HIPAA-adjacent environment.</li>
+                </ul>
+
+                <h6 class="text-primary">Software Engineer, SRE | Intelerad | Apr 2019 - Jan 2021 | Montreal, QC</h6>
+                <ul>
+                    <li>Joined when the platform was entirely on-premises with no automation. Built a CI/CD pipeline foundation on Jenkins with Docker from scratch, enabling automated releases worldwide for the first time.</li>
+                    <li>Built a secrets management infrastructure from scratch with Terraform, enabling product teams to secure APIs with short-lived JWT tokens and eliminating ad-hoc credential sharing across the organization.</li>
+                    <li>Cut per-build pipeline time 25%+ by restructuring Jenkins with multi-stage Docker builds, parallelized image pushes, and layer caching, compressing the feedback loop for every code change shipped.</li>
                 </ul>
             </div>
             <div class="row mb-4 mx-auto">
-                <h6 class="text-primary">Software Engineer Consultant | Morgan Stanley | 2017 - 2019</h6>
+                <h6 class="text-primary">Software Developer (Consultant) | Morgan Stanley | Jan 2017 - Jan 2019 | Toronto, ON</h6>
                 <ul>
-                    <li>Led development of automated reconciliation of trade confirmations to reduce days of manual
-                        reconciliation effort down to 1 hour
-                    </li>
-                    <li>Built ETL pipelines to extract and combine large data sets from diverse data sources</li>
-                    <li>Implemented automated regression testing framework to detect anomalies in data quality</li>
-                    <li>Interfaced with global business owners to identify key metrics for monitoring unauthorized
-                        trading
-                    </li>
-                </ul>
-            </div>
-            <div class="row mb-4 mx-auto">
-                <h6 class="text-primary">Software Engineer Intern | Sanofi Pasteur | 2014 - 2015</h6>
-                <ul>
-                    <li>Designed an automated alert system to notify stakeholders of excursions in manufacturing process
-                        and ensure vaccines meet strict regulatory requirements
-                    </li>
-                    <li>Developed scripts to monitor and track deployment status of shop floor data analysis tools</li>
-                    <li>Improved scripts to query databases (Access, SAP, Spreadsheets), reducing data update time from
-                        10 hours to 4 hours
-                    </li>
-                    <li>Deployed a version control system to manage and protect modifications to critical codebase using
-                        Apache Subversion
-                    </li>
-                </ul>
-            </div>
-            <div class="row mb-4 mx-auto">
-                <h2 class="mb-5">Recent Project</h2>
-                <h6 class="text-primary">Cloud Resume Website</h6>
-                <ul>
-                    <li>Designed automated provisioning infrastructure to host site on AWS with Terraform</li>
-                    <li>Implemented counter to track visits to the site using DynamoDB, Lambda and API Gateway </li>
-                    <li>Enforced HTTPS connection and accelerated content delivery to the site using CloudFront</li>
+                    <li>Joined Morgan Stanley's newly formed OTC Derivatives reporting team and built a regulatory data platform from the ground up before established tooling or process existed.</li>
+                    <li>Designed a low-latency data distribution system processing millions of transactions daily with sub-second SLAs, reducing trade reconciliation from 5 days to under 1 hour with a 90% accuracy improvement.</li>
                 </ul>
             </div>
         </div>
@@ -182,7 +124,7 @@
     </div>
 </main>
 <footer class="bg-dark text-white-50 text-center mt-5 p-3">
-    &copy; 2025 Ikki Lachance - <a href="https://github.com/ikkidev/CloudResume" class="text-white-50">GitHub</a> | <a href="https://www.linkedin.com/in/ikkidev/" class="text-white-50">LinkedIn</a>
+    &copy; 2026 Ikki Lachance - <a href="https://github.com/ikkidev/CloudResume" class="text-white-50">GitHub</a> | <a href="https://www.linkedin.com/in/ikkidev/" class="text-white-50">LinkedIn</a>
     <p>Visit count: <span id="visitCount">loading...</span></p>
 </footer>
 <!-- partial -->
