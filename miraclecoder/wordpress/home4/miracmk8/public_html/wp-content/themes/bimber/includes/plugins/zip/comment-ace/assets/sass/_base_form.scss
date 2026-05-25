@@ -1,0 +1,42 @@
+@import "compass/css3";
+@import "lib.directional";
+@import "tools.functions";
+@import "tools.mixins";
+
+@import "settings";
+
+@import "components.form";
+@import "components.form.blur";
+@import "components.form.gifs";
+@import "components.form.character-countdown";
+
+form.cace-processing {
+	[type=submit] {
+		position: relative;
+
+		&:before {
+			display: inline-block;
+			margin-#{$right}: 6px;
+
+			font: 16px/1 cace;
+			vertical-align: middle;
+
+			content: "\e103";
+
+			-webkit-animation: cace-anim-spin 2s infinite linear;
+			   -moz-animation: cace-anim-spin 2s infinite linear;
+			        animation: cace-anim-spin 2s infinite linear;
+		}
+	}
+}
+
+input.cace-validation-error,
+select.cace-validation-error,
+textarea.cace-validation-error {
+	border-color: #ff0036;
+	box-shadow: 0 4px 4px rgba(255, 00, 54, 0.2);
+}
+
+.cace-error-message {
+	color: #ff0036;
+}

@@ -1,0 +1,58 @@
+@use 'sass:math';
+
+.wpgdprc-label {
+    @include text-xs();
+    @include font-weight-bold();
+    font-family: $font-primary;
+    line-height: math.div(14, 12);
+    display: inline-block;
+    align-items: center;
+    height: fit-content;
+    color: $color-gray-medium;
+    background-color: #e1e1e1;
+    border-radius: rem-calc(100);
+    padding: rem-calc(6 13);
+    margin-top: 0;
+    margin-bottom: 0;
+
+    strong {
+        @include font-weight-bold();
+    }
+}
+
+.wpgdprc-label__info {
+    border-radius: 100%;
+    border: $color-black rem-calc(1) solid;
+    background-color: $color-white;
+    display: inline-flex;
+    height: calc(#{rem-calc(16)} - #{rem-calc(1)} * 2);
+    width: calc(#{rem-calc(16)} - #{rem-calc(1)} * 2);
+    justify-content: center;
+    align-items: center;
+    font-size: rem-calc(14);
+    font-family: Garamond;
+}
+
+.wpgdprc-label--large {
+    @include text-s();
+    line-height: math.div(18, 14);
+}
+
+.wpgdprc-label--success {
+    color: $color-green;
+    background-color: $color-green-light;
+}
+
+.wpgdprc-label--warning {
+    color: $color-red;
+    background-color: $color-red-light;
+}
+
+.wpgdprc-label--gray-light {
+    color: $color-gray-dark;
+    background-color: $color-gray-light;
+}
+
+.wpgdprc-label.is-hidden {
+    display: none;
+}

@@ -1,0 +1,124 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://github.com/newfold-labs/wp-module-deactivation/issues\n"
+"Last-Translator: Carlos Rodriguez <carlos.rodriguez@newfold.com>\n"
+"Language-Team: Spanish <es@tp.org.es>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-12-12T07:59:34+00:00\n"
+"PO-Revision-Date: 2025-05-07 13:00+0100\n"
+"Language: es_MX\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: wp-module-deactivation\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/DeactivationSurvey.php:28
+msgid "Plugin Deactivation Survey"
+msgstr "Encuesta de desactivación del plugin"
+
+#: includes/DeactivationSurvey.php:30
+#, php-format
+msgid "Thank you for using the %s plugin!"
+msgstr "¡Gracias por usar el plugin %s!"
+
+#: includes/DeactivationSurvey.php:33
+msgid "Please take a moment to let us know why you're deactivating this plugin."
+msgstr "Por favor, tómese un momento para decirnos por qué está desactivando este plugin."
+
+#: includes/DeactivationSurvey.php:34
+msgid "Plugin Deactivation Form"
+msgstr "Formulario de desactivación del plugin"
+
+#: includes/DeactivationSurvey.php:35
+msgid "Why are you deactivating this plugin?"
+msgstr "¿Por qué estás desactivando este plugin?"
+
+#: includes/DeactivationSurvey.php:36
+msgid "Please share the reason here..."
+msgstr "Por favor, comparte la razón aquí..."
+
+#: includes/DeactivationSurvey.php:37
+msgid "Submit & Deactivate"
+msgstr "Enviar y desactivar"
+
+#: includes/DeactivationSurvey.php:38
+msgid "Submit and Deactivate Plugin"
+msgstr "Enviar y desactivar Plugin"
+
+#: includes/DeactivationSurvey.php:39
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: includes/DeactivationSurvey.php:40
+msgid "Cancel Deactivation"
+msgstr "Cancelar desactivación"
+
+#: includes/DeactivationSurvey.php:41
+msgid "Skip & Deactivate"
+msgstr "Saltar y desactivar"
+
+#: includes/DeactivationSurvey.php:42
+msgid "Skip and Deactivate Plugin"
+msgstr "Saltar y desactivar Plugin"
+
+#: includes/DeactivationSurvey.php:43
+msgid "Continue"
+msgstr "Continuar"
+
+#: includes/DeactivationSurvey.php:44
+msgid "Continue Deactivation"
+msgstr "Continuar desactivación"
+
+#: includes/DeactivationSurvey.php:45
+msgid "Are you sure you want to deactivate?"
+msgstr "¿Está seguro de que deseas desactivar?"
+
+#: includes/DeactivationSurvey.php:46
+msgid "Deactivating"
+msgstr "Desactivando"
+
+#: includes/DeactivationSurvey.php:48
+#, php-format
+msgid "If the %s plugin is deactivated, these features will no longer work:"
+msgstr "Si el plugin %s está desactivado, estas características ya no funcionarán:"
+
+#: includes/DeactivationSurvey.php:54
+#, php-format
+msgid "%s Caching"
+msgstr "Caché %s"
+
+#: includes/DeactivationSurvey.php:57
+msgid "Automatically clears the server page cache when your site updates"
+msgstr "Borrar automáticamente la caché de la página del servidor cuando tu sitio se actualiza"
+
+#: includes/DeactivationSurvey.php:62
+#, php-format
+msgid "%s Staging"
+msgstr "%s Staging"
+
+#: includes/DeactivationSurvey.php:65
+msgid "Create a staging copy of your site to safely test changes"
+msgstr "Crear una copia provisional de tu sitio para probar los cambios con seguridad"
+
+#: includes/DeactivationSurvey.php:69
+msgid "WooCommerce Tools"
+msgstr "Herramientas de WooCommerce"
+
+#: includes/DeactivationSurvey.php:70
+msgid "Run campaigns and promotions on your store"
+msgstr "Ejecutar campañas y promociones en tu tienda"
+
+#: includes/DeactivationSurvey.php:74
+msgid "Wonder Blocks & Patterns Library"
+msgstr "Biblioteca de Patrones y Wonder Blocks"
+
+#: includes/DeactivationSurvey.php:75
+msgid "Dozens of beautiful block templates and patterns"
+msgstr "Decenas de hermosas plantillas y patrones de bloques"
+
+#: includes/DeactivationSurvey.php:80
+#, php-format
+msgid "Need Help? Check the %1$shelp center%2$s for support."
+msgstr "¿Necesitas ayuda? Consulta el %1$scentro de ayuda%2$s para obtener soporte."

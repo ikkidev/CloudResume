@@ -1,0 +1,29 @@
+$admin: false;
+
+/*! purgecss start ignore */
+/* Settings */
+@import 'global/fonts';
+@import 'settings/colors';
+@import 'settings/settings';
+@import 'settings/variables';
+@import 'settings/mixins';
+
+/* Global */
+@import 'global/reset';
+@import 'global/global';
+@import 'global/typography';
+
+/* Components */
+@import 'components/button';
+@import 'components/form';
+@import 'components/switch';
+@import 'components/message';
+@import 'components/table';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/consent-bar';
+@import 'front/modal';
+
+/* Modules */
+@import 'modules/gravityforms';
+/*! purgecss end ignore */

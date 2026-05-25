@@ -1,0 +1,72 @@
+{
+    "translation-revision-date": "2025-01-21 17:05:00+0000",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "build\/next-steps-widget\/bundle.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "en_AU",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Mark Complete": [
+                "Mark Complete"
+            ],
+            "Skip": [
+                "Skip"
+            ],
+            "Restart": [
+                "Restart"
+            ],
+            "Unskip": [
+                "Unskip"
+            ],
+            "Hide skipped tasks": [
+                "Hide skipped tasks"
+            ],
+            "View skipped tasks": [
+                "View skipped tasks"
+            ],
+            "Loading next steps...": [
+                "Loading next steps..."
+            ],
+            "All complete!": [
+                "All complete!"
+            ],
+            "Close": [
+                "Close"
+            ],
+            "We encountered a connection error. Please check your internet connection and try again.": [
+                "We encountered a connection error. Please check your internet connection and try again."
+            ],
+            "We encountered an unexpected error. Please try refreshing the page or contact support if the problem persists.": [
+                "We encountered an unexpected error. Please try refreshing the page or contact support if the problem persists."
+            ],
+            "Connection Error": [
+                "Connection Error"
+            ],
+            "Something went wrong": [
+                "Something went wrong"
+            ],
+            "Try Again": [
+                "Try Again"
+            ],
+            "Refresh Page": [
+                "Refresh Page"
+            ],
+            "Technical Details": [
+                "Technical Details"
+            ],
+            "Next Steps Unavailable": [
+                "Next Steps Unavailable"
+            ],
+            "The Next Steps module encountered an error and cannot be displayed right now.": [
+                "The Next Steps module encountered an error and cannot be displayed right now."
+            ],
+            "Task temporarily unavailable": [
+                "Task temporarily unavailable"
+            ]
+        }
+    }
+}

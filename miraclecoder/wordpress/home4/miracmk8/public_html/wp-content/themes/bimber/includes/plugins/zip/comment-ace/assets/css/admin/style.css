@@ -1,0 +1,15 @@
+#adminmenu .awaiting-mod.cace-awaiting-reports,
+#adminmenu li.current a .awaiting-mod.awaiting-mod.cace-awaiting-reports {
+  background-color: #a000e3;
+}
+
+
+#the-comment-list .cace-reported td,
+#the-comment-list .cace-reported th {
+  background-color: #fcf5ff;
+  background-color: #fff5fc;
+}
+
+#the-comment-list .cace-reported th.check-column {
+  border-left: 4px solid #a000e3;
+}

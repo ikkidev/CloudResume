@@ -1,0 +1,1639 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://github.com/newfold-labs/wp-module-next-steps/issues\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-06-06T06:30:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: wp-module-next-steps\n"
+
+#: bootstrap.php:15
+#: includes/NextSteps.php:62
+#: includes/NextStepsWidget.php:39
+msgid "Next Steps"
+msgstr ""
+
+#: includes/PlanManager.php:186
+msgid "Store Setup"
+msgstr ""
+
+#: includes/PlanManager.php:187
+msgid "Complete your ecommerce store setup with these essential steps:"
+msgstr ""
+
+#: includes/PlanManager.php:191
+#: includes/PlanManager.php:769
+#: includes/PlanManager.php:1341
+msgid "Build"
+msgstr ""
+
+#: includes/PlanManager.php:195
+msgid "Basic Store Setup"
+msgstr ""
+
+#: includes/PlanManager.php:196
+msgid "Get your store foundation ready"
+msgstr ""
+
+#: includes/PlanManager.php:200
+msgid "Quick Setup"
+msgstr ""
+
+#: includes/PlanManager.php:201
+msgid "Complete the basic store configuration and settings"
+msgstr ""
+
+#: includes/PlanManager.php:215
+msgid "Customize Your Store"
+msgstr ""
+
+#: includes/PlanManager.php:216
+msgid "Brand your store to match your business"
+msgstr ""
+
+#: includes/PlanManager.php:220
+#: includes/PlanManager.php:821
+msgid "Upload Logo"
+msgstr ""
+
+#: includes/PlanManager.php:221
+msgid "Add your business logo to build brand recognition"
+msgstr ""
+
+#: includes/PlanManager.php:229
+#: includes/PlanManager.php:830
+msgid "Choose Colors and Fonts"
+msgstr ""
+
+#: includes/PlanManager.php:230
+msgid "Select colors and typography that reflect your brand"
+msgstr ""
+
+#: includes/PlanManager.php:238
+msgid "Customize Header"
+msgstr ""
+
+#: includes/PlanManager.php:239
+msgid "Design your header layout and navigation"
+msgstr ""
+
+#: includes/PlanManager.php:247
+msgid "Customize Footer"
+msgstr ""
+
+#: includes/PlanManager.php:248
+msgid "Set up your footer with important links and information"
+msgstr ""
+
+#: includes/PlanManager.php:256
+#: includes/PlanManager.php:848
+msgid "Customize Homepage"
+msgstr ""
+
+#: includes/PlanManager.php:257
+msgid "Create an engaging homepage that showcases your products"
+msgstr ""
+
+#: includes/PlanManager.php:267
+msgid "Set Up Shopping Experience"
+msgstr ""
+
+#: includes/PlanManager.php:268
+msgid "Add and configure your product catalog"
+msgstr ""
+
+#: includes/PlanManager.php:272
+msgid "Add a Product"
+msgstr ""
+
+#: includes/PlanManager.php:273
+msgid "Create your first product listing with images and details"
+msgstr ""
+
+#: includes/PlanManager.php:281
+msgid "Customize the Product Page"
+msgstr ""
+
+#: includes/PlanManager.php:282
+msgid "Design how individual products are displayed"
+msgstr ""
+
+#: includes/PlanManager.php:290
+msgid "Customize the Shop Page"
+msgstr ""
+
+#: includes/PlanManager.php:291
+msgid "Configure your main product catalog display"
+msgstr ""
+
+#: includes/PlanManager.php:299
+msgid "Customize the Cart Page"
+msgstr ""
+
+#: includes/PlanManager.php:300
+msgid "Optimize the shopping cart experience"
+msgstr ""
+
+#: includes/PlanManager.php:308
+msgid "Customize the Checkout Flow"
+msgstr ""
+
+#: includes/PlanManager.php:309
+msgid "Streamline the checkout process for better conversions"
+msgstr ""
+
+#: includes/PlanManager.php:319
+msgid "Set Up Payments and Shipping"
+msgstr ""
+
+#: includes/PlanManager.php:320
+msgid "Configure payment methods and shipping options"
+msgstr ""
+
+#: includes/PlanManager.php:324
+msgid "Set Up Payments"
+msgstr ""
+
+#: includes/PlanManager.php:325
+msgid "Configure payment gateways like PayPal and Stripe"
+msgstr ""
+
+#: includes/PlanManager.php:333
+msgid "Set Up Shipping"
+msgstr ""
+
+#: includes/PlanManager.php:334
+msgid "Define shipping zones, rates, and delivery options"
+msgstr ""
+
+#: includes/PlanManager.php:342
+msgid "Set Up Taxes"
+msgstr ""
+
+#: includes/PlanManager.php:343
+msgid "Configure tax rates and calculations for your region"
+msgstr ""
+
+#: includes/PlanManager.php:353
+msgid "Set Up Legal Pages"
+msgstr ""
+
+#: includes/PlanManager.php:354
+msgid "Create essential legal pages for compliance"
+msgstr ""
+
+#: includes/PlanManager.php:358
+msgid "Privacy Policy"
+msgstr ""
+
+#: includes/PlanManager.php:359
+msgid "Create a privacy policy to comply with data protection laws"
+msgstr ""
+
+#: includes/PlanManager.php:367
+msgid "Terms & Conditions"
+msgstr ""
+
+#: includes/PlanManager.php:368
+msgid "Set terms of service for customer purchases"
+msgstr ""
+
+#: includes/PlanManager.php:376
+msgid "Return and Refund Policy"
+msgstr ""
+
+#: includes/PlanManager.php:377
+msgid "Define your return and refund procedures"
+msgstr ""
+
+#: includes/PlanManager.php:389
+#: includes/PlanManager.php:963
+#: includes/PlanManager.php:1562
+msgid "Brand"
+msgstr ""
+
+#: includes/PlanManager.php:393
+msgid "First Marketing Steps"
+msgstr ""
+
+#: includes/PlanManager.php:394
+msgid "Set up essential marketing tools and features"
+msgstr ""
+
+#: includes/PlanManager.php:398
+msgid "Enable Social Login Register for Your Customers"
+msgstr ""
+
+#: includes/PlanManager.php:399
+msgid "Allow customers to register and login using social media accounts"
+msgstr ""
+
+#: includes/PlanManager.php:407
+msgid "Configure Welcome Discount Popup"
+msgstr ""
+
+#: includes/PlanManager.php:408
+msgid "Create a popup to capture emails and offer discounts"
+msgstr ""
+
+#: includes/PlanManager.php:416
+msgid "Create a Gift Card to Sell in Your Shop"
+msgstr ""
+
+#: includes/PlanManager.php:417
+msgid "Add gift cards as a product option to increase sales"
+msgstr ""
+
+#: includes/PlanManager.php:425
+msgid "Enable Abandoned Cart Emails"
+msgstr ""
+
+#: includes/PlanManager.php:426
+msgid "Recover lost sales with automated cart abandonment emails"
+msgstr ""
+
+#: includes/PlanManager.php:434
+msgid "Customize Your Store Emails"
+msgstr ""
+
+#: includes/PlanManager.php:435
+msgid "Brand your order confirmation and customer emails"
+msgstr ""
+
+#: includes/PlanManager.php:443
+msgid "Add Google Analytics"
+msgstr ""
+
+#: includes/PlanManager.php:444
+msgid "Track visitor behavior and store performance"
+msgstr ""
+
+#: includes/PlanManager.php:454
+msgid "Launch and Promote - Social Media Setup & Engagement"
+msgstr ""
+
+#: includes/PlanManager.php:455
+msgid "Connect your store to social media platforms"
+msgstr ""
+
+#: includes/PlanManager.php:459
+msgid "Connect Facebook Store"
+msgstr ""
+
+#: includes/PlanManager.php:460
+msgid "Sync your products with Facebook Shop"
+msgstr ""
+
+#: includes/PlanManager.php:468
+msgid "Connect Instagram Shopping"
+msgstr ""
+
+#: includes/PlanManager.php:469
+msgid "Enable product tagging on Instagram posts"
+msgstr ""
+
+#: includes/PlanManager.php:477
+msgid "Connect TikTok Shop"
+msgstr ""
+
+#: includes/PlanManager.php:478
+msgid "Integrate with TikTok for product promotion"
+msgstr ""
+
+#: includes/PlanManager.php:486
+msgid "Add Social Sharing Buttons"
+msgstr ""
+
+#: includes/PlanManager.php:487
+msgid "Let customers share products on social media"
+msgstr ""
+
+#: includes/PlanManager.php:495
+msgid "Add Social Media Feed to Homepage"
+msgstr ""
+
+#: includes/PlanManager.php:496
+msgid "Display your social media posts on your homepage"
+msgstr ""
+
+#: includes/PlanManager.php:506
+msgid "Launch and Promote - SEO & Store Visibility"
+msgstr ""
+
+#: includes/PlanManager.php:507
+msgid "Optimize your store for search engines"
+msgstr ""
+
+#: includes/PlanManager.php:511
+msgid "Optimize Your Store SEO"
+msgstr ""
+
+#: includes/PlanManager.php:512
+msgid "Improve search engine rankings with SEO best practices"
+msgstr ""
+
+#: includes/PlanManager.php:520
+#: includes/PlanManager.php:1110
+msgid "Submit Site to Google Search Console"
+msgstr ""
+
+#: includes/PlanManager.php:521
+msgid "Monitor your site's search performance"
+msgstr ""
+
+#: includes/PlanManager.php:529
+msgid "Create a Custom Sitemap"
+msgstr ""
+
+#: includes/PlanManager.php:530
+msgid "Help search engines discover your products"
+msgstr ""
+
+#: includes/PlanManager.php:542
+#: includes/PlanManager.php:1132
+#: includes/PlanManager.php:1740
+msgid "Grow"
+msgstr ""
+
+#: includes/PlanManager.php:546
+msgid "Improve Your Customer Experience to Sell More"
+msgstr ""
+
+#: includes/PlanManager.php:547
+msgid "Enhance customer satisfaction and increase sales"
+msgstr ""
+
+#: includes/PlanManager.php:551
+msgid "Customize the Thank You Page"
+msgstr ""
+
+#: includes/PlanManager.php:552
+msgid "Create a branded post-purchase experience"
+msgstr ""
+
+#: includes/PlanManager.php:560
+msgid "Customize Your Customer's Account Page"
+msgstr ""
+
+#: includes/PlanManager.php:561
+msgid "Improve the customer dashboard experience"
+msgstr ""
+
+#: includes/PlanManager.php:569
+msgid "Collect and Show Reviews for Your Products"
+msgstr ""
+
+#: includes/PlanManager.php:570
+msgid "Build trust with customer reviews and testimonials"
+msgstr ""
+
+#: includes/PlanManager.php:580
+msgid "Advanced Social & Influencer Marketing"
+msgstr ""
+
+#: includes/PlanManager.php:581
+msgid "Implement advanced marketing strategies"
+msgstr ""
+
+#: includes/PlanManager.php:585
+msgid "Launch an Affiliate Program"
+msgstr ""
+
+#: includes/PlanManager.php:586
+msgid "Let others promote your products for commission"
+msgstr ""
+
+#: includes/PlanManager.php:594
+msgid "Create a Points & Rewards Program for Your Customers"
+msgstr ""
+
+#: includes/PlanManager.php:595
+msgid "Encourage repeat purchases with loyalty rewards"
+msgstr ""
+
+#: includes/PlanManager.php:603
+#: includes/PlanManager.php:1202
+msgid "Run First Facebook or Instagram Ad"
+msgstr ""
+
+#: includes/PlanManager.php:604
+msgid "Start paid advertising to reach more customers"
+msgstr ""
+
+#: includes/PlanManager.php:612
+msgid "Launch Product Giveaway Campaign"
+msgstr ""
+
+#: includes/PlanManager.php:613
+msgid "Generate buzz and attract new customers"
+msgstr ""
+
+#: includes/PlanManager.php:621
+msgid "Create Influencer Outreach List"
+msgstr ""
+
+#: includes/PlanManager.php:622
+msgid "Build relationships with influencers in your niche"
+msgstr ""
+
+#: includes/PlanManager.php:630
+msgid "Track UTM Campaign Links"
+msgstr ""
+
+#: includes/PlanManager.php:631
+msgid "Monitor the effectiveness of your marketing campaigns"
+msgstr ""
+
+#: includes/PlanManager.php:641
+msgid "Next Marketing Steps"
+msgstr ""
+
+#: includes/PlanManager.php:642
+msgid "Advanced marketing tactics to grow your business"
+msgstr ""
+
+#: includes/PlanManager.php:646
+msgid "Write a Blog Post"
+msgstr ""
+
+#: includes/PlanManager.php:647
+msgid "Create content to drive traffic and improve SEO"
+msgstr ""
+
+#: includes/PlanManager.php:655
+msgid "Create a Sale & Promo Campaign for Your Products"
+msgstr ""
+
+#: includes/PlanManager.php:656
+msgid "Run promotional campaigns to boost sales"
+msgstr ""
+
+#: includes/PlanManager.php:664
+msgid "Create an Upsell Campaign"
+msgstr ""
+
+#: includes/PlanManager.php:665
+msgid "Increase average order value with strategic upsells"
+msgstr ""
+
+#: includes/PlanManager.php:673
+msgid "Setup Yoast Premium to Drive Traffic to Your Store"
+msgstr ""
+
+#: includes/PlanManager.php:674
+msgid "Advanced SEO features to improve search rankings"
+msgstr ""
+
+#: includes/PlanManager.php:684
+#: includes/PlanManager.php:1265
+msgid "Performance & Security"
+msgstr ""
+
+#: includes/PlanManager.php:685
+msgid "Optimize your store for speed and security"
+msgstr ""
+
+#: includes/PlanManager.php:689
+msgid "Improve Performance and Speed with Jetpack Boost"
+msgstr ""
+
+#: includes/PlanManager.php:690
+msgid "Speed up your store for better user experience"
+msgstr ""
+
+#: includes/PlanManager.php:698
+msgid "Enable Auto-Backup & Update Alerts"
+msgstr ""
+
+#: includes/PlanManager.php:699
+msgid "Protect your store with automatic backups"
+msgstr ""
+
+#: includes/PlanManager.php:707
+msgid "Create a Staging Website"
+msgstr ""
+
+#: includes/PlanManager.php:708
+msgid "Test changes safely before going live"
+msgstr ""
+
+#: includes/PlanManager.php:718
+msgid "Store Analysis"
+msgstr ""
+
+#: includes/PlanManager.php:719
+msgid "Monitor and analyze your store performance"
+msgstr ""
+
+#: includes/PlanManager.php:723
+msgid "Monitor Traffic and Conversion Rates"
+msgstr ""
+
+#: includes/PlanManager.php:724
+msgid "Track key metrics to optimize your store"
+msgstr ""
+
+#: includes/PlanManager.php:732
+msgid "Run A/B Test on Homepage Banner"
+msgstr ""
+
+#: includes/PlanManager.php:733
+msgid "Test different designs to improve conversions"
+msgstr ""
+
+#: includes/PlanManager.php:741
+#: includes/PlanManager.php:1313
+msgid "Review Monthly Performance Dashboard"
+msgstr ""
+
+#: includes/PlanManager.php:742
+msgid "Analyze monthly reports to identify trends"
+msgstr ""
+
+#: includes/PlanManager.php:764
+msgid "Blog Setup"
+msgstr ""
+
+#: includes/PlanManager.php:765
+msgid "Get your blog up and running with these essential steps:"
+msgstr ""
+
+#: includes/PlanManager.php:773
+msgid "Basic Blog Setup"
+msgstr ""
+
+#: includes/PlanManager.php:774
+msgid "Configure your blog's basic settings"
+msgstr ""
+
+#: includes/PlanManager.php:778
+msgid "Set Site Title"
+msgstr ""
+
+#: includes/PlanManager.php:779
+msgid "Choose a memorable title for your blog"
+msgstr ""
+
+#: includes/PlanManager.php:787
+#: includes/PlanManager.php:1368
+msgid "Set Tagline"
+msgstr ""
+
+#: includes/PlanManager.php:788
+msgid "Create a compelling tagline that describes your blog"
+msgstr ""
+
+#: includes/PlanManager.php:796
+#: includes/PlanManager.php:1386
+msgid "Set Time Zone"
+msgstr ""
+
+#: includes/PlanManager.php:797
+msgid "Configure your blog's timezone for accurate posting"
+msgstr ""
+
+#: includes/PlanManager.php:805
+#: includes/PlanManager.php:1377
+msgid "Set Language"
+msgstr ""
+
+#: includes/PlanManager.php:806
+msgid "Choose your blog's primary language"
+msgstr ""
+
+#: includes/PlanManager.php:816
+msgid "Customize Your Blog"
+msgstr ""
+
+#: includes/PlanManager.php:817
+msgid "Make your blog visually appealing and unique"
+msgstr ""
+
+#: includes/PlanManager.php:822
+msgid "Add your blog logo to establish brand identity"
+msgstr ""
+
+#: includes/PlanManager.php:831
+msgid "Select colors and typography that match your style"
+msgstr ""
+
+#: includes/PlanManager.php:839
+#: includes/PlanManager.php:1420
+msgid "Customize Header and Footer"
+msgstr ""
+
+#: includes/PlanManager.php:840
+msgid "Design your header and footer layout"
+msgstr ""
+
+#: includes/PlanManager.php:849
+msgid "Choose a layout or blog grid for your homepage"
+msgstr ""
+
+#: includes/PlanManager.php:859
+msgid "Create Content"
+msgstr ""
+
+#: includes/PlanManager.php:860
+msgid "Start creating engaging blog content"
+msgstr ""
+
+#: includes/PlanManager.php:864
+msgid "Add Your First Blog Post"
+msgstr ""
+
+#: includes/PlanManager.php:865
+msgid "Write and publish your first blog post"
+msgstr ""
+
+#: includes/PlanManager.php:873
+msgid "Create an \"About\" Page"
+msgstr ""
+
+#: includes/PlanManager.php:874
+msgid "Tell your readers about yourself and your blog"
+msgstr ""
+
+#: includes/PlanManager.php:882
+msgid "Set a Featured Image for One Post"
+msgstr ""
+
+#: includes/PlanManager.php:883
+msgid "Add visual appeal to your posts with featured images"
+msgstr ""
+
+#: includes/PlanManager.php:893
+msgid "Set Up Navigation"
+msgstr ""
+
+#: includes/PlanManager.php:894
+msgid "Create user-friendly navigation for your blog"
+msgstr ""
+
+#: includes/PlanManager.php:898
+#: includes/PlanManager.php:1488
+msgid "Add Pages for Home, Blog, About, Contact"
+msgstr ""
+
+#: includes/PlanManager.php:899
+msgid "Create essential pages for your blog"
+msgstr ""
+
+#: includes/PlanManager.php:907
+#: includes/PlanManager.php:1497
+msgid "Create a Primary Menu"
+msgstr ""
+
+#: includes/PlanManager.php:908
+msgid "Set up main navigation for your blog"
+msgstr ""
+
+#: includes/PlanManager.php:916
+msgid "Create a Footer Menu"
+msgstr ""
+
+#: includes/PlanManager.php:917
+msgid "Add footer navigation with important links"
+msgstr ""
+
+#: includes/PlanManager.php:927
+msgid "Set Up Essential Pages"
+msgstr ""
+
+#: includes/PlanManager.php:928
+msgid "Create important legal and policy pages"
+msgstr ""
+
+#: includes/PlanManager.php:932
+#: includes/PlanManager.php:1522
+msgid "Add a Privacy Policy"
+msgstr ""
+
+#: includes/PlanManager.php:933
+msgid "Create a privacy policy for legal compliance"
+msgstr ""
+
+#: includes/PlanManager.php:941
+#: includes/PlanManager.php:1531
+msgid "Add Terms & Conditions"
+msgstr ""
+
+#: includes/PlanManager.php:942
+msgid "Set terms of use for your blog"
+msgstr ""
+
+#: includes/PlanManager.php:950
+#: includes/PlanManager.php:1540
+msgid "Add an Accessibility Statement"
+msgstr ""
+
+#: includes/PlanManager.php:951
+msgid "Show your commitment to accessibility"
+msgstr ""
+
+#: includes/PlanManager.php:967
+msgid "First Audience-Building Steps"
+msgstr ""
+
+#: includes/PlanManager.php:968
+msgid "Start building your blog audience"
+msgstr ""
+
+#: includes/PlanManager.php:972
+msgid "Enable Social Login"
+msgstr ""
+
+#: includes/PlanManager.php:973
+msgid "Allow readers to comment using social media accounts"
+msgstr ""
+
+#: includes/PlanManager.php:981
+msgid "Add a Welcome-Subscribe Popup"
+msgstr ""
+
+#: includes/PlanManager.php:982
+msgid "Convert visitors to your email list with a popup"
+msgstr ""
+
+#: includes/PlanManager.php:990
+msgid "Customize Notification Emails"
+msgstr ""
+
+#: includes/PlanManager.php:991
+msgid "Personalize comment replies and new-post alerts"
+msgstr ""
+
+#: includes/PlanManager.php:999
+msgid "Connect Jetpack Stats (or Google Analytics 4)"
+msgstr ""
+
+#: includes/PlanManager.php:1000
+msgid "Track your blog's performance and visitor behavior"
+msgstr ""
+
+#: includes/PlanManager.php:1010
+msgid "Test Everything"
+msgstr ""
+
+#: includes/PlanManager.php:1011
+msgid "Ensure your blog works perfectly before launch"
+msgstr ""
+
+#: includes/PlanManager.php:1015
+msgid "Check Mobile Optimization"
+msgstr ""
+
+#: includes/PlanManager.php:1016
+msgid "Test how your blog looks on mobile devices"
+msgstr ""
+
+#: includes/PlanManager.php:1024
+msgid "Click Through Every Menu Item & Post"
+msgstr ""
+
+#: includes/PlanManager.php:1025
+msgid "Test all links and navigation to ensure they work"
+msgstr ""
+
+#: includes/PlanManager.php:1033
+msgid "Disable \"Coming Soon\" Mode When Ready"
+msgstr ""
+
+#: includes/PlanManager.php:1034
+msgid "Make your blog visible to the public"
+msgstr ""
+
+#: includes/PlanManager.php:1044
+msgid "Launch & Promote - Social Presence"
+msgstr ""
+
+#: includes/PlanManager.php:1045
+msgid "Establish your blog's social media presence"
+msgstr ""
+
+#: includes/PlanManager.php:1049
+msgid "Connect Facebook Page Auto-Sharing"
+msgstr ""
+
+#: includes/PlanManager.php:1050
+msgid "Automatically share new posts to Facebook"
+msgstr ""
+
+#: includes/PlanManager.php:1058
+msgid "Connect Instagram Auto-Sharing"
+msgstr ""
+
+#: includes/PlanManager.php:1059
+msgid "Share your blog posts on Instagram"
+msgstr ""
+
+#: includes/PlanManager.php:1067
+msgid "Connect TikTok Profile"
+msgstr ""
+
+#: includes/PlanManager.php:1068
+msgid "Link your TikTok profile to your blog"
+msgstr ""
+
+#: includes/PlanManager.php:1076
+msgid "Add Social-Sharing Buttons to Posts"
+msgstr ""
+
+#: includes/PlanManager.php:1077
+msgid "Let readers share your content on social media"
+msgstr ""
+
+#: includes/PlanManager.php:1085
+msgid "Embed a Social Media Feed on Homepage"
+msgstr ""
+
+#: includes/PlanManager.php:1086
+msgid "Show your latest social media posts on your blog"
+msgstr ""
+
+#: includes/PlanManager.php:1096
+msgid "Launch & Promote - SEO & Visibility"
+msgstr ""
+
+#: includes/PlanManager.php:1097
+msgid "Optimize your blog for search engines"
+msgstr ""
+
+#: includes/PlanManager.php:1101
+msgid "Optimize On-Page SEO"
+msgstr ""
+
+#: includes/PlanManager.php:1102
+msgid "Use Yoast or All-in-One SEO to optimize your content"
+msgstr ""
+
+#: includes/PlanManager.php:1111
+msgid "Monitor your blog's search performance"
+msgstr ""
+
+#: includes/PlanManager.php:1119
+msgid "Generate & Submit XML Sitemap"
+msgstr ""
+
+#: includes/PlanManager.php:1120
+msgid "Help search engines discover your content"
+msgstr ""
+
+#: includes/PlanManager.php:1136
+msgid "Enhance Reader Experience"
+msgstr ""
+
+#: includes/PlanManager.php:1137
+msgid "Improve engagement and user experience"
+msgstr ""
+
+#: includes/PlanManager.php:1141
+msgid "Enable & Style Comments Section"
+msgstr ""
+
+#: includes/PlanManager.php:1142
+msgid "Set up Akismet or Antispam Bee for comment moderation"
+msgstr ""
+
+#: includes/PlanManager.php:1150
+msgid "Customize Author/Profile Boxes"
+msgstr ""
+
+#: includes/PlanManager.php:1151
+msgid "Create professional author profiles"
+msgstr ""
+
+#: includes/PlanManager.php:1159
+msgid "Display Testimonials or Highlighted Comments"
+msgstr ""
+
+#: includes/PlanManager.php:1160
+msgid "Showcase positive feedback from readers"
+msgstr ""
+
+#: includes/PlanManager.php:1168
+#: includes/PlanManager.php:1580
+msgid "Create a Favicon"
+msgstr ""
+
+#: includes/PlanManager.php:1169
+msgid "Add a browser icon for your blog"
+msgstr ""
+
+#: includes/PlanManager.php:1179
+msgid "Advanced Promotion & Partnerships"
+msgstr ""
+
+#: includes/PlanManager.php:1180
+msgid "Expand your blog's reach and partnerships"
+msgstr ""
+
+#: includes/PlanManager.php:1184
+msgid "Build an Email Newsletter"
+msgstr ""
+
+#: includes/PlanManager.php:1185
+msgid "Create regular email updates for your readers"
+msgstr ""
+
+#: includes/PlanManager.php:1193
+msgid "Draft an Influencer/Guest-Post Outreach List"
+msgstr ""
+
+#: includes/PlanManager.php:1194
+msgid "Build relationships with other bloggers and influencers"
+msgstr ""
+
+#: includes/PlanManager.php:1203
+msgid "Promote a pillar article with paid advertising"
+msgstr ""
+
+#: includes/PlanManager.php:1211
+msgid "Launch a Content Giveaway"
+msgstr ""
+
+#: includes/PlanManager.php:1212
+msgid "Offer a free e-book or resource to grow your audience"
+msgstr ""
+
+#: includes/PlanManager.php:1220
+msgid "Track Campaigns with UTM Links"
+msgstr ""
+
+#: includes/PlanManager.php:1221
+msgid "Monitor campaign effectiveness in Analytics"
+msgstr ""
+
+#: includes/PlanManager.php:1231
+msgid "Content & Traffic Strategy"
+msgstr ""
+
+#: includes/PlanManager.php:1232
+msgid "Develop advanced content strategies"
+msgstr ""
+
+#: includes/PlanManager.php:1236
+msgid "Plan a Content Series or Editorial Calendar"
+msgstr ""
+
+#: includes/PlanManager.php:1237
+msgid "Create a structured content planning approach"
+msgstr ""
+
+#: includes/PlanManager.php:1245
+msgid "Implement Internal-Linking Strategy"
+msgstr ""
+
+#: includes/PlanManager.php:1246
+msgid "Link older posts to improve SEO and user engagement"
+msgstr ""
+
+#: includes/PlanManager.php:1254
+msgid "Install Yoast Premium for Advanced Schemas"
+msgstr ""
+
+#: includes/PlanManager.php:1255
+msgid "Enhance SEO with advanced structured data"
+msgstr ""
+
+#: includes/PlanManager.php:1266
+msgid "Optimize your blog for speed and security"
+msgstr ""
+
+#: includes/PlanManager.php:1270
+msgid "Speed-up Site with Jetpack Boost"
+msgstr ""
+
+#: includes/PlanManager.php:1271
+msgid "Improve loading times with caching and optimization"
+msgstr ""
+
+#: includes/PlanManager.php:1279
+#: includes/PlanManager.php:1869
+msgid "Enable Automatic Backups & Update Alerts"
+msgstr ""
+
+#: includes/PlanManager.php:1280
+msgid "Protect your blog with automated backups"
+msgstr ""
+
+#: includes/PlanManager.php:1288
+msgid "Create a Staging Site"
+msgstr ""
+
+#: includes/PlanManager.php:1289
+msgid "Test changes safely before publishing"
+msgstr ""
+
+#: includes/PlanManager.php:1299
+msgid "Blog Analytics"
+msgstr ""
+
+#: includes/PlanManager.php:1300
+msgid "Monitor and analyze your blog performance"
+msgstr ""
+
+#: includes/PlanManager.php:1304
+msgid "Monitor Traffic & Engagement"
+msgstr ""
+
+#: includes/PlanManager.php:1305
+msgid "Track visitor behavior in Jetpack or Google Analytics"
+msgstr ""
+
+#: includes/PlanManager.php:1314
+msgid "Analyze monthly reports and set growth goals"
+msgstr ""
+
+#: includes/PlanManager.php:1336
+msgid "Corporate Setup"
+msgstr ""
+
+#: includes/PlanManager.php:1337
+msgid "Set up your corporate website with these essential steps:"
+msgstr ""
+
+#: includes/PlanManager.php:1345
+msgid "Basic Site Setup"
+msgstr ""
+
+#: includes/PlanManager.php:1346
+msgid "Configure your corporate website foundation"
+msgstr ""
+
+#: includes/PlanManager.php:1350
+msgid "Complete Basic Site Setup"
+msgstr ""
+
+#: includes/PlanManager.php:1351
+msgid "Configure essential website settings"
+msgstr ""
+
+#: includes/PlanManager.php:1359
+msgid "Set Site Name"
+msgstr ""
+
+#: includes/PlanManager.php:1360
+msgid "Add your company name as the site title"
+msgstr ""
+
+#: includes/PlanManager.php:1369
+msgid "Create a professional tagline that describes your business"
+msgstr ""
+
+#: includes/PlanManager.php:1378
+msgid "Choose your website's primary language"
+msgstr ""
+
+#: includes/PlanManager.php:1387
+msgid "Configure your website's timezone"
+msgstr ""
+
+#: includes/PlanManager.php:1397
+msgid "Customize Your Website"
+msgstr ""
+
+#: includes/PlanManager.php:1398
+msgid "Brand your corporate website professionally"
+msgstr ""
+
+#: includes/PlanManager.php:1402
+msgid "Upload Company Logo"
+msgstr ""
+
+#: includes/PlanManager.php:1403
+msgid "Add your company logo to establish brand identity"
+msgstr ""
+
+#: includes/PlanManager.php:1411
+msgid "Choose Brand Colors and Fonts"
+msgstr ""
+
+#: includes/PlanManager.php:1412
+msgid "Apply your corporate brand colors and typography"
+msgstr ""
+
+#: includes/PlanManager.php:1421
+msgid "Design professional header and footer layouts"
+msgstr ""
+
+#: includes/PlanManager.php:1429
+msgid "Customize Homepage Layout"
+msgstr ""
+
+#: includes/PlanManager.php:1430
+msgid "Select a template or blocks for your homepage"
+msgstr ""
+
+#: includes/PlanManager.php:1440
+msgid "Set Up Key Pages"
+msgstr ""
+
+#: includes/PlanManager.php:1441
+msgid "Create essential corporate pages"
+msgstr ""
+
+#: includes/PlanManager.php:1445
+msgid "Create an About Us Page"
+msgstr ""
+
+#: includes/PlanManager.php:1446
+msgid "Tell visitors about your company and mission"
+msgstr ""
+
+#: includes/PlanManager.php:1454
+msgid "Create a Services or What We Do Page"
+msgstr ""
+
+#: includes/PlanManager.php:1455
+msgid "Showcase your company's services and offerings"
+msgstr ""
+
+#: includes/PlanManager.php:1463
+msgid "Create a Contact Page"
+msgstr ""
+
+#: includes/PlanManager.php:1464
+msgid "Add contact form and map for customer inquiries"
+msgstr ""
+
+#: includes/PlanManager.php:1472
+msgid "Add a Team or Leadership Page"
+msgstr ""
+
+#: includes/PlanManager.php:1473
+msgid "Introduce your team members and leadership"
+msgstr ""
+
+#: includes/PlanManager.php:1483
+msgid "Configure Navigation"
+msgstr ""
+
+#: includes/PlanManager.php:1484
+msgid "Set up professional website navigation"
+msgstr ""
+
+#: includes/PlanManager.php:1489
+msgid "Create all essential navigation pages"
+msgstr ""
+
+#: includes/PlanManager.php:1498
+msgid "Set up main navigation menu"
+msgstr ""
+
+#: includes/PlanManager.php:1506
+msgid "Add a Footer Menu"
+msgstr ""
+
+#: includes/PlanManager.php:1507
+msgid "Create footer navigation with Privacy, Terms, etc."
+msgstr ""
+
+#: includes/PlanManager.php:1517
+msgid "Add Legal & Trust Content"
+msgstr ""
+
+#: includes/PlanManager.php:1518
+msgid "Build credibility with legal and trust signals"
+msgstr ""
+
+#: includes/PlanManager.php:1523
+msgid "Create privacy policy for legal compliance"
+msgstr ""
+
+#: includes/PlanManager.php:1532
+msgid "Set terms of service for your business"
+msgstr ""
+
+#: includes/PlanManager.php:1541
+msgid "Show commitment to web accessibility"
+msgstr ""
+
+#: includes/PlanManager.php:1549
+msgid "Add Client Logos or Testimonials"
+msgstr ""
+
+#: includes/PlanManager.php:1550
+msgid "Display client logos and positive testimonials"
+msgstr ""
+
+#: includes/PlanManager.php:1566
+msgid "Establish Your Brand Online"
+msgstr ""
+
+#: includes/PlanManager.php:1567
+msgid "Build your corporate online presence"
+msgstr ""
+
+#: includes/PlanManager.php:1571
+msgid "Set Up a Custom Domain"
+msgstr ""
+
+#: includes/PlanManager.php:1572
+msgid "Configure your professional domain name"
+msgstr ""
+
+#: includes/PlanManager.php:1581
+msgid "Add a professional browser icon"
+msgstr ""
+
+#: includes/PlanManager.php:1589
+msgid "Connect Your Google Business Profile"
+msgstr ""
+
+#: includes/PlanManager.php:1590
+msgid "Enhance local/regional presence with Google Business"
+msgstr ""
+
+#: includes/PlanManager.php:1598
+msgid "Create a Branded Email Address"
+msgstr ""
+
+#: includes/PlanManager.php:1599
+msgid "Set up professional email like info@yourcompany.com"
+msgstr ""
+
+#: includes/PlanManager.php:1609
+msgid "Launch Essential Marketing Tools"
+msgstr ""
+
+#: includes/PlanManager.php:1610
+msgid "Set up analytics and SEO tools"
+msgstr ""
+
+#: includes/PlanManager.php:1614
+msgid "Set Up Jetpack Stats (or GA4)"
+msgstr ""
+
+#: includes/PlanManager.php:1615
+msgid "Track website performance and visitor behavior"
+msgstr ""
+
+#: includes/PlanManager.php:1623
+msgid "Connect Google Search Console"
+msgstr ""
+
+#: includes/PlanManager.php:1624
+msgid "Monitor search performance and indexing"
+msgstr ""
+
+#: includes/PlanManager.php:1632
+msgid "Install a SEO Plugin (Yoast Premium)"
+msgstr ""
+
+#: includes/PlanManager.php:1633
+msgid "Optimize your website for search engines"
+msgstr ""
+
+#: includes/PlanManager.php:1641
+msgid "Add Social Sharing Settings"
+msgstr ""
+
+#: includes/PlanManager.php:1642
+msgid "Enable social media sharing for content"
+msgstr ""
+
+#: includes/PlanManager.php:1652
+msgid "Set Up Contact & Engagement"
+msgstr ""
+
+#: includes/PlanManager.php:1653
+msgid "Make it easy for customers to contact you"
+msgstr ""
+
+#: includes/PlanManager.php:1657
+msgid "Add a Contact Form"
+msgstr ""
+
+#: includes/PlanManager.php:1658
+msgid "Create contact form with email routing"
+msgstr ""
+
+#: includes/PlanManager.php:1666
+msgid "Embed a Map or Location"
+msgstr ""
+
+#: includes/PlanManager.php:1667
+msgid "Show your business location if applicable"
+msgstr ""
+
+#: includes/PlanManager.php:1675
+msgid "Add Live Chat or Contact Widget"
+msgstr ""
+
+#: includes/PlanManager.php:1676
+msgid "Enable real-time customer support"
+msgstr ""
+
+#: includes/PlanManager.php:1684
+msgid "Link to Social Media Profiles"
+msgstr ""
+
+#: includes/PlanManager.php:1685
+msgid "Add social media links in header/footer"
+msgstr ""
+
+#: includes/PlanManager.php:1695
+msgid "Final Review Before Going Live"
+msgstr ""
+
+#: includes/PlanManager.php:1696
+msgid "Test everything before launch"
+msgstr ""
+
+#: includes/PlanManager.php:1700
+msgid "Preview on Mobile, Tablet, and Desktop"
+msgstr ""
+
+#: includes/PlanManager.php:1701
+msgid "Test responsive design on all devices"
+msgstr ""
+
+#: includes/PlanManager.php:1709
+msgid "Test Contact Form and Navigation Links"
+msgstr ""
+
+#: includes/PlanManager.php:1710
+msgid "Ensure all forms and links work properly"
+msgstr ""
+
+#: includes/PlanManager.php:1718
+msgid "Disable \"Coming Soon\" Mode"
+msgstr ""
+
+#: includes/PlanManager.php:1719
+msgid "Make your website visible to the public"
+msgstr ""
+
+#: includes/PlanManager.php:1727
+msgid "Ask Someone Outside Your Team to Review"
+msgstr ""
+
+#: includes/PlanManager.php:1728
+msgid "Get external feedback before launching"
+msgstr ""
+
+#: includes/PlanManager.php:1744
+msgid "Strengthen Online Presence"
+msgstr ""
+
+#: includes/PlanManager.php:1745
+msgid "Build credibility and trust"
+msgstr ""
+
+#: includes/PlanManager.php:1749
+msgid "Add Client Testimonials or Reviews"
+msgstr ""
+
+#: includes/PlanManager.php:1750
+msgid "Showcase positive client feedback"
+msgstr ""
+
+#: includes/PlanManager.php:1758
+msgid "Add Certifications, Memberships, or Awards"
+msgstr ""
+
+#: includes/PlanManager.php:1759
+msgid "Display industry credentials and achievements"
+msgstr ""
+
+#: includes/PlanManager.php:1769
+msgid "Build Content for SEO & Trust"
+msgstr ""
+
+#: includes/PlanManager.php:1770
+msgid "Create valuable content that builds authority"
+msgstr ""
+
+#: includes/PlanManager.php:1774
+msgid "Publish Your First Company Blog Post"
+msgstr ""
+
+#: includes/PlanManager.php:1775
+msgid "Share industry insights or company news"
+msgstr ""
+
+#: includes/PlanManager.php:1783
+msgid "Create a FAQ Page"
+msgstr ""
+
+#: includes/PlanManager.php:1784
+msgid "Answer common customer questions"
+msgstr ""
+
+#: includes/PlanManager.php:1792
+msgid "Optimize Your Key Pages for Keywords"
+msgstr ""
+
+#: includes/PlanManager.php:1793
+msgid "Improve SEO and readability of important pages"
+msgstr ""
+
+#: includes/PlanManager.php:1801
+msgid "Generate and Submit XML Sitemap"
+msgstr ""
+
+#: includes/PlanManager.php:1802
+msgid "Help search engines discover your pages"
+msgstr ""
+
+#: includes/PlanManager.php:1812
+msgid "Marketing & Lead Generation"
+msgstr ""
+
+#: includes/PlanManager.php:1813
+msgid "Generate and nurture business leads"
+msgstr ""
+
+#: includes/PlanManager.php:1817
+msgid "Set Up an Email Capture Form"
+msgstr ""
+
+#: includes/PlanManager.php:1818
+msgid "Build a newsletter subscription list"
+msgstr ""
+
+#: includes/PlanManager.php:1826
+msgid "Connect to CRM or Email Tool"
+msgstr ""
+
+#: includes/PlanManager.php:1827
+msgid "Integrate with Mailchimp, HubSpot, or similar"
+msgstr ""
+
+#: includes/PlanManager.php:1835
+msgid "Add a Call-to-Action Section to Homepage"
+msgstr ""
+
+#: includes/PlanManager.php:1836
+msgid "Encourage visitors to take action"
+msgstr ""
+
+#: includes/PlanManager.php:1844
+msgid "Create a Downloadable Resource"
+msgstr ""
+
+#: includes/PlanManager.php:1845
+msgid "Offer brochure, whitepaper, or guide for lead generation"
+msgstr ""
+
+#: includes/PlanManager.php:1855
+msgid "Site Performance & Security"
+msgstr ""
+
+#: includes/PlanManager.php:1856
+msgid "Optimize and secure your corporate website"
+msgstr ""
+
+#: includes/PlanManager.php:1860
+msgid "Install Jetpack Boost or Caching Plugin"
+msgstr ""
+
+#: includes/PlanManager.php:1861
+msgid "Improve website loading speed"
+msgstr ""
+
+#: includes/PlanManager.php:1870
+msgid "Protect your website with regular backups"
+msgstr ""
+
+#: includes/PlanManager.php:1878
+msgid "Install a Security Plugin"
+msgstr ""
+
+#: includes/PlanManager.php:1879
+msgid "Add security protection against threats"
+msgstr ""
+
+#: includes/PlanManager.php:1887
+msgid "Set Up a Staging Site"
+msgstr ""
+
+#: includes/PlanManager.php:1888
+msgid "Test updates and redesigns safely"
+msgstr ""
+
+#: includes/PlanManager.php:1898
+msgid "Monitor & Improve"
+msgstr ""
+
+#: includes/PlanManager.php:1899
+msgid "Track performance and plan improvements"
+msgstr ""
+
+#: includes/PlanManager.php:1903
+msgid "Review Traffic & Engagement"
+msgstr ""
+
+#: includes/PlanManager.php:1904
+msgid "Analyze visitor behavior in Google Analytics"
+msgstr ""
+
+#: includes/PlanManager.php:1912
+msgid "Track Form Submissions or Lead Goals"
+msgstr ""
+
+#: includes/PlanManager.php:1913
+msgid "Monitor lead generation effectiveness"
+msgstr ""
+
+#: includes/PlanManager.php:1921
+msgid "Run a Speed Test"
+msgstr ""
+
+#: includes/PlanManager.php:1922
+msgid "Test site speed with PageSpeed Insights or GTmetrix"
+msgstr ""
+
+#: includes/PlanManager.php:1930
+msgid "Plan Your Next Content or Campaign Update"
+msgstr ""
+
+#: includes/PlanManager.php:1931
+msgid "Schedule regular content and marketing updates"
+msgstr ""
+
+#: includes/StepsApi.php:260
+#: includes/StepsApi.php:282
+msgid "No plan found."
+msgstr ""
+
+#: includes/StepsApi.php:288
+msgid "No tracks found in plan."
+msgstr ""
+
+#: includes/StepsApi.php:294
+msgid "No sections found in track."
+msgstr ""
+
+#: includes/StepsApi.php:344
+#: includes/StepsApi.php:377
+msgid "Invalid parameters provided."
+msgstr ""
+
+#: includes/StepsApi.php:347
+msgid "Invalid status provided."
+msgstr ""
+
+#: includes/StepsApi.php:354
+msgid "Step not found."
+msgstr ""
+
+#: includes/StepsApi.php:384
+msgid "Section not found."
+msgstr ""
+
+#: includes/StepsApi.php:412
+msgid "Invalid plan type provided."
+msgstr ""
+
+#: includes/StepsApi.php:444
+msgid "Failed to add task to section."
+msgstr ""
+
+#: build/next-steps-portal/bundle.js:1
+#: build/next-steps-widget/bundle.js:1
+#: build/next-steps-portal/bundle.js:1765
+msgid "Mark Complete"
+msgstr ""
+
+#: build/next-steps-portal/bundle.js:1
+#: build/next-steps-widget/bundle.js:1
+#: build/next-steps-portal/bundle.js:1788
+msgid "Skip"
+msgstr ""
+
+#: build/next-steps-portal/bundle.js:1
+#: build/next-steps-widget/bundle.js:1
+#: build/next-steps-portal/bundle.js:1821
+msgid "Restart"
+msgstr ""
+
+#: build/next-steps-portal/bundle.js:1
+#: build/next-steps-widget/bundle.js:1
+#: build/next-steps-portal/bundle.js:1844
+#: build/next-steps-portal/bundle.js:1859
+msgid "Unskip"
+msgstr ""
+
+#: build/next-steps-portal/bundle.js:1
+#: build/next-steps-widget/bundle.js:1
+#: build/next-steps-portal/bundle.js:1575
+msgid "Hide skipped tasks"
+msgstr ""
+
+#: build/next-steps-portal/bundle.js:1
+#: build/next-steps-widget/bundle.js:1
+#: build/next-steps-portal/bundle.js:1576
+msgid "View skipped tasks"
+msgstr ""
+
+#: build/next-steps-portal/bundle.js:1
+#: build/next-steps-widget/bundle.js:1
+msgid "Loading next steps..."
+msgstr ""

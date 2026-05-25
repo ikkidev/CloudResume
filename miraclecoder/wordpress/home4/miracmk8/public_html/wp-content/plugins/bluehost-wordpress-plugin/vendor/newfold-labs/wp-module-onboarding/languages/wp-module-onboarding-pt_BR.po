@@ -1,0 +1,286 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://github.com/newfold-labs/wp-module-onboarding/issues\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2023-09-22 10:49-0300\n"
+"Language: pt_BR\n"
+"X-Domain: wp-module-onboarding\n"
+"X-Generator: WP-CLI 2.8.1\n"
+
+#: bootstrap.php:24
+#: includes/Compatibility/Safe_Mode.php:44
+#: includes/Compatibility/Safe_Mode.php:45
+#: includes/WP_Admin.php:82
+#: includes/WP_Admin.php:83
+#: includes/WP_Admin.php:99
+msgid "Onboarding"
+msgstr "Onboarding"
+
+#: includes/Compatibility/Safe_Mode.php:184
+msgid "Please upgrade your WordPress"
+msgstr "Atualize seu WordPress"
+
+#: includes/Compatibility/Safe_Mode.php:185
+msgid "To take advantage of the latest WordPress has to offer, our WordPress Onboarding to setup your website requires the latest version of WordPress."
+msgstr "Para aproveitar tudo que o WordPress mais recente tem a oferecer, o onboarding de configuração do seu site requer a versão mais recente do WordPress."
+
+#. translators: 1: Current WP Version 2: Minimum Required version
+#: includes/Compatibility/Safe_Mode.php:191
+#, php-format
+msgid "Your WordPress version %1$s does not meet our minimum requirements of %2$s."
+msgstr "Seu WordPress versão %1$s não é compatível com os requisitos mínimos de %2$s."
+
+#: includes/Compatibility/Safe_Mode.php:207
+msgid "Upgrade WordPress"
+msgstr "Fazer Upgrade do WordPress"
+
+#: includes/Compatibility/Safe_Mode.php:211
+msgid "There was an error Upgrading WordPress."
+msgstr "Ocorreu um erro no Upgrade do seu WordPress."
+
+#: includes/RestApi/SitePagesController.php:106
+#: includes/Services/SiteGenService.php:123
+msgid "Home"
+msgstr "Home"
+
+#: includes/RestApi/EventsController.php:68
+msgid "Event action"
+msgstr "Ação do Evento"
+
+#: includes/RestApi/EventsController.php:75
+msgid "Event category"
+msgstr "Categoria do Evento"
+
+#: includes/RestApi/EventsController.php:81
+msgid "Event data"
+msgstr "Dados do Evento"
+
+#: includes/RestApi/EventsController.php:108
+msgid "Request does not contain an array of events."
+msgstr "A solicitação não contém uma matriz de eventos."
+
+#: includes/RestApi/EventsController.php:129
+msgid "Some events failed."
+msgstr "Alguns eventos falharam."
+
+#: includes/RestApi/Themes/PatternsController.php:81
+msgid "Pattern identifier (slug) or step name (step) required."
+msgstr "Identificador de padrão ou nome da etapa obrigatório."
+
+#: includes/RestApi/Themes/PatternsController.php:91
+msgid "No Patterns Found."
+msgstr "Padrões Não Encontrados."
+
+#: includes/RestApi/Themes/PatternsController.php:105
+msgid "No Pattern Found."
+msgstr "Padrão Não Encontrado."
+
+#: includes/Services/EventService.php:33
+msgid "Bad event structure/value."
+msgstr "Estrutura/valor do evento incorreto."
+
+#: build/3.2.11/onboarding-design-studio.js:1
+msgid "Colors"
+msgstr "Cores"
+
+#: build/3.2.11/onboarding-design-studio.js:1
+msgid "Primary"
+msgstr "Principal"
+
+#: build/3.2.11/onboarding-design-studio.js:1
+msgid "Secondary"
+msgstr "Secundária"
+
+#: includes/RestApi/SiteGenController.php:337
+msgid "Error at Regenerating home pages."
+msgstr "Erro ao Regenerar páginas iniciais."
+
+#: includes/RestApi/FlowController.php:154
+msgid "Flow data does not exist to generate a child theme."
+msgstr "Dados de fluxo não existem para gerar um tema filho."
+
+#: includes/RestApi/FlowController.php:195
+msgid "Success."
+msgstr "Sucesso."
+
+#: includes/RestApi/Themes/ThemeVariationsController.php:113
+msgid "The id of a template"
+msgstr "O id de um modelo"
+
+#: includes/RestApi/Themes/ThemeVariationsController.php:118
+msgid "The custom styles"
+msgstr "Os estilos personalizados"
+
+#: includes/RestApi/Themes/ThemeVariationsController.php:123
+msgid "The custom settings"
+msgstr "As configurações personalizadas"
+
+#: includes/RestApi/Themes/ThemeVariationsController.php:251
+msgid "Global style customization created."
+msgstr "Personalização de estilo global criada."
+
+#: includes/Services/Webfonts.php:118
+msgid "Webfont font family must be a non-empty string."
+msgstr "A família da fonte Webfont deve ser uma string não vazia."
+
+#: includes/Services/Webfonts.php:125
+msgid "Webfont src must be a non-empty string or an array of strings."
+msgstr "A fonte (src) do Webfont deve ser uma string não vazia ou uma matriz de strings."
+
+#: includes/Services/Webfonts.php:133
+msgid "Each webfont src must be a non-empty string."
+msgstr "Cada fonte (src) do Webfont deve ser uma string não vazia."
+
+#: includes/Services/Webfonts.php:141
+msgid "Webfont font weight must be a properly formatted string or integer."
+msgstr "O peso da fonte Webfont deve ser uma string ou número inteiro formatado corretamente."
+
+#: includes/WP_Admin.php:451
+msgid "Build with AI"
+msgstr "Criar com IA"
+
+#. translators: %d is the index of the palette
+#: includes/RestApi/DesignController.php:212
+#, php-format
+msgid "Palette %d"
+msgstr "Paleta %d"
+
+#: build/3.2.11/onboarding-design-studio.js:1
+msgid "Base"
+msgstr "Base"
+
+#: build/3.2.11/onboarding-design-studio.js:1
+msgid "Contrast"
+msgstr "Contraste"
+
+#: build/3.2.11/onboarding-design-studio.js:1
+msgid "Select a palette or customize individual colors."
+msgstr "Selecione uma paleta ou personalize cores individuais."
+
+#: build/3.2.11/onboarding-design-studio.js:1
+msgid "Palette"
+msgstr "Paleta"
+
+#: build/3.2.11/onboarding-design-studio.js:1
+msgid "Pick custom colors"
+msgstr "Escolha cores personalizadas"
+
+#: build/3.2.11/onboarding-design-studio.js:1
+msgid "Site Logo"
+msgstr "Logotipo do site"
+
+#: build/3.2.11/onboarding-design-studio.js:1
+msgid "Replace logo"
+msgstr "Substituir logotipo"
+
+#: build/3.2.11/onboarding-design-studio.js:1
+msgid "Replace"
+msgstr "Substituir"
+
+#: build/3.2.11/onboarding-design-studio.js:1
+msgid "Current logo"
+msgstr "Logotipo atual"
+
+#: build/3.2.11/onboarding-design-studio.js:1
+msgid "Remove"
+msgstr "Retirar"
+
+#: build/3.2.11/onboarding-design-studio.js:1
+msgid "Upload a logo to represent your brand."
+msgstr "Carregue um logotipo para representar sua marca."
+
+#: build/3.2.11/onboarding-design-studio.js:1
+msgid "Upload Logo"
+msgstr "Carregar logotipo"
+
+#: build/3.2.11/onboarding-design-studio.js:1
+msgid "You don't have permission to change the site logo."
+msgstr "Você não tem permissão para alterar o logotipo do site."
+
+#: build/3.2.11/onboarding-design-studio.js:1
+msgid "Your logo will appear in your site header. For best results, upload an image with a transparent background in PNG format."
+msgstr "Seu logotipo aparecerá no cabeçalho do seu site. Para obter melhores resultados, carregue uma imagem com fundo transparente no formato PNG."
+
+#: build/3.2.11/onboarding-design-studio.js:1
+msgid "Primary color"
+msgstr "Cor primária"
+
+#: build/3.2.11/onboarding-design-studio.js:1
+msgid "Secondary color"
+msgstr "Cor secundária"
+
+#: build/3.2.11/onboarding-design-studio.js:1
+msgid "Paragraph text in your chosen font."
+msgstr "Texto do parágrafo na fonte escolhida."
+
+#: build/3.2.11/onboarding-design-studio.js:1
+msgid "Select a font style."
+msgstr "Selecione um estilo de fonte."
+
+#: build/3.2.11/onboarding-design-studio.js:1
+msgid "Font Pairings"
+msgstr "Emparelhamentos de fontes"
+
+#: build/3.2.11/onboarding-design-studio.js:1
+msgid "No font pairings available."
+msgstr "Não há pares de fontes disponíveis."
+
+#: build/3.2.11/onboarding-design-studio.js:1
+msgid "Choose a font pairing that reflects your brand's personality. Each pairing is carefully selected to enhance readability and visual appeal across your site."
+msgstr "Escolha um par de fontes que reflita a personalidade da sua marca. Cada emparelhamento é cuidadosamente selecionado para melhorar a legibilidade e o apelo visual em todo o seu site."
+
+#: build/3.2.11/onboarding-design-studio.js:1
+msgid "Design Studio"
+msgstr "Estúdio de Design"
+
+#: includes/RestApi/SiteGenController.php:403
+msgid "Error at Setting up the nav menu."
+msgstr "Erro ao configurar o menu de navegação."
+
+#: includes/Services/Ai/ContentGeneration/SitekitsContentGeneration.php:112
+msgid "An unknown error occurred"
+msgstr "Ocorreu um erro desconhecido"
+
+#: includes/Services/AppService.php:76
+#: includes/Services/AppService.php:100
+msgid "Help us improve"
+msgstr "Ajude-nos a melhorar"
+
+#: includes/Services/AppService.php:77
+#: includes/Services/AppService.php:101
+msgid "How satisfied were you with the ease of creating your website?"
+msgstr "Quão satisfeito você ficou com a facilidade de criar seu site?"
+
+#: build/3.2.11/onboarding.js:1
+msgid "Publishing content…"
+msgstr "Publicação de conteúdo..."
+
+#: build/3.2.11/onboarding.js:1
+msgid "Preparing your new site…"
+msgstr "Preparando seu novo site..."
+
+#: build/3.2.11/onboarding.js:1
+msgid "Your new site is ready! Redirecting… 🚀"
+msgstr "Seu novo site está pronto! Redirecionando... 🚀"
+
+#: build/3.2.11/onboarding.js:1
+msgid "Sorry, let's try a different approach."
+msgstr ""
+
+#: build/3.2.11/onboarding.js:1
+msgid "Pick your website"
+msgstr ""
+
+#: build/3.2.11/onboarding.js:1
+msgid "We're sorry, our site generation tool isn't working right now. In the meantime, here are three unique site templates to get you started. Choose your favorite — we'll guide you through customizing it!"
+msgstr ""
+
+#: build/3.2.11/onboarding.js:1
+msgid "Here are three unique designs for you to start with. Pick your favorite to customize it!"
+msgstr ""

@@ -1,0 +1,36 @@
+{
+    "translation-revision-date": "2025-02-19 13:44",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "src\/sections\/ProductionSite\/getProductionSiteText.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "fr_FR",
+                "plural-forms": "nplurals=2; plural=(n > 1);"
+            },
+            "Clone": [
+                "Cloner"
+            ],
+            "Confirm Clone Action": [
+                "Confirmer l'action de clonage"
+            ],
+            "This will overwrite anything in staging and update it to an exact clone of the current production site. Are you sure you want to proceed?": [
+                "Ceci va \u00e9craser tout ce qui est en cours de pr\u00e9-production et le mettre \u00e0 jour vers un clone exact du site de production actuel. \u00cates-vous s\u00fbr de vouloir continuer ?"
+            ],
+            "Clone to staging": [
+                "Cloner vers la pr\u00e9-production"
+            ],
+            "Currently editing": [
+                "En cours d'\u00e9dition"
+            ],
+            "Not currently editing": [
+                "Pas d'\u00e9dition pour le moment"
+            ],
+            "Production Site": [
+                "Site de production"
+            ]
+        }
+    }
+}

@@ -1,0 +1,81 @@
+.wpp-cardview-compact {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+    .wpp-cardview-compact li {
+        list-style: none;
+        margin: 0 0 1.2em 0;
+        padding: 0 0 1em 0;
+        border-bottom: #ddd 1px solid;
+    }
+
+    .in-preview-mode .wpp-cardview-compact li {
+        margin: 0 0 1.2em 0;
+        padding: 0 0 1em 0;
+    }
+
+    .wpp-cardview-compact li:last-of-type,
+    .wpp-cardview-compact li:only-child {
+        margin: 0;
+        padding: 0;
+        border-bottom: none;
+    }
+
+        .wpp-cardview-compact .wpp-thumbnail-container {
+            position: relative;
+            margin-bottom: .8em;
+        }
+
+        .wpp-cardview-compact li .wpp-thumbnail {
+            overflow: hidden;
+            display: block;
+            float: none;
+            margin: 0;
+            width: 100%;
+            height: auto;
+            font-size: 0.8em;
+            line-height: 1;
+            background: #f0f0f0;
+            border: none;
+        }
+
+        .wpp-cardview-compact li .wpp-thumbnail.wpp_def_no_src {
+            object-fit: contain;
+        }
+
+        .wpp-cardview-compact li a {
+            text-decoration: none;
+        }
+
+        .wpp-cardview-compact li a:hover {
+            text-decoration: underline;
+        }
+
+        .wpp-cardview-compact li .taxonomies,
+        .wpp-cardview-compact li .wpp-post-title {
+            display: block;
+            font-weight: bold;
+        }
+
+        .wpp-cardview-compact li .taxonomies {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            padding: 1em;
+            color: #aaa;
+            font-size: 0.7em;
+            line-height: 1;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+            .wpp-cardview-compact li .taxonomies a {
+                color: #fff;
+            }
+
+        .wpp-cardview-compact li .wpp-post-title {
+            margin: 0 0 0.5em;
+            font-size: 1.2em;
+            line-height: 1.2;
+        }

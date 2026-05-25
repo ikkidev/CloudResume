@@ -1,0 +1,83 @@
+/**
+ * Admin-only styles
+ * ----------------------------------------------------------------------------
+ */
+
+/*
+ * You can use this variable in other Sass files to only apply
+ * certain CSS inside Admin or the other way around.
+ */
+$admin: true;
+
+/*! purgecss start ignore */
+/* Settings */
+@import 'global/fonts';
+@import 'settings/colors';
+@import 'settings/settings';
+@import 'settings/variables';
+@import 'settings/mixins';
+
+/* Global */
+@import 'global/reset';
+@import 'global/animations';
+@import 'global/global';
+@import 'global/typography';
+
+@import 'shame';
+/*! purgecss end ignore */
+
+/* Foundation; The XY Grid is included by default; Documentation at <http://foundation.zurb.com/sites/docs/> */
+@import '~foundation-sites/scss/foundation';
+@include foundation-xy-grid-classes;
+@include foundation-flex-classes;
+@include foundation-visibility-classes;
+@include foundation-prototype-spacing;
+@include foundation-prototype-list-style-type;
+
+
+/*! purgecss start ignore */
+/* Modules */
+@import 'modules/codemirror';
+
+/* Components */
+@import 'components/forms';
+@import 'components/form';
+@import 'components/label';
+@import 'components/button';
+@import 'components/link';
+@import 'components/switch';
+@import 'components/message';
+@import 'components/tile';
+@import 'components/badge';
+@import 'components/text';
+@import 'components/consent-bar';
+@import 'components/text-with-icon';
+@import 'components/spinner';
+
+/* Admin Components */
+@import 'admin/debug';
+
+// Component
+@import 'admin/integration-item';
+@import 'admin/banner-item';
+@import 'admin/request-item';
+@import 'admin/modal';
+@import 'admin/comparison-slider';
+
+// Blocks
+@import 'admin/section';
+@import 'admin/tiles';
+@import 'admin/tabs';
+@import 'admin/banner';
+@import 'admin/welcome';
+
+// Sections
+@import 'admin/main';
+@import 'admin/header';
+@import 'admin/container';
+@import 'admin/content';
+@import 'admin/sidebar';
+@import 'admin/footer';
+@import 'admin/wizard';
+
+/*! purgecss end ignore */

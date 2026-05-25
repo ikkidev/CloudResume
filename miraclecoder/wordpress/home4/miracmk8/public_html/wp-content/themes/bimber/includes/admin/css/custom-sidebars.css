@@ -1,0 +1,16 @@
+#g1ui-sidegen {
+    background: #ffffff;
+    margin: 10px 0 0 0;
+    border: 1px solid #e5e5e5;
+    padding: 0 15px 15px 15px;
+    border-left: 2px solid #46b450;
+}
+
+#bimber-sidebar-text {
+    padding: 5px 10px;
+    width: 80%;
+}
+
+.sidebar-g1-user .g1ui-sidegen-item-actions { padding: 0 15px; margin-top: 0; }
+.sidebar-g1-user.closed .g1ui-sidegen-item-actions { display: none; }
+.sidebar-g1-user  { border-left: 2px solid #46b450; }

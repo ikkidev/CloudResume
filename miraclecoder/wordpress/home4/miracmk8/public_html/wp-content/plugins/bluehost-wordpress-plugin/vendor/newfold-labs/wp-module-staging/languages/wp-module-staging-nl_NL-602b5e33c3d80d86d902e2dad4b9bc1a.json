@@ -1,0 +1,36 @@
+{
+    "translation-revision-date": "2025-02-19 13:44",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "src\/sections\/StagingSite\/getStagingSiteText.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "nl_NL",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Create staging site": [
+                "Testomgeving aanmaken"
+            ],
+            "This will permanently delete staging site. Are you sure you want to proceed? You can recreate another staging site at any time, but any specific changes you've made to this staging site will be lost.": [
+                "Dit zal de testomgeving permanent verwijderen. Weet u zeker dat u wilt doorgaan? U kunt op elk moment een nieuwe testomgeving aanmaken, maar alle wijzigingen die u heeft aangebracht in deze testomgeving gaan verloren."
+            ],
+            "Deleted Staging": [
+                "Testomgeving verwijderd"
+            ],
+            "Deleting the staging site, this should take about a minute.": [
+                "De testomgeving wordt verwijderd, dit duurt ongeveer een minuut."
+            ],
+            "Delete Staging Site": [
+                "Testomgeving verwijderen"
+            ],
+            "You don't have a staging site yet.": [
+                "U heeft nog geen testomgeving."
+            ],
+            "Staging Site": [
+                "Testomgeving"
+            ]
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "translation-revision-date": "2025-02-19 21:35+0530",
+    "generator": "WP-CLI\/2.11.0",
+    "source": "build\/index.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "en_GB",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Did this result help you?": [
+                "Did this result help you?"
+            ],
+            "Yes": [
+                "Yes"
+            ],
+            "No": [
+                "No"
+            ],
+            "Thanks for the feedback!": [
+                "Thanks for the feedback!"
+            ],
+            "You can try searching our <a href=\"{link}\">Resource center.<\/a> though to see if there\u2019s a helpful article or video on that subject.": [
+                "You can try searching our <a href=\"{link}\">Resource center.<\/a> though to see if there\u2019s a helpful article or video on that subject."
+            ],
+            "Sorry, I don\u2019t have any information on that topic yet.": [
+                "Sorry, I don\u2019t have any information on that topic yet."
+            ],
+            "Hi! I\u2019m your WordPress AI assistant. <\/br><\/br> Ask me how to do things in WordPress and I\u2019ll provide step by step instructions.<\/br><\/br> I\u2019m still learning so I don\u2019t have all the answers just yet.": [
+                "Hi! I\u2019m your WordPress AI assistant. <\/br><\/br> Ask me how to do things in WordPress and I\u2019ll provide step by step instructions.<\/br><\/br> I\u2019m still learning so I don\u2019t have all the answers just yet."
+            ],
+            "Search Help Center": [
+                "Search Help Center"
+            ],
+            "Ask about WordPress": [
+                "Ask about WordPress"
+            ],
+            "submit text": [
+                "submit text"
+            ],
+            "Common Topics": [
+                "Common Topics"
+            ],
+            "Please enter a specific search term to get results.": [
+                "Please enter a specific search term to get results."
+            ],
+            "Account Support": [
+                "Account Support"
+            ],
+            "If you need help with your Bluehost account, contact our support team:": [
+                "If you need help with your Bluehost account, contact our support team:"
+            ],
+            "Chat with support": [
+                "Chat with support"
+            ],
+            "Help with WordPress": [
+                "Help with WordPress"
+            ],
+            "Close Help Modal": [
+                "Close Help Modal"
+            ]
+        }
+    }
+}

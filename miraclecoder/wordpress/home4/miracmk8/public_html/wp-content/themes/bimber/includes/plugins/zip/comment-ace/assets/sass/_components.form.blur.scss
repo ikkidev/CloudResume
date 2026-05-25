@@ -1,0 +1,69 @@
+.comment-form-blur {
+    // Clearfix.
+    &:after {
+        display: table;
+        clear: both;
+        content: "";
+    }
+
+    #comment {
+        height: 36px;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-#{$left}: 10px;
+
+        font-size: 16px;
+        line-height: 36px;
+
+        resize: none;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        &:focus {
+            height: auto;
+        }
+    }
+
+    .cace-character-countdown {
+        display: none;
+    }
+
+    > p {
+        display: none;
+    }
+
+    > p.comment-form-comment {
+        display: block;
+    }
+
+    > p.comment-form-comment {
+        margin-bottom: 20px;
+    }
+
+
+    > p.form-submit {
+        margin-top: 0;
+        float: $right;
+    }
+}
+
+
+.comment-form-blur.comment-form-xl {
+    #comment {
+        height: 48px;
+        border-width: 2px;
+
+        font-size: 18px;
+        line-height: 48px;
+
+        border-radius: 4px;
+    }
+
+
+    .comment-form-comment {
+        .cace-comment-toolbar {
+            top: 12px;
+        }
+    }
+}

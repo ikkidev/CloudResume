@@ -1,0 +1,244 @@
+/**
+ * Custom mixins
+ * ----------------------------------------------------------------------------
+ */
+
+@use 'sass:math';
+
+/**
+ * Used to compile CSS to display retina images.
+ *
+ * Example:
+ * @include background-image-retina(logo, png, 210px, 70px);
+ *
+ */
+@mixin background-image-retina($file, $type, $width, $height) {
+    background-image: url('assets/images/' + $file + '.' + $type);
+    @media only screen and (minpixel-ratio: 2), only screen and (minpixel-ratio: 2), only screen and (min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+        background-image: url('assets/images/' + $file + '@2x.' + $type);
+        background-size: $width $height;
+        background-size: $width $height;
+        background-size: $width $height;
+        background-size: $width $height;
+
+    }
+}
+
+/**
+ * Button
+ */
+@mixin vo-button(
+    $color: $color-white,
+    $background-color: $color-primary,
+    $color-hover: $color-white,
+    $background-color-hover: darken($background-color, 10%),
+    $color-outline: $background-color
+) {
+    color: $color;
+    background-color: $background-color;
+    border: 1px solid $background-color;
+    box-shadow: $shadow;
+    font-size: rem-calc(16);
+    line-height: math.div(18, 16);
+    font-weight: 700;
+    text-decoration: none;
+    padding: rem-calc(13 18);
+    border-radius: $radius;
+    position: relative;
+    display: inline-flex;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all $transition;
+
+    &.wpgdprc-button--outline {
+        &:not(:hover),
+        &:not(:focus) {
+            color: $color-outline;
+            background-color: transparent;
+        }
+
+        &:hover,
+        &:focus {
+            color: $color-hover;
+            background-color: $background-color-hover;
+            border-color: $background-color-hover;
+            border-width: 1px;
+        }
+    }
+
+    &:hover,
+    &:focus,
+    :root &.wpgdprc-button--active {
+        color: $color-hover;
+        background-color: $background-color-hover;
+        border-color: $background-color-hover;
+    }
+}
+
+/**
+ * Headings
+ */
+@mixin headings {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @content;
+    }
+}
+
+/**
+ * Custom placeholders
+ * ----------------------------------------------------------------------------
+ */
+
+%unstyled-list {
+    list-style: none;
+    margin: {
+        bottom: 0;
+        left: 0;
+    };
+    padding: {
+        left: 0;
+    };
+}
+
+// Headings
+/* stylelint-disable scss/at-mixin-pattern */
+@mixin h1() {
+    font-size: rem-calc(48);
+}
+
+@mixin h2() {
+    font-size: rem-calc(32);
+}
+
+@mixin h3() {
+    font-size: rem-calc(24);
+}
+
+@mixin h4() {
+    font-size: rem-calc(22);
+}
+
+@mixin h5() {
+    font-size: rem-calc(20);
+}
+
+@mixin h6() {
+    font-size: rem-calc(18);
+}
+/* stylelint-enable scss/at-mixin-pattern */
+
+// Text styles
+
+@mixin text-xxl() {
+    font-size: rem-calc(24);
+}
+
+@mixin text-xl() {
+    font-size: rem-calc(20);
+}
+
+@mixin text-l() {
+    font-size: rem-calc(18);
+}
+
+@mixin text() {
+    font-size: rem-calc(16);
+}
+
+@mixin text-s() {
+    font-size: rem-calc(14);
+}
+
+@mixin text-xs() {
+    font-size: rem-calc(12);
+}
+
+// Font Weight
+
+@mixin font-weight-light() {
+    font-weight: 300;
+}
+
+@mixin font-weight-normal() {
+    font-weight: 400;
+}
+
+@mixin font-weight-medium() {
+    font-weight: 500;
+}
+
+@mixin font-weight-semibold() {
+    font-weight: 600;
+}
+
+@mixin font-weight-bold() {
+    font-weight: 700;
+}
+
+// Link
+
+@mixin link($color: $color-primary, $color-hover: darken($color, 10%)) {
+    @include font-weight-bold();
+    color: $color;
+    text-underline-position: auto;
+    text-underline-offset: rem-calc(1);
+
+
+    &:hover,
+    &:focus {
+        color: $color-hover;
+    }
+}
+
+/**
+ * Add styling to root (optional)
+ * ----------------------------------------------------------------------------
+ */
+
+@mixin optional-at-root($sel) {
+    @at-root #{if(not &, $sel, selector-append(&, $sel))} {
+        @content;
+    }
+}
+
+/**
+ * Form placeholder styling
+ * ----------------------------------------------------------------------------
+ */
+
+@mixin placeholder {
+    @include optional-at-root('::-webkit-input-placeholder') {
+        @content;
+    }
+
+    @include optional-at-root(':-moz-placeholder') {
+        @content;
+    }
+
+    @include optional-at-root('::-moz-placeholder') {
+        @content;
+    }
+
+    @include optional-at-root(':-ms-input-placeholder') {
+        @content;
+    }
+}
+
+/**
+ * Automatically include focus styles with hover
+ * ----------------------------------------------------------------------------
+ */
+
+@mixin hocus {
+    &:hover,
+    &:focus {
+        @content;
+    }
+}

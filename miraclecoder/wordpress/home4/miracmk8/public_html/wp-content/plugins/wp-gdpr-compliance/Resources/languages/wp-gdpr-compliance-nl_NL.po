@@ -1,0 +1,2356 @@
+# Translation of Plugins - WP GDPR Compliance - Development (trunk) in Dutch
+# This file is distributed under the same license as the Plugins - WP GDPR Compliance - Development (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - WP GDPR Compliance - Development (trunk)\n"
+"POT-Creation-Date: 2021-11-09 13:03+0100\n"
+"PO-Revision-Date: 2021-11-29 10:10+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.0\n"
+
+#: Integrations/AbstractIntegration.php:232
+msgid "Not accepted."
+msgstr "Niet geaccepteerd."
+
+#: Integrations/AbstractIntegration.php:237
+#, php-format
+msgid "Accepted on %s."
+msgstr "Geaccepteerd op %s."
+
+#: Integrations/AbstractIntegration.php:252 WordPress/Settings.php:58
+msgid "Privacy Policy"
+msgstr "Privacybeleid"
+
+#: Integrations/Plugins/AbstractPlugin.php:131
+#, php-format
+msgctxt "admin"
+msgid "Currently the %1s plugin is not installed."
+msgstr "Momenteel is de %1s plugin niet geïnstalleerd."
+
+#: Integrations/Plugins/AbstractPlugin.php:140
+msgctxt "admin"
+msgid "not activated"
+msgstr "niet geactiveerd"
+
+#: Integrations/Plugins/AbstractPlugin.php:142
+#, php-format
+msgctxt "admin"
+msgid "Currently the %1s plugin is installed, but %2s."
+msgstr "Momenteel is de %1s plugin geïnstalleerd, maar %2s"
+
+#: Integrations/Plugins/AbstractPlugin.php:151
+msgctxt "admin"
+msgid "this version is not supported"
+msgstr "deze versie wordt niet ondersteund"
+
+#: Integrations/Plugins/AbstractPlugin.php:153
+#, php-format
+msgctxt "admin"
+msgid ""
+"Currently the %1s plugin is installed, but %2s. The plugin will be supported "
+"from version %3s and up."
+msgstr ""
+"Momenteel is de %1s plugin geïnstalleerd, maar %2s. De plugin wordt "
+"ondersteund vanaf versie %3s en hoger."
+
+#: Integrations/Plugins/AbstractPlugin.php:161
+#, php-format
+msgctxt "admin"
+msgid ""
+"No active %1s forms found. Please create a form and return to set the "
+"checkbox message(s)."
+msgstr ""
+"Geen actieve %1s-formulier gevonden. Maak een formulier aan en keer terug om "
+"het/de checkboxbericht(en) in te stellen."
+
+#: Integrations/Plugins/ContactForm.php:125
+#: Integrations/Plugins/GravityForms.php:148
+msgid "Forms Entries"
+msgstr "Formulierinzendingen"
+
+#: Integrations/Plugins/ContactForm.php:128
+msgctxt "admin"
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: Integrations/Plugins/ContactForm.php:151
+#: Integrations/Plugins/GravityForms.php:174
+msgctxt "admin"
+msgid ""
+"When activated the GDPR checkbox will be added at the end of each "
+"<strong>activated</strong> form."
+msgstr ""
+"Indien geactiveerd, wordt het AVG-selectievakje toegevoegd aan het einde van "
+"elk <strong>geactiveerd</strong> formulier."
+
+#: Integrations/Plugins/ContactForm.php:162
+#: Integrations/Plugins/GravityForms.php:185
+msgctxt "amount of entries"
+msgid "Anonymize selected entry"
+msgid_plural "Anonymize selected entry/entries"
+msgstr[0] "Geselecteerde inzending anonimiseren"
+msgstr[1] "Geselecteerde inzending(en) anonimiseren"
+
+#: Integrations/Plugins/ContactForm.php:182
+msgctxt "admin"
+msgid "draft"
+msgstr "concept"
+
+#: Integrations/Plugins/ContactForm.php:182
+msgctxt "admin"
+msgid "published"
+msgstr "gepubliceerd"
+
+#: Integrations/Plugins/ContactForm.php:425
+#, php-format
+msgid ""
+"GDPR accepted on:\n"
+"%1s"
+msgstr ""
+"AVG geaccepteerd op:\n"
+"%1s"
+
+#: Integrations/Plugins/GravityForms.php:92
+#, fuzzy, php-format
+#| msgid "No comments found with email address%1s."
+msgid "No form entries found with email address%1s."
+msgstr "Geen reacties gevonden met e-mailadres%1s."
+
+#: Integrations/Plugins/GravityForms.php:151
+msgctxt "admin"
+msgid "Gravity Forms"
+msgstr "Gravity Forms"
+
+#: Integrations/Plugins/GravityForms.php:204
+msgctxt "admin"
+msgid "disabled"
+msgstr "uitgeschakeld"
+
+#: Integrations/Plugins/GravityForms.php:204
+msgctxt "admin"
+msgid "enabled"
+msgstr "ingeschakeld"
+
+#: Integrations/Plugins/WooCommerce.php:87
+#, fuzzy, php-format
+#| msgid "No comments found with email address%1s."
+msgid "No orders found with email address%1s."
+msgstr "Geen reacties gevonden met e-mailadres%1s."
+
+#: Integrations/Plugins/WooCommerce.php:105
+msgid "Orders"
+msgstr "Bestellingen"
+
+#: Integrations/Plugins/WooCommerce.php:108
+msgctxt "admin"
+msgid "WooCommerce"
+msgstr "WooCommerce "
+
+#: Integrations/Plugins/WooCommerce.php:125
+msgctxt "admin"
+msgid ""
+"When activated the GDPR checkbox will be added at the end of the WooCommerce "
+"checkout form."
+msgstr ""
+"Indien geactiveerd, wordt het AVG-selectievakje toegevoegd aan het einde van "
+"het WooCommerce-afrekenformulier."
+
+#: Integrations/Plugins/WooCommerce.php:136
+msgctxt "amount of shop orders"
+msgid "Anonymize selected shop order"
+msgid_plural "Anonymize selected shop order(s)"
+msgstr[0] "Geselecteerde winkel bestelling anonimiseren"
+msgstr[1] "Geselecteerde winkel bestelling(en) anonimiseren"
+
+#: Integrations/Plugins/WooCommerce.php:199
+msgid "GDPR accepted on:"
+msgstr "GDPR geaccepteerd op:"
+
+#: Integrations/WPComments.php:96
+#, php-format
+msgid "No comments found with email address%1s."
+msgstr "Geen reacties gevonden met e-mailadres%1s."
+
+#: Integrations/WPComments.php:109
+msgid "Comments"
+msgstr "Reacties"
+
+#: Integrations/WPComments.php:112
+msgctxt "admin"
+msgid "WordPress Comments"
+msgstr "WordPress-reacties"
+
+#: Integrations/WPComments.php:119
+msgctxt "admin"
+msgid ""
+"When activated the GDPR checkbox will be added automatically, just above the "
+"submit button."
+msgstr ""
+"Wanneer het AVG-selectievakje aangevinkt is, zal deze automatisch boven de "
+"verzendknop geplaatst worden."
+
+#: Integrations/WPComments.php:130
+msgctxt "amount of comments"
+msgid "Anonymize selected comment"
+msgid_plural "Anonymize selected comment(s)"
+msgstr[0] "Geselecteerde reactie anonimiseren"
+msgstr[1] "Geselecteerde reactie(s) anonimiseren"
+
+#: Integrations/WPComments.php:148
+msgctxt "admin"
+msgid ""
+"Please disable the custom comments form in Jetpack to make your WordPress "
+"Comments GDPR compliant."
+msgstr ""
+"Schakel het aangepaste reactieformulier in Jetpack uit, om je WordPress-"
+"reacties te laten voldoen aan de AVG."
+
+#: Integrations/WPComments.php:170
+msgid "This checkbox is checked because you are an admin"
+msgstr "Dit selectievakje is aangevinkt omdat je een beheerder bent"
+
+#: Integrations/WPComments.php:198
+msgid "Comment Submission Failure"
+msgstr "Versturen van de reactie is mislukt"
+
+#: Integrations/WPComments.php:221
+msgctxt "admin"
+msgid "GDPR accepted on"
+msgstr "AVG geaccepteerd op"
+
+#: Integrations/WPRegistration.php:96
+#, fuzzy, php-format
+#| msgid "No comments found with email address%1s."
+msgid "No users found with email address%1s."
+msgstr "Geen reacties gevonden met e-mailadres%1s."
+
+#: Integrations/WPRegistration.php:109
+msgid "Users"
+msgstr "Gebruikers"
+
+#: Integrations/WPRegistration.php:112
+msgctxt "admin"
+msgid "WordPress Registration"
+msgstr "WordPress-registratie"
+
+#: Integrations/WPRegistration.php:119
+msgctxt "admin"
+msgid ""
+"When activated the GDPR checkbox will be added automatically, just above the "
+"register button."
+msgstr ""
+"Wanneer geactiveerd, wordt het AVG selectievakje automatisch toegevoegd net "
+"boven de knop Registreren."
+
+#: Integrations/WPRegistration.php:130
+msgctxt "amount of users"
+msgid "Anonymize selected user"
+msgid_plural "Anonymize selected user(s)"
+msgstr[0] "Geselecteerde gebruiker anonimiseren"
+msgstr[1] "Geselecteerde gebruiker(s) anonimiseren"
+
+#: Integrations/WPRegistration.php:167 Templates/Front/Elements/error.php:12
+#, php-format
+msgid "<strong>ERROR</strong>: %1s"
+msgstr "<strong>FOUT</strong>: %1s"
+
+#: Integrations/WPRegistration.php:220
+msgid "User has given consent when registering"
+msgstr "Gebruiker heeft toestemming gegeven bij het registreren"
+
+#: Objects/Data/Comment.php:55
+msgid "Comment"
+msgstr "Reactie"
+
+#: Objects/Data/Data.php:48
+msgid "Email Address is required."
+msgstr "E-mailadres is verplicht."
+
+#: Objects/Data/Data.php:70
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: Objects/Data/Data.php:71
+msgid "Display Name"
+msgstr "Weergavenaam"
+
+#: Objects/Data/Data.php:72 Objects/Data/Data.php:87 Objects/Data/Data.php:96
+#: Objects/Data/Data.php:108
+msgid "Email Address"
+msgstr "E-mailadres"
+
+#: Objects/Data/Data.php:73
+msgid "Website"
+msgstr "Site"
+
+#: Objects/Data/Data.php:74
+msgid "Registered on"
+msgstr "Geregistreerd op"
+
+#: Objects/Data/Data.php:85
+msgid "Author"
+msgstr "Auteur"
+
+#: Objects/Data/Data.php:86
+msgid "Content"
+msgstr "Inhoud"
+
+#: Objects/Data/Data.php:88 Objects/Data/Data.php:109
+msgid "IP Address"
+msgstr "IP-adres"
+
+#: Objects/Data/Data.php:89 Objects/Data/Data.php:106
+msgid "Date"
+msgstr "Datum"
+
+#: Objects/Data/Data.php:95 Objects/Data/WooCommerceOrder.php:82
+msgid "Order"
+msgstr "Volgorde"
+
+#: Objects/Data/Data.php:97
+msgid "Name"
+msgstr "Naam"
+
+#: Objects/Data/Data.php:98
+msgid "Address"
+msgstr "Adres"
+
+#: Objects/Data/Data.php:99
+msgid "Postcode / ZIP"
+msgstr "Postcode / ZIP"
+
+#: Objects/Data/Data.php:100
+msgid "City"
+msgstr "Plaats"
+
+#: Objects/Data/Data.php:107
+msgid "Form"
+msgstr "Formulier"
+
+#: Objects/Data/Data.php:250
+msgid "Anonymize selected data"
+msgstr "Geselecteerde gegevens anonimiseren"
+
+#: Objects/Data/User.php:56
+msgid "Registration"
+msgstr "Registratie"
+
+#: Objects/DataProcessor.php:310
+msgctxt "admin"
+msgid "Wrap my code in <script> tags"
+msgstr "Sluit mijn code in met <script> tags"
+
+#: Objects/DataProcessor.php:311
+msgctxt "admin"
+msgid "Do not wrap my code"
+msgstr "Sluit mijn stuk code niet in."
+
+#: Objects/DataProcessor.php:321
+msgctxt "admin"
+msgid "Head (in the <head> tag)"
+msgstr "Head (in de <head>-tag)"
+
+#: Objects/DataProcessor.php:322
+msgctxt "admin"
+msgid "Body (direct after the <body> tag)"
+msgstr "Body (direct na de <body>-tag)"
+
+#: Objects/DataProcessor.php:323
+msgctxt "admin"
+msgid "Footer (at the end of the <body> tag)"
+msgstr "Footer (aan het einde van de <body>-tag)"
+
+#: Objects/RequestDelete.php:368 Objects/RequestDelete.php:374
+msgid "Unable to locate request."
+msgstr "Kan aanvraag niet vinden."
+
+#: Objects/RequestDelete.php:381 WordPress/Ajax/ProcessRequest.php:83
+msgid "No requests to process."
+msgstr "Geen aanvragen om te verwerken."
+
+#: Objects/RequestDelete.php:390
+msgctxt "admin"
+msgid "This request has already been processed."
+msgstr "Dit verzoek is reeds verwerkt."
+
+#: Objects/RequestDelete.php:397
+msgctxt "admin"
+msgid "You're not allowed to edit users."
+msgstr "Je hebt geen toestemming om gebruikers te bewerken."
+
+#: Objects/RequestDelete.php:403
+msgctxt "admin"
+msgid "This user doesn't exist."
+msgstr "Deze gebruiker bestaat niet."
+
+#: Objects/RequestDelete.php:416
+msgctxt "admin"
+msgid "You're not allowed to edit comments."
+msgstr "Je hebt geen toestemming om reacties te bewerken."
+
+#: Objects/RequestDelete.php:422
+msgctxt "admin"
+msgid "This comment doesn't exist."
+msgstr "Deze reactie bestaat niet."
+
+#: Objects/RequestDelete.php:431
+msgctxt "admin"
+msgid "You're not allowed to edit WooCommerce orders."
+msgstr "Je hebt geen toestemming om WooCommerce-bestellingen te bewerken."
+
+#: Objects/RequestDelete.php:440
+msgctxt "admin"
+msgid "You're not allowed to edit form entries."
+msgstr "Je hebt geen toestemming om formulierinzendingen te bewerken."
+
+#: Objects/RequestDelete.php:454
+#, php-format
+msgid "%1s #%2s with email address %3s."
+msgstr "%1s #%2s met e-mailadres %3s."
+
+#: Objects/RequestDelete.php:474
+#, php-format
+msgid "%s - Your request"
+msgstr "%s - Jouw verzoek"
+
+#: Objects/RequestDelete.php:478
+#, php-format
+msgid ""
+"We have successfully processed your request and your data has been "
+"anonymized on %s."
+msgstr ""
+"We hebben je verzoek succesvol verwerkt en je data is geanonimiseerd op %s."
+
+#: Objects/RequestDelete.php:479
+msgid "The following has been processed:"
+msgstr "Het volgende is verwerkt:"
+
+#: Objects/RequestDelete.php:491
+msgctxt "admin"
+msgid "Successfully sent a confirmation mail to the user."
+msgstr "Een bevestigingsmail is succesvol verstuurd naar de gebruiker."
+
+#: Templates/Admin/Elements/updatecount.php:10
+msgctxt "admin"
+msgid "Update available"
+msgstr "Update beschikbaar"
+
+#: Templates/Admin/Form/field-pageselect.php:22
+msgctxt "admin"
+msgid "Select a page"
+msgstr "Selecteer een pagina"
+
+#: Templates/Admin/Form/field-pageselect.php:28
+msgctxt "admin"
+msgid "Edit page"
+msgstr "Pagina bewerken"
+
+#: Templates/Admin/Form/field-todo.php:8
+#, php-format
+msgctxt "admin"
+msgid "No render method yet, please add one in %1s"
+msgstr "Nog geen rendermethode, voeg er een toe in %1s"
+
+#: Templates/Admin/Pages/Dashboard/main.php:25
+#, php-format
+msgctxt "admin"
+msgid "%1s Active checkbox"
+msgid_plural "%1s Active checkboxes"
+msgstr[0] "%1s Actief selectievakje"
+msgstr[1] "%1s Actieve selectievakjes"
+
+#: Templates/Admin/Pages/Dashboard/main.php:26
+#, fuzzy, php-format
+#| msgctxt "admin"
+#| msgid "%1s form doesn’t seem to have a checkbox enabled"
+#| msgid_plural "%1s forms don’t seem to have a checkbox enabled"
+msgctxt "admin"
+msgid "%1s form doesn’t seem to have a checkbox enabled"
+msgid_plural "%1s forms don’t seem to have a checkbox enabled"
+msgstr[0] "%1s formulier lijkt geen selectievakje te hebben ingeschakeld"
+msgstr[1] "3 formulieren lijken geen selectievakje te hebben ingeschakeld"
+
+#: Templates/Admin/Pages/Dashboard/main.php:28
+msgctxt "admin"
+msgid "Manage checkboxes"
+msgstr "Beheer selectievakjes"
+
+#: Templates/Admin/Pages/Dashboard/main.php:35
+#, php-format
+msgctxt "admin"
+msgid "%1s Active data processor"
+msgid_plural "%1s Active data processors"
+msgstr[0] "%1s Actieve gegevensverwerker"
+msgstr[1] "%1s Actieve gegevensverwerkers"
+
+#: Templates/Admin/Pages/Dashboard/main.php:36
+#: Templates/Admin/Pages/Processors/footer.php:27
+#: WordPress/Ajax/UpdateProcessorMode.php:68
+#, php-format
+msgctxt "admin"
+msgid "The consent bar is %1s"
+msgstr "De instemmingsbalk is %1s"
+
+#: Templates/Admin/Pages/Dashboard/main.php:36
+msgctxt "admin"
+msgid "showing"
+msgstr "laten zien"
+
+#: Templates/Admin/Pages/Dashboard/main.php:36
+msgctxt "admin"
+msgid "not showing"
+msgstr "niet laten zien"
+
+#: Templates/Admin/Pages/Dashboard/main.php:38
+msgctxt "admin"
+msgid "Manage data processors"
+msgstr "Beheer gegevensverwerkers"
+
+#: Templates/Admin/Pages/Dashboard/main.php:45
+#, php-format
+msgctxt "admin"
+msgid "%1s Data request"
+msgid_plural "%1s Data requests"
+msgstr[0] "%1s Gegevens aanvraag"
+msgstr[1] "%1s Gegevens aanvragen"
+
+#: Templates/Admin/Pages/Dashboard/main.php:46
+#, php-format
+msgctxt "admin"
+msgid "Last request is from %1s"
+msgstr "Laatste aanvraag is van %1s"
+
+#: Templates/Admin/Pages/Dashboard/main.php:48
+msgctxt "admin"
+msgid "Manage data requests"
+msgstr "Beheer gegevens aanvragen"
+
+#: Templates/Admin/Pages/Dashboard/main.php:58 Templates/Admin/header.php:16
+msgctxt "admin"
+msgid "Upgrade to business"
+msgstr "Upgraden naar zakelijk"
+
+#: Templates/Admin/Pages/Dashboard/main.php:59
+msgctxt "admin"
+msgid "Check out the business version of Cookie Information"
+msgstr "Bekijk de zakelijke versie van Cookie Information"
+
+#: Templates/Admin/Pages/Dashboard/main.php:61
+msgctxt "admin"
+msgid "Explore all business features"
+msgstr "Ontdek alle zakelijke functies"
+
+#: Templates/Admin/Pages/Dashboard/main.php:71
+#: WordPress/Admin/Pages/PageDashboard.php:46
+#: WordPress/Admin/Pages/PageDashboard.php:73
+msgctxt "admin"
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: Templates/Admin/Pages/Premium/main.php:27
+msgctxt "admin"
+msgid "Enable business mode"
+msgstr "Zakelijke modus activeren"
+
+#: Templates/Admin/Pages/Premium/main.php:37
+msgctxt "admin"
+msgid "Upgrade today and unlock fully automatic GDPR compliance"
+msgstr "Upgrade vandaag nog en ontgrendel volledig automatische GDPR naleving"
+
+#: Templates/Admin/Pages/Premium/main.php:40
+msgctxt "admin"
+msgid ""
+"Eliminate the risk of being fined by demonstrating full compliance with "
+"local and global data privacy guidelines and regulations"
+msgstr ""
+"Elimineer het risico op een boete door aan te tonen dat je volledig voldoet "
+"aan de lokale en wereldwijde richtlijnen en voorschriften voor "
+"gegevensprivacy"
+
+#: Templates/Admin/Pages/Premium/main.php:41
+msgctxt "admin"
+msgid ""
+"Automatically update consent texts in more than 40 languages based on "
+"frequent scans of your website."
+msgstr ""
+"Update automatisch instemmingsteksten in meer dan 40 talen op basis van "
+"frequente scans van je site."
+
+#: Templates/Admin/Pages/Premium/main.php:42
+msgctxt "admin"
+msgid ""
+"Get an intuitive and fully customizable consent pop-up that is good for SEO, "
+"allows you to follow GDPR and Google’s and Facebook’s terms of service, "
+"which now require you to have a GDPR compliant consent pop-up."
+msgstr ""
+"Ontvang een intuïtieve en volledig aanpasbare toestemmingspop-up die goed is "
+"voor SEO, waarmee u voldoet aan de AVG en de servicevoorwaarden van Google "
+"en Facebook, die nu vereisen dat u een AVG-conforme toestemmingspop-up heeft."
+
+#: Templates/Admin/Pages/Premium/main.php:43
+msgctxt "admin"
+msgid ""
+"Fill your marketing funnel with compliant data, with integrations to Google "
+"Ads, Analytics, and Tag Manager, gaining insights into customer journeys "
+"without compromising user trust."
+msgstr ""
+"Vul je marketing funnel met compatibele gegevens, met integraties met Google "
+"Ads, Analytics en Tag Manager, om inzicht te krijgen in klantreizen zonder "
+"het vertrouwen van gebruikers in gevaar te brengen."
+
+#: Templates/Admin/Pages/Premium/main.php:44
+msgctxt "admin"
+msgid ""
+"Put your visitors in control of their data to generate valuable trust and "
+"align with good data ethics while staying compliant."
+msgstr ""
+"Geef je bezoekers de controle over hun gegevens om waardevol vertrouwen te "
+"genereren en in overeenstemming te zijn met goede gegevensethiek terwijl ze "
+"compliant blijven."
+
+#: Templates/Admin/Pages/Premium/main.php:45
+#, php-format
+msgctxt "admin"
+msgid "Top security, hosted in EU and 99,95% uptime."
+msgstr "Topbeveiliging, gehost in de EU en 99,95% uptime."
+
+#: Templates/Admin/Pages/Premium/main.php:49
+msgctxt "admin"
+msgid "Get started for free"
+msgstr "Ga gratis aan de slag"
+
+#: Templates/Admin/Pages/Processors/Edit/main.php:16
+msgctxt "admin"
+msgid "Edit processor"
+msgstr "Verwerker aanpassen"
+
+#: Templates/Admin/Pages/Processors/Edit/main.php:16
+msgctxt "admin"
+msgid "New processor"
+msgstr "Nieuwe verwerker"
+
+#: Templates/Admin/Pages/Processors/Edit/main.php:26
+#: Templates/Admin/Pages/Processors/item-required.php:13
+msgctxt "admin"
+msgid "Required"
+msgstr "Vereist"
+
+#: Templates/Admin/Pages/Processors/Edit/main.php:31
+msgctxt "admin"
+msgid "Active processor?"
+msgstr "Actieve verwerker?"
+
+#: Templates/Admin/Pages/Processors/Edit/main.php:35
+msgctxt "admin"
+msgid "ID"
+msgstr "ID"
+
+#: Templates/Admin/Pages/Processors/Edit/main.php:42
+msgctxt "admin"
+msgid "Title of processor"
+msgstr "Titel van verwerker"
+
+#: Templates/Admin/Pages/Processors/Edit/main.php:45
+#: WordPress/Admin/Pages/PageSettings.php:297
+msgctxt "admin"
+msgid "Title"
+msgstr "Titel"
+
+#: Templates/Admin/Pages/Processors/Edit/main.php:46
+msgctxt "admin"
+msgid ""
+"Name your processor wisely, the name of the processor is shown in the popup "
+"of the processorbar. For example name it \"Google Analytics\" or "
+"\"Advertisement\""
+msgstr ""
+"Geef je processor een verstandige naam, de naam van de processor wordt "
+"weergegeven in de pop-up van de toestemmingsbalk. Noem het bijvoorbeeld "
+"\"Google Analytics\" of \"Advertentie\""
+
+#: Templates/Admin/Pages/Processors/Edit/main.php:51
+msgctxt "admin"
+msgid "Description"
+msgstr "Beschrijving"
+
+#: Templates/Admin/Pages/Processors/Edit/main.php:53
+msgctxt "admin"
+msgid "A short description of the processor"
+msgstr "Een korte omschrijving van de verwerker"
+
+#: Templates/Admin/Pages/Processors/Edit/main.php:54
+#, php-format
+msgctxt "admin"
+msgid ""
+"Describe your processor script as thoroughly as possible. %1s will not work "
+"here."
+msgstr ""
+"Beschrijf je verwerkingsscript zo uitvoerig mogelijk. %1s zal hier niet "
+"werken."
+
+#: Templates/Admin/Pages/Processors/Edit/main.php:59
+msgctxt "admin"
+msgid "Code wrap"
+msgstr "Sluit code in"
+
+#: Templates/Admin/Pages/Processors/Edit/main.php:67
+msgctxt "admin"
+msgid "Placement"
+msgstr "Plaatsing"
+
+#: Templates/Admin/Pages/Processors/Edit/main.php:76
+msgctxt "admin"
+msgid "Code snippet"
+msgstr "Code fragmenten"
+
+#: Templates/Admin/Pages/Processors/Edit/main.php:84
+msgctxt "admin"
+msgid "Save processor"
+msgstr "Verwerker opslaan"
+
+#: Templates/Admin/Pages/Processors/footer.php:17 Utils/Banner.php:25
+msgctxt "admin"
+msgid "active"
+msgstr "actief"
+
+#: Templates/Admin/Pages/Processors/footer.php:17 Utils/Banner.php:25
+msgctxt "admin"
+msgid "not active"
+msgstr "niet actief"
+
+#: Templates/Admin/Pages/Processors/footer.php:26
+#: Templates/Admin/Pages/Settings/consent.php:17
+msgctxt "admin"
+msgid "Consent bar"
+msgstr "Instemmingsbalk"
+
+#: Templates/Admin/Pages/Processors/footer.php:28
+msgctxt "admin"
+msgid "Toggle consent bar"
+msgstr "Toestemmingsbalk wisselen"
+
+#: Templates/Admin/Pages/Processors/footer.php:29
+msgctxt "admin"
+msgid ""
+"You can disable the consent bar, this means that all data processors are "
+"deactivated."
+msgstr ""
+"Je kan de instemmingsbalk uitschakelen, dit betekent dat alle "
+"gegevensverwerkers zullen worden uitgeschakeld."
+
+#: Templates/Admin/Pages/Processors/footer.php:29
+#: WordPress/Ajax/UpdateProcessorMode.php:69
+msgctxt "admin"
+msgid "To enable the consent bar, activate one (or more) data processor(s)."
+msgstr ""
+"Activeer een (of meer) gegevensverwerker(s) om de instemmingsbalk in te "
+"schakelen."
+
+#: Templates/Admin/Pages/Processors/footer.php:32
+msgctxt "admin"
+msgid "Reset consent bar"
+msgstr "Instemmingsbalk resetten"
+
+#: Templates/Admin/Pages/Processors/footer.php:33
+msgctxt "admin"
+msgid ""
+"Want to reset the consent bar? This means that the consent bar will appear "
+"again for all users"
+msgstr ""
+"Wil je de instemmingsbalk resetten? Dit betekent dat de instemmingsbalk "
+"opnieuw wordt weergegeven voor alle gebruikers"
+
+#: Templates/Admin/Pages/Processors/footer.php:35
+msgctxt "admin"
+msgid "Reset"
+msgstr "Herstellen"
+
+#: Templates/Admin/Pages/Processors/footer.php:40
+msgctxt "admin"
+msgid "Change the look"
+msgstr "Verander het uiterlijk"
+
+#: Templates/Admin/Pages/Processors/footer.php:41
+msgctxt "admin"
+msgid "Change the colors of the consent bar and the settings."
+msgstr "Verander de kleuren van de instemmingsbalk en de instellingen."
+
+#: Templates/Admin/Pages/Processors/footer.php:44
+msgctxt "admin"
+msgid "Change settings"
+msgstr "Instellingen wijzigen"
+
+#: Templates/Admin/Pages/Processors/footer.php:54 WordPress/Admin.php:115
+#: WordPress/Admin.php:129 WordPress/Admin/Pages/PageDashboard.php:84
+#: WordPress/Admin/Pages/PageSettings.php:46
+msgctxt "admin"
+msgid "Settings"
+msgstr "Instellingen"
+
+#: Templates/Admin/Pages/Processors/item-required.php:11
+msgctxt "admin"
+msgid "Not required"
+msgstr "Niet vereist"
+
+#: Templates/Admin/Pages/Processors/item.php:21
+msgctxt "admin"
+msgid "never"
+msgstr "nooit"
+
+#: Templates/Admin/Pages/Processors/item.php:29
+#, php-format
+msgctxt "admin"
+msgid "(Last edited on %1s)"
+msgstr "(Laatst bewerkt op %1s)"
+
+#: Templates/Admin/Pages/Processors/item.php:42
+msgctxt "admin"
+msgid "Edit"
+msgstr "Bewerk"
+
+#: Templates/Admin/Pages/Processors/item.php:48
+#: Templates/Admin/Pages/Requests/main.php:116
+msgctxt "admin"
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: Templates/Admin/Pages/Processors/item.php:53
+msgctxt "admin"
+msgid "Are you sure you want to delete this processor?"
+msgstr "Weet je zeker dat je deze gegevensverwerker wil verwijderen?"
+
+#: Templates/Admin/Pages/Processors/item.php:58
+#: Templates/Admin/Pages/Requests/main.php:136 Utils/AdminForm.php:107
+msgctxt "admin"
+msgid "Yes"
+msgstr "Ja"
+
+#: Templates/Admin/Pages/Processors/item.php:64
+#: Templates/Admin/Pages/Requests/main.php:142
+msgctxt "admin"
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: Templates/Admin/Pages/Processors/main.php:30
+#, php-format
+msgctxt "admin"
+msgid "Active data processors (%1$s)"
+msgstr "Active gegevensverwerkers (%1$s)"
+
+#: Templates/Admin/Pages/Processors/main.php:36
+#, php-format
+msgctxt "admin"
+msgid "Disabled data processors (%1$s)"
+msgstr "Uitgeschakelde gegevensverwerkers (%1$s)"
+
+#: Templates/Admin/Pages/Processors/main.php:60
+msgctxt "admin"
+msgid "Data processors"
+msgstr "Gegevensverwerker"
+
+#: Templates/Admin/Pages/Processors/main.php:63
+msgctxt "admin"
+msgid "Add data processor"
+msgstr "Gegevensverwerker toevoegen"
+
+#: Templates/Admin/Pages/Requests/Edit/main.php:19
+#, php-format
+msgctxt "admin"
+msgid "This request was submitted by %1s on %2s."
+msgstr "Deze aanvraag was ingediend door %1s op %2s."
+
+#: Templates/Admin/Pages/Requests/Edit/main.php:29
+#, php-format
+msgctxt "admin"
+msgid "The data wil be anonymized in %1s when no action is taken."
+msgstr ""
+"De gegevens worden geanonimiseerd in %1s als er geen actie wordt ondernomen."
+
+#: Templates/Admin/Pages/Requests/Edit/main.php:33
+#: Templates/Admin/Pages/Requests/Edit/main.php:37
+msgctxt "admin"
+msgid "Cancel request"
+msgstr "Annuleer aanvraag"
+
+#: Templates/Admin/Pages/Requests/Edit/main.php:34
+msgctxt "admin"
+msgid ""
+"If you cancel this request, the user can not choose anymore which data he/"
+"she/they would like to be anonymized. The user can submit a new request "
+"though."
+msgstr ""
+"Als je deze aanvraag annuleert, kan de gebruiker niet meer kiezen welke "
+"gegevens hij/zij/hen wil laten anonimiseren. De gebruiker kan wel een nieuwe "
+"aanvraag indienen."
+
+#: Templates/Admin/Pages/Requests/Edit/main.php:36
+#: Templates/Admin/Pages/Requests/Edit/main.php:43
+msgid "All requests have been processed."
+msgstr "Alle aanvragen zijn verwerkt."
+
+#: Templates/Admin/Pages/Requests/Edit/main.php:40
+#: Templates/Admin/Pages/Requests/Edit/main.php:44
+msgctxt "admin"
+msgid "Anonymize all"
+msgstr "Alles anonimiseren"
+
+#: Templates/Admin/Pages/Requests/Edit/main.php:41
+msgctxt "admin"
+msgid "Anonymize all data that is found for this request."
+msgstr "Anonimiseer alle gegevens die bij dit verzoek zijn gevonden."
+
+#: Templates/Admin/Pages/Requests/Edit/main.php:61
+#, php-format
+msgctxt "admin"
+msgid "Request by %1s"
+msgstr "Verzoek door %1s"
+
+#: Templates/Admin/Pages/Requests/Edit/main.php:74
+msgctxt "admin"
+msgid "Found data"
+msgstr "Gevonden gegevens"
+
+#: Templates/Admin/Pages/Requests/Edit/main.php:84
+#, php-format
+msgctxt "admin"
+msgid "%1s entries requested, %2s anonymized"
+msgstr "%1s inzendingen aangevraagd, %2s geanonimiseerd"
+
+#: Templates/Admin/Pages/Requests/Edit/main.php:99
+msgctxt "admin"
+msgid "Actions"
+msgstr "Acties"
+
+#: Templates/Admin/Pages/Requests/main.php:15
+#: Templates/Admin/Pages/Requests/main.php:44
+msgctxt "admin"
+msgid "Active requests"
+msgstr "Actieve aanvragen"
+
+#: Templates/Admin/Pages/Requests/main.php:16
+msgctxt "admin"
+msgid "No active requests to manage."
+msgstr "Geen actieve aanvragen om te beheren."
+
+#: Templates/Admin/Pages/Requests/main.php:20
+msgctxt "admin"
+msgid "Expired requests"
+msgstr "Verlopen aanvragen"
+
+#: Templates/Admin/Pages/Requests/main.php:21
+msgctxt "admin"
+msgid "No expired requests here."
+msgstr "Geen verlopen aanvragen hier."
+
+#: Templates/Admin/Pages/Requests/main.php:32
+#: Templates/Admin/Pages/Requests/main.php:98
+#: WordPress/Admin/Pages/PageRequests.php:39
+msgctxt "admin"
+msgid "Requests"
+msgstr "Aanvragen"
+
+#: Templates/Admin/Pages/Requests/main.php:35
+msgctxt "admin"
+msgid ""
+"Here are the requests that are done via the request form. Requests are "
+"anonymized automatically after 30 days when no action is taken."
+msgstr ""
+"Hier zijn de aanvragen die via het aanvragen formulier zijn gedaan. "
+"Aanvragen worden automatisch geanonimiseerd na 30 dagen als er geen actie "
+"wordt ondernomen."
+
+#: Templates/Admin/Pages/Requests/main.php:90
+msgctxt "admin"
+msgid "Date of request"
+msgstr "Datum van aanvraag"
+
+#: Templates/Admin/Pages/Requests/main.php:94
+msgctxt "admin"
+msgid "IP Address"
+msgstr "IP-adres"
+
+#: Templates/Admin/Pages/Requests/main.php:109
+#: Templates/Admin/Pages/Settings/Integrations/item-manage.php:25
+msgctxt "admin"
+msgid "Manage"
+msgstr "Beheren"
+
+#: Templates/Admin/Pages/Requests/main.php:131
+msgctxt "admin"
+msgid "Are you sure you want to delete this request?"
+msgstr "Weet je zeker dat je deze aanvraag wilt verwijderen?"
+
+#: Templates/Admin/Pages/Settings/Integrations/item-active.php:13
+msgctxt "admin"
+msgid "Active"
+msgstr "Actief"
+
+#: Templates/Admin/Pages/Settings/Integrations/item-content.php:51
+msgctxt "admin"
+msgid "Disable integration"
+msgstr "Integratie deactiveren"
+
+#: Templates/Admin/Pages/Settings/Integrations/item-form.php:28
+#, php-format
+msgctxt "admin"
+msgid "Form: %1s"
+msgstr "Formulier: %1s"
+
+#: Templates/Admin/Pages/Settings/Integrations/item-form.php:31
+msgctxt "admin"
+msgid "Activate for this form"
+msgstr "Activeren voor dit formulier"
+
+#: Templates/Admin/Pages/Settings/Integrations/item-form.php:39
+msgctxt "admin"
+msgid "Change the text and messages of the checkbox"
+msgstr "Verander de tekst en berichten van het selectievakje"
+
+#: Templates/Admin/Pages/Settings/Integrations/item-form.php:43
+msgctxt "admin"
+msgid "Change the text of the checkbox"
+msgstr "Verander de tekst van het selectievakje"
+
+#: Templates/Admin/Pages/Settings/Integrations/item-form.php:51
+msgctxt "admin"
+msgid "Error message"
+msgstr "Foutbericht"
+
+#: Templates/Admin/Pages/Settings/Integrations/item-form.php:58
+msgctxt "admin"
+msgid "Required message"
+msgstr "Vereist bericht"
+
+#: Templates/Admin/Pages/Settings/Integrations/item-form.php:58
+msgctxt "admin"
+msgid "HTML is not allowed because of technical limitations with tooltips."
+msgstr "HTML is niet toegestaan vanwege technische beperkingen met tooltips."
+
+#: Templates/Admin/Pages/Settings/Integrations/item-manage.php:23
+msgctxt "admin"
+msgid "Activate"
+msgstr "Activeer"
+
+#: Templates/Admin/Pages/Settings/consent.php:26
+#: Templates/Admin/Pages/Settings/consent.php:39
+msgctxt "admin"
+msgid "Bar Settings"
+msgstr "Balk-instellingen"
+
+#: Templates/Admin/Pages/Settings/consent.php:33
+#, php-format
+msgctxt "admin"
+msgid "Style your Consent Bar and Consent Pop-up at %1s."
+msgstr "Stijl je instemmingsbalk en instemming pop-up op %1s."
+
+#: Templates/Admin/Pages/Settings/consent.php:33
+msgctxt "admin"
+msgid "your Cookie Information account"
+msgstr "je Cookie Information-account"
+
+#: Templates/Admin/Pages/Settings/consent.php:44
+msgctxt "admin"
+msgid "Preview"
+msgstr "Voorbeeld"
+
+#: Templates/Admin/Pages/Settings/consent.php:143
+msgctxt "admin"
+msgid "Consent Pop-up Settings"
+msgstr "Instemming pop-up instellingen"
+
+#: Templates/Admin/Pages/Settings/integrations.php:12
+#: WordPress/Admin/Pages/PageSettings.php:122
+msgctxt "admin"
+msgid "Integrations"
+msgstr "Integraties"
+
+#: Templates/Admin/Pages/Settings/integrations.php:13
+msgctxt "admin"
+msgid ""
+"Integrate GDPR Consent Compliance into forms that you use on your website. "
+"By enabling the integrations a checkbox will be added. You can manage per "
+"integration what text to display."
+msgstr ""
+"Integreer GDPR instemming in de formulieren die op je site worden gebruikt. "
+"Door de integraties in te schakelen, wordt er een selectievakje toegevoegd. "
+"Je kan per integratie beheren welke tekst je wil weergeven."
+
+#: Templates/Admin/Pages/Settings/main.php:81
+msgctxt "admin"
+msgid "Need a refresh?"
+msgstr "Een opfrisser nodig?"
+
+#: Templates/Admin/Pages/Settings/main.php:82
+msgctxt "admin"
+msgid ""
+"Start the first time setup and we will give you a tour of the plugins "
+"features!"
+msgstr ""
+"Start de wizard en we geven je een rondleiding door de functies van de "
+"plugin!"
+
+#: Templates/Admin/Pages/Settings/main.php:85
+msgctxt "admin"
+msgid "Start the wizard"
+msgstr "Start de wizard"
+
+#: Templates/Admin/Pages/Settings/policy.php:16
+#: Templates/Admin/Pages/Wizard/Steps/privacy.php:9
+#: Templates/Admin/Pages/Wizard/Steps/privacy.php:11
+#: WordPress/Admin/Pages/PageSettings.php:152
+msgctxt "admin"
+msgid "Privacy policy"
+msgstr "Privacybeleid"
+
+#: Templates/Admin/Pages/Settings/policy.php:21
+msgctxt "admin"
+msgid "Privacy policy link settings"
+msgstr "Privacybeleid link instellingen"
+
+#: Templates/Admin/Pages/Settings/policy.php:27
+#: WordPress/Admin/Pages/PageSettings.php:148
+msgctxt "admin"
+msgid "Privacy policy link text"
+msgstr "Privacybeleid link tekst"
+
+#: Templates/Admin/Pages/Settings/policy.php:35
+msgctxt "admin"
+msgid "External privacy policy?"
+msgstr "Extern privacybeleid?"
+
+#: Templates/Admin/Pages/Settings/policy.php:43
+#: WordPress/Admin/Pages/PageSettings.php:171
+msgctxt "admin"
+msgid "Privacy policy page"
+msgstr "Privacybeleidspagina"
+
+#: Templates/Admin/Pages/Settings/policy.php:49
+#: WordPress/Admin/Pages/PageSettings.php:180
+msgctxt "admin"
+msgid "Privacy policy url"
+msgstr "Privacybeleid URL"
+
+#: Templates/Admin/Pages/Settings/request.php:14
+#: WordPress/Admin/Pages/PageSettings.php:119
+msgctxt "admin"
+msgid "Request User"
+msgstr "Vraag gebruiker op"
+
+#: Templates/Admin/Pages/Settings/request.php:22
+#: Templates/Admin/Pages/Settings/request.php:29
+msgctxt "admin"
+msgid "Request User data"
+msgstr "Vraag gebruikersdata op"
+
+#: Templates/Admin/Pages/Settings/request.php:24
+msgctxt "admin"
+msgid ""
+"Allow your site's visitors to request their data stored in the WordPress "
+"database (comments, WooCommerce orders etc.). Data found is send to their "
+"email address and allows them to put in an additional request to have the "
+"data anonymized."
+msgstr ""
+"Sta je sitebezoekers toe om hun data, die opgeslagen is in de WordPress-"
+"database (reacties, WooCommerce-bestellingen, etc.), op te vragen. Gevonden "
+"data wordt verstuurd naar hun e-mailadres en stelt ze in staat om een "
+"anonimiseringsverzoek in te dienen."
+
+#: Templates/Admin/Pages/Wizard/Steps/ci.php:9
+#: WordPress/Admin/Pages/PageAdmin.php:31
+msgctxt "admin"
+msgid "Cookie Information"
+msgstr "Cookie Informatie"
+
+#: Templates/Admin/Pages/Wizard/Steps/ci.php:11
+#: Templates/Admin/Pages/Wizard/Steps/ci.php:57
+#, fuzzy
+#| msgctxt "admin"
+#| msgid "Try Cookie Information"
+msgctxt "admin"
+msgid "Sign up for Cookie Information"
+msgstr "Probeer Cookie Information"
+
+#: Templates/Admin/Pages/Wizard/Steps/ci.php:15
+msgctxt "admin"
+msgid ""
+"Data privacy regulations have become much stricter. Upgrade your WP GDPR "
+"Compliance plugin to Business and secure your website’s GDPR cookie "
+"compliance."
+msgstr ""
+
+#: Templates/Admin/Pages/Wizard/Steps/ci.php:18
+msgctxt "admin"
+msgid " Features include:"
+msgstr ""
+
+#: Templates/Admin/Pages/Wizard/Steps/ci.php:21
+#, fuzzy
+#| msgctxt "admin"
+#| msgid "Consent pop-up"
+msgctxt "admin"
+msgid "Customizable consent pop-ups"
+msgstr "Instemming pop-up"
+
+#: Templates/Admin/Pages/Wizard/Steps/ci.php:24
+msgctxt "admin"
+msgid "Automated cookie policies"
+msgstr ""
+
+#: Templates/Admin/Pages/Wizard/Steps/ci.php:27
+msgctxt "admin"
+msgid "Integration to Google Products"
+msgstr ""
+
+#: Templates/Admin/Pages/Wizard/Steps/ci.php:30
+msgctxt "admin"
+msgid "And much more!"
+msgstr ""
+
+#: Templates/Admin/Pages/Wizard/Steps/ci.php:35
+msgctxt "admin"
+msgid "How are you planning to use this plugin?"
+msgstr ""
+
+#: Templates/Admin/Pages/Wizard/Steps/ci.php:38
+#, fuzzy
+#| msgctxt "admin"
+#| msgid "Explore all business features"
+msgctxt "admin"
+msgid "For a business website"
+msgstr "Ontdek alle zakelijke functies"
+
+#: Templates/Admin/Pages/Wizard/Steps/ci.php:46
+msgctxt "admin"
+msgid "For my personal website"
+msgstr ""
+
+#: Templates/Admin/Pages/Wizard/Steps/ci.php:55
+msgctxt "admin"
+msgid ""
+"Great! We recommend upgrading to the business version of Cookie Information "
+"for the best GDPR compliance possible, especially when operating within the "
+"EU."
+msgstr ""
+
+#: Templates/Admin/Pages/Wizard/Steps/ci.php:56
+msgctxt "admin"
+msgid ""
+"Awesome! For personal use it might be worth it to upgrade. Dont hesitate to "
+"check out the business features. There is a 30 day free trial to get you "
+"started!"
+msgstr ""
+
+#: Templates/Admin/Pages/Wizard/Steps/consent.php:9
+msgctxt "admin"
+msgid "Setup first consent"
+msgstr "Eerste toestemming instellen"
+
+#: Templates/Admin/Pages/Wizard/Steps/consent.php:11
+msgctxt "admin"
+msgid "Setup your first consent"
+msgstr "Stel je eerste instemming in"
+
+#: Templates/Admin/Pages/Wizard/Steps/consent.php:13
+msgctxt "admin"
+msgid ""
+"Most websites use services and plugins for statistical and marketing that "
+"require the user's consent to comply with GDPR. Here you can add the first "
+"of the services you use. You can always change this later."
+msgstr ""
+"De meeste sites gebruiken services en plugins voor statistieken en marketing "
+"die toestemming van de gebruiker nodig hebben om te voldoen aan de eisen van "
+"GDPR. Hier kun je de eerste services die je gebruikt toevoegen. Je kunt dit "
+"later altijd wijzigen."
+
+#: Templates/Admin/Pages/Wizard/Steps/done.php:12
+msgctxt "admin"
+msgid "Done"
+msgstr "Gereed"
+
+#: Templates/Admin/Pages/Wizard/Steps/done.php:14
+msgctxt "admin"
+msgid "That's it!"
+msgstr "Dat is het!"
+
+#: Templates/Admin/Pages/Wizard/Steps/done.php:16
+msgctxt "admin"
+msgid ""
+"That's it, we're done. We just setup your site and now you are more "
+"compliant already. Next steps are to check if all your consents are setup "
+"and check your pages."
+msgstr ""
+"Dat was het, we zijn klaar. We hebben nog maar net je site ingesteld en je "
+"site voldoet nu al meer aan de GDPR. De volgende stappen het controleren of "
+"al je toestemmingen zijn ingesteld en het controleren van je pagina's."
+
+#: Templates/Admin/Pages/Wizard/Steps/done.php:19
+msgctxt "admin"
+msgid "Add a new consent"
+msgstr "Nieuwe toestemming toevoegen"
+
+#: Templates/Admin/Pages/Wizard/Steps/done.php:22
+msgctxt "admin"
+msgid "Style your consent bar"
+msgstr "Stijl je instemmingsbalk"
+
+#: Templates/Admin/Pages/Wizard/Steps/done.php:25
+msgctxt "admin"
+msgid "Manage your Privacy Policy page"
+msgstr "Je privacybeleidspagina beheren"
+
+#: Templates/Admin/Pages/Wizard/Steps/privacy.php:13
+msgctxt "admin"
+msgid ""
+"You are required to have a privacy policy on your website to comply with "
+"GDPR guidelines. Here you can add a link from your consent pop to your "
+"privacy policy."
+msgstr ""
+"Conform de GDPR-richtlijnen, ben je verplicht om een privacybeleidspagina op "
+"je website te hebben. Hier kun je een link toevoegen van je consentbalk naar "
+"je privacybeleid."
+
+#: Templates/Admin/Pages/Wizard/Steps/welcome.php:13
+msgctxt "admin"
+msgid "Welcome"
+msgstr "Welkom"
+
+#: Templates/Admin/Pages/Wizard/Steps/welcome.php:15
+msgctxt "admin"
+msgid "Welcome to Cookie Information"
+msgstr "Welkom bij Cookie Information"
+
+#: Templates/Admin/Pages/Wizard/Steps/welcome.php:18
+msgctxt "admin"
+msgid ""
+"Thank you very much for choosing this plugin to help you with your GDPR "
+"Compliance. In this wizard we help you to setup the plugin so you can "
+"quickly start with making your website more compliant."
+msgstr ""
+"Bedankt dat je hebt gekozen voor deze plugin om je te helpen te voldoen aan "
+"de GDPR. In deze wizard helpen we je om te plugin in te stellen, zodat je "
+"snel aan de slag kan om je website meer te laten voldoen aan de GDPR."
+
+#: Templates/Admin/Pages/Wizard/Steps/welcome.php:26
+msgctxt "admin"
+msgid "We have some news to share"
+msgstr "We willen wat nieuws met je delen"
+
+#: Templates/Admin/Pages/Wizard/Steps/welcome.php:30
+msgctxt "admin"
+msgid ""
+"We are happy to announce that WP GDPR Compliance has been acquired by the "
+"leading Consent Management Platform, Cookie Information. This will create "
+"tremendous benefits for all of the more than 200.000 websites using this "
+"plugin."
+msgstr ""
+"We zijn blij om bekend te maken dat WP GDPR Compliance is overgenomen door "
+"het toonaangevende Consent Management Platform, Cookie Information. Dit zal "
+"enorme voordelen geven voor alle van de meer dan 200.000 sites die deze "
+"plugin gebruiken."
+
+#: Templates/Admin/Pages/Wizard/Steps/welcome.php:31
+msgctxt "admin"
+msgid ""
+"You will get free upgrades to this plugin, and we will also expand the "
+"plugin with features targeted to business users that allow you to easier "
+"comply with GDPR. Planned features include cookie scanning, language support "
+"for 40+ languages, and much more. If you want to get a taste of what you can "
+"expect, you can try the full suite of Cookie Information for 30 days free "
+"and without a credit card."
+msgstr ""
+"Je krijgt gratis upgrades voor deze plugin, en we zullen de plugin ook "
+"uitbreiden met functies die gericht zijn op zakelijke gebruikers en waarmee "
+"je gemakkelijker aan de GDPR kunt voldoen. Geplande functies zijn onder meer "
+"cookie scanning, taalondersteuning voor 40+ talen, en nog veel meer. Als je "
+"een voorproefje wilt krijgen van wat je kunt verwachten, kun je de volledige "
+"suite van Cookie Information 30 dagen gratis en zonder credit card "
+"uitproberen."
+
+#: Templates/Admin/Pages/Wizard/Steps/welcome.php:35
+msgctxt "admin"
+msgid "Try Cookie Information"
+msgstr "Probeer Cookie Information"
+
+#: Templates/Admin/Pages/Wizard/main.php:20
+msgctxt "admin"
+msgid ""
+"First time setup wizard - Cookie Information | Free WP GDPR Consent Plugin"
+msgstr ""
+"Eerste keer instellen Wizard - Cookie information | Gratis WP GDPR "
+"instemming plugin"
+
+#: Templates/Admin/Pages/Wizard/main.php:47
+msgctxt "admin"
+msgid "Previous step"
+msgstr "Vorige stap"
+
+#: Templates/Admin/Pages/Wizard/main.php:56
+msgctxt "admin"
+msgid "Next step"
+msgstr "Volgende stap"
+
+#: Templates/Admin/Pages/Wizard/main.php:61
+msgctxt "admin"
+msgid "Finish wizard"
+msgstr "Wizard voltooien"
+
+#: Templates/Admin/Pages/Wizard/main.php:78
+msgctxt "admin"
+msgid "I want to do this later"
+msgstr "Ik wil dit later doen"
+
+#: Templates/Admin/Pages/dashboard.php:57
+msgctxt "admin"
+msgid "F jS, Y"
+msgstr "F jS, Y"
+
+#: Templates/Admin/Pages/dashboard.php:66
+msgctxt "admin"
+msgid "Dashboard navigation"
+msgstr "Dashboardnavigatie"
+
+#: Templates/Admin/Wizard/Intro.php:10
+msgctxt "admin"
+msgid ""
+"We will significantly extend the features of this plugin to protect our "
+"community against the increasing pressure from Data Protection Agencies, "
+"giving hefty fines for non-compliant cookie consents. To enable business "
+"users to comply with GDPR, we will offer a business solution that easily "
+"allows you to become compliant and avoid fines."
+msgstr ""
+"We zullen de functies van deze plugin aanzienlijk uitbreiden om onze "
+"community te beschermen tegen de toenemende druk van gegevensbescherming "
+"instanties, waarbij hoge boetes worden opgelegd voor niet-conforme cookie "
+"instemmingen. Om zakelijke gebruikers in staat te stellen te voldoen aan de "
+"GDPR, bieden we een zakelijke oplossing waarmee je eenvoudig compliant kunt "
+"worden en boetes kunt voorkomen."
+
+#: Templates/Admin/Wizard/Intro.php:12
+#, fuzzy, php-format
+#| msgctxt "admin"
+#| msgid ""
+#| "If you run a business within the EU, we strongly recommend changing to "
+#| "the business version to secure 100% compliance. Features include "
+#| "customizable consent pop-ups, automated cookie policies, integration to "
+#| "Google Product, and much more."
+msgctxt "admin"
+msgid ""
+"If you run a business within the EU, we strongly recommend changing to the "
+"business version to secure 100% compliance. Features include customizable "
+"consent pop-ups, automated cookie policies, integration to Google Products, "
+"and much more."
+msgstr ""
+"Als je een bedrijf hebt binnen de EU, raden we je ten zeerste aan over te "
+"stappen naar de zakelijke versie om 100% naleving te garanderen. Functies "
+"omvatten aanpasbare pop-ups voor toestemming, Automatisch gegenereerd "
+"cookiebeleid, integratie met Google product en nog veel meer."
+
+#: Templates/Admin/Wizard/Intro.php:14
+msgctxt "admin"
+msgid ""
+"If you want to get a taste of what you can expect, you can try the full "
+"suite of Cookie Information for 30 days free"
+msgstr ""
+"Als je een voorproefje wilt krijgen van wat je kan verwachten, kan je het "
+"volledige pakket Cookie Information 30 dagen gratis uitproberen"
+
+#: Templates/Admin/Wizard/Intro.php:16
+msgctxt "admin"
+msgid "It appears you have not yet completed the first time setup."
+msgstr "Het lijkt erop dat je de installatiewizard nog niet hebt afgerond."
+
+#: Templates/Admin/Wizard/Intro.php:17
+msgctxt "admin"
+msgid "Let's get you all set up!"
+msgstr "Laten we beginnen!"
+
+#: Templates/Admin/header.php:25
+msgctxt "admin"
+msgid "Plugin help"
+msgstr "Pluginhulp"
+
+#: Templates/Admin/header.php:28
+msgctxt "admin"
+msgid "About"
+msgstr "Over"
+
+#: Templates/Admin/header.php:31
+msgctxt "admin"
+msgid "FAQ"
+msgstr "FAQ"
+
+#: Templates/Admin/header.php:34
+msgctxt "admin"
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: Templates/Admin/modal.php:12
+#, fuzzy
+#| msgctxt "admin"
+#| msgid "Try Cookie Information"
+msgctxt "admin"
+msgid "Sign up for Cookie information"
+msgstr "Probeer Cookie Information"
+
+#: Templates/Admin/modal.php:14 Templates/Front/Consent/modal.php:17
+msgid "Close popup"
+msgstr "Pop-up sluiten"
+
+#: Templates/Admin/modal.php:19
+msgid "Back"
+msgstr ""
+
+#: Templates/Admin/modal.php:27
+msgctxt "admin"
+msgid ""
+"GDPR requrirements are different based on who you are. Please chose below "
+"and we will make sure you comply to GDPR."
+msgstr ""
+
+#: Templates/Admin/modal.php:35
+msgctxt "admin"
+msgid "Is this your personal site?"
+msgstr ""
+
+#: Templates/Admin/modal.php:39
+msgctxt "admin"
+msgid "Keep using the plugin for free"
+msgstr ""
+
+#: Templates/Admin/modal.php:48
+msgctxt "admin"
+msgid "Is this your business site?"
+msgstr ""
+
+#: Templates/Admin/modal.php:52
+#, fuzzy
+#| msgid "Registered on"
+msgctxt "admin"
+msgid "Register account"
+msgstr "Geregistreerd op"
+
+#: Templates/Admin/modal.php:63
+#, fuzzy
+#| msgctxt "admin"
+#| msgid "Try Cookie Information"
+msgctxt "admin"
+msgid "Signup for Cookie Information"
+msgstr "Probeer Cookie Information"
+
+#: Templates/Admin/page-after.php:8
+#, php-format
+msgctxt "admin"
+msgid "Powered by %1s"
+msgstr "Mogelijk gemaakt door %1s"
+
+#: Templates/Admin/page-after.php:8
+msgctxt "admin"
+msgid "Cookie Information, Consent Management Platform"
+msgstr "Cookie Information, platform voor instemmingsbeheer"
+
+#: Templates/Email/access_request.php:14
+#, php-format
+msgid "You have requested to access your data on %1s."
+msgstr "Je hebt toegang tot jouw data verzocht op %1s."
+
+#: Templates/Email/access_request.php:16
+#, php-format
+msgid "Please visit this %1s to view the data linked to the email address %2s."
+msgstr "Bezoek deze %1s om de data gekoppeld met e-mailadres %2s te bekijken."
+
+#: Templates/Email/access_request.php:18
+msgid ""
+"This page is available for 24 hours and can only be reached from the same "
+"device, IP address and browser session you requested from."
+msgstr ""
+"Deze pagina is 24 uur beschikbaar en kan alleen benaderd worden vanaf "
+"hetzelfde apparaat, IP-adres en browsersessie waarvandaan je het verzoek "
+"gedaan hebt."
+
+#: Templates/Email/access_request.php:20
+#, php-format
+msgid ""
+"If your link is invalid you can fill in a new request after 24 hours: %1s."
+msgstr ""
+"Indien je link ongeldig is, kun je een nieuw verzoek indienen na 24 uur: %1s."
+
+#: Templates/Email/delete_request.php:12
+#, php-format
+msgid "You have received a new anonymize request on %1s."
+msgstr "Je hebt een nieuw anonimiseringsverzoek ontvangen op %1s."
+
+#: Templates/Email/delete_request.php:14
+#, php-format
+msgid "You can manage this request in the admin panel: %1s"
+msgstr "Je kunt dit verzoek beheren in het beheerscherm: %1s"
+
+#: Templates/Front/Consent/modal-content-option.php:19
+msgid "Enable?"
+msgstr "Inschakelen?"
+
+#: Templates/Front/Consent/modal-content.php:27
+msgid "(no title)"
+msgstr "(geen titel)"
+
+#: Templates/Front/Consent/modal-content.php:63
+msgid "Powered by Cookie Information"
+msgstr "Mogelijk gemaakt door Cookie Information"
+
+#: Templates/Front/Consent/modal.php:16
+msgid "Privacy settings"
+msgstr "Privacy-instellingen"
+
+#: Templates/Front/Form/AccessRequest/main.php:7
+#: WordPress/Shortcodes/RequestAccessForm.php:56
+msgid "Your Email Address"
+msgstr "Jouw e-mailadres"
+
+#: Templates/Front/Form/AccessRequest/main.php:9
+#: WordPress/Shortcodes/RequestAccessForm.php:58
+msgid "Send"
+msgstr "Verstuur"
+
+#: Utils/AdminForm.php:106
+msgctxt "admin"
+msgid "No"
+msgstr "Nee"
+
+#: Utils/AdminForm.php:116
+msgctxt "admin"
+msgid "Disable"
+msgstr "Deactiveren"
+
+#: Utils/AdminForm.php:117
+msgctxt "admin"
+msgid "Enable"
+msgstr "Inschakelen"
+
+#: Utils/AdminForm.php:454
+msgctxt "admin"
+msgid "Save settings"
+msgstr "Instellingen opslaan"
+
+#: Utils/AdminHelper.php:265
+msgctxt "admin"
+msgid "Note"
+msgstr "Opmerking"
+
+#: Utils/AdminHelper.php:266
+msgctxt "admin"
+msgid "No HTML allowed due to plugin limitations."
+msgstr "Geen HTML toegestaan vanwege pluginbeperkingen."
+
+#: Utils/AdminHelper.php:289
+#, php-format
+msgid "You can use: %1s"
+msgstr "Je kunt gebruik maken van: %1s"
+
+#: Utils/Anonymous.php:32
+msgctxt "admin"
+msgid "Anonymous"
+msgstr "Anoniem"
+
+#: Utils/Banner.php:16
+#, php-format
+msgctxt "admin"
+msgid "Consent pop-up is %1s"
+msgstr "Instemming pop-up is %1s"
+
+#: Utils/Banner.php:34
+msgctxt "admin"
+msgid "business"
+msgstr "zakelijk"
+
+#: Utils/Banner.php:34
+msgctxt "admin"
+msgid "free"
+msgstr "gratis"
+
+#: Utils/Banner.php:44
+#, php-format
+msgctxt "admin"
+msgid "Currently in %1s mode"
+msgstr "Momenteel in %1s modus"
+
+#: Utils/Elements.php:47
+#, php-format
+msgctxt "admin"
+msgid "<strong>ERROR</strong>: %1$s"
+msgstr "<strong>FOUT</strong>: %1$s"
+
+#: Utils/Elements.php:148
+#, php-format
+msgctxt "admin"
+msgid "<strong>NOTE:</strong> %1$s"
+msgstr "<strong>Opmerking:</strong> %1$s"
+
+#: Utils/FormHandler.php:28
+msgctxt "admin"
+msgid "Consent could not be found."
+msgstr "Instemming niet gevonden."
+
+#: Utils/FormHandler.php:35
+msgctxt "admin"
+msgid "Something went wrong."
+msgstr "Er is iets fout gegaan."
+
+#: Utils/FormHandler.php:40
+msgctxt "admin"
+msgid "Consent deleted."
+msgstr "Toestemming verwijderd."
+
+#: Utils/Integration.php:75
+msgid "Please accept the privacy policy"
+msgstr "Accepteer het privacybeleid"
+
+#: Utils/Integration.php:76
+msgid "You need to accept this checkbox"
+msgstr "Je moet dit selectievakje accepteren"
+
+#: Utils/Redirect.php:18
+#, php-format
+msgid "Redirecting to %s"
+msgstr "Doorsturen naar %s"
+
+#: Utils/Request.php:107
+#, php-format
+msgid "No data found with email address%1s."
+msgstr "Geen gebruikers gevonden met e-mailadres%1s."
+
+#: Utils/Request.php:196
+msgctxt "admin"
+msgid "0 seconds"
+msgstr "0 seconden"
+
+#: Utils/Request.php:233
+#, php-format
+msgctxt "admin"
+msgid "1 year"
+msgid_plural "%1s years"
+msgstr[0] "1 jaar"
+msgstr[1] "%1s jaren"
+
+#: Utils/Request.php:237
+#, php-format
+msgctxt "admin"
+msgid "1 month"
+msgid_plural "%1s months"
+msgstr[0] "1 maand"
+msgstr[1] "%1s maanden"
+
+#: Utils/Request.php:241
+#, php-format
+msgctxt "admin"
+msgid "1 day"
+msgid_plural "%1s days"
+msgstr[0] "1 dag"
+msgstr[1] "%1s dagen"
+
+#: Utils/Request.php:245
+#, php-format
+msgctxt "admin"
+msgid "1 hour"
+msgid_plural "%1s hours"
+msgstr[0] "1 uur"
+msgstr[1] "%1s uur"
+
+#: Utils/Request.php:258
+#, php-format
+msgctxt "admin"
+msgid "%1s and %2s"
+msgstr "%1s en %2s"
+
+#: Utils/Wizard.php:124
+msgctxt "admin"
+msgid "First time setup Wizard"
+msgstr ""
+
+#: Utils/Wizard.php:125
+#, php-format
+msgctxt "admin"
+msgid "<strong>Hey!</strong> Thank you for installing %s!"
+msgstr ""
+
+#: Utils/Wizard.php:125
+#, fuzzy, php-format
+#| msgctxt "admin"
+#| msgid ""
+#| "To update the settings and read about what this plugin can do, go to our "
+#| "%1s page."
+msgctxt "admin"
+msgid "To setup the plugin and see what this plugin can do, go to our %1s."
+msgstr ""
+"Ga naar onze %1s pagina om de instellingen bij te werken en te lezen wat "
+"deze plug-in kan doen."
+
+#: Utils/Wizard.php:132
+msgctxt "admin"
+msgid "WP GDPR Compliance will become even better!"
+msgstr "WP GDPR Compliance wordt alleen maar beter!"
+
+#: WordPress/Admin.php:115
+#, php-format
+msgctxt "admin"
+msgid "%1s Settings"
+msgstr "%1s Instellingen"
+
+#: WordPress/Admin.php:131
+#, php-format
+msgctxt "admin"
+msgid "<strong>Awesome!</strong> You have activated the %1s plugin."
+msgstr "<strong>Geweldig!</strong> Je hebt de plugin %1s geactiveerd."
+
+#: WordPress/Admin.php:131
+#, php-format
+msgctxt "admin"
+msgid ""
+"To update the settings and read about what this plugin can do, go to our %1s "
+"page."
+msgstr ""
+"Ga naar onze %1s pagina om de instellingen bij te werken en te lezen wat "
+"deze plug-in kan doen."
+
+#: WordPress/Admin/Actions.php:38
+msgctxt "admin"
+msgid "Consent updated."
+msgstr "Instemming geüpdatet."
+
+#: WordPress/Admin/Pages/PageDashboard.php:78
+msgctxt "admin"
+msgid "Consent pop-up"
+msgstr "Instemming pop-up"
+
+#: WordPress/Admin/Pages/PageDashboard.php:80
+msgctxt "admin"
+msgid ""
+"Manually add data processors to the consent pop-up or let the business "
+"version do it automatically. This allows visitors to choose which services "
+"they will give their consent to."
+msgstr ""
+"Voeg handmatig gegevensverwerkers toe aan de pop-up voor toestemming of laat "
+"de zakelijke versie dit automatisch doen. Hierdoor kunnen bezoekers kiezen "
+"voor welke diensten ze toestemming geven."
+
+#: WordPress/Admin/Pages/PageDashboard.php:86
+msgctxt "admin"
+msgid ""
+"Change settings of the Privacy Policy, Consent Bar, Request User data form "
+"and Integrations."
+msgstr ""
+"Wijzig de instellingen van het privacybeleid, de instemmingsbalk, het "
+"gegevens aanvraagformulier en de integraties."
+
+#: WordPress/Admin/Pages/PageDashboard.php:90
+msgctxt "admin"
+msgid "Business"
+msgstr "Zakelijk"
+
+#: WordPress/Admin/Pages/PageRequests.php:51
+#, php-format
+msgctxt "admin"
+msgid "1 request to process"
+msgid_plural "%1s requests to process"
+msgstr[0] "1 aanvraag om te verwerken"
+msgstr[1] "%1s aanvragen om te verwerken"
+
+#: WordPress/Admin/Pages/PageRequests.php:126
+msgctxt "admin"
+msgid "Request cancelled."
+msgstr "Aanvraag geannuleerd."
+
+#: WordPress/Admin/Pages/PageRequests.php:153
+#: WordPress/Admin/Pages/PageRequests.php:160
+#: WordPress/Ajax/DeleteRequest.php:44 WordPress/Ajax/ProcessRequest.php:58
+msgctxt "admin"
+msgid "Unable to locate request."
+msgstr "Kan aanvraag niet vinden."
+
+#: WordPress/Admin/Pages/PageSettings.php:113
+msgctxt "admin"
+msgid "Privacy Policy"
+msgstr "Privacybeleid"
+
+#: WordPress/Admin/Pages/PageSettings.php:116
+msgctxt "admin"
+msgid "Consent Bar"
+msgstr "Instemming balk"
+
+#: WordPress/Admin/Pages/PageSettings.php:153
+#, php-format
+msgctxt "admin"
+msgid "This text will be used to replace the %1s variable."
+msgstr "Deze tekst zal worden gebruikt om het %1s variabelen te vervangen."
+
+#: WordPress/Admin/Pages/PageSettings.php:159
+msgctxt "admin"
+msgid "Use external privacy policy"
+msgstr "Gebruik een extern privacybeleid"
+
+#: WordPress/Admin/Pages/PageSettings.php:164
+msgctxt "admin"
+msgid ""
+"Enabling this will allow you to use an external Privacy Policy instance."
+msgstr ""
+"Wanneer je dit inschakelt, kun je een externe privacybeleidpagina gebruiken."
+
+#: WordPress/Admin/Pages/PageSettings.php:174
+msgctxt "admin"
+msgid "Select the page where the Privacy Policy is written."
+msgstr "Selecteer de pagina waar het privacybeleid is geschreven."
+
+#: WordPress/Admin/Pages/PageSettings.php:184
+msgctxt "admin"
+msgid "Enter the url where the Privacy Policy is written"
+msgstr "Voer de url in waar het privacybeleid is geschreven"
+
+#: WordPress/Admin/Pages/PageSettings.php:194
+#: WordPress/Admin/Pages/PageSettings.php:306
+msgctxt "admin"
+msgid "Explanation"
+msgstr "Uitleg"
+
+#: WordPress/Admin/Pages/PageSettings.php:203
+msgctxt "admin"
+msgid "Font"
+msgstr "Lettertype"
+
+#: WordPress/Admin/Pages/PageSettings.php:213
+msgctxt "admin"
+msgid "Google Fonts API key"
+msgstr "Google Fonts API-sleutel"
+
+#: WordPress/Admin/Pages/PageSettings.php:217
+msgctxt "admin"
+msgid "Google fonts API key"
+msgstr "Google Fonts API-sleutel"
+
+#: WordPress/Admin/Pages/PageSettings.php:223
+msgctxt "admin"
+msgid "Position"
+msgstr "Positie"
+
+#: WordPress/Admin/Pages/PageSettings.php:233
+msgctxt "admin"
+msgid "Animation"
+msgstr "Animatie"
+
+#: WordPress/Admin/Pages/PageSettings.php:243
+msgctxt "admin"
+msgid "Accept button text"
+msgstr "Accepteren knop tekst"
+
+#: WordPress/Admin/Pages/PageSettings.php:252
+msgctxt "admin"
+msgid "Settings button text"
+msgstr "Instellingen knoptekst"
+
+#: WordPress/Admin/Pages/PageSettings.php:261
+msgctxt "admin"
+msgid "Bar color"
+msgstr "Balk-kleur"
+
+#: WordPress/Admin/Pages/PageSettings.php:270
+msgctxt "admin"
+msgid "Text color"
+msgstr "Tekstkleur"
+
+#: WordPress/Admin/Pages/PageSettings.php:279
+msgctxt "admin"
+msgid "Button background"
+msgstr "Knop achtergrond"
+
+#: WordPress/Admin/Pages/PageSettings.php:288
+msgctxt "admin"
+msgid "Button text color"
+msgstr "Tekstkleur knop"
+
+#: WordPress/Admin/Pages/PageSettings.php:320
+msgctxt "admin"
+msgid "Activate request form"
+msgstr "Activeer aanvraagformulier"
+
+#: WordPress/Admin/Pages/PageSettings.php:325
+#, php-format
+msgctxt "admin"
+msgid ""
+"Enabling this will create one private page containing the necessary "
+"shortcode: %1s. You can determine when and how to publish this page yourself."
+msgstr ""
+"Dit inschakelen creëert een privépagina die de benodigde shortcode %1s "
+"bevat. Je kunt zelf beslissen wanneer en hoe je deze pagina wilt publiceren."
+
+#: WordPress/Admin/Pages/PageSettings.php:331
+msgctxt "admin"
+msgid "Checkbox text"
+msgstr "Selectievakje-tekst"
+
+#: WordPress/Admin/Pages/PageSettings.php:340
+msgctxt "admin"
+msgid "Request access page"
+msgstr "Toegang-aanvragen-pagina"
+
+#: WordPress/Admin/Pages/PageSettings.php:345
+msgctxt "admin"
+msgid ""
+"Visitors will receive a link to this page on which the visitor can view all "
+"the data stored which is associated with their email address."
+msgstr ""
+"Bezoekers krijgen een link naar deze pagina waarop de bezoeker alle "
+"opgeslagen gegevens kan bekijken die aan zijn e-mailadres zijn gekoppeld."
+
+#: WordPress/Admin/Pages/PageSettings.php:346
+msgctxt "admin"
+msgid ""
+"Please make sure that the access request form shortcode "
+"[wpgdprc_access_request_form] is active on the selected page"
+msgstr ""
+"Zorg ervoor dat de aanvraagformulier-shortcode [wpgdprc_access_request_form] "
+"actief is op de geselecteerde pagina"
+
+#: WordPress/Admin/Pages/PageSettings.php:353
+msgctxt "admin"
+msgid "Anonymize request explanation"
+msgstr "Anonimiseer aanvraag uitleg"
+
+#: WordPress/Admin/Pages/PageWizard.php:53
+msgctxt "admin"
+msgid "Wizard"
+msgstr "Wizard"
+
+#: WordPress/Ajax/AbstractAjax.php:77
+msgid "Missing data."
+msgstr "Ontbrekende data."
+
+#: WordPress/Ajax/DeleteRequest.php:48
+msgctxt "admin"
+msgid "Request deleted."
+msgstr "Aanvraag verwijderd."
+
+#: WordPress/Ajax/DeleteRequest.php:48
+msgctxt "admin"
+msgid "Unable to delete request."
+msgstr "Kan aanvraag niet verwijderen."
+
+#: WordPress/Ajax/ProcessAction.php:67
+msgid "Missing type."
+msgstr "Ontbrekend type."
+
+#: WordPress/Ajax/ProcessAction.php:77
+msgid "Missing or incorrect email address."
+msgstr "Missend of foutief e-mailadres."
+
+#: WordPress/Ajax/ProcessAction.php:82
+msgid "You need to accept the privacy checkbox."
+msgstr "Je moet het privacy-selectievakje accepteren."
+
+#: WordPress/Ajax/ProcessAction.php:87
+msgid ""
+"You have already requested your data. Please check your mailbox. After 24 "
+"hours you can put in a new request."
+msgstr ""
+"Je hebt jouw data al opgevraagd. Controleer je postvak in. Na 24 uur kan je "
+"een nieuwe verzoek indienen."
+
+#: WordPress/Ajax/ProcessAction.php:101 WordPress/Ajax/ProcessAction.php:167
+msgid "Something went wrong while saving the request. Please try again."
+msgstr ""
+"Er is iets fout gegaan tijdens het opslaan van het verzoek. Probeer opnieuw."
+
+#: WordPress/Ajax/ProcessAction.php:112
+#, php-format
+msgid "%1s - Your data request"
+msgstr "%1s - Jouw gegevensaanvraag"
+
+#: WordPress/Ajax/ProcessAction.php:116
+msgid "page"
+msgstr "pagina"
+
+#: WordPress/Ajax/ProcessAction.php:134
+msgid "Missing token."
+msgstr "Ontbrekend token."
+
+#: WordPress/Ajax/ProcessAction.php:139
+msgid "No value selected."
+msgstr "Geen waarde geselecteerd."
+
+#: WordPress/Ajax/ProcessAction.php:145
+msgid "Missing or invalid type."
+msgstr "Missend of ongeldig type."
+
+#: WordPress/Ajax/ProcessAction.php:150
+msgid "No session found."
+msgstr "Geen sessie gevonden."
+
+#: WordPress/Ajax/ProcessAction.php:154
+msgid "Session doesn't match."
+msgstr "Sessie komt niet overeen."
+
+#: WordPress/Ajax/ProcessAction.php:172
+#, php-format
+msgid "%1s - New anonymize request"
+msgstr "%1s - Nieuw anonimiseringsverzoek"
+
+#: WordPress/Ajax/ProcessAction.php:175
+msgid "Requests"
+msgstr "Verzoeken"
+
+#: WordPress/Ajax/ProcessAction.php:216
+msgid "Success. You will receive an email with your data shortly."
+msgstr "Gelukt. Je ontvangt een e-mail met jouw data zo snel mogelijk."
+
+#: WordPress/Ajax/ProcessRequest.php:53
+msgctxt "admin"
+msgid "The access request functionality is not enabled."
+msgstr "De verzoek-tot-toegang-functionaliteit is niet ingeschakeld."
+
+#: WordPress/Ajax/ProcessRequest.php:62
+msgctxt "admin"
+msgid "Data anonymized."
+msgstr "Gegevens geanonimiseerd."
+
+#: WordPress/Ajax/ProcessRequest.php:62
+msgctxt "admin"
+msgid "Unable to (fully) anonymize all data."
+msgstr "Kan niet (alle) gegevens anonimiseren."
+
+#: WordPress/Ajax/ResetConsent.php:45
+msgctxt "admin"
+msgid "Unable to reset consent"
+msgstr "Kan instemming niet resetten"
+
+#: WordPress/Ajax/ResetConsent.php:48
+msgctxt "admin"
+msgid "Consent has been reset"
+msgstr "Instemming is gereset"
+
+#: WordPress/Ajax/UpdateProcessorMode.php:59
+msgctxt "admin"
+msgid "No active data processors."
+msgstr "Geen active gegevens processoren."
+
+#: WordPress/Config.php:89
+msgid ""
+"By using this form you agree with the storage and handling of your data by "
+"this website."
+msgstr ""
+"Wanneer je dit formulier gebruikt, ga je akkoord met de opslag en verwerking "
+"van jouw gegevens door deze website."
+
+#: WordPress/Config.php:97
+#, php-format
+msgid ""
+"Below we show you all of the data stored by %1s on %1s. Select the data you "
+"wish the site owner to anonymize so it cannot be linked to your email "
+"address any longer. It is the site's owner responsibility to act upon your "
+"request. When your data is anonymized you will receive an email confirmation."
+msgstr ""
+"Hieronder tonen we alle data die opgeslagen is door %1s op %1s. Selecteer de "
+"data waarvan je wilt dat de site eigenaar deze anonimiseert, waardoor het "
+"niet langer aan jouw e-mailadres gekoppeld kan worden. Het is de "
+"verantwoordelijkheid van de site-eigenaar om op dit verzoek te reageren. "
+"Zodra jouw data geanonimiseerd is, ontvang je een melding via e-mail."
+
+#: WordPress/Config.php:107
+msgctxt "admin"
+msgid "Welcome to Cookie Information | Free WP GDPR Consent Plugin"
+msgstr "Welkom bij Cookie Information | Gratis WP GDPR instemming plugin"
+
+#: WordPress/Config.php:114
+msgctxt "admin"
+msgid "try it out here"
+msgstr "probeer het hier uit"
+
+#: WordPress/Config.php:116
+#, php-format
+msgctxt "admin"
+msgid ""
+"Thank you very much for choosing this plugin to help you with your GDPR "
+"Compliance. This is a free tool that offers Compliance. We also provide a "
+"version that automates many of these tasks and makes sure that you are "
+"always up to date: %1s"
+msgstr ""
+"Hartelijk dank voor het kiezen van deze plugin om je te helpen bij je GDPR "
+"naleving. Dit is een gratis tool die nakoming biedt. We bieden ook een "
+"versie die veel van deze taken automatiseert en ervoor zorgt dat je altijd "
+"up-to-date bent: %1s"
+
+#: WordPress/Cron.php:32
+msgctxt "admin"
+msgid "Once a month"
+msgstr "Eens per maand"
+
+#: WordPress/Front/Consent/Modal.php:67
+msgid ""
+"These settings will only apply to the browser and device you are currently "
+"using."
+msgstr ""
+"Deze instellingen zijn alleen geldig voor de browser en het apparaat dat je "
+"nu gebruikt."
+
+#: WordPress/Front/Consent/Modal.php:76
+msgid "Save my settings"
+msgstr "Bewaar mijn instellingen"
+
+#: WordPress/Settings.php:61
+msgid "https://www.example.com"
+msgstr "http://www.example.com"
+
+#: WordPress/Settings.php:70
+msgid "More information"
+msgstr "Meer informatie"
+
+#: WordPress/Settings.php:70 WordPress/Shortcodes/ProcessorSettingsLink.php:50
+#: WordPress/Shortcodes/ProcessorSettingsLink.php:64
+msgid "My settings"
+msgstr "Mijn instellingen"
+
+#: WordPress/Settings.php:72
+msgid ""
+"This site uses functional cookies and external scripts to improve your "
+"experience."
+msgstr ""
+"Deze site gebruikt functionele cookies en externe scripts om je beleving te "
+"verbeteren."
+
+#: WordPress/Settings.php:73
+msgid "Accept"
+msgstr "Accepteer"
+
+#: WordPress/Settings.php:83
+msgid "Privacy Settings"
+msgstr "Privacy-instellingen"
+
+#: WordPress/Settings.php:85
+msgid ""
+"This site uses functional cookies and external scripts to improve your "
+"experience. Which cookies and scripts are used and how they impact your "
+"visit is specified on the left. You may change your settings at any time. "
+"Your choices will not impact your visit."
+msgstr ""
+"Deze site gebruikt functionele cookies en externe scripts om uw ervaring te "
+"verbeteren. Welke cookies en scripts worden gebruikt en hoe deze je bezoek "
+"beïnvloeden, wordt aan de linkerkant gespecificeerd. Je kunt je instellingen "
+"op elk gewenst moment wijzigen. Je keuzes hebben geen invloed op uw bezoek."
+
+#: WordPress/Settings.php:280
+msgctxt "admin"
+msgid "Use the font of my website"
+msgstr "Gebruik het lettertype van mijn site"
+
+#: WordPress/Settings.php:292
+msgctxt "admin"
+msgid "Bottom"
+msgstr "Bodem"
+
+#: WordPress/Settings.php:293
+msgctxt "admin"
+msgid "Top"
+msgstr "Boven"
+
+#: WordPress/Settings.php:303
+msgctxt "admin"
+msgid "Fade out"
+msgstr "Vervagen"
+
+#: WordPress/Settings.php:304
+msgctxt "admin"
+msgid "Bounce out"
+msgstr "Stuiter uit"
+
+#: WordPress/Settings.php:305
+msgctxt "admin"
+msgid "Zoom out"
+msgstr "Uitzoomen"
+
+#: WordPress/Settings.php:306
+msgctxt "admin"
+msgid "Instant (no animation)"
+msgstr "Direct (geen animatie)"
+
+#: WordPress/Shortcodes/ProcessorSettingsLink.php:46
+msgctxt "admin"
+msgid ""
+"You need to make sure you have added at least one (1) active data processor."
+msgstr ""
+"Je moet ervoor zorgen dat je ten minste één (1) actieve gegevensverwerker "
+"hebt toegevoegd."
+
+#: WordPress/Shortcodes/ProcessorSettingsLink.php:67
+#, php-format
+msgid ""
+"Let your visitors re-access their settings by placing a link to the modal "
+"with the shortcode %1s or add the \"%2s\" class to a menu item."
+msgstr ""
+"Laat je bezoekers weer toegang krijgen tot hun instellingen door een link "
+"naar het venster te plaatsen met de shortcode %1s of voeg de class \"%2s\" "
+"toe aan een menu-item."
+
+#: WordPress/Shortcodes/RequestAccessForm.php:42
+#, php-format
+msgid ""
+"The request form has been disabled, you can enable it <a href=\"%s\">here</"
+"a>."
+msgstr ""
+"Het aanvraagformulier is uitgeschakeld, je kan het <a href=\"%s\">hier</a> "
+"inschakelen."
+
+#: WordPress/Shortcodes/RequestAccessForm.php:102
+msgid "No data is stored in relation to this email address"
+msgstr "Geen gegevens zijn opgeslagen met betrekking tot dit e-mailadres"
+
+#: WordPress/Shortcodes/RequestAccessForm.php:120
+msgid "This request is expired or doesn't exist."
+msgstr "Dit verzoek is verlopen of bestaat niet."
+
+#: WordPress/Shortcodes/RequestAccessForm.php:126
+#, php-format
+msgid "If needed, you can put in a new request here: %1s"
+msgstr "Indien nodig, kan je hier een nieuwe aanvraag indienen: %1s"
+
+#: WordPress/Shortcodes/RequestAccessForm.php:138
+msgid ""
+"You are only able to view your data when visiting this page on the same "
+"device with the same IP and in the same browser session as when you "
+"performed your request. This is an extra security measure to keep your data "
+"safe."
+msgstr ""
+"Je kunt alleen jouw data bekijken, als je deze pagina bezoekt op hetzelfde "
+"apparaat met hetzelfde IP-adres en in dezelfde browsersessie vanwaar je het "
+"verzoek gedaan hebt. Dit is een extra beveiligingsmaatregel om jouw data "
+"veilig te houden."
+
+#: WordPress/Shortcodes/RequestAccessForm.php:144
+#, php-format
+msgid "If needed, you can put in a new request after 24 hours here: %1s"
+msgstr "Indien nodig kun je hier na 24 uur een nieuw verzoek indienen: %1s"
+
+#. Plugin Name of the plugin/theme
+msgid "Cookie Information | Free WP GDPR Consent Plugin"
+msgstr "Cookie Information | Gratis WP GDPR Consent Plugin"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://cookieinformation.com/"
+msgstr "https://cookieinformation.com/"
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin assists website and web shop owners to comply with European "
+"privacy regulations known as GDPR. By May 24th, 2018 your website or shop "
+"has to comply to avoid large fines."
+msgstr ""
+"Deze plugin helpt website- en webshop-eigenaren om te voldoen aan de "
+"Europese privacyregels (bekend als AVG). Vanaf 24 mei 2018 moet je website "
+"of webshop aan deze regels voldoen om hoge boetes te voorkomen."
+
+#. Author of the plugin/theme
+msgid "Cookie Information"
+msgstr "Cookie Information"
+
+#~ msgid "https://www.wpgdprc.com/"
+#~ msgstr "https://www.wpgdprc.com/"

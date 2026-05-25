@@ -1,0 +1,295 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: newfold-labswp-module-staging\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-02-19T11:37:53+00:00\n"
+"PO-Revision-Date: 2025-02-19 13:44\n"
+"Language: nl_NL\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: wp-module-staging\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: newfold-labswp-module-staging\n"
+"X-Crowdin-Project-ID: 764889\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: wp-module-staging.pot\n"
+"X-Crowdin-File-ID: 8\n"
+
+#: includes/Staging.php:304
+msgid "Cloning can only be done from the production environment."
+msgstr "Klonen kan alleen worden gedaan vanuit de productieomgeving."
+
+#: includes/Staging.php:329
+msgid "Staging environment already exists!"
+msgstr "Testomgeving bestaat al!"
+
+#: includes/Staging.php:363
+msgid "You must switch to the production environment before destroying staging."
+msgstr "U moet naar de productieomgeving overschakelen voordat u de testomgeving verwijdert."
+
+#: includes/Staging.php:385
+msgid "Switch to an environment you are already in, you cannot."
+msgstr "Schakel over naar een omgeving waar je al in bent, dat kan je niet."
+
+#: includes/Staging.php:422
+msgid "Invalid staging CLI command."
+msgstr "Ongeldig testomgeving CLI commando."
+
+#. translators: Invalid character that was entered
+#: includes/Staging.php:472
+#, php-format
+msgid "Invalid character (%s) in command."
+msgstr "Ongeldig teken (%s) in command."
+
+#: includes/Staging.php:481
+msgid "Unable to execute script (disabled_function)."
+msgstr "Kan script niet uitvoeren (uitgeschakeld_functie)."
+
+#: includes/Staging.php:505
+msgid "Unable to execute script (permission error)."
+msgstr "Kan script niet uitvoeren (toestemmingsfout)."
+
+#: includes/Staging.php:519
+msgid "Unable to parse JSON"
+msgstr "Kan JSON niet parsen"
+
+#: includes/StagingCLI.php:96
+msgid "Invalid JSON response"
+msgstr "Ongeldig JSON-antwoord"
+
+#: includes/StagingMenu.php:65
+msgid "Staging Environment"
+msgstr "Testomgeving"
+
+#: includes/StagingMenu.php:67
+msgid "Staging Actions"
+msgstr "Testomgeving acties"
+
+#: src/components/App/getAppText.js:4
+msgid "Cancel"
+msgstr "annuleren"
+
+#: src/sections/ProductionSite/getProductionSiteText.js:7
+msgid "Clone"
+msgstr "Dupliceren"
+
+#: src/sections/ProductionSite/getProductionSiteText.js:8
+msgid "Confirm Clone Action"
+msgstr "Bevestig kloonactie"
+
+#: src/sections/ProductionSite/getProductionSiteText.js:9
+msgid "This will overwrite anything in staging and update it to an exact clone of the current production site. Are you sure you want to proceed?"
+msgstr "Dit zal alles in de testomgeving overschrijven en bijwerken naar een exacte kopie van de huidige productiesite. Weet u zeker dat u wilt doorgaan?"
+
+#: src/components/App/getAppText.js:5
+msgid "Cloned to Staging"
+msgstr "Gekopieerd naar testomgeving"
+
+#: src/components/App/getAppText.js:9
+msgid "Cloning production to staging, this should take about a minute."
+msgstr "Productieomgeving wordt gekopieerd naar testomgeving, dit duurt ongeveer een minuut."
+
+#: src/sections/ProductionSite/getProductionSiteText.js:10
+msgid "Clone to staging"
+msgstr "Kopieer naar testomgeving"
+
+#: src/components/App/getAppText.js:21
+msgid "Created"
+msgstr "Aangemaakt"
+
+#: src/components/App/getAppText.js:13
+msgid "Staging Created"
+msgstr "Testomgeving aangemaakt"
+
+#: src/components/App/getAppText.js:17
+msgid "Creating a staging site, this should take about a minute."
+msgstr "Testomgeving wordt aangemaakt, dit duurt ongeveer een minuut."
+
+#: src/sections/StagingSite/getStagingSiteText.js:9
+msgid "Create staging site"
+msgstr "Testomgeving aanmaken"
+
+#: src/components/App/getAppText.js:22
+#: src/sections/ProductionSite/getProductionSiteText.js:5
+msgid "Currently editing"
+msgstr "Momenteel bewerken"
+
+#: src/components/App/getAppText.js:23
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: src/components/App/getAppText.js:24
+msgid "Confirm Delete"
+msgstr "Verwijderen bevestigen"
+
+#: src/sections/StagingSite/getStagingSiteText.js:14
+msgid "This will permanently delete staging site. Are you sure you want to proceed? You can recreate another staging site at any time, but any specific changes you've made to this staging site will be lost."
+msgstr "Dit zal de testomgeving permanent verwijderen. Weet u zeker dat u wilt doorgaan? U kunt op elk moment een nieuwe testomgeving aanmaken, maar alle wijzigingen die u heeft aangebracht in deze testomgeving gaan verloren."
+
+#: src/components/App/getAppText.js:25
+#: src/sections/StagingSite/getStagingSiteText.js:18
+msgid "Deleted Staging"
+msgstr "Testomgeving verwijderd"
+
+#: src/components/App/getAppText.js:29
+#: src/sections/StagingSite/getStagingSiteText.js:22
+msgid "Deleting the staging site, this should take about a minute."
+msgstr "De testomgeving wordt verwijderd, dit duurt ongeveer een minuut."
+
+#: src/sections/StagingSite/getStagingSiteText.js:13
+msgid "Delete Staging Site"
+msgstr "Testomgeving verwijderen"
+
+#: src/components/App/getAppText.js:33
+msgid "Deploy"
+msgstr "Implementeren"
+
+#: src/components/App/getAppText.js:34
+msgid "Deploy all changes"
+msgstr "Alle wijzigingen implementeren"
+
+#: src/components/App/getAppText.js:35
+msgid "Confirm Deployment"
+msgstr "Bevestig implementatie"
+
+#: src/components/App/getAppText.js:36
+msgid "Deploy database only"
+msgstr "Alleen database implementeren"
+
+#: src/components/App/getAppText.js:37
+msgid "This will deploy staging to production and overwrite current production site. Are you sure you want to proceed?"
+msgstr "Dit zal de testomgeving naar productie overzetten en de huidige productiesite overschrijven. Weet u zeker dat u wilt doorgaan?"
+
+#: src/components/App/getAppText.js:41
+msgid "Deploy files only"
+msgstr "Alleen bestanden implementeren"
+
+#: src/components/App/getAppText.js:42
+msgid "Deployed"
+msgstr "Geïmplementeerd"
+
+#: src/components/App/getAppText.js:43
+msgid "Deploying from staging to production, this should take about a minute."
+msgstr "Testomgeving wordt overgezet naar productie, dit duurt ongeveer een minuut."
+
+#: src/components/App/getAppText.js:47
+msgid "Deploy Site"
+msgstr "Site implementeren"
+
+#: src/components/App/getAppText.js:48
+msgid "Error"
+msgstr "Foutmelding"
+
+#: src/sections/StagingSite/getStagingSiteText.js:5
+msgid "You don't have a staging site yet."
+msgstr "U heeft nog geen testomgeving."
+
+#: src/components/App/getAppText.js:49
+#: src/sections/ProductionSite/getProductionSiteText.js:6
+msgid "Not currently editing"
+msgstr "Momenteel niet bewerkt"
+
+#: src/components/App/getAppText.js:58
+msgid "Proceed"
+msgstr "Doorgaan"
+
+#: src/sections/ProductionSite/getProductionSiteText.js:4
+msgid "Production Site"
+msgstr "Productie site"
+
+#: src/sections/StagingSite/getStagingSiteText.js:4
+msgid "Staging Site"
+msgstr "Testomgeving"
+
+#: src/components/App/getAppText.js:53
+msgid "A staging site is a duplicate of your live site, offering a secure environment to experiment, test updates, and deploy when ready."
+msgstr "Een testomgeving is een kopie van uw live website die een veilige omgeving biedt om te experimenteren, updates te testen en door te voeren wanneer u klaar bent."
+
+#: src/components/App/getAppText.js:59
+msgid "Switch"
+msgstr "Schakelaar"
+
+#: src/components/App/getAppText.js:89
+msgid "Switching"
+msgstr "Schakelen"
+
+#: src/components/App/getAppText.js:60
+msgid "Switch to Production"
+msgstr "Overschakelen naar productie"
+
+#: src/components/App/getAppText.js:64
+msgid "This will navigate you to the production environment"
+msgstr "Dit zal je naar de productieomgeving navigeren"
+
+#: src/components/App/getAppText.js:68
+msgid "Loading the production environment now."
+msgstr "De productieomgeving nu laden."
+
+#: src/components/App/getAppText.js:72
+msgid "Switching to the production environment, this should take about a minute."
+msgstr "De omschakeling naar de productieomgeving zou ongeveer een minuut moeten duren."
+
+#: src/components/App/getAppText.js:76
+msgid "Switch to Staging"
+msgstr "Overschakelen naar testomgeving"
+
+#: src/components/App/getAppText.js:77
+msgid "This will navigate you to the staging environment"
+msgstr "Dit brengt u naar de testomgeving"
+
+#: src/components/App/getAppText.js:81
+msgid "Loading the staging environment now."
+msgstr "De testomgeving wordt nu geladen."
+
+#: src/components/App/getAppText.js:85
+msgid "Switching to the staging environment, this should take about a minute."
+msgstr "Er wordt overgeschakeld naar de testomgeving, dit duurt ongeveer een minuut."
+
+#: src/components/App/getAppText.js:90
+msgid "An unknown error has occurred."
+msgstr "Er is een onbekende fout opgetreden."
+
+#: includes/StagingMenu.php:29
+msgctxt "Menu item text"
+msgid "Staging"
+msgstr "Testomgeving"
+
+#: includes/StagingCLI.php:19
+msgid "No sub-command provided"
+msgstr "Geen subopdracht opgegeven"
+
+#: includes/StagingCLI.php:39
+msgid "Invalid user."
+msgstr "Ongeldige gebruiker."
+
+#: includes/StagingCLI.php:67
+msgid "Invalid deploy type"
+msgstr "Ongeldig implementatietype"
+
+#: includes/StagingCLI.php:84
+msgid "Invalid action"
+msgstr "Ongeldige actie"
+
+#: includes/StagingCLI.php:231
+msgid "Error: "
+msgstr "Fout: "
+
+#: includes/StagingCLI.php:280
+msgid "Provided $data wasn't valid array or JSON string."
+msgstr "De opgegeven $data was geen geldig array of JSON-tekenreeks."
+
+#: includes/Staging.php:494
+msgid "Filesystem credentials required."
+msgstr ""
+
+#: includes/Staging.php:498
+msgid "Unable to initialize WP Filesystem."
+msgstr ""
+
+#: src/components/App/getAppText.js:94
+msgid "Working…"
+msgstr ""

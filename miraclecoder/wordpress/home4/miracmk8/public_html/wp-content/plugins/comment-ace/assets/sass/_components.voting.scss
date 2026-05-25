@@ -1,0 +1,100 @@
+.cace-comment-vote {
+	padding: 0;
+	border: none;
+
+	font-size: 0;
+	line-height: 24px;
+	letter-spacing: normal;
+	text-transform: none;
+	text-align: center;
+
+	border-radius: 12px;
+
+	color: inherit;
+	background-color: transparent;
+	border-color: transparent;
+
+	opacity: 0.5;
+
+	.cace-comment-score {
+		margin: side-values( 0 6px 0 2px);
+
+		font-size: 14px;
+		font-weight: normal;
+
+		vertical-align: middle;
+	}
+}
+
+.cace-comment-score-positive {
+	&:before {
+		content: "+";
+	}
+}
+
+
+button.cace-comment-vote,
+button.cace-comment-vote:hover {
+	box-shadow: none;
+}
+
+.cace-vote-icon {
+	&:before {
+		display: inline-block;
+		width: 24px;
+
+		font: 16px/1 "cace";
+
+		vertical-align: middle;
+	}
+}
+
+.cace-comment-score-total {
+	display: inline-block;
+	margin: 0 8px;
+
+	font-size: 13px;
+	font-size: var(--g1-mtxt-size, 13px);
+	line-height: 20px;
+
+	vertical-align: middle;
+}
+
+.cace-comment-score-0 {
+	display: none;
+}
+
+
+.cace-comment-vote-up .cace-vote-icon-chevron:before	{ content: "\e000"; }
+.cace-comment-vote-down .cace-vote-icon-chevron:before	{ content: "\e001"; }
+
+.cace-comment-vote-up .cace-vote-icon-arrow:before		{ content: "\e002"; }
+.cace-comment-vote-down .cace-vote-icon-arrow:before	{ content: "\e003"; }
+
+.cace-comment-vote-up .cace-vote-icon-plus:before		{ content: "\e004"; }
+.cace-comment-vote-down .cace-vote-icon-plus:before		{ content: "\e005"; }
+
+.cace-comment-vote-up .cace-vote-icon-smile:before		{ content: "\e006"; }
+.cace-comment-vote-down .cace-vote-icon-smile:before	{ content: "\e007"; }
+
+.cace-comment-vote-up .cace-vote-icon-thumb:before		{ content: "\e008"; }
+.cace-comment-vote-down .cace-vote-icon-thumb:before	{ content: "\e009"; }
+
+.cace-comment-vote-up .cace-vote-icon-caret:before		{ content: "\e010"; }
+.cace-comment-vote-down .cace-vote-icon-caret:before	{ content: "\e011"; }
+
+
+button.cace-comment-vote-up:hover,
+button.cace-comment-vote-up.cace-comment-vote-selected {
+	background-color: tint( #d0f7ca, 50% );
+	color: tint( #00b000, 25% );
+	opacity: 0.99;
+}
+
+
+button.cace-comment-vote-down:hover,
+button.cace-comment-vote-down.cace-comment-vote-selected {
+	background-color: tint( #ffcfda, 50% );
+	color: tint( #dc0024, 25% );
+	opacity: 0.99;
+}

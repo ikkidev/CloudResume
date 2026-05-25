@@ -1,0 +1,143 @@
+/**
+ * Forms
+ * ----------------------------------------------------------------------------
+ */
+
+$input-color: $color-gray-dark;
+$input-color-placeholder: $color-gray-medium;
+$input-background: $color-white;
+$input-border-width: 1px;
+$input-border-style: solid;
+$input-border-color: $color-gray-light-x;
+$input-border-focus-color: $color-primary;
+$input-padding: rem-calc(10 12);
+$input-height: rem-calc(45);
+$textarea-line-height: 1.25rem;
+
+/**
+ * Basic styling
+ */
+.wpgdprc {
+    input,
+    select {
+        margin: 0;
+    }
+
+    input:not([type]),
+    input[type='text'],
+    input[type='password'],
+    input[type='email'],
+    input[type='url'],
+    input[type='date'],
+    input[type='month'],
+    input[type='time'],
+    input[type='datetime'],
+    input[type='datetime-local'],
+    input[type='week'],
+    input[type='number'],
+    input[type='search'],
+    input[type='tel'],
+    select,
+    textarea {
+        @include text-s();
+        background: $input-background;
+        border: $input-border-width $input-border-style $input-border-color;
+        padding: $input-padding;
+        border-radius: $radius;
+        color: $input-color;
+        min-height: $input-height;
+        box-shadow: none;
+        box-sizing: border-box;
+        line-height: 1.625;
+        outline: none;
+        appearance: none;
+        appearance: none;
+        appearance: none;
+        width: 100%;
+
+        @include placeholder {
+            color: $input-color-placeholder;
+        }
+
+        &:focus,
+        &:focus-within {
+            border: $input-border-width $input-border-style $input-border-focus-color;
+            box-shadow: 0 0 0 $input-border-width $input-border-focus-color;
+        }
+    }
+
+
+    /**
+     * Textarea
+     */
+    textarea {
+        min-height: rem-calc(195);
+        line-height: $textarea-line-height;
+    }
+
+    /**
+     * Checkbox and radio
+     */
+    input[type='checkbox'],
+    input[type='radio'] {
+        box-sizing: border-box;
+        padding: 0;
+        display: block;
+        margin-right: 0.25rem;
+        margin-top: 2px;
+        clear: both;
+    }
+
+    /**
+     * Buttons
+     */
+    button,
+    input[type='button'],
+    input[type='reset'],
+    input[type='submit'] {
+        cursor: pointer;
+    }
+
+    /**
+     * Select with dropdown marker
+     */
+    select {
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 13 8' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.357 7.515l5.726-5.726a.328.328 0 000-.464l-.541-.542a.328.328 0 00-.465 0L6.125 5.724 1.173.784a.328.328 0 00-.465 0l-.541.54a.328.328 0 000 .465l5.726 5.726a.328.328 0 00.464 0z' fill='%235A5A5A' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+        background-position: right rem-calc(16) center;
+        background-repeat: no-repeat;
+        background-size: rem-calc(12);
+        padding-right: rem-calc(45);
+        max-width: 100%;
+    }
+
+    /**
+     * Disabled
+     */
+    button[disabled],
+    input[disabled],
+    select[disabled] {
+        cursor: default;
+    }
+
+    /**
+     * Search
+     */
+    input[type='search'] {
+        appearance: textfield;
+        box-sizing: content-box;
+    }
+
+    input[type='search']::-webkit-search-cancel-button,
+    input[type='search']::-webkit-search-decoration {
+        appearance: none;
+    }
+
+    /**
+     * Color
+     */
+    input[type='color'] {
+        background: $input-background;
+        border: $input-border-width $input-border-style $input-border-color;
+    }
+
+}

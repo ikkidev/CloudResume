@@ -1,0 +1,250 @@
+.bypostauthor {
+	/* By post author */
+}
+
+.comment {
+	position: relative;
+
+	.avatar {
+		position: absolute;
+		#{$left}: 0;
+		#{$right}: auto;
+	}
+}
+
+
+
+.comment-content {
+//	@include word-wrap();
+	margin-bottom: 10px;
+
+	font-size: 14px;
+	line-height: 20px;
+
+	p,
+	figure.cace-gif {
+		margin-bottom: 10px;
+	}
+
+	figure.cace-gif {
+		margin-top: 4px;
+	}
+}
+
+.comment-meta {
+	margin-bottom: 0.25em;
+
+	line-height: 20px;
+
+	.says {
+		display: none;
+	}
+
+	b {
+		> a {
+			color: inherit;
+		}
+	}
+}
+
+.comment-author {
+	display: inline-block;
+	margin-#{$right}: 8px;
+
+	text-align: #{$left};
+
+	> .avatar {
+		display: block;
+		position: absolute;
+		#{$right}: auto;
+		top: 0;
+
+		#{$left}: 0;
+	}
+}
+
+.comment-post-title {
+	> a {
+		color: inherit;
+	}
+}
+
+.comment-metadata {
+	display: inline-block;
+}
+
+b.fn {
+	margin-#{$right}: 0.333em;
+}
+
+
+.comment-date {
+	margin-#{$right}: 8px;
+}
+
+.comment-edit-link{
+	margin-#{$right}: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cace-badge {
+	display: inline-block;
+	padding: 0 4px;
+	margin-#{$right}: 0.333em;
+
+	font-size: 11px;
+	line-height: 16px;
+
+	border-radius: 2px;
+
+	background-color: #808080;
+	color: #fff;
+}
+
+.comment-footer {
+	@include display(flex);
+	@include align-items(center);
+	@include flex-wrap(wrap);
+
+	line-height: 24px;
+
+	.reply,
+	.cace-comment-votes {
+		margin-#{$right}: 10px;
+	}
+
+	.cace-comment-report {
+		margin-#{$left}: auto;
+	}
+}
+
+
+
+@import "components.comments.link";
+@import "components.comments.report";
+
+
+
+
+
+.comment > .cace-card {
+	//display: inline-block;
+	padding: 0;
+	margin: 0;
+
+	.comment-meta,
+	.comment-content,
+	.comment-footer {
+		padding: 0 $comment_padding_horizontal;
+	}
+
+	.comment-meta {
+		min-height: 0;
+		padding-top: 10px;
+		padding-bottom: 1px;
+		border-width: 1px 1px 0 1px;
+		margin: 0;
+
+		position: static;
+
+		border-style: solid;
+		border-radius: $comment_border_radius $comment_border_radius 0 0;
+		border-color: transparent;
+	}
+
+	.comment-content {
+		padding-top: 1px;
+		padding-bottom: 1px;
+		border-width: 0 1px 1px 1px;
+
+		border-style: solid;
+		border-radius: 0 0 $comment_border_radius $comment_border_radius;
+		border-color: transparent;
+	}
+
+	.comment-footer {
+		margin: -8px 0 2px;
+	}
+}
+
+
+.comment > .comment-respond {
+	margin-top: 20px;
+}
+
+
+.cace-comments-with-avatars {
+	.comment > .cace-card,
+	.comment > .comment-respond {
+		margin-#{$left}: $avatar_size + $avatar_gutter;
+	}
+
+	.children .comment > .cace-card {
+		margin-#{$left}: $avatar_child_size + $avatar_gutter;
+		padding-#{$left}: 0;
+	}
+}
+
+
+.comment > .cace-card-solid {
+	.comment-meta,
+	.comment-content {
+		background-color: #f2f2f2;
+		background-color: var(--g1-bg-tone-color, #f2f2f2);
+	}
+
+	.avatar {
+		top: 0;
+	}
+}
+
+.comment > .cace-card-simple {
+	.comment-meta,
+	.comment-content {
+		border-color: #e6e6e6;
+		border-color: var(--g1-border-color, #e6e6e6);
+	}
+
+	.avatar {
+		top: 0;
+	}
+}
+
+
+.comment > .cace-card-new {
+	> .comment-meta,
+	> .comment-content {
+		background-color: #e8fbe5;
+		background-color: var(--cace-new-bg-color, #e8fbe5);
+	}
+}
+
+.comment > .cace-card-featured {
+	> .comment-meta,
+	> .comment-content {
+		background-color: #e5f2ff;
+		background-color: var(--cace-featured-bg-color, #e5f2ff);
+	}
+}
+
+.comment > .cace-card-reported {
+	opacity: 0.5;
+}

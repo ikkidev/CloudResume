@@ -1,0 +1,48 @@
+{
+    "translation-revision-date": "2025-02-19 17:00",
+    "generator": "WP-CLI\/2.11.0",
+    "source": "build\/sitePreviewPortal\/bundle.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "fr_FR",
+                "plural-forms": "nplurals=2; plural=(n > 1);"
+            },
+            "Live": [
+                "En direct"
+            ],
+            "Site Preview": [
+                "Aper\u00e7u du site"
+            ],
+            "Not Live": [
+                "Pas en direct"
+            ],
+            "Your website is currently displaying a \"Coming Soon\" page.": [
+                "Votre site web affiche actuellement une page \u00ab Bient\u00f4t disponible \u00bb."
+            ],
+            "Your website is live to the world!": [
+                "Votre site web est en direct pour le monde entier !"
+            ],
+            "View": [
+                "Vue"
+            ],
+            "Edit": [
+                "\u00c9diter"
+            ],
+            "Ready to publish?": [
+                "Pr\u00eat \u00e0 publier ?"
+            ],
+            "Launch Site": [
+                "Ensemble de lancement"
+            ],
+            "Not ready to share it?": [
+                "Vous n\u2019\u00eates pas pr\u00eat \u00e0 le partager ?"
+            ],
+            "Enable Coming Soon": [
+                "Activer Bient\u00f4t disponible"
+            ]
+        }
+    }
+}

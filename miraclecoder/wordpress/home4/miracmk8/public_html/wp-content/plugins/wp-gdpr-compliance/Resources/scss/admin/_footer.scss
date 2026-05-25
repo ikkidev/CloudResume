@@ -1,0 +1,43 @@
+.wpgdprc-footer {
+    @include text-s();
+    @include font-weight-medium();
+    font-family: $font-primary;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-top: rem-calc(22);
+    margin-left: rem-calc(58);
+}
+
+p.wpgdprc-footer__developer {
+    margin: 0;
+
+    a {
+        align-items: flex-start;
+        color: $color-gray-dark;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-decoration: none;
+
+        @include hocus {
+            color: $color-primary;
+        }
+
+        svg.icon {
+            display: none;
+        }
+    }
+
+    svg {
+        order: 1;
+        width: rem-calc(235);
+        margin-top: rem-calc(6);
+    }
+}
+
+@include breakpoint($wp-medium) {
+    .wpgdprc-footer {
+        margin-left: rem-calc(205);
+    }
+}

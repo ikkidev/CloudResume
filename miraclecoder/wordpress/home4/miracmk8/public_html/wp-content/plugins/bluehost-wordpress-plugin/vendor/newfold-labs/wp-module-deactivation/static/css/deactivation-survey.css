@@ -1,0 +1,323 @@
+/* Utility classes */
+.nfd-hidden {
+    display: none !important;
+}
+
+.nfd-visually-hidden {
+    visibility: hidden;
+}
+
+.nfd-noscroll {
+    overflow-y: hidden !important;
+}
+/* End utility classes */
+
+#nfd-deactivation-survey {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    z-index: 100000;
+    --nfd-deactivation-overlay: rgba(43, 46, 56, 0.9);
+    --nfd-deactivation-background: #F8F8F8;
+    --nfd-deactivation-title: #242424;
+    --nfd-deactivation-text: #6C6B6B;
+}
+
+#nfd-deactivation-survey * {
+    box-sizing: border-box;
+}
+
+#nfd-deactivation-survey[aria-hidden="true"] {
+    display: none;
+}
+
+#nfd-deactivation-survey,
+.nfd-deactivation-survey__overlay,
+.nfd-deactivation-survey__disabled {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.nfd-deactivation-survey__overlay {
+    animation: nfd-fade-in 200ms both;
+    background-color: var(--nfd-deactivation-overlay);
+}
+
+.nfd-deactivation-survey__disabled {
+    z-index: 2;
+}
+
+.nfd-deactivation-survey__container {
+    background-color: var(--nfd-deactivation-background);
+    color: #3C434A;
+    max-height: 90dvh;
+    max-width: 780px;
+    border-radius: 5px;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+    animation: nfd-fade-in 400ms 200ms both, nfd-slide-up 400ms 200ms both;
+}
+
+.nfd-deactivation__content {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1.5rem;
+    width: 700px;
+    min-height: 500px;
+    padding: 2rem;
+}
+
+.nfd-deactivation__header,
+.nfd-deactivation__body,
+.nfd-deactivation__footer {
+    margin: 0 auto;
+    max-width: 99%;
+}
+
+.nfd-deactivation__header-title {
+    font-size: 2.1rem;
+    font-weight: 500;
+    line-height: 1.1em;
+    margin: 0 0 .75rem;
+    color: var(--nfd-deactivation-title);
+}
+
+.nfd-deactivation__header-subtitle {
+    font-size: 1.1rem;
+    line-height: 1.25em;
+    margin: 0;
+    color: var(--nfd-deactivation-text);
+}
+
+.nfd-deactivation__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.nfd-deactivation__card {
+    background-color: white;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #EBECF4;
+    border-radius: 4px;
+}
+
+.nfd-deactivation__card-title {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--nfd-deactivation-title);
+}
+
+.nfd-deactivation__card-desc {
+    color: var(--nfd-deactivation-text);
+}
+
+.nfd-deactivation-label {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.nfd-deactivation-textarea {
+    font-size: 1rem;
+    padding: .5em;
+    min-height: 10vh;
+    width: 100%;
+}
+
+.nfd-deactivation-survey__container button[aria-label="Close dialog"] {
+    border: none;
+    background-color: transparent;
+    color: #3C434A;
+    cursor: pointer;
+    font-size: 1.75rem;
+    line-height: unset;
+    padding: .5rem;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.nfd-deactivation-form {
+    width: 100%;
+}
+
+.nfd-deactivation-form .nfd-deactivation__body {
+    width: 85%;
+}
+
+.nfd-deactivation-fieldset {
+    border-top: 1px solid #dcdcde;
+    padding-top: 1rem;
+    text-align: left;
+}
+
+.nfd-deactivation-form label {
+    display: inline-block;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.nfd-deactivation-form textarea {
+    border-color: #8B8F94;
+    max-height: 150px;
+    min-height: 75px;
+    padding: 8px;
+    width: 100%;
+}
+
+.nfd-deactivation-form textarea::placeholder {
+    font-size: 13px;
+}
+
+.nfd-deactivation__footer {
+    padding-top: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+
+.nfd-deactivation__footer-actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.nfd-deactivation__footer-actions > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .75rem;
+}
+
+.nfd-deactivation__helptext p {
+    color: var(--nfd-deactivation-text);
+    font-size: .9rem;
+    margin: 0;
+}
+
+.nfd-deactivation-survey-action {
+    background-color: transparent;
+    border: none;
+    color: #525354;
+    cursor: pointer;
+    padding: 2px;
+    text-decoration: unset;
+}
+
+.nfd-deactivation-survey-action:hover {
+    text-decoration: underline;
+}
+
+.nfd-deactivation-survey-action:disabled {
+    opacity: .55;
+}
+
+.nfd-deactivation-survey_loading {
+    background: #e5ebf0;
+    border-radius: 99px;
+    display: inline-block;
+    height: 4.8px;
+    margin-top: 1rem;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.nfd-deactivation-survey_loading::after {
+    animation: nfd-submitting 1.5s linear infinite;
+    background: #2270B1;
+    border-radius: 99px;
+    box-sizing: border-box;
+    content: '';
+    height: 4.8px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 20%;
+}
+
+.nfd-deactivation__step {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    color: #8b8e9a;
+    font-size: 16px;
+    letter-spacing: 2.5px;
+    user-select: none;
+}
+
+/* mobile */
+@media screen and (max-width: 780px) {
+    .nfd-deactivation-survey__container {
+        max-width: 95vw;
+    }
+
+    .nfd-deactivation__content {
+        max-width: 100%;
+        padding: 1.2rem;
+        gap: 1rem;
+    }
+
+    .nfd-deactivation__header-title {
+        font-size: 1.6rem;
+    }
+
+    .nfd-deactivation__header-subtitle {
+        font-size: 1rem;
+    }
+
+    .nfd-deactivation__cards {
+        gap: .75rem;
+    }
+
+    .nfd-deactivation__card-title {
+        font-size: .9rem;
+    }
+
+    .nfd-deactivation-form .nfd-deactivation__body {
+        width: 99%;
+    }
+
+    .nfd-deactivation-form textarea {
+        max-height: 75px;
+    }
+}
+
+/* animations */
+@keyframes nfd-submitting {
+    0% {
+        left: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        left: 100%;
+        transform: translateX(0%);
+    }
+}
+
+@keyframes nfd-fade-in {
+    from {
+        opacity: 0;
+    }
+}
+
+@keyframes nfd-slide-up {
+    from {
+        transform: translateY(10%);
+    }
+}
+ 
+@media (max-width: 600px) {
+    .nfd-deactivation-survey__content-actions {
+        flex-direction: column;
+    }
+}

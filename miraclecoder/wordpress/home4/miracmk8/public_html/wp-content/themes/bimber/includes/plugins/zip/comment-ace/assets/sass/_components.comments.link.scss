@@ -1,0 +1,19 @@
+.cace-comment-link {
+	display: inline-block;
+	margin-#{$right}: 8px;
+
+	vertical-align: middle;
+
+	&:before {
+		margin-#{$right}: 2px;
+		font: 16px/1 cace;
+
+		vertical-align: middle;
+
+		content: "\e104";
+	}
+}
+
+.cace-comment-link-not-copied {
+	font-size: 0;
+}

@@ -1,0 +1,19 @@
+.wpgdprc-container {
+    order: 2;
+    width: 100%;
+    background-color: $color-white;
+    padding: $spacing;
+    box-shadow: $shadow-l;
+}
+
+@include breakpoint($wp-medium) {
+    .wpgdprc-container {
+        padding: rem-calc(20);
+    }
+}
+
+@include breakpoint($wp-large) {
+    .wpgdprc-container {
+        padding: $spacing-l;
+    }
+}

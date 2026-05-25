@@ -1,0 +1,42 @@
+button.cace-comment-report {
+	display: inline-block;
+	margin-#{$right}: 1.5em;
+
+	vertical-align: middle;
+
+	font-size: 0;
+
+	&:before {
+		margin-#{$right}: 2px;
+		font: 16px/1 cace;
+
+		vertical-align: middle;
+
+		content: "\e107";
+	}
+}
+
+.cace-report-form-info {
+	margin-bottom: 10px;
+
+	font-weight: bold;
+}
+
+.cace-report-form-text {
+	margin-bottom: 6px;
+
+	position: relative;
+
+	#cace-report-text {
+		display: block;
+	}
+}
+
+.cace-report-form-actions {
+	@include display(flex);
+	@include flex-wrap(wrap);
+
+	#cace-report-submit {
+		margin-#{$left}: auto;
+	}
+}

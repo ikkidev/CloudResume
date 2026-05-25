@@ -1,0 +1,302 @@
+/**
+ * Adace Admin CSS
+ */
+#adace_slots-form{
+  position: relative;
+  display: block;
+  margin-top: 20px;
+}
+
+#adace_slots-form .postbox{
+    margin-bottom:4px;
+}
+
+#adace_slots-form .postbox .hndle{
+    font-size: 14px;
+    padding: 8px 12px;
+    margin: 0;
+    line-height: 1.4;
+	cursor: pointer;
+}
+
+#adace_slots-form .postbox .inside{
+    padding-bottom: 0;
+}
+
+/* Active */
+#adace_slots-form .postbox .hndle:before {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 0 6px;
+
+    border-radius: 50%;
+}
+
+
+
+#adace_slots-form .postbox.adace-with-ad .hndle:before {
+    background-color: #46b450;
+
+    content: "";
+}
+
+#adace_slots-form .postbox.adace-without-ad .hndle:before {
+    background-color: #dc3232;
+    background-color: #ff6969;
+
+    content: "";
+}
+
+
+
+#adace_slots-form .postbox .handlediv .toggle-indicator::before{
+	margin-top: 4px;
+    width: 20px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-indent: -1px;
+	content: "\f142";
+    display: inline-block;
+    font: 400 20px/1 dashicons;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none!important;
+}
+
+#adace_slots-form .postbox.closed .handlediv .toggle-indicator::before{
+	content: "\f140";
+}
+.adace-settings-section{
+    padding: 0px 24px;
+}
+
+.adace-settings-section .form-table td{
+    padding-left:0px;
+}
+
+.adace-settings-section th[scope=col]{
+    padding-top:6px;
+    padding-bottom:6px;
+}
+
+.inside #adace-ad-settings .adace-settings-section h2{
+    font-size:24px;
+}
+
+#poststuff .adace-tab-wrapper{
+    padding:0px;
+    padding-top:9px;
+}
+
+.adace-ad-section{
+    max-width: 768px;
+    margin-bottom: 3em;
+}
+
+.adace-ad-section .postbox .handlediv {
+    float: right;
+}
+
+body.rtl .adace-ad-section .postbox .handlediv {
+    float: left;
+}
+
+.adace-ad-section h3:only-child{
+    display:none;
+}
+
+.adace-post-ad-section h3:only-child{
+    display:none;
+}
+
+.wp-admin select.adace-multiple-with-none{
+    height: 170px;
+}
+
+.adace-collection-ad-not-selected + tr{
+    display:none;
+}
+
+.adace-collection-ad-not-selected + tr + tr{
+    display:none;
+}
+
+.adace-datapicker{
+	padding: 3px 20px 3px 5px;
+	width: 159px;
+}
+.adace-datapicker-wrap{
+	position: relative;
+	display: inline-block;
+}
+.adace-datapicker-wrap input{
+	cursor: pointer;
+}
+.adace-datapicker-wrap:before{
+	content: "\f145";
+    position: absolute;
+	pointer-events: none;
+    right: 4px;
+    top: 6px;
+    display: inline-block;
+	font: 400 16px/1 dashicons;
+    speak: none;
+    margin-left: -1px;
+    padding-right: 3px;
+    vertical-align: top;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* Pin Box Header */
+.adace-metabox-header{
+}
+.adace-metabox-header .header-label{
+	position: relative;
+	display: inline-block;
+	padding: 2px 0;
+}
+.adace-metabox-header label{
+	position: relative;
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.adace-metabox-tab{
+	display: none;
+}
+.adace-metabox-tab.current{
+	display: table-row;
+}
+
+.adace-widget-header .header-label{
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+}
+.adace-widget-header label{
+	position: relative;
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.adace-widget-tab{
+	display: none;
+}
+.adace-widget-tab.current{
+	display: block;
+}
+
+.adace-slot-settings th{
+}
+.adace-slot-settings .field-inside-input.horizontal{
+	display: inline-block;
+}
+
+
+.adace-product-list {
+    display: flex;
+
+
+    position: relative;
+
+
+
+    width: 480px;
+    max-width: 100%;
+}
+
+.adace-product-list input {
+    margin-right: 8px;
+    margin-left: 0;
+
+    flex: 1 1 auto;
+}
+
+.rtl .adace-product-list input {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+
+
+.adace-product-list ul {
+    box-sizing: border-box;
+    width: 100%;
+    height: 120px;
+    padding: 4px 0;
+    border-width: 1px;
+    margin: 0;
+    overflow: scroll;
+
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 0;
+    right: 0;
+
+    border-style: solid;
+    border-radius: 4px;
+
+    border-color: #8c8f94;
+    background-color: #fff;
+}
+
+.adace-product-list li {
+    padding: 4px 8px;
+    margin: 0;
+
+    cursor: pointer;
+}
+
+.adace-product-list li:hover {
+    cursor: pointer;
+
+    background-color: #e1e1e1;
+}
+
+
+
+
+@-webkit-keyframes adace-anim-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+    }
+}
+@keyframes adace-anim-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(359deg);
+    }
+}
+
+.adace-spinner {
+    display: inline-block;
+    margin: 0 8px;
+    visibility: hidden;
+
+    vertical-align: middle;
+
+    opacity: 0.5;
+}
+
+.adace-spinner:before {
+    vertical-align: middle;
+    line-height: inherit;
+}
+
+.adace-loading .adace-spinner {
+    visibility: visible;
+
+    -webkit-animation: adace-anim-spin 2s infinite linear;
+       -moz-animation: adace-anim-spin 2s infinite linear;
+            animation: adace-anim-spin 2s infinite linear;
+}

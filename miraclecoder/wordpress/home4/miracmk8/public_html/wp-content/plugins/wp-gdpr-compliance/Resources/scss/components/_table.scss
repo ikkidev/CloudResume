@@ -1,0 +1,73 @@
+.wpgdprc-table {
+    width: 100%;
+    margin-bottom: rem-calc(16);
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.wpgdprc-table__th {
+    font-weight: bold;
+}
+
+.wpgdprc-table__td::before {
+    content: attr(data-title);
+    position: absolute;
+    display: none;
+    font-weight: bold;
+    top: rem-calc(10);
+    left: rem-calc(10);
+    width: 45%;
+    padding-right: rem-calc(10);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@include breakpoint(small down) {
+    // Force table to not be like tables anymore
+    .wpgdprc-table,
+    .wpgdprc-table__thead,
+    .wpgdprc-table__tbody,
+    .wpgdprc-table__th,
+    .wpgdprc-table__td,
+    .wpgdprc-table__tr {
+        display: block;
+    }
+
+    //  Hide table headers (but not display: none;, for accessibility)
+    .wpgdprc-table__tr--thead {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    .wpgdprc-table__tr--tbody:nth-of-type(even) {
+        background-color: $color-gray-light;
+    }
+
+    .wpgdprc-table__td {
+        border-top: 0;
+        border-right: 0;
+        border-left: 0;
+        position: relative;
+        padding-left: 50%;
+        min-height: rem-calc(40);
+
+        &::before {
+            display: block;
+        }
+    }
+}
+
+@include breakpoint(medium) {
+    .wpgdprc-table {
+        border-collapse: collapse;
+
+        .wpgdprc-table__td,
+        .wpgdprc-table__th {
+            padding: rem-calc(6);
+            text-align: left;
+        }
+    }
+}

@@ -1,0 +1,152 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://github.com/newfold-labs/wp-module-help-center/issues\n"
+"Last-Translator: Vara Prasad Maruboina <varaprasad.maruboina@newfold.com>\n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-02-13T09:55:55+00:00\n"
+"PO-Revision-Date: 2025-02-19 21:36+0530\n"
+"Language: en_AU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: wp-module-help-center\n"
+"X-Generator: WP-CLI 2.11.0\n"
+
+#: includes/CapabilityController.php:76
+msgid "We could not find the brand"
+msgstr "We could not find the brand"
+
+#: includes/CapabilityController.php:93
+#: includes/MultiSearchController.php:192
+#: includes/UserInteractionController.php:81
+msgid "You must be authenticated to make this call"
+msgstr "You must be authenticated to make this call"
+
+#: includes/HelpCenter.php:147
+msgid "Help"
+msgstr "Help"
+
+#: build/index.js:1
+msgid "Did this result help you?"
+msgstr "Did this result help you?"
+
+#: build/index.js:1
+msgid "Thanks for the feedback!"
+msgstr "Thanks for the feedback!"
+
+#: build/index.js:1
+msgid "You can try searching our <a href=\"{link}\">Resource center.</a> though to see if there’s a helpful article or video on that subject."
+msgstr "You can try searching our <a href=\"{link}\">Resource center.</a> though to see if there’s a helpful article or video on that subject."
+
+#: build/index.js:1
+msgid "Search Help Center"
+msgstr "Search Help Center"
+
+#: build/index.js:1
+msgid "submit text"
+msgstr "submit text"
+
+#: build/index.js:1
+msgid "Please enter a specific search term to get results."
+msgstr "Please enter a specific search term to get results."
+
+#: build/index.js:1
+msgid "Account Support"
+msgstr "Account Support"
+
+#: build/index.js:1
+msgid "Help with WordPress"
+msgstr "Help with WordPress"
+
+#: build/index.js:1
+msgid "Close Help Modal"
+msgstr "Close Help Modal"
+
+#: includes/MultiSearchController.php:132
+#: includes/MultiSearchController.php:171
+msgid "The request failed"
+msgstr "The request failed"
+
+#: includes/MultiSearchController.php:138
+#: includes/MultiSearchController.php:177
+msgid "No data found"
+msgstr "No data found"
+
+#: includes/HelpCenter.php:122
+msgid "NFD helpcenter data"
+msgstr "NFD helpcenter data"
+
+#: build/index.js:1
+msgid "If you need help with your Bluehost account, give us a call at "
+msgstr "If you need help with your Bluehost account, give us a call at"
+
+#: build/index.js:1
+msgid " with one of our support agents — we're here for you!"
+msgstr "with one of our support agents — we're here for you!"
+
+#: build/index.js:1
+msgid "Your dream site is just a click away."
+msgstr "Your dream site is just a click away."
+
+#: build/index.js:1
+msgid "Let's build a site you love, together."
+msgstr "Let's build a site you love, together."
+
+#: build/index.js:1
+msgid "With Pro Design Live, our expert team bring your vision to life. We help you to create and the site you’ve always dreamed of — tailored to your goals, ready to perform."
+msgstr "With Pro Design Live, our expert team bring your vision to life. We help you to create and the site you’ve always dreamed of — tailored to your goals, ready to perform."
+
+#: build/index.js:1
+msgid "Start Now"
+msgstr "Start Now"
+
+#: build/index.js:1
+msgid "Back"
+msgstr "Back"
+
+#: build/index.js:1
+msgid "We're sorry the suggestions didn’t help."
+msgstr "We're sorry the suggestions didn’t help."
+
+#: build/index.js:1
+msgid "Try to:"
+msgstr "Try to:"
+
+#: build/index.js:1
+msgid "Use different keywords in the search field."
+msgstr "Use different keywords in the search field."
+
+#: build/index.js:1
+msgid "A clear, short prompt can make the difference."
+msgstr "A clear, short prompt can make the difference."
+
+#: build/index.js:1
+msgid "Reach out to our customer support."
+msgstr "Reach out to our customer support."
+
+#: build/index.js:1
+msgid "Call at"
+msgstr "Call at"
+
+#: build/index.js:1
+msgid "or"
+msgstr "or"
+
+#: build/index.js:1
+msgid "with one of our support agents — we will assist you as soon as possible."
+msgstr "with one of our support agents — we will assist you as soon as possible."
+
+#: build/index.js:1
+msgid "Hey there! I’m here to help you find your way around WordPress. </br></br> If you’re not sure how to do something, just ask — I’ll walk you through it step by step. I’m still learning, so I might not have every answer, but I’ll do my best to help!"
+msgstr "Hey there! I’m here to help you find your way around WordPress. </br></br> If you’re not sure how to do something, just ask — I’ll walk you through it step by step. I’m still learning, so I might not have every answer, but I’ll do my best to help!"
+
+#: build/index.js:1
+#, js-format
+msgid "Sorry, I don’t have any information on %s yet."
+msgstr "Sorry, I don’t have any information on %s yet."
+
+#: build/index.js:1
+msgid "Ask anything about WordPress"
+msgstr "Ask anything about WordPress"

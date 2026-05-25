@@ -1,0 +1,21 @@
+{
+    "translation-revision-date": "2025-02-19 16:31",
+    "generator": "WP-CLI\/2.11.0",
+    "source": "build\/index.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "fr_FR",
+                "plural-forms": "nplurals=2; plural=(n > 1);"
+            },
+            "Connected": [
+                "Connect\u00e9"
+            ],
+            "Connect Facebook": [
+                "Connecter Facebook"
+            ]
+        }
+    }
+}

@@ -1,0 +1,3835 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-4.9.1"
+
+msgctxt "widgets"
+msgid ""
+"<div class=\"g1-meta\">%1$s on </div><div class=\"entry-title g1-epsilon g1-"
+"epsilon-1st\">%2$s</div>"
+msgstr ""
+
+msgid "Ooops, sorry! We couldn't find it"
+msgstr ""
+
+msgid "You have requested a page or file which doesn't exist"
+msgstr ""
+
+msgid "Search Our Website"
+msgstr ""
+
+msgid "Report a Problem"
+msgstr ""
+
+msgid ""
+"Please write some descriptive information about your problem, and email our "
+"<a href=\"%s\">webmaster</a>."
+msgstr ""
+
+msgid "Back to the Homepage"
+msgstr ""
+
+msgid ""
+"You can also <a href=\"%s\">go back to the homepage</a> and start browsing "
+"from there."
+msgstr ""
+
+msgid "Page: Intermediate"
+msgstr ""
+
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Leave a Reply"
+msgstr ""
+
+msgid "Pages"
+msgstr ""
+
+msgid "One Ping"
+msgid_plural "%1$s Pings & Trackbacks"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Posts by %s"
+msgstr ""
+
+msgid "Continue reading"
+msgstr ""
+
+msgid "Page: No Sidebar"
+msgstr ""
+
+msgid "Search Results for: %s"
+msgstr ""
+
+msgid "Yearly Archives"
+msgstr ""
+
+msgid "Monthly Archives"
+msgstr ""
+
+msgid "Daily Archives"
+msgstr ""
+
+msgid "Back to Top"
+msgstr ""
+
+msgid "View community profile"
+msgstr ""
+
+msgctxt "placeholder"
+msgid "Search for:"
+msgstr ""
+
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+msgid ""
+"This product cannot be displayed. Please check if there are products in the "
+"product injection category you selected."
+msgstr ""
+
+msgid ""
+"This product cannot be displayed. The <strong>%s</strong> plugin is not "
+"activated."
+msgstr ""
+
+msgid "Rank"
+msgstr ""
+
+msgid "Injection slot %d"
+msgstr ""
+
+msgid "No \"id\" was set in the arguments array for the slot."
+msgstr ""
+
+msgid "No \"render_callback\" was set in the arguments array for the slot."
+msgstr ""
+
+msgid "Primary Navigation"
+msgstr ""
+
+msgid "Secondary Navigation"
+msgstr ""
+
+msgid "User Navigation"
+msgstr ""
+
+msgid "Footer Navigation"
+msgstr ""
+
+msgid "Home Filters"
+msgstr ""
+
+msgid "More stories"
+msgstr ""
+
+msgid "Oldest"
+msgstr ""
+
+msgid "Most Discussed"
+msgstr ""
+
+msgid "Most Shared"
+msgstr ""
+
+msgid "Most Viewed"
+msgstr ""
+
+msgid "Most Upvoted"
+msgstr ""
+
+msgid "Latest stories"
+msgstr ""
+
+msgid "Subterms"
+msgstr ""
+
+msgid "View Gallery"
+msgstr ""
+
+msgid "Read More"
+msgstr ""
+
+msgid "More"
+msgstr ""
+
+msgctxt "formatted number suffix"
+msgid "M"
+msgstr ""
+
+msgctxt "formatted number suffix"
+msgid "k"
+msgstr ""
+
+msgctxt "Type of comments"
+msgid "Our site <span class=\"count\">%d</span>"
+msgstr ""
+
+msgctxt "Type of comments"
+msgid "Our site"
+msgstr ""
+
+msgctxt "font family"
+msgid "Font"
+msgstr ""
+
+msgctxt "font style"
+msgid "Style"
+msgstr ""
+
+msgctxt "font size"
+msgid "Size"
+msgstr ""
+
+msgid "Line Height"
+msgstr ""
+
+msgid "Letter Spacing"
+msgstr ""
+
+msgid "Text Transform"
+msgstr ""
+
+msgid "- None -"
+msgstr ""
+
+msgctxt "text transform"
+msgid "don't change"
+msgstr ""
+
+msgctxt "text transform"
+msgid "UPPERCASE"
+msgstr ""
+
+msgctxt "text transform"
+msgid "lowercase"
+msgstr ""
+
+msgctxt "text transform"
+msgid "Capitalize Each Word"
+msgstr ""
+
+msgid "Sans Serif Google Fonts"
+msgstr ""
+
+msgid "Serif Google Fonts"
+msgstr ""
+
+msgid "Display Google Fonts"
+msgstr ""
+
+msgid "Handwriting Google Fonts"
+msgstr ""
+
+msgid "Monospace Google Fonts"
+msgstr ""
+
+msgctxt "font option"
+msgid "Thin"
+msgstr ""
+
+msgctxt "font option"
+msgid "Extra Light"
+msgstr ""
+
+msgctxt "font option"
+msgid "Light"
+msgstr ""
+
+msgctxt "font option"
+msgid "Normal"
+msgstr ""
+
+msgctxt "font option"
+msgid "Medium"
+msgstr ""
+
+msgctxt "font option"
+msgid "Semi Bold"
+msgstr ""
+
+msgctxt "font option"
+msgid "Bold"
+msgstr ""
+
+msgctxt "font option"
+msgid "Extra Bold"
+msgstr ""
+
+msgctxt "font option"
+msgid "Black"
+msgstr ""
+
+msgctxt "font option"
+msgid "Italic"
+msgstr ""
+
+msgctxt "font option"
+msgid "Regular"
+msgstr ""
+
+msgid "Default Web Fonts"
+msgstr ""
+
+msgid "Search term not set!"
+msgstr ""
+
+msgid "Search params missing!"
+msgstr ""
+
+msgid "Post id not set!"
+msgstr ""
+
+msgctxt "tag delimiter"
+msgid ","
+msgstr ""
+
+msgid "Shares"
+msgstr ""
+
+msgid "View"
+msgid_plural "Views"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "<strong itemprop=\"commentCount\">0</strong> <span>Comments</span>"
+msgstr ""
+
+msgid "<strong itemprop=\"commentCount\">1</strong> <span>Comment</span>"
+msgstr ""
+
+msgid "<strong itemprop=\"commentCount\">%</strong> <span>Comments</span>"
+msgstr ""
+
+msgid "Downloads"
+msgstr ""
+
+msgid "Vote"
+msgid_plural "Votes"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "in"
+msgstr ""
+
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr ""
+
+msgid "updated %2$s"
+msgstr ""
+
+msgid "by"
+msgstr ""
+
+msgid "Trending"
+msgstr ""
+
+msgid "Hot"
+msgstr ""
+
+msgid "Popular"
+msgstr ""
+
+msgid "Open list"
+msgstr ""
+
+msgid "Next post"
+msgstr ""
+
+msgctxt "sidebar name"
+msgid "Primary"
+msgstr ""
+
+msgctxt "sidebar name"
+msgid "Secondary"
+msgstr ""
+
+msgctxt "sidebar name"
+msgid "Home"
+msgstr ""
+
+msgid "Leave empty to use the Primary sidebar"
+msgstr ""
+
+msgid "Home 2nd"
+msgstr ""
+
+msgid "Leave empty to use the Secondary sidebar"
+msgstr ""
+
+msgctxt "sidebar name"
+msgid "Single Post"
+msgstr ""
+
+msgctxt "sidebar name"
+msgid "Post Archives"
+msgstr ""
+
+msgid ""
+"For posts archive pages (categories, tags). Leave empty to use the Primary "
+"sidebar"
+msgstr ""
+
+msgid "Post Archives 2nd"
+msgstr ""
+
+msgid ""
+"For posts archive pages (categories, tags). Leave empty to use the Secondary "
+"sidebar"
+msgstr ""
+
+msgctxt "sidebar name"
+msgid "Pages"
+msgstr ""
+
+msgctxt "sidebar name"
+msgid "Footer %d"
+msgstr ""
+
+msgid "Not Safe For Work"
+msgstr ""
+
+msgid "Click to view this post"
+msgstr ""
+
+msgid "View full post"
+msgstr ""
+
+msgid "Latest"
+msgstr ""
+
+msgctxt "Top page"
+msgid "Today"
+msgstr ""
+
+msgctxt "Top page"
+msgid "This month"
+msgstr ""
+
+msgctxt "Top page"
+msgid "All time"
+msgstr ""
+
+msgid "Logo"
+msgstr ""
+
+msgid "Mobile Logo"
+msgstr ""
+
+msgid "Primary Nav"
+msgstr ""
+
+msgid "Secondary Nav"
+msgstr ""
+
+msgid "Hamburger"
+msgstr ""
+
+msgid "Quick Nav"
+msgstr ""
+
+msgid "Top X link"
+msgstr ""
+
+msgid "Quick Nav (small)"
+msgstr ""
+
+msgid "Social icons list"
+msgstr ""
+
+msgid "Social icons dropdown"
+msgstr ""
+
+msgid "Search Dropdown"
+msgstr ""
+
+msgid "Search Form"
+msgstr ""
+
+msgid "Skin Switcher"
+msgstr ""
+
+msgid "NSFW Switcher"
+msgstr ""
+
+msgid "User Dropdown"
+msgstr ""
+
+msgid "Create Button"
+msgstr ""
+
+msgid "Language Selector"
+msgstr ""
+
+msgid "Cart Dropdown"
+msgstr ""
+
+msgid "Ad Slot"
+msgstr ""
+
+msgid "Newsletter Dropdown"
+msgstr ""
+
+msgid "says:"
+msgstr ""
+
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+msgid "Pingback:"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Website"
+msgstr ""
+
+msgid "Comment"
+msgstr ""
+
+msgid "Recent"
+msgstr ""
+
+msgid "none"
+msgstr ""
+
+msgid "All time"
+msgstr ""
+
+msgid "Last 30 days"
+msgstr ""
+
+msgid "Last 7 days"
+msgstr ""
+
+msgid "Last 24 hours"
+msgstr ""
+
+msgid "Load More"
+msgstr ""
+
+msgid "Infinite Scroll"
+msgstr ""
+
+msgid "Infinite Scroll (first load via click)"
+msgstr ""
+
+msgid "Prev/Next Pages"
+msgstr ""
+
+msgid "Featured Media"
+msgstr ""
+
+msgid "Categories"
+msgstr ""
+
+msgid "Subtitle"
+msgstr ""
+
+msgid "Summary"
+msgstr ""
+
+msgid "Author"
+msgstr ""
+
+msgid "Avatar"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Views"
+msgstr ""
+
+msgid "Comments Link"
+msgstr ""
+
+msgid "Call to Action"
+msgstr ""
+
+msgid "Icon"
+msgstr ""
+
+msgid "Breadcrumbs"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Filters"
+msgstr ""
+
+msgid "inject into post collection"
+msgstr ""
+
+msgid "Hide"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "3 columns"
+msgstr ""
+
+msgid "4 columns"
+msgstr ""
+
+msgid "Become a Patron"
+msgstr ""
+
+msgid "<strong>%d</strong> submission already"
+msgid_plural "<strong>%d</strong> submissions already"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "End date:"
+msgstr ""
+
+msgid "Ends in"
+msgstr ""
+
+msgid "+ Add yours"
+msgstr ""
+
+msgid "+ Add first item"
+msgstr ""
+
+msgid "Most viewed stories"
+msgstr ""
+
+msgid "Most shared stories"
+msgstr ""
+
+msgid "Previous"
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
+msgid "No featured entries match the criteria."
+msgstr ""
+
+msgid "For more information please refer to the documentation."
+msgstr ""
+
+msgid "You May Also Like"
+msgstr ""
+
+msgid "Written by <a href=\"%s\"><span itemprop=\"name\" >%s</span></a>"
+msgstr ""
+
+msgid "See more"
+msgstr ""
+
+msgid "Previous article"
+msgstr ""
+
+msgid "Next article"
+msgstr ""
+
+msgid "Sorry. No data so far."
+msgstr ""
+
+msgid "Total"
+msgstr ""
+
+msgid "Today"
+msgstr ""
+
+msgid "Best"
+msgstr ""
+
+msgid "View all points"
+msgstr ""
+
+msgid "Apologies, but no results were found."
+msgstr ""
+
+msgid "View comments"
+msgstr ""
+
+msgid "Comments"
+msgstr ""
+
+msgid "Don't Miss"
+msgstr ""
+
+msgid "View all formats"
+msgstr ""
+
+msgid "List item"
+msgstr ""
+
+msgid "Submitted to <a href=\"%s\">\"%s\"</a>"
+msgstr ""
+
+msgid "Approved"
+msgstr ""
+
+msgid "Pending for review"
+msgstr ""
+
+msgid "View all results"
+msgstr ""
+
+msgid "More From: <a href=\"%s\">%s</a>"
+msgstr ""
+
+msgctxt "Top page"
+msgid "All collections are disabled."
+msgstr ""
+
+msgid ""
+"Please check if the Wordpress Popular Posts plugin is activated. The theme "
+"uses it to calculate this list entries."
+msgstr ""
+
+msgid "Menu"
+msgstr ""
+
+msgid "See the full version of this page"
+msgstr ""
+
+msgid "Go to the Shop"
+msgstr ""
+
+msgid "Body text"
+msgstr ""
+
+msgid "Giga Heading"
+msgstr ""
+
+msgid "Mega Heading"
+msgstr ""
+
+msgid "H1 Heading"
+msgstr ""
+
+msgid "H2 Heading"
+msgstr ""
+
+msgid "H3 Heading"
+msgstr ""
+
+msgid "H4 Heading"
+msgstr ""
+
+msgid "H5 Heading"
+msgstr ""
+
+msgid "H6 Heading"
+msgstr ""
+
+msgid "Subheading H3"
+msgstr ""
+
+msgid "Subheading H4"
+msgstr ""
+
+msgid "Metatext"
+msgstr ""
+
+msgid "Submenus"
+msgstr ""
+
+msgid "Buttons"
+msgstr ""
+
+msgid "Tabs"
+msgstr ""
+
+msgid "Blockquotes"
+msgstr ""
+
+msgid "Loading&hellip;"
+msgstr ""
+
+msgctxt "Type of comments"
+msgid "Disqus <span class=\"count\">%d</span>"
+msgstr ""
+
+msgctxt "Type of comments"
+msgid "Disqus"
+msgstr ""
+
+msgctxt "Type of comments"
+msgid "Facebook <span class=\"count\">%d</span>"
+msgstr ""
+
+msgctxt "Type of comments"
+msgid "Facebook"
+msgstr ""
+
+msgctxt "Youzer Integration"
+msgid ""
+"Youzer plugin is active and overrides this option. Manage the login popup "
+"using Youzer %s"
+msgstr ""
+
+msgctxt "Youzer Integration"
+msgid ""
+"Youzer plugin is active and overrides this option. Manage the social login "
+"using Youzer %s"
+msgstr ""
+
+msgctxt "Youzer Integration"
+msgid ""
+"Youzer plugin is active and overrides this option. Manage the captcha "
+"protection using Youzer %s"
+msgstr ""
+
+msgctxt "BuddyPress register form"
+msgid "Register with your social network:"
+msgstr ""
+
+msgctxt "BuddyPress register form"
+msgid "With social network:"
+msgstr ""
+
+msgctxt "BuddyPress register form"
+msgid "Or register with your email:"
+msgstr ""
+
+msgid "Before header theme area"
+msgstr ""
+
+msgid "Before content theme area"
+msgstr ""
+
+msgid "After featured entries"
+msgstr ""
+
+msgid "Before \"You May Also Like\" section"
+msgstr ""
+
+msgid "Before \"More From\" section"
+msgstr ""
+
+msgid "Before comments area"
+msgstr ""
+
+msgid "Before \"Don't Miss\" section"
+msgstr ""
+
+msgid "Inside grid collection"
+msgstr ""
+
+msgid "Inside list collection"
+msgstr ""
+
+msgid "Inside classic collection"
+msgstr ""
+
+msgid "Inside stream collection"
+msgstr ""
+
+msgid "On the left side of stream collection"
+msgstr ""
+
+msgid "On the right side of stream collection"
+msgstr ""
+
+msgid "Media"
+msgstr ""
+
+msgid "Add Image"
+msgstr ""
+
+msgid "Remove Image"
+msgstr ""
+
+msgid "Image"
+msgstr ""
+
+msgid "Label"
+msgstr ""
+
+msgid "Text Color"
+msgstr ""
+
+msgid "Background Color"
+msgstr ""
+
+msgid "Header"
+msgstr ""
+
+msgid "Edit Default Options"
+msgstr ""
+
+msgid "Header Composition"
+msgstr ""
+
+msgid "default (%s)"
+msgstr ""
+
+msgid "Hide Elements"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Change"
+msgstr ""
+
+msgid "Optional Background Gradient"
+msgstr ""
+
+msgid "Optional Text Color"
+msgstr ""
+
+msgid "Background Image"
+msgstr ""
+
+msgid "Background Size"
+msgstr ""
+
+msgctxt "background size option"
+msgid "auto"
+msgstr ""
+
+msgctxt "background size option"
+msgid "cover"
+msgstr ""
+
+msgctxt "background size option"
+msgid "contain"
+msgstr ""
+
+msgid "Background Repeat"
+msgstr ""
+
+msgctxt "background repeat option"
+msgid "no repeat"
+msgstr ""
+
+msgctxt "background repeat option"
+msgid "repeat"
+msgstr ""
+
+msgctxt "background repeat option"
+msgid "repeat x"
+msgstr ""
+
+msgctxt "background repeat option"
+msgid "repeat y"
+msgstr ""
+
+msgid "Featured Entries"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Leave empty to use the default value"
+msgstr ""
+
+msgid "Hide Title"
+msgstr ""
+
+msgid "Template"
+msgstr ""
+
+msgid "Gutter"
+msgstr ""
+
+msgid "Time Range"
+msgstr ""
+
+msgid "Main Collection"
+msgstr ""
+
+msgid "Sidebar Location"
+msgstr ""
+
+msgid "Sidebar"
+msgstr ""
+
+msgid "Inject embeds into featured media"
+msgstr ""
+
+msgid "Entries per page"
+msgstr ""
+
+msgid "Leave empty to use the default value (%s)"
+msgstr ""
+
+msgid "Pagination"
+msgstr ""
+
+msgid "Call to Action - Hide Buttons"
+msgstr ""
+
+msgid "Newsletter"
+msgstr ""
+
+msgid "Inject newsletter after post"
+msgstr ""
+
+msgid "Ad"
+msgstr ""
+
+msgid "Inject ad after post"
+msgstr ""
+
+msgid "Product"
+msgstr ""
+
+msgid "Inject product after post"
+msgstr ""
+
+msgid "<a style=\"color: #ff0000;\" href=\"%s\">Register theme to unlock</a>"
+msgstr ""
+
+msgid "Viral Front-End Uploader with Open Lists"
+msgstr ""
+
+msgid "Social media profile icons"
+msgstr ""
+
+msgid "Share your reaction to a post, using nice looking badges"
+msgstr ""
+
+msgid "Your media assistant"
+msgstr ""
+
+msgid "Ad manager"
+msgstr ""
+
+msgid "Comments manager"
+msgstr ""
+
+msgid "Mix photos without a graphics editor"
+msgstr ""
+
+msgid "Frontend and backend page builder"
+msgstr ""
+
+msgid "Automatic theme updates"
+msgstr ""
+
+msgid "Install Required Plugins"
+msgstr ""
+
+msgid "Install Plugins"
+msgstr ""
+
+msgid "Installing Plugin: %s"
+msgstr ""
+
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s plugins."
+" Contact the administrator of this site for help on getting the plugins "
+"installed."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s plugin."
+" Contact the administrator of this site for help on getting the plugin "
+"activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+msgid "Plugin activated successfully."
+msgstr ""
+
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+msgid "updated"
+msgstr ""
+
+msgid "Featured Image"
+msgstr ""
+
+msgid "Turn into Mega Menu"
+msgstr ""
+
+msgid "inherit"
+msgstr ""
+
+msgctxt "sidebar location"
+msgid "Left"
+msgstr ""
+
+msgctxt "sidebar location"
+msgid "Right"
+msgstr ""
+
+msgctxt "Admin page label"
+msgid "Bimber, Link Landing Page"
+msgstr ""
+
+msgctxt "Admin page label"
+msgid "Bimber, Top Posts Page"
+msgstr ""
+
+msgctxt "Admin page label"
+msgid "Bimber, Trending Posts Page"
+msgstr ""
+
+msgctxt "Admin page label"
+msgid "Bimber, Hot Posts Page"
+msgstr ""
+
+msgctxt "Admin page label"
+msgid "Bimber, Popular Posts Page"
+msgstr ""
+
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+msgid "You have to activate the AdAce plugin to utilize that ad spot."
+msgstr ""
+
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr ""
+
+msgctxt "Work Sans font: on or off"
+msgid "on"
+msgstr ""
+
+msgctxt "Roboto font: on or off"
+msgid "on"
+msgstr ""
+
+msgctxt "Rajdhani font: on or off"
+msgid "on"
+msgstr ""
+
+msgctxt "Amethysta font: on or off"
+msgid "on"
+msgstr ""
+
+msgctxt "Spartan font: on or off"
+msgid "on"
+msgstr ""
+
+msgctxt "Poppins font: on or off"
+msgid "on"
+msgstr ""
+
+msgctxt "Roboto Condensed font: on or off"
+msgid "on"
+msgstr ""
+
+msgctxt "Fira Sans font: on or off"
+msgid "on"
+msgstr ""
+
+msgctxt "Fira Sans Condensed font: on or off"
+msgid "on"
+msgstr ""
+
+msgctxt "PT Serif font: on or off"
+msgid "on"
+msgstr ""
+
+msgctxt "IBM Plex Sans font: on or off"
+msgid "on"
+msgstr ""
+
+msgctxt "Rubik font: on or off"
+msgid "on"
+msgstr ""
+
+msgctxt "Shares"
+msgid "Facebook App Id not set in Theme Options > Shares"
+msgstr ""
+
+msgctxt "Shares"
+msgid "Share on Facebook"
+msgstr ""
+
+msgctxt "Shares"
+msgid "Share on Twitter"
+msgstr ""
+
+msgctxt "Shares"
+msgid "Share on Pinterest"
+msgstr ""
+
+msgctxt "Shares"
+msgid "Post Content Images"
+msgstr ""
+
+msgctxt "Shares > Position Type"
+msgid "built-in"
+msgstr ""
+
+msgctxt "Shares"
+msgid "New Badge Popup"
+msgstr ""
+
+msgctxt "Shares > Position Type"
+msgid "myCRED plugin integration"
+msgstr ""
+
+msgid "%s plugin is not activated"
+msgstr ""
+
+msgctxt "Shares"
+msgid "New Rank Popup"
+msgstr ""
+
+msgctxt "Shares"
+msgid "Gallery Lightbox"
+msgstr ""
+
+msgctxt "Shares > Position Type"
+msgid "MediaAce plugin integration"
+msgstr ""
+
+msgctxt "Shares"
+msgid "Snax"
+msgstr ""
+
+msgctxt "Shares > Position Type"
+msgid "plugin"
+msgstr ""
+
+msgctxt "Shares"
+msgid "Easy Social Share Buttons for WordPress"
+msgstr ""
+
+msgctxt "Shares"
+msgid "Mashshare Share Buttons"
+msgstr ""
+
+msgid "Cache file was successfully saved on disk."
+msgstr ""
+
+msgid "Caching process failed. Cache file was not saved on disk."
+msgstr ""
+
+msgid ""
+"Please check if the directory \"wp-content/uploads\" is writable by your web "
+"server."
+msgstr ""
+
+msgid ""
+"When fixed, please apply some changes in WP Customizer and publish them to "
+"rebuild cache file. Back here then to see if it works."
+msgstr ""
+
+msgid "Posted by <a href=\"%s\"><span itemprop=\"name\" >%s</span></a>"
+msgstr ""
+
+msgid "Pages:"
+msgstr ""
+
+msgid "Page %1$d of %2$d"
+msgstr ""
+
+msgid "Next page"
+msgstr ""
+
+msgid "Previous page"
+msgstr ""
+
+msgctxt "Menu"
+msgid "Go to"
+msgstr ""
+
+msgctxt "Newsletter"
+msgid "Check out this great article: %subject%"
+msgstr ""
+
+msgctxt "BuddyPress Profile Link"
+msgid "More"
+msgstr ""
+
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+msgid "Remove Sidebar"
+msgstr ""
+
+msgid "Are you sure you want to do this?"
+msgstr ""
+
+msgid "Some errors occurred. Sidebar couldn't be removed."
+msgstr ""
+
+msgid "Removing&hellip;"
+msgstr ""
+
+msgid "Sidebar is not empty. Plese remove all widgets first."
+msgstr ""
+
+msgid "Add a new sidebar"
+msgstr ""
+
+msgid "Enter a unique name"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "The \"%s\" sidebar already exists! Please use a different name."
+msgstr ""
+
+msgid "Profile page of %s"
+msgstr ""
+
+msgid "After pagination"
+msgstr ""
+
+msgid "Inside header"
+msgstr ""
+
+msgid "Inside zigzag collection"
+msgstr ""
+
+msgid ""
+"The %s ad cannot be displayed. The <strong>%s</strong> plugin is not "
+"activated."
+msgstr ""
+
+msgid "After featured content"
+msgstr ""
+
+msgid "Inside small grid collection"
+msgstr ""
+
+msgid "The %s ad cannot be displayed here due to one of following reasons"
+msgstr ""
+
+msgid "the slot has no ad assigned"
+msgstr ""
+
+msgctxt "Ads"
+msgid "Assign"
+msgstr ""
+
+msgid "the maximum number of ads on this page has been reached"
+msgstr ""
+
+msgctxt "Ads"
+msgid "Check"
+msgstr ""
+
+msgid "Before pagination"
+msgstr ""
+
+msgid "This content is restricted to paid subscribers"
+msgstr ""
+
+msgid "New here?"
+msgstr ""
+
+msgid "Register"
+msgstr ""
+
+msgid "Already have an account?"
+msgstr ""
+
+msgid "Login"
+msgstr ""
+
+msgid "This content is restricted to registered users"
+msgstr ""
+
+msgid "Redirecting you to \"%s\""
+msgstr ""
+
+msgid "in %s second"
+msgid_plural "in %s seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid ""
+"Please <a href=\"%s\">click here</a> if you have not been redirected "
+"automatically."
+msgstr ""
+
+msgid "Share"
+msgstr ""
+
+msgid "Congratulations. You've reached the end of the internet."
+msgstr ""
+
+msgid "Downloading \"%s\""
+msgstr ""
+
+msgid ""
+"Please <a href=\"%s\">click here</a> if downloading doesn't run "
+"automatically."
+msgstr ""
+
+msgid "Please enter some text to search."
+msgstr ""
+
+msgid "Promoted Product"
+msgstr ""
+
+msgid "Shop <em>With</em> Me"
+msgstr ""
+
+msgctxt "button"
+msgid "Close"
+msgstr ""
+
+msgid ""
+"This newsletter cannot be displayed. The <strong>%s</strong> plugin is not "
+"activated."
+msgstr ""
+
+msgid "Activate the G1 Socials plugin to use the Instagram module."
+msgstr ""
+
+msgid ""
+"Instagram module disabled. Please enable it in the WP Admin > Settings > G1 "
+"Socials > Instagram."
+msgstr ""
+
+msgid ""
+"Instagram not configured. Please set it up in the WP Admin > Settings > G1 "
+"Socials > Instagram."
+msgstr ""
+
+msgid ""
+"Instagram module not configured. Please set it up in the WP Admin > Settings "
+"> G1 Socials > Instagram."
+msgstr ""
+
+msgid "I've earned a badge! "
+msgstr ""
+
+msgid "Congratulations!"
+msgstr ""
+
+msgid "You earned a badge!"
+msgstr ""
+
+msgid "- level "
+msgstr ""
+
+msgctxt "Share button"
+msgid "Facebook"
+msgstr ""
+
+msgctxt "Share button"
+msgid "Twitter"
+msgstr ""
+
+msgid "I've earned a rank! "
+msgstr ""
+
+msgid "You have been promoted!"
+msgstr ""
+
+msgid "You have been demoted!"
+msgstr ""
+
+msgid "What do you think?"
+msgstr ""
+
+msgid "Take the Poll"
+msgstr ""
+
+msgid "Item navigation"
+msgstr ""
+
+msgid "Previous submission"
+msgstr ""
+
+msgid "Next submission"
+msgstr ""
+
+msgid "View full list"
+msgstr ""
+
+msgid "Add your submission"
+msgstr ""
+
+msgid "Bimber Newsletter Form"
+msgstr ""
+
+msgid "Get the best viral stories straight into your inbox!"
+msgstr ""
+
+msgid "Don't worry, we don't spam"
+msgstr ""
+
+msgid "Hey Friend!<br>Before You Go..."
+msgstr ""
+
+msgid ""
+"Get the best viral stories straight into your inbox before everyone else!"
+msgstr ""
+
+msgid "Don't miss out on new posts!"
+msgstr ""
+
+msgid "Want more stuff like this?"
+msgstr ""
+
+msgid "Mailchimp for WP Plugin"
+msgstr ""
+
+msgid "Privacy"
+msgstr ""
+
+msgid "Privacy text"
+msgstr ""
+
+msgid "Popup"
+msgstr ""
+
+msgid "Enabled?"
+msgstr ""
+
+msgid "Cover"
+msgstr ""
+
+msgid "Slide Up"
+msgstr ""
+
+msgid "works only with background templates"
+msgstr ""
+
+msgid "Before Collection"
+msgstr ""
+
+msgid "In Collection"
+msgstr ""
+
+msgid "After Post Content"
+msgstr ""
+
+msgid "Before footer"
+msgstr ""
+
+msgid "Widget"
+msgstr ""
+
+msgid "Use the [bimber_mc4wp_form] shortcode."
+msgstr ""
+
+msgctxt "newsletter template"
+msgid "Box vertical"
+msgstr ""
+
+msgctxt "newsletter template"
+msgid "Box horizontal"
+msgstr ""
+
+msgctxt "newsletter template"
+msgid "Box horizontal large"
+msgstr ""
+
+msgctxt "newsletter template"
+msgid "Background vertical"
+msgstr ""
+
+msgctxt "newsletter template"
+msgid "Background horizontal"
+msgstr ""
+
+msgid "What's Your Reaction Plugin"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Show reactions in header"
+msgstr ""
+
+msgid "Show entry reactions in collections"
+msgstr ""
+
+msgid "Show entry reactions on single post"
+msgstr ""
+
+msgid "WooCommerce Single Product"
+msgstr ""
+
+msgid "Leave empty to use the WooCommerce sidebar"
+msgstr ""
+
+msgid "%d product"
+msgid_plural "%d products"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Bimber Setup"
+msgstr ""
+
+msgid "Show Cart in the Header"
+msgstr ""
+
+msgid "always"
+msgstr ""
+
+msgid "on WooCommerce pages"
+msgstr ""
+
+msgid "no"
+msgstr ""
+
+msgid "Show sidebar on single product"
+msgstr ""
+
+msgid "Show"
+msgstr ""
+
+msgid "Open product links"
+msgstr ""
+
+msgid "in a new window"
+msgstr ""
+
+msgid "in the same window"
+msgstr ""
+
+msgid "Open affiliate links"
+msgstr ""
+
+msgid "On download page"
+msgstr ""
+
+msgid "Download Monitor Plugin"
+msgstr ""
+
+msgid "Hide downloads"
+msgstr ""
+
+msgid ""
+"If you fill in any number here, the downloads for a specific post are not "
+"shown until the download count of this number is reached."
+msgstr ""
+
+msgid "Download method"
+msgstr ""
+
+msgid "Direct download"
+msgstr ""
+
+msgid "Download page"
+msgstr ""
+
+msgid "Run a download action from a separate page."
+msgstr ""
+
+msgid "Download delay (in seconds)"
+msgstr ""
+
+msgid "Set to 0 to disable the delay counter."
+msgstr ""
+
+msgid "Item Design"
+msgstr ""
+
+msgid "Show if highlighted"
+msgstr ""
+
+msgctxt "Admin page label"
+msgid "Bimber, Download landing page"
+msgstr ""
+
+msgid "Here are my links!"
+msgstr ""
+
+msgid "Shop with me"
+msgstr ""
+
+msgid "More products"
+msgstr ""
+
+msgid "AdAce Plugin"
+msgstr ""
+
+msgid "Links Before Main Collection"
+msgstr ""
+
+msgid "Show affiliate disclosure"
+msgstr ""
+
+msgid "Links Category"
+msgstr ""
+
+msgid "Simple list."
+msgstr ""
+
+msgid "Semitransparent"
+msgstr ""
+
+msgid "Links Before Footer"
+msgstr ""
+
+msgid "Promoted Products"
+msgstr ""
+
+msgid "Embed code"
+msgstr ""
+
+msgid "You can choose more than one."
+msgstr ""
+
+msgid "Embed Code"
+msgstr ""
+
+msgid "E.g. from ShopStyle Collective or rewardStyle"
+msgstr ""
+
+msgid "Hide price"
+msgstr ""
+
+msgid "Hide add to cart"
+msgstr ""
+
+msgid "\"More\" Link Label"
+msgstr ""
+
+msgid "Promoted Single Product"
+msgstr ""
+
+msgid "WooCommerce Product"
+msgstr ""
+
+msgid "Activate the %s plugin"
+msgstr ""
+
+msgid "Coupon %s Inside"
+msgstr ""
+
+msgid "Coupon Inside"
+msgstr ""
+
+msgid "Bimber Custom Slots"
+msgstr ""
+
+msgid "Before \"Comments\" section"
+msgstr ""
+
+msgid "After link exit counter"
+msgstr ""
+
+msgctxt "Restrict Content Pro menu endpoint"
+msgid "Paid"
+msgstr ""
+
+msgctxt "Restrict Content Pro menu endpoint"
+msgid "Free"
+msgstr ""
+
+msgid "Members %s Only"
+msgstr ""
+
+msgid "Members Only"
+msgstr ""
+
+msgid "Elementor Page Builder Content"
+msgstr ""
+
+msgid "Inject content from page"
+msgstr ""
+
+msgid "Only top level pages allowed"
+msgstr ""
+
+msgid ""
+"<a class=\"bimber-elementor-page-id\" href=\"%s\" target=\"_blank\">Edit "
+"page</a>"
+msgstr ""
+
+msgid ""
+"<a class=\"bimber-elementor-page-id\" href=\"%s\" target=\"_blank\">Edit "
+"using front-end builder</a>"
+msgstr ""
+
+msgid "Elementor Page Builder is inactive"
+msgstr ""
+
+msgid ""
+"Please install and activate the Elementor Page Builder plugin to edit your "
+"homepage."
+msgstr ""
+
+msgctxt "Admin page label"
+msgid "Bimber, Elementor Home Injected Page"
+msgstr ""
+
+msgctxt "Easy Social Share Buttons integration"
+msgid "Bimber: Before Content"
+msgstr ""
+
+msgctxt "Easy Social Share Buttons integration"
+msgid "Bimber: After Content"
+msgstr ""
+
+msgctxt "Easy Social Share Buttons integration"
+msgid "Bimber: Compact"
+msgstr ""
+
+msgctxt "Easy Social Share Buttons integration"
+msgid "Bimber: Mini"
+msgstr ""
+
+msgctxt "Easy Social Share Buttons integration"
+msgid "Bimber: Content Side"
+msgstr ""
+
+msgctxt "Easy Social Share Buttons integration"
+msgid "Bimber: Side"
+msgstr ""
+
+msgid "Bimber Featured Author"
+msgstr ""
+
+msgid "Show a featured author member card"
+msgstr ""
+
+msgid "Posts"
+msgstr ""
+
+msgid "BuddyPress Plugin"
+msgstr ""
+
+msgid "Show sidebar on BuddyPress pages"
+msgstr ""
+
+msgid "Archive Template"
+msgstr ""
+
+msgid "Short Description"
+msgstr ""
+
+msgid "Long Description"
+msgstr ""
+
+msgid "Less than five minutes ago"
+msgstr ""
+
+msgid "Never"
+msgstr ""
+
+msgid "Additional info"
+msgstr ""
+
+msgid "Member since"
+msgstr ""
+
+msgid "Last online"
+msgstr ""
+
+msgid "Followers"
+msgstr ""
+
+msgid "Show a list of member avatars of the user's followers."
+msgstr ""
+
+msgid "Play the Quiz"
+msgstr ""
+
+msgid "Add to List"
+msgstr ""
+
+msgid "Data"
+msgstr ""
+
+msgid "Filter by Snax format"
+msgstr ""
+
+msgctxt "Snax integration"
+msgid "Play quiz in new window"
+msgstr ""
+
+msgctxt "Snax integration"
+msgid "Take poll in new window"
+msgstr ""
+
+msgid "Votes"
+msgstr ""
+
+msgid "Voting Box"
+msgstr ""
+
+msgid "Color scheme"
+msgstr ""
+
+msgid "Dark"
+msgstr ""
+
+msgid "WPBakery Page Builder Home Static"
+msgstr ""
+
+msgctxt "Admin page label"
+msgid "Bimber, WP Bakery Home Injected Page"
+msgstr ""
+
+msgid "WPBakery Page Builder Content"
+msgstr ""
+
+msgid ""
+"<a class=\"bimber-vc-page-id\" href=\"%s\" target=\"_blank\">Edit page</a>"
+msgstr ""
+
+msgid ""
+"<a class=\"bimber-vc-page-id\" href=\"%s\" target=\"_blank\">Edit using "
+"front-end builder</a>"
+msgstr ""
+
+msgid "WPBakery Page Builder is inactive"
+msgstr ""
+
+msgid ""
+"Please install and activate the WPBakery Page Builder plugin to edit your "
+"homepage."
+msgstr ""
+
+msgid "pts"
+msgstr ""
+
+msgid "Users with badge: "
+msgstr ""
+
+msgid "Level: "
+msgstr ""
+
+msgid "Locked"
+msgstr ""
+
+msgid "Widget title"
+msgstr ""
+
+msgid "HTML id attribute (optional)"
+msgstr ""
+
+msgid "HTML class(es) attribute (optional)"
+msgstr ""
+
+msgid "Points"
+msgstr ""
+
+msgid "Activate plugin to enable this option"
+msgstr ""
+
+msgid "Badges"
+msgstr ""
+
+msgid "Most points"
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid "Design"
+msgstr ""
+
+msgid "Footer"
+msgstr ""
+
+msgctxt "Customizer"
+msgid "-- don't inject --"
+msgstr ""
+
+msgid "Enter tablet landscape preview mode"
+msgstr ""
+
+msgid "Enter mobile landscape preview mode"
+msgstr ""
+
+msgid "Visit Direct Link"
+msgstr ""
+
+msgid "Create"
+msgstr ""
+
+msgid "Demo data import type not allowed. Allowed values: %s."
+msgstr ""
+
+msgid "Image number has to be specified."
+msgstr ""
+
+msgid "Demo data uninstall type not allowed. Allowed values: %s."
+msgstr ""
+
+msgid "%s (Invalid)"
+msgstr ""
+
+msgid "%s (Pending)"
+msgstr ""
+
+msgid "sub item"
+msgstr ""
+
+msgid "Move up"
+msgstr ""
+
+msgid "Move down"
+msgstr ""
+
+msgid "Edit menu item"
+msgstr ""
+
+msgid "URL"
+msgstr ""
+
+msgid "Navigation Label"
+msgstr ""
+
+msgid "Title Attribute"
+msgstr ""
+
+msgid "Open link in a new tab"
+msgstr ""
+
+msgid "CSS Classes (optional)"
+msgstr ""
+
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+msgid "Move"
+msgstr ""
+
+msgid "Up one"
+msgstr ""
+
+msgid "Down one"
+msgstr ""
+
+msgid "To the top"
+msgstr ""
+
+msgid "Original: %s"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Tracking code (in &lsaquo;head&rsaquo;)"
+msgstr ""
+
+msgid "Tracking code (after <body>)"
+msgstr ""
+
+msgid "AMP Tracking code (in <head>)"
+msgstr ""
+
+msgid "AMP Tracking code (after <body>)"
+msgstr ""
+
+msgid "Tracking"
+msgstr ""
+
+msgid "Popular Collection"
+msgstr ""
+
+msgid "Hot Collection"
+msgstr ""
+
+msgid "Trending Collection"
+msgstr ""
+
+msgid "Import myCRED content"
+msgstr ""
+
+msgid "Remove myCRED content"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Integrations"
+msgstr ""
+
+msgid "myCRED elements"
+msgstr ""
+
+msgid "Hooks"
+msgstr ""
+
+msgid "Ranks"
+msgstr ""
+
+msgid "Import"
+msgstr ""
+
+msgid "Show details"
+msgstr ""
+
+msgid "Generated at"
+msgstr ""
+
+msgid "ID"
+msgstr ""
+
+msgid "Tasks"
+msgstr ""
+
+msgid "Lists are calculated based on"
+msgstr ""
+
+msgid "Change criteria in"
+msgstr ""
+
+msgid "Theme Options"
+msgstr ""
+
+msgid "Dashboard"
+msgstr ""
+
+msgid "Registration"
+msgstr ""
+
+msgid "Demos"
+msgstr ""
+
+msgid "GDPR"
+msgstr ""
+
+msgid "Advanced"
+msgstr ""
+
+msgid "Third-party APIs"
+msgstr ""
+
+msgid "Save Changes"
+msgstr ""
+
+msgid "Select an image"
+msgstr ""
+
+msgid "Clear"
+msgstr ""
+
+msgid "All options imported successfuly."
+msgstr ""
+
+msgid "Popular posts generated successfully."
+msgstr ""
+
+msgid "Hot posts generated successfully."
+msgstr ""
+
+msgid "Trending posts generated successfully."
+msgstr ""
+
+msgid ""
+"To use social login you have to agree with the storage and handling of your "
+"data by this website."
+msgstr ""
+
+msgid "Welcome to Bimber Theme"
+msgstr ""
+
+msgid "Join Our Community"
+msgstr ""
+
+msgid "Never Miss a News"
+msgstr ""
+
+msgid ""
+"Stay up to date with all upcoming updates, important notes and announcements."
+" Follow us on <a href=\"%s\" target=\"_blank\">Facebook</a> or <a "
+"href=\"%s\" target=\"_blank\">Twitter</a>."
+msgstr ""
+
+msgid "Rate the Theme"
+msgstr ""
+
+msgid ""
+"If you are happy with our theme and support, please don't forget to rate the "
+"theme on <a href=\"%s\" target=\"_blank\">ThemeForest</a>. Thanks in advance."
+msgstr ""
+
+msgid "Need Some Help?"
+msgstr ""
+
+msgid "Check Online Documentation"
+msgstr ""
+
+msgid ""
+"All information about theme installation, configuration and customization "
+"can be found in our <a href=\"%s\" target=\"_blank\">online documentation</a>"
+"."
+msgstr ""
+
+msgid "Use Support Centre"
+msgstr ""
+
+msgid ""
+"Support is conducted through our <a href=\"%s\" target=\"_blank\">Support "
+"Centre</a>, where you can submit your questions, bug-findings, etc."
+msgstr ""
+
+msgid "Enable GDPR"
+msgstr ""
+
+msgid "WP Social Login consent text"
+msgstr ""
+
+msgid ""
+"You can use: %privacy_policy% to create a link to the Privacy Policy page."
+msgstr ""
+
+msgid "Enable GDPR integration"
+msgstr ""
+
+msgid "The Bimber theme uses the WP GDPR Compliance for GDPR integration."
+msgstr ""
+
+msgid ""
+"<a href=\"%s\" class=\"g1-install-wp-gdpr-compliance\">Install the WP GDPR "
+"Compliance</a> plugin."
+msgstr ""
+
+msgid ""
+"<a href=\"%s\" class=\"g1-install-wp-gdpr-compliance\">Activate the WP GDPR "
+"Compliance</a> plugin."
+msgstr ""
+
+msgid "Installing the WP GDPR Compliance plugin..."
+msgstr ""
+
+msgid ""
+"WP GDPR Compliance is ready to use, <a href=\"%s\">go to the plugin's "
+"settings</a>."
+msgstr ""
+
+msgid "The WP GDPR Compliance plugin installation failed."
+msgstr ""
+
+msgid "<a href=\"%s\" target=\"_blank\">See details</a>."
+msgstr ""
+
+msgid "You have to register the Bimber Theme to import demos"
+msgstr ""
+
+msgid ""
+"Please visit the %s section and follow activation steps to import all demos."
+msgstr ""
+
+msgid "Choose Your Demo"
+msgstr ""
+
+msgid "Select components to uninstall:"
+msgstr ""
+
+msgid "This component was not installed"
+msgstr ""
+
+msgid "Content (posts, pages, images, menus)"
+msgstr ""
+
+msgid "Widgets"
+msgstr ""
+
+msgid "Import:"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "Install"
+msgstr ""
+
+msgid "Preview"
+msgstr ""
+
+msgid "Uninstall"
+msgstr ""
+
+msgid "Dismiss this notice."
+msgstr ""
+
+msgctxt "Theme Options Heading"
+msgid "Facebook"
+msgstr ""
+
+msgctxt "Settings"
+msgid "App ID"
+msgstr ""
+
+msgctxt "Settings"
+msgid "App Secret"
+msgstr ""
+
+msgid ""
+"How do I get my <strong>App ID</strong>? Use this <a href=\"%s\" "
+"target=\"_blank\">guide</a> for help."
+msgstr ""
+
+msgid ""
+"How do I get my <strong>App Secret</strong>? Use this <a href=\"%s\" "
+"target=\"_blank\">guide</a> for help."
+msgstr ""
+
+msgctxt "Theme Options"
+msgid ""
+"ERROR. External CSS file cannot be saved to disk. Change permissions to "
+"allow server to write to directory %s"
+msgstr ""
+
+msgid "Last action status"
+msgstr ""
+
+msgid "Load dynamic CSS using"
+msgstr ""
+
+msgid "internal stylesheet (inside <head>)"
+msgstr ""
+
+msgid "external CSS file (recommended)"
+msgstr ""
+
+msgid "Register theme"
+msgstr ""
+
+msgid ""
+"You're almost done. Just one more step. In order to gain full access to all "
+"demos, premium plugins and support, please register your theme's purchase "
+"code."
+msgstr ""
+
+msgid "Registration Completed &#127881;"
+msgstr ""
+
+msgid "Your theme is registered and ready to use."
+msgstr ""
+
+msgid "Your Envato Purchase Code"
+msgstr ""
+
+msgid "Where to find the code?"
+msgstr ""
+
+msgid "Deregister the purchase code"
+msgstr ""
+
+msgid ""
+"I confirm that, according to the Envato License Terms, I am licensed to use "
+"the purchase code for a single project. Using it on multiple installations "
+"is a copyright violation."
+msgstr ""
+
+msgid "License details."
+msgstr ""
+
+msgctxt "Theme activation"
+msgid "Register Theme"
+msgstr ""
+
+msgid "Token Registration"
+msgstr ""
+
+msgid ""
+"When automatic registration fails, please unlock the theme using this token "
+"method. Click the following link to get your individual token and enter it "
+"below."
+msgstr ""
+
+msgid "Generate token"
+msgstr ""
+
+msgctxt "Theme activation"
+msgid "Register Theme with Token"
+msgstr ""
+
+msgid "Fake Views"
+msgstr ""
+
+msgid "Fake view count"
+msgstr ""
+
+msgid ""
+"Leave empty to use global settings or use a positive number (inclusive 0) to "
+"override them."
+msgstr ""
+
+msgid "Nonce incorrect!"
+msgstr ""
+
+msgid "Single Page"
+msgstr ""
+
+msgid ""
+"If option is set to \"inherit\" it uses <a href=\"%s\">Single Post</a> "
+"global setup."
+msgstr ""
+
+msgid "Global Featured Entries"
+msgstr ""
+
+msgctxt "Metabox title"
+msgid "Video Options"
+msgstr ""
+
+msgid ""
+"The \"Auto Video Length\" module from the MediaAce plugin is not enabled. "
+"Video length cannot be set automatically."
+msgstr ""
+
+msgctxt "Link to documentation"
+msgid "Learn more"
+msgstr ""
+
+msgid "Video length"
+msgstr ""
+
+msgctxt "Video meta box label"
+msgid "unknown"
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+msgid "Manual video length"
+msgstr ""
+
+msgid "seconds"
+msgstr ""
+
+msgctxt "Video metabox field description"
+msgid "Use this field if the video length cannot be automatically obtained"
+msgstr ""
+
+msgid "Video URL"
+msgstr ""
+
+msgid "Random post"
+msgstr ""
+
+msgid "Random posts"
+msgstr ""
+
+msgid "Add to Menu"
+msgstr ""
+
+msgid "Single Page Header Options"
+msgstr ""
+
+msgid "Composition"
+msgstr ""
+
+msgctxt "Shares Settings"
+msgid "Enabled"
+msgstr ""
+
+msgctxt "Shares Settings"
+msgid "Debug mode"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Facebook App ID"
+msgstr ""
+
+msgid "Positions"
+msgstr ""
+
+msgid "yes"
+msgstr ""
+
+msgctxt "Shares Settings"
+msgid "Use this option to disable entire module and all share slots at once"
+msgstr ""
+
+msgid "disabled"
+msgstr ""
+
+msgid "enabled"
+msgstr ""
+
+msgctxt "Shares Settings"
+msgid ""
+"Enable to log share details into the JavaScript console (Google Chrome "
+"DevTools, Firefox Developer Tools)"
+msgstr ""
+
+msgctxt "Theme Options"
+msgid "The Facebook App ID is not set."
+msgstr ""
+
+msgctxt "Theme Options"
+msgid "The Facebook App ID is set."
+msgstr ""
+
+msgctxt "Theme Options"
+msgid "Change"
+msgstr ""
+
+msgctxt "Shares"
+msgid "Available"
+msgstr ""
+
+msgctxt "Shares"
+msgid "Not available"
+msgstr ""
+
+msgctxt "Shares"
+msgid "Enabled"
+msgstr ""
+
+msgctxt "Shares"
+msgid "Networks"
+msgstr ""
+
+msgid "Tag Archives: %s"
+msgstr ""
+
+msgid "Author Archives: %s"
+msgstr ""
+
+msgid "Search results"
+msgstr ""
+
+msgid "404 - page not found"
+msgstr ""
+
+msgid "You are here: "
+msgstr ""
+
+msgid "Bimber Taxonomy Filter"
+msgstr ""
+
+msgid "Filter posts by a taxonomy"
+msgstr ""
+
+msgctxt "Widget Taxonomy Filter"
+msgid "No filters available"
+msgstr ""
+
+msgctxt "Taxonomy Filter Widget"
+msgid "Show All (%d)"
+msgstr ""
+
+msgctxt "Taxonomy Filter Widget"
+msgid "Filter"
+msgstr ""
+
+msgctxt "Taxonomy Filter Widget"
+msgid "Show filter counts"
+msgstr ""
+
+msgctxt "Taxonomy Filter Widget"
+msgid "Show selected filters first"
+msgstr ""
+
+msgctxt "Taxonomy Filter Widget"
+msgid "Show \"View all\" button after"
+msgstr ""
+
+msgctxt "Taxonomy Filter Widget"
+msgid "items"
+msgstr ""
+
+msgctxt "Taxonomy Filter Widget"
+msgid "Hide widget if no filters"
+msgstr ""
+
+msgctxt "Bimber Taxonomy Filter"
+msgid "Filter by Tags"
+msgstr ""
+
+msgid "Bimber Posts"
+msgstr ""
+
+msgid "A list of trending posts."
+msgstr ""
+
+msgid "No posts match the widget criteria"
+msgstr ""
+
+msgid ""
+"Please check if there are posts that match all the below criteria. If not, "
+"remove the wrong ones in the widget settings."
+msgstr ""
+
+msgctxt "Posts Widget"
+msgid "Time range: %s"
+msgstr ""
+
+msgctxt "Posts Widget"
+msgid "Categories: %s"
+msgstr ""
+
+msgctxt "Posts Widget"
+msgid "Tags: %s"
+msgstr ""
+
+msgid "The max. number of entries to show"
+msgstr ""
+
+msgid "Sort by"
+msgstr ""
+
+msgid "Publish date"
+msgstr ""
+
+msgid "Categories (optional)"
+msgstr ""
+
+msgid "Tags (optional)"
+msgstr ""
+
+msgid "Trending Now"
+msgstr ""
+
+msgid "Bimber Sticky Start Point"
+msgstr ""
+
+msgid "Use this widget to define place where sticky elements starts"
+msgstr ""
+
+msgid "Offset"
+msgstr ""
+
+msgid ""
+"If you have some sticky elements on your site (e.g. menu), they can overlap "
+"on sticky sidebar. Set offset here to move the sidebar down."
+msgstr ""
+
+msgid "Sticky widget container height (in px)"
+msgstr ""
+
+msgid ""
+"Space inside which a sticky widget can float while scrolling (e.g. 1000). 0 -"
+" all subsequent widgets float together"
+msgstr ""
+
+msgid "Number of subsequent widgets to be sticky"
+msgstr ""
+
+msgid "0 - all subsequent widgets will be sticky"
+msgstr ""
+
+msgid "Ranking"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Subscribe"
+msgstr ""
+
+msgid "Cart"
+msgstr ""
+
+msgid "Log Out"
+msgstr ""
+
+msgid "Toggle NSFW"
+msgstr ""
+
+msgid "NSFW"
+msgstr ""
+
+msgid ""
+"Disable the <abbr title=\"Not Suitable For Work\">NSFW</abbr> warnings that "
+"refer to content considered inappropriate in the workplace (<strong>"
+"N</strong>ot <strong>S</strong>uitable <strong>F</strong>or <strong>"
+"W</strong>ork)."
+msgstr ""
+
+msgid "Follow us"
+msgstr ""
+
+msgid "Switch skin"
+msgstr ""
+
+msgid "Switch to the light mode that's kinder on your eyes at day time."
+msgstr ""
+
+msgid "Switch to the dark mode that's kinder on your eyes at night time."
+msgstr ""
+
+msgid "Latest <span>story</span>"
+msgstr ""
+
+msgid "Most <span>shared</span>"
+msgstr ""
+
+msgid "Most <span>viewed</span>"
+msgstr ""
+
+msgid "Latest story"
+msgstr ""
+
+msgid "View All"
+msgstr ""
+
+msgid "%d entry"
+msgid_plural "%d entries"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Bimber"
+msgstr ""
+
+msgid "Leave empty to use the default value."
+msgstr ""
+
+msgid "Bimber Collection"
+msgstr ""
+
+msgid "Select display style for items."
+msgstr ""
+
+msgid "Card Style"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Solid"
+msgstr ""
+
+msgid "Simple"
+msgstr ""
+
+msgid "Subtle"
+msgstr ""
+
+msgid "Columns"
+msgstr ""
+
+msgid "Size"
+msgstr ""
+
+msgid "Align"
+msgstr ""
+
+msgid "Center"
+msgstr ""
+
+msgid "Narrow posts to a specific period of time."
+msgstr ""
+
+msgid "Total Items"
+msgstr ""
+
+msgid "Set max limit for items or enter -1 to display all."
+msgstr ""
+
+msgid "Number of posts to displace or pass over."
+msgstr ""
+
+msgid "Filter by Category"
+msgstr ""
+
+msgid "Filter by Tag"
+msgstr ""
+
+msgid "Filter by Post Format"
+msgstr ""
+
+msgid "Filter by Author"
+msgstr ""
+
+msgid "Action Links"
+msgstr ""
+
+msgid "Bimber Categories"
+msgstr ""
+
+msgid "Include"
+msgstr ""
+
+msgid "A comma-separated list of category ids or slugs."
+msgstr ""
+
+msgid "Order by"
+msgstr ""
+
+msgid "Number of Entries"
+msgstr ""
+
+msgid "Matche the order of the Include"
+msgstr ""
+
+msgid "Bimber Title"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "HTML id"
+msgstr ""
+
+msgid "HTML class"
+msgstr ""
+
+msgid "Number of columns to use for grid template."
+msgstr ""
+
+msgid "Standard"
+msgstr ""
+
+msgid "Total items"
+msgstr ""
+
+msgid "Filter by category"
+msgstr ""
+
+msgid "Filter by tag"
+msgstr ""
+
+msgid "Filter by post format"
+msgstr ""
+
+msgid "Maximum items"
+msgstr ""
+
+msgid "Bimber Featured Collection"
+msgstr ""
+
+msgid "Show Tagline"
+msgstr ""
+
+msgid "Logo Width"
+msgstr ""
+
+msgid "Logo Height"
+msgstr ""
+
+msgid "Logo HDPI"
+msgstr ""
+
+msgid "An image for High DPI screen (like Retina) should be twice as big."
+msgstr ""
+
+msgid "Logo inverted"
+msgstr ""
+
+msgid "Logo inverted HDPI"
+msgstr ""
+
+msgid "Mobile Logo Width"
+msgstr ""
+
+msgid "Mobile Logo Height"
+msgstr ""
+
+msgid "Mobile Logo HDPI"
+msgstr ""
+
+msgid "Mobile Logo inverted"
+msgstr ""
+
+msgid "Mobile Logo inverted HDPI"
+msgstr ""
+
+msgid "Footer Text"
+msgstr ""
+
+msgid "Footer Stamp"
+msgstr ""
+
+msgid "Footer Stamp Width"
+msgstr ""
+
+msgid "Footer Stamp Height"
+msgstr ""
+
+msgid "Footer Stamp HDPI"
+msgstr ""
+
+msgid "Footer Stamp Label"
+msgstr ""
+
+msgid "Hide footer stamp label"
+msgstr ""
+
+msgid "Footer Stamp URL"
+msgstr ""
+
+msgid "http://"
+msgstr ""
+
+msgid "Input placeholder"
+msgstr ""
+
+msgid "Available tags: %s"
+msgstr ""
+
+msgid "Enable AJAX search results"
+msgstr ""
+
+msgid "Add New Control"
+msgstr ""
+
+msgid "Desktop"
+msgstr ""
+
+msgid "Tablet"
+msgstr ""
+
+msgid "Mobile"
+msgstr ""
+
+msgid "Failed to import content"
+msgstr ""
+
+msgid "Widgets imported successfully"
+msgstr ""
+
+msgid "Failed to import widgets"
+msgstr ""
+
+msgid "Theme options imported successfully."
+msgstr ""
+
+msgid "Failed to import theme options"
+msgstr ""
+
+msgid "Import completed successfully."
+msgstr ""
+
+msgid "Previous Member"
+msgstr ""
+
+msgid "Next Member"
+msgstr ""
+
+msgid "Tags"
+msgstr ""
+
+msgid "Before Main Collection"
+msgstr ""
+
+msgid "Show Newsletter"
+msgstr ""
+
+msgid "Activate the %s plugin to use this option"
+msgstr ""
+
+msgid "Show Patreon"
+msgstr ""
+
+msgid "Show Instagram"
+msgstr ""
+
+msgid "Show Links"
+msgstr ""
+
+msgid "Show Promoted Products"
+msgstr ""
+
+msgid "Show Promoted Single Product"
+msgstr ""
+
+msgid "Activate the AdAce and WooCommerce plugins to use this option"
+msgstr ""
+
+msgid "Links"
+msgstr ""
+
+msgid "Sections order"
+msgstr ""
+
+msgid "Drag and drop to reorder."
+msgstr ""
+
+msgid "Exclude categories"
+msgstr ""
+
+msgid "Use embeds instead of featured images"
+msgstr ""
+
+msgid "Highlight items"
+msgstr ""
+
+msgid "Highlight item at position"
+msgstr ""
+
+msgid "Repeat highlighted item after each X positions"
+msgstr ""
+
+msgid "Inject newsletter at position"
+msgstr ""
+
+msgid "e.g., %s"
+msgstr ""
+
+msgid "Repeat newsletter after each X positions"
+msgstr ""
+
+msgid "<a href=\"%s\" target=\"_blank\">%s</a>"
+msgstr ""
+
+msgctxt "Customizer Settings"
+msgid "Edit ad settings"
+msgstr ""
+
+msgid "Inject ad at position"
+msgstr ""
+
+msgid "Repeat ad after every X positions"
+msgstr ""
+
+msgid "Inject product at position"
+msgstr ""
+
+msgid "Repeat product after each X positions"
+msgstr ""
+
+msgid "Inject products from category"
+msgstr ""
+
+msgid "Theme Color"
+msgstr ""
+
+msgid "Define colors for elements of the browser."
+msgstr ""
+
+msgid "Keep in mind that it may only work on certain platforms or browsers."
+msgstr ""
+
+msgid "Boxed Layout Background"
+msgstr ""
+
+msgid "Skinmode Boxed Layout Background"
+msgstr ""
+
+msgid "Basic Color Scheme"
+msgstr ""
+
+msgid "Accent Color"
+msgstr ""
+
+msgid "Secondary Color Scheme"
+msgstr ""
+
+msgid "Will be applied to buttons, badges &amp; flags."
+msgstr ""
+
+msgid "Enable Bending Cat"
+msgstr ""
+
+msgid "Page Width"
+msgstr ""
+
+msgid "Typography"
+msgstr ""
+
+msgid "Google Font Subset"
+msgstr ""
+
+msgctxt "font subset"
+msgid "Latin"
+msgstr ""
+
+msgctxt "font subset"
+msgid "Latin Extended"
+msgstr ""
+
+msgctxt "font subset"
+msgid "Cyrillic"
+msgstr ""
+
+msgctxt "font subset"
+msgid "Cyrillic Extended"
+msgstr ""
+
+msgctxt "font subset"
+msgid "Greek"
+msgstr ""
+
+msgctxt "font subset"
+msgid "Greek Extended"
+msgstr ""
+
+msgctxt "font subset"
+msgid "Vietnamese"
+msgstr ""
+
+msgid "Add new"
+msgstr ""
+
+msgid "Body Text"
+msgstr ""
+
+msgid "Short meta information like post date, author etc."
+msgstr ""
+
+msgid "Metatext link"
+msgstr ""
+
+msgid "Button"
+msgstr ""
+
+msgid "Category label"
+msgstr ""
+
+msgid "Tag label"
+msgstr ""
+
+msgid "Tab"
+msgstr ""
+
+msgid "Submenu link"
+msgstr ""
+
+msgid "Dropdown toggle"
+msgstr ""
+
+msgid "Post Content"
+msgstr ""
+
+msgid "Mega Heading as Section Title"
+msgstr ""
+
+msgid "H1 as Section Title"
+msgstr ""
+
+msgid "H2 as Section Title"
+msgstr ""
+
+msgid "H3 as Section Title"
+msgstr ""
+
+msgid "H3 as Subtitle"
+msgstr ""
+
+msgid "H4 as Section Title"
+msgstr ""
+
+msgid "H4 as Subtitle"
+msgstr ""
+
+msgid "H5 as Section Title"
+msgstr ""
+
+msgid "H5 as Subtitle"
+msgstr ""
+
+msgid "H6 as Section Title"
+msgstr ""
+
+msgid "H6 as Subtitle"
+msgstr ""
+
+msgid "Blockquote"
+msgstr ""
+
+msgid "Show an ellipsis for longer items"
+msgstr ""
+
+msgid "Cards"
+msgstr ""
+
+msgid "Home Content"
+msgstr ""
+
+msgid "Home Sidebars"
+msgstr ""
+
+msgid "Archive Content"
+msgstr ""
+
+msgid "Archive Sidebars"
+msgstr ""
+
+msgid "Search Page Content"
+msgstr ""
+
+msgid "Search Page Sidebars"
+msgstr ""
+
+msgid "Single Content"
+msgstr ""
+
+msgid "Single Sidebars"
+msgstr ""
+
+msgid "Single Comments"
+msgstr ""
+
+msgid "Builder"
+msgstr ""
+
+msgid "Colors"
+msgstr ""
+
+msgid "Flags"
+msgstr ""
+
+msgid "Style"
+msgstr ""
+
+msgid "Skin"
+msgstr ""
+
+msgctxt "skin"
+msgid "Light"
+msgstr ""
+
+msgctxt "skin"
+msgid "Dark"
+msgstr ""
+
+msgid "Layout"
+msgstr ""
+
+msgctxt "layout"
+msgid "Boxed"
+msgstr ""
+
+msgctxt "layout"
+msgid "Stretched"
+msgstr ""
+
+msgid "Icon Style"
+msgstr ""
+
+msgctxt "icon style"
+msgid "Solid"
+msgstr ""
+
+msgctxt "icon style"
+msgid "Line"
+msgstr ""
+
+msgid "Headings &amp; Titles"
+msgstr ""
+
+msgid "Regular Text"
+msgstr ""
+
+msgid "Small Text Descriptions"
+msgstr ""
+
+msgid "Background Image Repeat"
+msgstr ""
+
+msgid "Background Image Size"
+msgstr ""
+
+msgid "Background Image Position"
+msgstr ""
+
+msgctxt "background position option"
+msgid "top left"
+msgstr ""
+
+msgctxt "background position option"
+msgid "top center"
+msgstr ""
+
+msgctxt "background position option"
+msgid "top right"
+msgstr ""
+
+msgctxt "background position option"
+msgid "center left"
+msgstr ""
+
+msgctxt "background position option"
+msgid "center center"
+msgstr ""
+
+msgctxt "background position option"
+msgid "center right"
+msgstr ""
+
+msgctxt "background position option"
+msgid "bottom left"
+msgstr ""
+
+msgctxt "background position option"
+msgid "bottom center"
+msgstr ""
+
+msgctxt "background position option"
+msgid "bottom right"
+msgstr ""
+
+msgid "Background Image Opacity"
+msgstr ""
+
+msgid "Dark or Light Skin Mode"
+msgstr ""
+
+msgid "Modules"
+msgstr ""
+
+msgid "Social Media Profile Links"
+msgstr ""
+
+msgid "Newsletter Color Scheme"
+msgstr ""
+
+msgid "Light"
+msgstr ""
+
+msgid "Newsletter Title"
+msgstr ""
+
+msgid "Patreon Color Scheme"
+msgstr ""
+
+msgid "Links Color Scheme"
+msgstr ""
+
+msgid "Instagram Color Scheme"
+msgstr ""
+
+msgid "Instagram - single row"
+msgstr ""
+
+msgid "Show Social Media Profile Links"
+msgstr ""
+
+msgid "Social Media Links Color Scheme"
+msgstr ""
+
+msgid "Social Media Links"
+msgstr ""
+
+msgid "Show Social Media Profile Links in the footer"
+msgstr ""
+
+msgid "Show \"Back to Top\" Button?"
+msgstr ""
+
+msgid "Don't know what NSFW is?"
+msgstr ""
+
+msgid "Read more about it in our <a href=\"%1$s\">online documentation</a>."
+msgstr ""
+
+msgid "NSFW Categories"
+msgstr ""
+
+msgid "Enable \"%s\" Collection"
+msgstr ""
+
+msgid "Generate collections based on"
+msgstr ""
+
+msgid "Top in menu"
+msgstr ""
+
+msgid "single"
+msgstr ""
+
+msgid "separate"
+msgstr ""
+
+msgid "Top posts page"
+msgstr ""
+
+msgid "Latest posts page"
+msgstr ""
+
+msgid "Hot posts page"
+msgstr ""
+
+msgid "Popular posts page"
+msgstr ""
+
+msgid "Trending posts page"
+msgstr ""
+
+msgid "Excerpt Length (in words)"
+msgstr ""
+
+msgid "Hide Views"
+msgstr ""
+
+msgid ""
+"If you fill in any number here, the views for a specific post are not shown "
+"until the view count of this number is reached."
+msgstr ""
+
+msgid "Fake view count base"
+msgstr ""
+
+msgid "Disable fake views for new submissions"
+msgstr ""
+
+msgid "New users' submitted posts won't be affected with fake views."
+msgstr ""
+
+msgid "Hide Comments"
+msgstr ""
+
+msgid ""
+"If you fill in any number here, the comments for a specific post are not "
+"shown until the comment count of this number is reached."
+msgstr ""
+
+msgid "Date to Display"
+msgstr ""
+
+msgid "Date of publication"
+msgstr ""
+
+msgid "Date of modification"
+msgstr ""
+
+msgctxt "both dates"
+msgid "Both"
+msgstr ""
+
+msgid "Convert date to time ago"
+msgstr ""
+
+msgid ""
+"Instead of displaying full date, use timestamps like \"4 minutes ago\", \"1 "
+"day ago\"."
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid "Auto play videos in Stream collections"
+msgstr ""
+
+msgid "Use GIF player"
+msgstr ""
+
+msgid "Open links in new window for infinite scroll in collections"
+msgstr ""
+
+msgid "Use pagination URLs for infinite scroll in collections"
+msgstr ""
+
+msgid "Autoload Next Post"
+msgstr ""
+
+msgid "From the same category?"
+msgstr ""
+
+msgid "Max posts to load (0 for infinite)"
+msgstr ""
+
+msgid "Gallery Post Format"
+msgstr ""
+
+msgid "Show Featured Image Icon"
+msgstr ""
+
+msgid "Archive"
+msgstr ""
+
+msgid "Set up <strong>the default options</strong> for all post archive pages."
+msgstr ""
+
+msgid ""
+"You can override them for any individual category or tag while editing it."
+msgstr ""
+
+msgctxt "Settings"
+msgid "Composition"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Filters"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Default Filter"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Hide Elements"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Background Color"
+msgstr ""
+
+msgctxt "Settings"
+msgid "Optional Background Gradient"
+msgstr ""
+
+msgid "Video Post Format"
+msgstr ""
+
+msgid "Hide video in post content"
+msgstr ""
+
+msgid "Link Post Format"
+msgstr ""
+
+msgid "Show source domain after post title"
+msgstr ""
+
+msgid "Has a single page?"
+msgstr ""
+
+msgid "Button label"
+msgstr ""
+
+msgid "Open method"
+msgstr ""
+
+msgid "using landing page"
+msgstr ""
+
+msgid "Landing page"
+msgstr ""
+
+msgid "Run an external link redirection from a separate page."
+msgstr ""
+
+msgid "Redirection delay (in seconds)"
+msgstr ""
+
+msgid "Single"
+msgstr ""
+
+msgid "Set up <strong>the default options</strong> for all single post pages."
+msgstr ""
+
+msgid "You can override them for any individual post while editing it."
+msgstr ""
+
+msgid "Prev/Next Links"
+msgstr ""
+
+msgid "Author Info"
+msgstr ""
+
+msgid "More from Category"
+msgstr ""
+
+msgid "Comments section"
+msgstr ""
+
+msgid "Pagination Single"
+msgstr ""
+
+msgid "Nav Single"
+msgstr ""
+
+msgid "Share buttons"
+msgstr ""
+
+msgid "Reactions"
+msgstr ""
+
+msgid "Elements Order"
+msgstr ""
+
+msgid "Sticky ShareBar"
+msgstr ""
+
+msgid "Enable Fly-in Prev/Next Links"
+msgstr ""
+
+msgid "Native comment section label"
+msgstr ""
+
+msgid "Our site"
+msgstr ""
+
+msgctxt "pagination"
+msgid "Overview"
+msgstr ""
+
+msgctxt "pagination overview"
+msgid "Page links"
+msgstr ""
+
+msgctxt "pagination overview"
+msgid "Page X of Y"
+msgstr ""
+
+msgid "Labels for previous, next"
+msgstr ""
+
+msgid "previous | next"
+msgstr ""
+
+msgid "previous page | next page"
+msgstr ""
+
+msgid "just arrows"
+msgstr ""
+
+msgid "Style of previous, next"
+msgstr ""
+
+msgid "Link"
+msgstr ""
+
+msgid "Next on last page redirects to next post"
+msgstr ""
+
+msgid "Element: %s"
+msgstr ""
+
+msgid "Dropdown Size"
+msgstr ""
+
+msgid "Dropdown Type"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "Row: A"
+msgstr ""
+
+msgid "Row: B"
+msgstr ""
+
+msgid "Row: C"
+msgstr ""
+
+msgid "Off-Canvas"
+msgstr ""
+
+msgid "Optional Border Color"
+msgstr ""
+
+msgid "Sticky"
+msgstr ""
+
+msgid "Border Color"
+msgstr ""
+
+msgid "Visibility"
+msgstr ""
+
+msgid "Single post"
+msgstr ""
+
+msgid "grid"
+msgstr ""
+
+msgid "list"
+msgstr ""
+
+msgid "Display above header"
+msgstr ""
+
+msgid "Full width"
+msgstr ""
+
+msgid "Grid Size"
+msgstr ""
+
+msgid "Grid gutter"
+msgstr ""
+
+msgid "Grid image ratio"
+msgstr ""
+
+msgid "Grid image title"
+msgstr ""
+
+msgid "Exclude from the main collection?"
+msgstr ""
+
+msgid "Filter by Categories"
+msgstr ""
+
+msgid "Filter by Tags"
+msgstr ""
+
+msgid "Icons"
+msgstr ""
+
+msgid "Margin Top"
+msgstr ""
+
+msgid "Margin Bottom"
+msgstr ""
+
+msgid "standard"
+msgstr ""
+
+msgid "justified"
+msgstr ""
+
+msgid "Labels"
+msgstr ""
+
+msgid "Icon Size"
+msgstr ""
+
+msgid "Show Explanation"
+msgstr ""
+
+msgid "for all"
+msgstr ""
+
+msgid "for logged in users"
+msgstr ""
+
+msgid "small"
+msgstr ""
+
+msgid "Create (button)"
+msgstr ""
+
+msgid "Create (dropdown)"
+msgstr ""
+
+msgid "enable"
+msgstr ""
+
+msgid "disable"
+msgstr ""
+
+msgid "Social Icons"
+msgstr ""
+
+msgid "List Size"
+msgstr ""
+
+msgid "Form Size"
+msgstr ""
+
+msgid "Open Header Builder"
+msgstr ""
+
+msgid "Style:"
+msgstr ""
+
+msgid "Sticky:"
+msgstr ""
+
+msgid "Shadow:"
+msgstr ""
+
+msgid "Align:"
+msgstr ""
+
+msgid "Left"
+msgstr ""
+
+msgid "Right"
+msgstr ""
+
+msgid "Grow:"
+msgstr ""
+
+msgctxt "on off"
+msgid "On"
+msgstr ""
+
+msgctxt "on off"
+msgid "Off"
+msgstr ""
+
+msgid ""
+"Got questions? Visit our <a href=\"http://bringthepixel.com/support/\">"
+"support centre</a>."
+msgstr ""
+
+msgid "http://bimber.bringthepixel.com"
+msgstr ""
+
+msgid "bring the pixel"
+msgstr ""
+
+msgid "http://www.bringthepixel.com/"
+msgstr ""

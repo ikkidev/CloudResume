@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: black;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+#wrap {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+    margin: auto 5%;
+    padding: 0;
+    text-align: center;
+    max-width: 420px;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+footer p {
+    text-align: center;
+}
+
+.btn {
+    background: black;
+    background-image: none;
+    border: 1px solid black;
+    box-shadow: none;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 10px;
+    padding: 6px 30px;
+    text-align: center;
+    text-decoration: none;
+    touch-action: manipulation;
+    transition: all 0.2s ease;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.status-message {
+    display: none;
+    margin-bottom: 20px;
+}
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 2rem 3rem;
+    width: 100%;
+}
+
+header .login-prompt{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ADC9ED;
+    font-size: .9rem;
+    display:flex;
+    align-items: center;
+    text-wrap: nowrap;
+}
+
+header .login-prompt,
+header .login-prompt a {
+    display:flex;
+    align-items: center;
+    gap: 5px;
+}
+
+header .login-prompt .login-link {
+    color: #336AD7;
+    text-decoration:none;
+}
+
+header .login-prompt .login-link .nfd-login-icon {
+    display:flex;
+}
+
+header .login-prompt .login-link .nfd-login-icon svg {
+    width: 20px;
+}
+
+.subscription_widget {
+    margin-block: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.subscription_widget img,
+.subscription_widget svg {
+    max-height: 80px;
+    max-width: 500px;
+}
+
+.subscription-field-wrapper{
+    flex:1;
+}
+.subscription-field-wrapper #subscribe-field{
+    width: 100%;
+}
+
+@media (max-width: 360px) {
+
+    header .login-label {
+        display : none;
+    }
+}

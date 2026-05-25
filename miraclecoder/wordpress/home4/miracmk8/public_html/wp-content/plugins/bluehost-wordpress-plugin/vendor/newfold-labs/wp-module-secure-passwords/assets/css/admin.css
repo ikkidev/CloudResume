@@ -1,0 +1,7 @@
+.nfd-sp-insecure-password-notice td {
+	padding: 0 10px;
+}
+
+.pw-weak {
+	display: none !important;
+}

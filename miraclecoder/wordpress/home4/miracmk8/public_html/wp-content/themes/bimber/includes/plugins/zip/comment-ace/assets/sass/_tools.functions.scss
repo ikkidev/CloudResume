@@ -1,0 +1,21 @@
+@function g1_get_column_width( $units:1, $total_units:12 ) {
+    $gutters:$units - 1;
+    $total_gutters:$total_units - 1;
+
+    $gutter:$grid_gutter_width / $grid_width;
+
+    $unit:(1 - $total_gutters * $gutter) / $total_units;
+
+    $return:percentage($units * $unit + $gutters * $gutter);
+    @return $return;
+}
+
+
+@function if-stack($_s, $if, $else: null) {
+    @if $_s == $stack {
+        @return $if;
+    }
+    @else {
+        @return $else;
+    }
+}

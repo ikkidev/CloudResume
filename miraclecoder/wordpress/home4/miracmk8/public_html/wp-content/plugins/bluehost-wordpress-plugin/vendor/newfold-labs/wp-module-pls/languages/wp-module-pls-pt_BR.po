@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://github.com/newfold-labs/wp-module-pls/issues\n"
+"Last-Translator: Carlos Rodriguez <carlos.rodriguez@newfold.com>\n"
+"Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-02-13T09:55:55+00:00\n"
+"PO-Revision-Date: 2025-05-07 15:32+0100\n"
+"Language: pt_BR\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: wp-module-pls\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: bootstrap.php:15
+msgid "wp-module-pls"
+msgstr "wp-module-pls"
+
+#: includes/Utilities/HiiveUtility.php:70
+msgid "Failed to connect to the API"
+msgstr "Falha ao conectar-se à API"
+
+#: includes/Utilities/HiiveUtility.php:107
+#: includes/Utilities/PLSUtility.php:299
+msgid "API returned a non-success status code: "
+msgstr "A API retornou um código de status sem sucesso: "
+
+#: includes/Utilities/PLSUtility.php:215
+msgid "No license storage map found for the specified plugin slug."
+msgstr "Nenhum mapa de armazenamento de licença encontrado para o identificador do plugin especificado."
+
+#: includes/Utilities/PLSUtility.php:226
+msgid "Provider is not set in the storage data."
+msgstr "O provedor não está definido nos dados de armazenamento."
+
+#: includes/Utilities/PLSUtility.php:242
+#: includes/Utilities/PLSUtility.php:270
+msgid "License ID not found for the plugin."
+msgstr "ID da licença não encontrada para o plugin."
+
+#: includes/Utilities/PLSUtility.php:314
+msgid "Unexpected response format from the API."
+msgstr "Formato de resposta inesperado da API."

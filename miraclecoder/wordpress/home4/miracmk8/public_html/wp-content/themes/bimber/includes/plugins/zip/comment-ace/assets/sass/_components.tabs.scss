@@ -1,0 +1,35 @@
+.cace-tab-items {
+	@include display(flex);
+	@include flex-wrap(wrap);
+	margin: 0 0 20px;
+	padding: 0;
+
+	list-style: none;
+
+}
+
+.cace-tab {
+	display: block;
+	padding: 6px 10px;
+	border-width: 0 0 2px;
+
+	border-style: solid;
+
+	border-color: transparent;
+}
+
+.cace-tab-item-current .cace-tab {
+	border-color: currentColor;
+}
+
+.cace-comment-type {
+	display: none;
+
+	.g1-tab-pane {
+		display: block;
+	}
+}
+
+.cace-comment-type-current {
+	display: block;
+}

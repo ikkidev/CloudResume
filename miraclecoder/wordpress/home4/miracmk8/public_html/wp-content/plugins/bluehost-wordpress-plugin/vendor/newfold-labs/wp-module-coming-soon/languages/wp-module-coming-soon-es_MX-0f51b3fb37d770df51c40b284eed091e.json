@@ -1,0 +1,21 @@
+{
+    "translation-revision-date": "2025-05-07 13:58+0100",
+    "generator": "WP-CLI\/2.11.0",
+    "source": "static\/js\/coming-soon.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "es_MX",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Coming soon": [
+                "Pr\u00f3ximamente"
+            ],
+            "Live": [
+                "En vivo"
+            ]
+        }
+    }
+}

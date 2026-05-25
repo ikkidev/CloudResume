@@ -1,0 +1,12 @@
+.cace-character-countdown {
+    display: inline-block;
+
+    position: absolute;
+    z-index: 1;
+    #{$right}: 12px;
+    #{$left}: auto;
+    bottom: 12px;
+
+    font-size: 13px;
+    line-height: 1;
+}

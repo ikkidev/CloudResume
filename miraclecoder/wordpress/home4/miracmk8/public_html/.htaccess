@@ -1,0 +1,85 @@
+# BEGIN Newfold CF Optimization Header
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	# Skip setting for admin/API routes
+	RewriteCond %{REQUEST_URI} !/wp-admin/       [NC]
+	RewriteCond %{REQUEST_URI} !/wp-login\.php   [NC]
+	RewriteCond %{REQUEST_URI} !/wp-json/        [NC]
+	RewriteCond %{REQUEST_URI} !/xmlrpc\.php     [NC]
+	RewriteCond %{REQUEST_URI} !/admin-ajax\.php [NC]
+	# Skip if the exact cookie and value are already present
+	RewriteCond %{HTTP_COOKIE} !(^|;\s*)nfd-enable-cf-opt=63a6825d27cab0f204d3b602 [NC]
+	# Set env var if we passed all conditions
+	RewriteRule .* - [E=CF_OPT:1]
+</IfModule>
+<IfModule mod_headers.c>
+	# Set cookie only if env var is present (i.e., exact cookie not found)
+	Header set Set-Cookie "nfd-enable-cf-opt=63a6825d27cab0f204d3b602; path=/; Max-Age=86400; HttpOnly" env=CF_OPT
+</IfModule>
+# END Newfold CF Optimization Header
+# BEGIN Adaptive Images
+#=======================
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    # Watched directories
+    RewriteCond %{REQUEST_URI} /wp-content/uploads [OR]
+    RewriteCond %{REQUEST_URI} /wp-content/themes
+    # Redirect images through the adaptive images script
+    RewriteRule \.(?:jpe?g|gif|png)$ /wp-content/plugins/adaptive-images/adaptive-images-script.php [L]
+</IfModule>
+# END Adaptive Images
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_expires.c>
+	ExpiresActive On
+	ExpiresByType image/jpg "access plus 24 hours"
+	ExpiresByType image/jpeg "access plus 24 hours"
+	ExpiresByType image/gif "access plus 24 hours"
+	ExpiresByType image/png "access plus 24 hours"
+	ExpiresByType text/css "access plus 24 hours"
+	ExpiresByType application/pdf "access plus 1 week"
+	ExpiresByType text/javascript "access plus 24 hours"
+	ExpiresByType text/html "access plus 5 minutes"
+	ExpiresByType image/x-icon "access plus 1 year"
+	ExpiresDefault "access plus 24 hours"
+</IfModule>
+Options -Indexes
+<IfModule mod_headers.c>
+	Header set X-Endurance-Cache-Level "2"
+	Header set X-nginx-cache "WordPress"
+</IfModule>
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
+# BEGIN ShortPixelWebp
+# The directives (lines) between "BEGIN ShortPixelWebp" and "END ShortPixelWebp" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+# END ShortPixelWebp
+# Wordfence WAF
+<Files ".user.ini">
+<IfModule mod_authz_core.c>
+	Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+	Order deny,allow
+	Deny from all
+</IfModule>
+</Files>
+# END Wordfence WAF
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php82” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php82___lsphp .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

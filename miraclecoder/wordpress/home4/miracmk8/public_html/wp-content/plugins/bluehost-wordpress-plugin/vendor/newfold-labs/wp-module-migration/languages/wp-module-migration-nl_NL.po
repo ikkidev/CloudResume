@@ -1,0 +1,111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: newfold-labswp-module-staging\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-02-13T10:16:59+00:00\n"
+"PO-Revision-Date: 2025-02-19 15:38\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-File: wp-module-migration.pot\n"
+"X-Crowdin-File-ID: 36\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-Project: newfold-labswp-module-staging\n"
+"X-Crowdin-Project-ID: 764889\n"
+"X-Domain: wp-module-migration\n"
+"X-Generator: WP-CLI 2.11.0\n"
+
+#: bootstrap.php:19
+msgid "Migration"
+msgstr "Migratie"
+
+#: includes/RestApi/RestApi.php:60
+msgid "NFD migration Options"
+msgstr "NFD migratie-opties"
+
+#: includes/Migration.php:106
+msgid "WordPress Migration Tool"
+msgstr "WordPress Migratietool"
+
+#: includes/Migration.php:107
+msgid "Migrate an existing WordPress site to this WordPress instance. This tool will make a copy of an existing site and automatically import it into this WordPress instance <strong>This will overwrite all the content.</strong>"
+msgstr "Migreer een bestaande WordPress-site naar deze WordPress-instantie. Deze tool maakt een kopie van een bestaande site en importeert deze automatisch in deze WordPress-instantie <strong>Dit overschrijft alle inhoud.</strong>"
+
+#: includes/Migration.php:164
+msgid "Preparing your site"
+msgstr "Uw site wordt voorbereid"
+
+#: includes/Migration.php:165
+msgid "Please wait a few seconds while we get your new account ready to import your existing WordPress site."
+msgstr "Wacht een paar seconden terwijl we uw nieuwe account klaar hebben om uw bestaande WordPress site te importeren."
+
+#: includes/Migration.php:166
+msgid "WordPress Content"
+msgstr "WordPress inhoud"
+
+#: includes/Services/InstaMigrateService.php:97
+#: includes/Steps/ConnectToInstaWp.php:76
+msgid "Website could not connect successfully."
+msgstr "Website kon geen verbinding maken."
+
+#: includes/Services/InstaMigrateService.php:82
+msgid "Connect plugin is installed and ready to start the migration."
+msgstr "Verbindingsplugin is geïnstalleerd en klaar om de migratie te starten."
+
+#: includes/Reports/MigrationReport.php:42
+#: includes/Reports/MigrationReport.php:60
+msgid "Migration Report"
+msgstr "Migratierapport"
+
+#: includes/Reports/MigrationReport.php:94
+msgid "No report available."
+msgstr "Geen rapport beschikbaar."
+
+#: includes/Services/InstaMigrateService.php:56
+msgid "Cannot get api key."
+msgstr "Kan de API-sleutel niet verkrijgen."
+
+#: includes/Services/InstaMigrateService.php:104
+msgid "Migration service could not be started."
+msgstr "Migratieservice kon niet worden gestart."
+
+#: includes/Steps/GetInstaWpApiKey.php:57
+msgid "Cannot get Api key."
+msgstr "Kan de API-sleutel niet verkrijgen."
+
+#: includes/Steps/InstallActivateInstaWp.php:57
+msgid "Failed to install and activate the plugin"
+msgstr "Kan de plugin niet installeren en activeren."
+
+#: includes/Services/EventService.php:26
+msgid "Bad event structure/value."
+msgstr "Foute gebeurtenisstructuur/waarde."
+
+#: includes/Services/HostingInfoService.php:74
+#: includes/Services/PageSpeedService.php:67
+msgid "Error decoding response"
+msgstr "Fout bij het decoderen van de reactie."
+
+#: includes/Steps/SourceHostingInfo.php:59
+msgid "Source hosting details not retrieved correctly"
+msgstr "Bronhostinggegevens niet correct opgehaald."
+
+#: includes/Services/EventService.php:125
+msgid "Invalid input for event key or data."
+msgstr "Ongeldige invoer voor gebeurtenissleutel of gegevens."
+
+#: includes/Services/EventService.php:139
+msgid "Invalid event payload."
+msgstr "Ongeldige gebeurtenispayload."
+
+#: includes/Services/EventService.php:167
+msgid "Failed to encode event JSON."
+msgstr "Kan gebeurtenis JSON niet coderen."
+
+#: includes/Services/EventService.php:190
+msgid "Failed to forward event to Hiive."
+msgstr "Kan evenement niet doorsturen naar Hiive."

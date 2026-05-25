@@ -1,0 +1,75 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: newfold-labswp-module-staging\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-02-13T10:14:35+00:00\n"
+"PO-Revision-Date: 2025-02-19 15:45\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-File: wp-module-marketplace.pot\n"
+"X-Crowdin-File-ID: 38\n"
+"X-Crowdin-Language: de\n"
+"X-Crowdin-Project: newfold-labswp-module-staging\n"
+"X-Crowdin-Project-ID: 764889\n"
+"X-Domain: wp-module-marketplace\n"
+"X-Generator: WP-CLI 2.11.0\n"
+
+#: bootstrap.php:15
+#: includes/Marketplace.php:57
+#: components/marketplace/index.js:9
+msgid "Marketplace"
+msgstr "Marktplatz"
+
+#: includes/PluginsMarketplace.php:89
+#: includes/Themes.php:149
+msgid "Premium"
+msgstr "Prämie"
+
+#. translators: The brand from the plugin is inserted into the string
+#: includes/PluginsMarketplace.php:121
+#, php-format
+msgid "Unlock the full potential of your WordPress website with premium plugins from %s."
+msgstr "Schalte das volle Potenzial deiner WordPress-Website mit Premium-Plugins frei von %s."
+
+#: components/marketplace/index.js:10
+msgid "Explore our featured collection of tools and services."
+msgstr "Entdecken Sie unsere ausgewählte Sammlung an Tools und Dienstleistungen."
+
+#: components/marketplace/index.js:14
+msgid "Oops, there was an error loading the marketplace, please try again later."
+msgstr "Oops, beim Laden des Marktplatzes ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
+
+#: components/marketplace/index.js:18
+msgid "Sorry, no marketplace items. Please, try again later."
+msgstr "Entschuldigung, keine Marktplatz-Artikel verfügbar. Bitte versuchen Sie es später erneut."
+
+#: components/marketplace/index.js:22
+msgid "Load More"
+msgstr "Mehr laden"
+
+#: components/productPage/index.js:14
+msgid "Oops! Something Went Wrong"
+msgstr "Oops! Etwas ist schiefgelaufen"
+
+#: components/productPage/index.js:18
+msgid "An error occurred while loading the content. Please try again later."
+msgstr "Beim Laden des Inhalts ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
+
+#: components/marketplace/index.js:23
+#: components/marketplaceSubnav/Mobilenav.js:15
+#: components/marketplaceSubnav/Sidebar.js:12
+msgid "Categories"
+msgstr "Kategorien"
+
+#: components/marketplaceBody/Body.js:40
+msgid "All"
+msgstr "Alle"
+
+#: components/marketplaceFilters/Filters.js:19
+msgid "Filter by type"
+msgstr "Nach Typ filtern"

@@ -1,0 +1,33 @@
+{
+    "translation-revision-date": "2025-02-19 15:45",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "components\/marketplace\/index.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "nl_NL",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Marketplace": [
+                "Marktplaats"
+            ],
+            "Explore our featured collection of tools and services.": [
+                "Ontdek onze uitgelichte collectie tools en services."
+            ],
+            "Oops, there was an error loading the marketplace, please try again later.": [
+                "Oeps, er is een fout opgetreden bij het laden van de marketplace. Probeer het later opnieuw."
+            ],
+            "Sorry, no marketplace items. Please, try again later.": [
+                "Sorry, er zijn geen marketplace-items beschikbaar. Probeer het later opnieuw."
+            ],
+            "Load More": [
+                "Meer laden"
+            ],
+            "Categories": [
+                "Categorie\u00ebn"
+            ]
+        }
+    }
+}

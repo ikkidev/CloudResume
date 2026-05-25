@@ -1,0 +1,129 @@
+.wpgdprc-header {
+    padding: rem-calc(36 0);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    .wpgdprc-label {
+        @include font-weight-medium();
+        padding: rem-calc(8 13);
+        margin-right: $spacing;
+
+        span {
+            @include font-weight-bold();
+        }
+    }
+}
+
+.wpgdprc-header__left {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: $spacing;
+}
+
+.wpgdprc-header__title {
+    margin: rem-calc(5 15 5 0);
+}
+
+:root .wpgdprc-header__logos {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.wpgdprc-header__logo {
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.wpgdprc-header__logo--lock {
+    margin-right: $spacing;
+
+    svg {
+        width: rem-calc(40);
+    }
+}
+
+.wpgdprc-header__logo--name {
+    display: flex;
+    flex-direction: column;
+}
+
+.wpgdprc-header__logo--name svg {
+    width: rem-calc(152);
+}
+
+.wpgdprc-header__link--premium {
+    @include text-s();
+    @include font-weight-medium();
+    color: $color-gray-dark;
+    text-underline-position: auto;
+    text-underline-offset: rem-calc(1);
+
+    @include hocus {
+        color: $color-primary;
+    }
+}
+
+:root p.wpgdprc-header__message {
+    margin: rem-calc(5 0);
+}
+
+.wpgdprc-header__manage {
+    @include text-s();
+    @include font-weight-medium();
+    display: inline-block;
+    font-family: $font-primary;
+    text-decoration: underline;
+    color: $color-gray-dark;
+    margin: rem-calc(5 0);
+
+    @include hocus {
+        color: $color-primary;
+    }
+}
+
+:root .wpgdprc-header__nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin: rem-calc(5 0);
+
+    ul {
+        @extend %unstyled-list;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    li {
+        margin-right: rem-calc(35);
+        margin-bottom: 0;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    a {
+        @include text-s();
+        color: $color-gray-medium;
+        text-decoration: none;
+
+        display: flex;
+        justify-content: space-between;
+
+        @include hocus {
+            color: $color-primary;
+        }
+    }
+}
+
+.wpgdprc p.wp-notice {
+    margin: 0.5em 0;
+    padding: 2px;
+}
+
+[data-mode='premium'] .wpgdprc-header__link--premium {
+    display: none;
+}

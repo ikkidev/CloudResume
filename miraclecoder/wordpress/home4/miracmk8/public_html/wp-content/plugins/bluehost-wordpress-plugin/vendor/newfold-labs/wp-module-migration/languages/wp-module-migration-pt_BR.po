@@ -1,0 +1,105 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://github.com/newfold-labs/wp-module-migration/issues\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-02-13T09:55:55+00:00\n"
+"PO-Revision-Date: 2025-05-06 10:39+0100\n"
+"Language: pt_BR\n"
+"X-Domain: wp-module-migration\n"
+"X-Generator: Poedit 3.6\n"
+
+#: bootstrap.php:19
+msgid "Migration"
+msgstr "Migração"
+
+#: includes/Migration.php:106
+msgid "WordPress Migration Tool"
+msgstr "Ferramenta de Migração do WordPress"
+
+#: includes/Migration.php:107
+msgid "Migrate an existing WordPress site to this WordPress instance. This tool will make a copy of an existing site and automatically import it into this WordPress instance <strong>This will overwrite all the content.</strong>"
+msgstr "Migre um site WordPress existente para esta instância do WordPress. Esta ferramenta fará uma cópia do site existente e a importará automaticamente para esta instância do WordPress. <strong>Isso substituirá todo o conteúdo.</strong>"
+
+#: includes/Migration.php:164
+msgid "Preparing your site"
+msgstr "Preparando seu site"
+
+#: includes/Migration.php:165
+msgid "Please wait a few seconds while we get your new account ready to import your existing WordPress site."
+msgstr "Aguarde alguns segundos enquanto preparamos sua nova conta para importar seu site WordPress existente."
+
+#: includes/Migration.php:166
+msgid "WordPress Content"
+msgstr "Conteúdo do WordPress"
+
+#: includes/Reports/MigrationReport.php:42
+#: includes/Reports/MigrationReport.php:60
+msgid "Migration Report"
+msgstr "Relatório de Migração"
+
+#: includes/Reports/MigrationReport.php:94
+msgid "No report available."
+msgstr "Nenhum relatório disponível."
+
+#: includes/RestApi/RestApi.php:60
+msgid "NFD migration Options"
+msgstr "Opções de migração do NFD"
+
+#: includes/Services/EventService.php:26
+msgid "Bad event structure/value."
+msgstr "Estrutura ou valor de evento inválido."
+
+#: includes/Services/HostingInfoService.php:74
+#: includes/Services/PageSpeedService.php:67
+msgid "Error decoding response"
+msgstr "Erro ao decodificar a resposta"
+
+#: includes/Services/InstaMigrateService.php:56
+msgid "Cannot get api key."
+msgstr "Não foi possível obter a chave da API."
+
+#: includes/Services/InstaMigrateService.php:82
+msgid "Connect plugin is installed and ready to start the migration."
+msgstr "O plugin Connect está instalado e pronto para iniciar a migração."
+
+#: includes/Services/InstaMigrateService.php:97
+#: includes/Steps/ConnectToInstaWp.php:76
+msgid "Website could not connect successfully."
+msgstr "Não foi possível conectar-se ao site com sucesso."
+
+#: includes/Services/InstaMigrateService.php:104
+msgid "Migration service could not be started."
+msgstr "Não foi possível iniciar o serviço de migração."
+
+#: includes/Steps/GetInstaWpApiKey.php:57
+msgid "Cannot get Api key."
+msgstr "Não foi possível obter a chave da API."
+
+#: includes/Steps/InstallActivateInstaWp.php:57
+msgid "Failed to install and activate the plugin"
+msgstr "Falha ao instalar e ativar o plugin"
+
+#: includes/Steps/SourceHostingInfo.php:59
+msgid "Source hosting details not retrieved correctly"
+msgstr "Os detalhes da hospedagem de origem não foram recuperados corretamente"
+
+#: includes/Services/EventService.php:125
+msgid "Invalid input for event key or data."
+msgstr "Entrada inválida para chave de evento ou dados."
+
+#: includes/Services/EventService.php:139
+msgid "Invalid event payload."
+msgstr "Carga útil de evento inválida."
+
+#: includes/Services/EventService.php:167
+msgid "Failed to encode event JSON."
+msgstr "Falha ao codificar o evento JSON."
+
+#: includes/Services/EventService.php:190
+msgid "Failed to forward event to Hiive."
+msgstr "Falha ao encaminhar o evento para o Hiive."

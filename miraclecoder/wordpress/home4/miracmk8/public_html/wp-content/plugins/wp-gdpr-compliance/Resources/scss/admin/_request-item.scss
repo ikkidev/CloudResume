@@ -1,0 +1,9 @@
+.wpgdprc-request-item {
+    padding: rem-calc(12 22);
+    background-color: $color-gray-light;
+    transition: all $transition;
+
+    &:not(:last-child) {
+        margin-bottom: rem-calc(20);
+    }
+}

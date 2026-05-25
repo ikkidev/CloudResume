@@ -1,0 +1,49 @@
+.wpgdprc-badge {
+    position: relative;
+    background-color: $color-gray-light;
+    padding: rem-calc(25);
+    border-radius: $radius-l;
+    display: flex;
+    align-items: center;
+    height: calc(100% - 50px);
+}
+
+.wpgdprc-badge__content {
+    order: 1;
+    flex-grow: 1;
+}
+
+.wpgdprc .wpgdprc-badge__title {
+    margin-bottom: rem-calc(4);
+}
+
+.wpgdprc-badge__text {
+    @include text-s();
+}
+
+.wpgdprc-badge__icon {
+    order: 0;
+    flex-shrink: 0;
+    margin-right: $spacing;
+
+    svg {
+        width: rem-calc(28);
+    }
+
+    path {
+        fill: $color-primary;
+    }
+}
+
+/**
+ * Variations
+ */
+
+// WooCommerce
+
+.wpgdprc-badge--woocommerce {
+    .wpgdprc-badge__icon svg {
+        width: rem-calc(43);
+        max-height: rem-calc(28);
+    }
+}

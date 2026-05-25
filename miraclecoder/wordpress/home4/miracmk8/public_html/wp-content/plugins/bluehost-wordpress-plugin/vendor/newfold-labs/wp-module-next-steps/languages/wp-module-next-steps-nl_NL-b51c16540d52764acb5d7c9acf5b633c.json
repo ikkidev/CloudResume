@@ -1,0 +1,72 @@
+{
+    "translation-revision-date": "2025-01-21 17:05:00+0000",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "build\/next-steps-widget\/bundle.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "nl_NL",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Mark Complete": [
+                "Markeer Voltooid"
+            ],
+            "Skip": [
+                "Overslaan"
+            ],
+            "Restart": [
+                "Herstarten"
+            ],
+            "Unskip": [
+                "Niet overslaan"
+            ],
+            "Hide skipped tasks": [
+                "Overgeslagen taken verbergen"
+            ],
+            "View skipped tasks": [
+                "Overgeslagen taken weergeven"
+            ],
+            "Loading next steps...": [
+                "Volgende stappen laden..."
+            ],
+            "All complete!": [
+                "Helemaal compleet!"
+            ],
+            "Close": [
+                "Sluiten"
+            ],
+            "We encountered a connection error. Please check your internet connection and try again.": [
+                "Er is een verbindingsfout opgetreden. Controleer uw internetverbinding en probeer het opnieuw."
+            ],
+            "We encountered an unexpected error. Please try refreshing the page or contact support if the problem persists.": [
+                "We zijn een onverwachte fout tegengekomen. Probeer de pagina te vernieuwen of neem contact op met de ondersteuning als het probleem zich blijft voordoen."
+            ],
+            "Connection Error": [
+                "Verbinding fout"
+            ],
+            "Something went wrong": [
+                "Er is iets misgegaan"
+            ],
+            "Try Again": [
+                "Probeer het opnieuw"
+            ],
+            "Refresh Page": [
+                "Pagina vernieuwen"
+            ],
+            "Technical Details": [
+                "Technische gegevens"
+            ],
+            "Next Steps Unavailable": [
+                "Volgende stappen niet beschikbaar"
+            ],
+            "The Next Steps module encountered an error and cannot be displayed right now.": [
+                "Er is een fout opgetreden in de module Volgende stappen en deze kan momenteel niet worden weergegeven."
+            ],
+            "Task temporarily unavailable": [
+                "Taak tijdelijk niet beschikbaar"
+            ]
+        }
+    }
+}

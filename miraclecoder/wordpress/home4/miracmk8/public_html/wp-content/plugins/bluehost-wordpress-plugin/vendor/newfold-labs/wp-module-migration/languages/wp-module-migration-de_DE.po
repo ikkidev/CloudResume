@@ -1,0 +1,111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: newfold-labswp-module-staging\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-02-13T10:16:59+00:00\n"
+"PO-Revision-Date: 2025-02-19 15:38\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-File: wp-module-migration.pot\n"
+"X-Crowdin-File-ID: 36\n"
+"X-Crowdin-Language: de\n"
+"X-Crowdin-Project: newfold-labswp-module-staging\n"
+"X-Crowdin-Project-ID: 764889\n"
+"X-Domain: wp-module-migration\n"
+"X-Generator: WP-CLI 2.11.0\n"
+
+#: bootstrap.php:19
+msgid "Migration"
+msgstr "Migration"
+
+#: includes/RestApi/RestApi.php:60
+msgid "NFD migration Options"
+msgstr "NFD-Migrationsoptionen"
+
+#: includes/Migration.php:106
+msgid "WordPress Migration Tool"
+msgstr "WordPress-Migrations-Tool"
+
+#: includes/Migration.php:107
+msgid "Migrate an existing WordPress site to this WordPress instance. This tool will make a copy of an existing site and automatically import it into this WordPress instance <strong>This will overwrite all the content.</strong>"
+msgstr "Migrieren Sie eine bestehende WordPress-Seite zu dieser WordPress-Instanz. Dieses Tool wird eine Kopie einer existierenden Site erstellen und automatisch in diese WordPress-Instanz <strong>importieren. Dies wird den gesamten Inhalt überschreiben.</strong>"
+
+#: includes/Migration.php:164
+msgid "Preparing your site"
+msgstr "Ihre Seite wird vorbereitet"
+
+#: includes/Migration.php:165
+msgid "Please wait a few seconds while we get your new account ready to import your existing WordPress site."
+msgstr "Bitte warten Sie ein paar Sekunden, während wir Ihr neues Konto bereit, um Ihre bestehende WordPress-Seite zu importieren."
+
+#: includes/Migration.php:166
+msgid "WordPress Content"
+msgstr "WordPress-Inhalt"
+
+#: includes/Services/InstaMigrateService.php:97
+#: includes/Steps/ConnectToInstaWp.php:76
+msgid "Website could not connect successfully."
+msgstr "Website konnte keine Verbindung herstellen."
+
+#: includes/Services/InstaMigrateService.php:82
+msgid "Connect plugin is installed and ready to start the migration."
+msgstr "Das Connect-Plugin ist installiert und kann die Migration starten."
+
+#: includes/Reports/MigrationReport.php:42
+#: includes/Reports/MigrationReport.php:60
+msgid "Migration Report"
+msgstr "Migrationsbericht"
+
+#: includes/Reports/MigrationReport.php:94
+msgid "No report available."
+msgstr "Kein Bericht verfügbar."
+
+#: includes/Services/InstaMigrateService.php:56
+msgid "Cannot get api key."
+msgstr "API-Schlüssel kann nicht abgerufen werden."
+
+#: includes/Services/InstaMigrateService.php:104
+msgid "Migration service could not be started."
+msgstr "Migrationsdienst konnte nicht gestartet werden."
+
+#: includes/Steps/GetInstaWpApiKey.php:57
+msgid "Cannot get Api key."
+msgstr "API-Schlüssel kann nicht abgerufen werden."
+
+#: includes/Steps/InstallActivateInstaWp.php:57
+msgid "Failed to install and activate the plugin"
+msgstr "Plugin konnte nicht installiert und aktiviert werden"
+
+#: includes/Services/EventService.php:26
+msgid "Bad event structure/value."
+msgstr "Ungültige Ereignisstruktur/-wert."
+
+#: includes/Services/HostingInfoService.php:74
+#: includes/Services/PageSpeedService.php:67
+msgid "Error decoding response"
+msgstr "Fehler beim Dekodieren der Antwort"
+
+#: includes/Steps/SourceHostingInfo.php:59
+msgid "Source hosting details not retrieved correctly"
+msgstr "Quellhosting-Details wurden nicht korrekt abgerufen"
+
+#: includes/Services/EventService.php:125
+msgid "Invalid input for event key or data."
+msgstr "Ungültige Eingabe für Ereignisschlüssel oder Daten."
+
+#: includes/Services/EventService.php:139
+msgid "Invalid event payload."
+msgstr "Ungültige Ereignisnutzlast."
+
+#: includes/Services/EventService.php:167
+msgid "Failed to encode event JSON."
+msgstr "Fehler beim Codieren von JSON-Ereignis."
+
+#: includes/Services/EventService.php:190
+msgid "Failed to forward event to Hiive."
+msgstr "Fehler beim Weiterleiten des Ereignisses an Hiive."

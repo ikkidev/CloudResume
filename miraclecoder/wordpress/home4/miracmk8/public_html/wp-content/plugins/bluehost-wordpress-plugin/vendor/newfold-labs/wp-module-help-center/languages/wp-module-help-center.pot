@@ -1,0 +1,150 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://github.com/newfold-labs/wp-module-help-center/issues\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-02-13T09:55:55+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: wp-module-help-center\n"
+
+#: includes/CapabilityController.php:76
+msgid "We could not find the brand"
+msgstr ""
+
+#: includes/CapabilityController.php:93
+#: includes/MultiSearchController.php:192
+#: includes/UserInteractionController.php:81
+msgid "You must be authenticated to make this call"
+msgstr ""
+
+#: includes/HelpCenter.php:122
+msgid "NFD helpcenter data"
+msgstr ""
+
+#: includes/HelpCenter.php:147
+msgid "Help"
+msgstr ""
+
+#: includes/MultiSearchController.php:132
+#: includes/MultiSearchController.php:171
+msgid "The request failed"
+msgstr ""
+
+#: includes/MultiSearchController.php:138
+#: includes/MultiSearchController.php:177
+msgid "No data found"
+msgstr ""
+
+#: build/index.js:1
+msgid "Account Support"
+msgstr ""
+
+#: build/index.js:1
+msgid "If you need help with your Bluehost account, give us a call at "
+msgstr ""
+
+#: build/index.js:1
+msgid " with one of our support agents — we're here for you!"
+msgstr ""
+
+#: build/index.js:1
+msgid "Your dream site is just a click away."
+msgstr ""
+
+#: build/index.js:1
+msgid "Let's build a site you love, together."
+msgstr ""
+
+#: build/index.js:1
+msgid "With Pro Design Live, our expert team bring your vision to life. We help you to create and the site you’ve always dreamed of — tailored to your goals, ready to perform."
+msgstr ""
+
+#: build/index.js:1
+msgid "Start Now"
+msgstr ""
+
+#: build/index.js:1
+msgid "Back"
+msgstr ""
+
+#: build/index.js:1
+msgid "We're sorry the suggestions didn’t help."
+msgstr ""
+
+#: build/index.js:1
+msgid "Try to:"
+msgstr ""
+
+#: build/index.js:1
+msgid "Use different keywords in the search field."
+msgstr ""
+
+#: build/index.js:1
+msgid "A clear, short prompt can make the difference."
+msgstr ""
+
+#: build/index.js:1
+msgid "Reach out to our customer support."
+msgstr ""
+
+#: build/index.js:1
+msgid "Call at"
+msgstr ""
+
+#: build/index.js:1
+msgid "or"
+msgstr ""
+
+#: build/index.js:1
+msgid "with one of our support agents — we will assist you as soon as possible."
+msgstr ""
+
+#: build/index.js:1
+msgid "Hey there! I’m here to help you find your way around WordPress. </br></br> If you’re not sure how to do something, just ask — I’ll walk you through it step by step. I’m still learning, so I might not have every answer, but I’ll do my best to help!"
+msgstr ""
+
+#: build/index.js:1
+msgid "Did this result help you?"
+msgstr ""
+
+#: build/index.js:1
+msgid "Thanks for the feedback!"
+msgstr ""
+
+#: build/index.js:1
+msgid "You can try searching our <a href=\"{link}\">Resource center.</a> though to see if there’s a helpful article or video on that subject."
+msgstr ""
+
+#: build/index.js:1
+#, js-format
+msgid "Sorry, I don’t have any information on %s yet."
+msgstr ""
+
+#: build/index.js:1
+msgid "Please enter a specific search term to get results."
+msgstr ""
+
+#: build/index.js:1
+msgid "Search Help Center"
+msgstr ""
+
+#: build/index.js:1
+msgid "Ask anything about WordPress"
+msgstr ""
+
+#: build/index.js:1
+msgid "submit text"
+msgstr ""
+
+#: build/index.js:1
+msgid "Help with WordPress"
+msgstr ""
+
+#: build/index.js:1
+msgid "Close Help Modal"
+msgstr ""

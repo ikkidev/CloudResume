@@ -1,0 +1,186 @@
+.cace-comments {
+    #cancel-comment-reply-link {
+        margin-#{$left}: 10px;
+    }
+
+    .comment-form {
+        position: relative;
+
+        > .avatar {
+            display: block;
+            margin: 0 0 20px;
+
+            position: absolute;
+            #{$left}: 0;
+            #{$right}: auto;
+
+        }
+
+
+        label {
+            display: block;
+        }
+
+
+        > p {
+            margin-bottom: 20px;
+        }
+
+        #author,
+        #email,
+        #url {
+            width: 100%;
+        }
+
+        .comment-form-author label,
+        .comment-form-email label,
+        .comment-form-url label,
+        .comment-form-comment label {
+            clip: rect( 1px, 1px, 1px, 1px);
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+        }
+    }
+}
+
+.cace-comments-with-avatars {
+    .comment-form {
+        padding-#{$left}: $avatar_size + $avatar_gutter;
+    }
+}
+
+
+@media only screen and ( min-width: 1025px ) {
+    .cace-comments{
+        .comment-form {
+
+
+            #author,
+            #email,
+            #url {
+                width: auto;
+                min-width: 50%;
+            }
+        }
+    }
+}
+
+
+
+
+.cace-comments {
+    .comment-form {
+        .wpgdprc-checkbox {
+            margin-bottom: 0;
+        }
+
+        .form-submit {
+            margin-top: 20px;
+        }
+    }
+
+    // Labels next to checkboxes
+    .wpgdprc-checkbox,
+    .mc4wp-checkbox-wp-comment-form,
+    .comment-form-cookies-consent {
+        [type=checkbox] {
+            margin-#{$right}: 10px;
+        }
+
+        label {
+            display: inline-block;
+
+            font-weight: normal;
+            letter-spacing: normal;
+            text-transform: none;
+        }
+    }
+}
+
+
+
+
+
+
+#comments-wp > #respond:first-child {
+    margin-top: 14px;
+
+    // Hide the "Leave a Reply"
+    & > #reply-title {
+        overflow: hidden;
+        width: 1px;
+        height: 1px;
+
+        position: absolute;
+
+        clip: rect(1px, 1px, 1px, 1px );
+    }
+}
+
+
+.cace-comment-toolbar {
+    @include display(flex);
+    @include flex-wrap(wrap);
+
+    line-height: 24px;
+}
+
+.cace-comments {
+    .comment-form-comment {
+        position: relative;
+
+        textarea {
+            display: block;
+        }
+
+        .cace-comment-toolbar {
+            position: absolute;
+            z-index: 3;
+            top: 5px;
+            #{$right}: 12px;
+            #{$left}: auto;
+        }
+    }
+}
+
+
+.comment-form {
+    .cace-gif {
+        position: relative;
+
+        &:before {
+            display: block;
+            width: 32px;
+            height: 32px;
+            margin: side-values(-16px 0 0 -16px);
+
+            position: absolute;
+            z-index: -1;
+            top: 50%;
+            #{$left}: 50%;
+            #{$right}: auto;
+
+            font: 32px/1 "cace";
+            text-align: center;
+
+            content: "\e103";
+
+            -webkit-animation: cace-anim-spin 2s infinite linear;
+               -moz-animation: cace-anim-spin 2s infinite linear;
+                    animation: cace-anim-spin 2s infinite linear;
+        }
+    }
+
+    .cace-gif + .comment-form-comment {
+        overflow: hidden;
+        width: 1px;
+        height: 1px;
+
+        position: absolute;
+
+        clip: rect(1px, 1px, 1px, 1px );
+    }
+
+}

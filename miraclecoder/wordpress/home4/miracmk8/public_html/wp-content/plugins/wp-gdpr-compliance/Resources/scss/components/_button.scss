@@ -1,0 +1,91 @@
+/**
+ * Button.
+ * ----------------------------------------------------------------------------
+ */
+
+@use 'sass:math';
+
+.wpgdprc-button,
+.button.wpgdprc-button {
+    @include vo-button;
+}
+
+.wpgdprc-button.wpgdprc-button--alert {
+    @include vo-button($color-white, $color-alert, $color-white, darken($color-alert, 10%));
+}
+
+.wpgdprc-button.wpgdprc-button--white {
+    @include vo-button($color-gray-dark, $color-white, $color-white, $color-primary);
+}
+
+.wpgdprc-button.wpgdprc-button--white-primary {
+    @include vo-button($color-primary, $color-white, $color-white, $color-primary);
+}
+
+.wpgdprc-button.wpgdprc-button--white-alert {
+    @include vo-button($color-alert, $color-white, $color-white, $color-alert);
+}
+
+.wpgdprc-button.wpgdprc-button--transparent {
+    @include vo-button($color-gray-dark, transparent, $color-primary, transparent);
+    box-shadow: none;
+}
+
+.wpgdprc-button[disabled] {
+    @include vo-button($color-gray-light-xx, $color-gray-light, $color-gray-light-xx, $color-gray-light);
+    cursor: not-allowed;
+}
+
+:root .wpgdprc-button.wpgdprc-button--small {
+    @include font-weight-bold();
+    @include text-s();
+    font-family: $font-primary;
+    line-height: math.div(16, 14);
+    padding: rem-calc(8 14);
+    min-width: rem-calc(69);
+
+    &.wpgdprc-button--transparent {
+        box-shadow: none;
+    }
+}
+
+.wpgdprc-button--transparent.wpgdprc-button--delete {
+    color: $color-gray-medium;
+
+    @include hocus {
+        color: $color-primary;
+    }
+}
+
+.wpgdprc-button.wpgdprc-button--transparent.wpgdprc-button--white {
+    color: $color-white;
+
+    @include hocus {
+        color: rgba($color-white, 0.6);
+    }
+}
+
+:root .wpgdprc-button.wpgdprc-button--icon {
+    padding: rem-calc(8 18 5 36); // [top: 8][bottom: 5] for ugly line-height in font.
+    min-width: 0;
+
+    .icon--wrap {
+        @include text-s();
+        position: absolute;
+        top: 50%;
+        left: rem-calc(12);
+        transform: translateY(-50%);
+
+        svg.icon {
+            margin: 0;
+        }
+    }
+}
+
+.wpgdprc-button.wpgdprc-button--border {
+    border-color: #d6d6d6;
+}
+
+.wpgdprc-button.is-hidden {
+    display: none;
+}

@@ -1,0 +1,211 @@
+body.fts.wpgdprc {
+    background: $color-gray;
+
+    // To stop the flash of un styled content hide the body with an inline style and show when ready.
+    opacity: 1;
+    visibility: visible;
+
+    padding: 0;
+    max-width: 100%;
+}
+
+#wp-gdpr-fts {
+    box-sizing: border-box;
+    margin: 2rem 0;
+
+    @include breakpoint($wp-medium) {
+        margin: 3rem auto;
+        width: 80%;
+        max-width: 80em;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .step__title {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+
+        span {
+            color: $color-gray-dark;
+            font-size: 1rem;
+        }
+    }
+
+    .wpgdprc-header__logos {
+        justify-content: center;
+    }
+
+    // override foundation grid system.
+    form {
+        &:not(.default-width) .cell {
+            width: calc(100% - #{$spacing-l});
+        }
+
+        .wpgdprc-form__field.wpgdprc-form__field--submit,
+        .wpgdprc-form__field wpgdprc-form__field--submit {
+            display: none;
+        }
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    a:not(.button) {
+        color: $color-primary;
+    }
+
+    .questionnaire {
+        label {
+            margin: 0.6rem 0 0.4rem 0.4rem;
+        }
+    }
+
+    p {
+        margin-bottom: 0.5rem;
+    }
+
+    hr {
+        margin: 0.5rem -1rem;
+    }
+
+    .list li {
+        margin: 0.25rem 0;
+    }
+
+    .wizard--bar {
+        width: 75%;
+        margin: 0 auto;
+        height: rem-calc(5);
+        border-radius: rem-calc(5);
+        background-color: $color-gray-light-x;
+        margin-top: rem-calc(48);
+
+        @include breakpoint($wp-medium down) {
+            display: none;
+        }
+
+        .wizard--bar--done {
+            height: 100%;
+            background-color: $color-primary;
+            border-radius: rem-calc(4);
+            width: 0;
+
+            transition: width $transition;
+        }
+    }
+}
+
+#step-container {
+    > .step {
+        min-height: 340px;
+
+        &:not(.active) {
+            display: none;
+        }
+    }
+
+    .step-container__footer {
+        margin-top: 2rem;
+
+        button {
+            padding: rem-calc(13) rem-calc(18);
+
+            &:not([data-step=next])[disabled] {
+                visibility: hidden;
+                transition: none;
+            }
+
+            &[data-step=prev] {
+                span {
+                    margin-right: 0.5rem;
+                }
+            }
+
+            &[data-step=next] {
+                &[disabled] .spinner-wrapper {
+                    display: block !important;
+                }
+            }
+        }
+    }
+}
+
+#step-to-buttons {
+    counter-reset: section;
+    margin: rem-calc(16) 0 rem-calc(42);
+    flex-wrap: wrap;
+
+    button {
+
+        width: 20%;
+        text-align: center;
+        position: relative;
+        font-weight: 400;
+        border: 0;
+        display: grid;
+        background-color: transparent;
+        padding: rem-calc(5);
+
+        &[disabled] {
+            opacity: 1;
+        }
+
+        &::before {
+            counter-increment: section;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            width: rem-calc(32);
+            height: rem-calc(32);
+            border-radius: 100%;
+            background-color: $color-primary;
+            color: $color-white;
+            transition: all $transition;
+            outline: rem-calc(5) solid $color-gray;
+            content: '✔';
+
+            top: -2.2rem;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        &.active {
+            & ~ button::before { /* stylelint-disable-line scss/selector-no-redundant-nesting-selector */
+                background-color: $color-gray-light-x;
+                content: counter(section);
+                color: $color-black;
+            }
+
+            &::before {;
+                content: counter(section) !important;
+            }
+        }
+    }
+
+    @include breakpoint($wp-medium down) { /* stylelint-disable-line order/order */
+        flex-direction: column;
+        align-items: flex-start;
+        margin: rem-calc(16 0 16);
+
+        button {
+            margin: rem-calc(4 0 4 48);
+            width: auto;
+
+            &::before {
+                top: 50%;
+                left: rem-calc(-32);
+                transform: translateX(-50%) translatey(-50%);
+            }
+        }
+    }
+}
+
+
+.wp-gdpr-fts__footer {
+    margin: 1rem auto 0;
+}

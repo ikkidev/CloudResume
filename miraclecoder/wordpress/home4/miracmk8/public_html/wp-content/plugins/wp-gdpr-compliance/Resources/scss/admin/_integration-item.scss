@@ -1,0 +1,221 @@
+@use 'sass:math';
+
+.wpgdprc-integration-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: rem-calc(25);
+    margin: rem-calc(10 0);
+    background-color: $color-gray-light;
+}
+
+.wpgdprc-integration-item__header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.wpgdprc-integration-item__header-inner {
+    display: flex;
+}
+
+.wpgdprc-integration-item__content {
+    order: 2;
+
+    a {
+        @include link();
+    }
+}
+
+:root .wpgdprc-integration-item__title {
+    @include text();
+    line-height: math.div(26, 16);
+    display: flex;
+    align-items: center;
+    margin-bottom: rem-calc(4);
+
+    span {
+        margin-left: rem-calc(10);
+    }
+}
+
+:root p.wpgdprc-integration-item__text {
+    @include text-s();
+    max-width: rem-calc(807);
+}
+
+.wpgdprc-integration-item__icon {
+    order: 1;
+    flex-shrink: 0;
+    width: rem-calc(68);
+    height: rem-calc(45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin: 0;
+    margin-left: rem-calc(-25);
+
+    svg {
+        width: rem-calc(26);
+    }
+
+    svg path {
+        fill: $color-primary;
+    }
+}
+
+.wpgdprc-integration-item__icon--woocommerce {
+    svg {
+        width: rem-calc(38);
+    }
+}
+
+.wpgdprc-integration-item__action {
+    flex-shrink: 0;
+    margin-top: $spacing;
+    margin-left: rem-calc(43);
+}
+
+.wpgdprc-integration-item__container {
+    //display: none;
+    width: 100%;
+    max-height: 0;
+    padding: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height $duration ease-out,
+        opacity $duration ease-out,
+        padding-top $duration ease-out;
+}
+
+.wpgdprc-integration-item__container.is-expanded {
+    overflow: hidden;
+    padding-top: rem-calc(20);
+    opacity: 1;
+}
+
+.wpgdprc-integration-item__form {
+    background-color: #f0f0f0;
+    border-radius: $radius-l;
+    padding: rem-calc(20);
+    margin-bottom: rem-calc(20);
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.wpgdprc-integration-item__form-field {
+    width: 100%;
+    margin-bottom: rem-calc(20);
+}
+
+.wpgdprc-integration-item__form-label {
+    @include font-weight-bold();
+    @include text-s();
+    display: inline-block;
+    color: $color-black;
+    margin-bottom: rem-calc(10);
+}
+
+.wpgdprc-integration-item__form-label--large {
+    @include text();
+}
+
+.wpgdprc-integration-item__form-input-container--main {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    .icon--wrap {
+        display: flex;
+        align-items: center;
+        flex-shrink: 0;
+        justify-content: left;
+        height: rem-calc(34);
+        width: rem-calc(34);
+
+        svg {
+            height: rem-calc(20);
+            width: rem-calc(20);
+            transition: transform $transition;
+            fill: $color-primary;
+        }
+    }
+}
+
+:root input.wpgdprc-integration-item__form-input {
+    @include text-s();
+    padding: rem-calc(6 12);
+
+    &:disabled {
+        opacity: 0.5;
+    }
+}
+
+:root p.wpgdprc-integration-item__form-description {
+    @include text-xs();
+    color: $color-gray-medium;
+}
+
+.wpgdprc-integration-item__grid {
+    @include xy-grid;
+    margin: rem-calc(0 -15);
+}
+
+.wpgdprc-integration-item__cell {
+    @include xy-cell();
+    position: relative;
+    display: flex;
+}
+
+.wpgdprc-integration-item__submit {
+    margin-top: rem-calc(18);
+}
+
+:root .wpgdprc-integration-item__submit .wpgdprc-button {
+    padding: 0;
+    font-weight: normal;
+    font-family: $body-font-family;
+    color: $color-gray-medium;
+
+    @include hocus {
+        color: $color-primary;
+    }
+}
+
+@include breakpoint($wp-medium) {
+    .wpgdprc-integration-item__header {
+        flex-wrap: unset;
+    }
+
+    .wpgdprc-integration-item__header-inner {
+        margin-right: $spacing-l;
+    }
+
+    .wpgdprc-integration-item__content {
+        margin-bottom: 0;
+    }
+
+    .wpgdprc-integration-item__action {
+        margin-top: unset;
+        margin-left: auto;
+    }
+}
+
+@include breakpoint(medium) {
+    .wpgdprc-integration-item__cell {
+        @include xy-cell(6);
+    }
+
+    .wpgdprc-integration-item__form-group {
+        padding-left: rem-calc(34);
+    }
+}
+
+@include breakpoint($wp-large) {
+    .wpgdprc-integration-item__container {
+        padding-left: rem-calc(43);
+    }
+}

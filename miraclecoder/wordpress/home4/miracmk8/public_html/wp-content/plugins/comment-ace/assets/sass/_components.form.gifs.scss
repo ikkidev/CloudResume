@@ -1,0 +1,167 @@
+.cace-drop {
+	display: inline-block;
+
+	position: relative;
+}
+
+button.cace-drop-toggle {
+	display: inline-block;
+	padding: 0;
+
+	font-size: 0;
+
+    box-shadow: none;
+	border-radius: 0;
+
+	color: inherit;
+	background: none;
+	border: none;
+
+	opacity: 0.5;
+
+	transition: opacity 0.375s ease-in-out;
+
+	abbr{
+		vertical-align: middle;
+
+		&:after {
+			display: inline-block;
+			width: 24px;
+
+			font: 24px/24px "cace";
+			text-align: center;
+
+			vertical-align: middle;
+
+			content: "\e100";
+		}
+	}
+}
+
+button.cace-drop-toggle:hover {
+	box-shadow: none;
+
+	opacity: 0.99;
+}
+
+.cace-drop-content {
+	display: none;
+	width: 274px;
+
+	position: absolute;
+	z-index: 1;
+	#{$right}: 0;
+	#{$left}: auto;
+	top: 100%;
+
+	border-radius: 10px;
+
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+}
+
+.cace-drop-expanded {
+	button.cace-drop-toggle {
+		font-size: 0;
+
+		abbr {
+			&:after {
+				content: "\e102";
+			}
+		}
+	}
+
+	.cace-drop-content {
+		display: block;
+	}
+}
+
+
+
+
+.cace-giphy-app-key-not-set {
+	padding: 10px 20px;
+	margin: 0;
+}
+
+button.cace-gif-remove {
+	display: block;
+	width: 32px;
+	height: 32px;
+
+	position: absolute;
+	z-index: 1;
+	top: 6px;
+	#{$right}: 6px;
+	#{$left}: auto;
+
+	font-size: 0;
+	text-align: center;
+
+	border-radius: 16px;
+
+	background-color: #000;
+	color: #fff;
+
+	&:before {
+		font: 16px/2 "cace";
+		content: "\e102";
+	}
+
+	&:hover {
+		filter: invert(1);
+	}
+
+	@include transition(filter 0.375s ease-in-out);
+}
+
+
+
+.cace-gifpicker {
+
+}
+
+.cace-gifpicker-header {
+	padding: 10px 20px;
+}
+
+.cace-gifpicker-search-field {
+	width: 100%;
+}
+
+.cace-gif-items {
+	overflow: scroll;
+	max-height: 400px;
+	padding: 0;
+	margin: 0;
+
+	list-style: none;
+
+	border-radius: 0 0 10px 10px;
+}
+
+.cace-gif-item {
+	margin: 0;
+	padding: 0;
+
+	.cace-gif {
+		display: block;
+		width: 100%;
+
+		cursor: pointer;
+	}
+}
+
+.comment-form-comment-with-reply-with-gif #comment {
+	padding-#{$right}: 48px;
+}
+
+.cace-drop-the-gifpicker {
+	display: none;
+}
+
+.cace-comment-toolbar {
+	.cace-drop-the-gifpicker {
+		display: inline-block;
+	}
+}

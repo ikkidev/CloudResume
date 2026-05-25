@@ -1,0 +1,58 @@
+button.cace-view-replies {
+	margin: side-values(0 0 10px #{$avatar_size + $avatar_gutter + $comment_padding_horizontal - 3px});
+
+	font-size: 13px;
+	font-size: var(--g1-mtxt-size, 13px);
+	line-height: 20px;
+
+	&:before {
+		display: inline-block;
+		margin-#{$right}: 2px;
+
+		font: 16px/1 "cace";
+		line-height: inherit;
+
+		vertical-align: middle;
+
+		content: "\e101";
+	}
+}
+
+
+.cace-children-collapsed {
+	> .children {
+		display: none;
+	}
+}
+
+.cace-children-expanded {
+	.cace-view-replies {
+		display: none;
+	}
+}
+
+button.cace-toggle-replies {
+	margin-#{$right}: 1em;
+	margin-bottom: 6px;
+
+	font-size: 13px;
+	font-size: var(--g1-mtxt-size, 13px);
+	line-height: 20px;
+
+	&:before {
+		display: inline-block;
+		margin-#{$right}: 4px;
+
+		font: 16px/1 cace;
+		line-height: inherit;
+		vertical-align: middle;
+
+		content: "\e105";
+	}
+}
+
+button.cace-toggle-replies-expand {
+	&:before {
+		content: "\e106";
+	}
+}

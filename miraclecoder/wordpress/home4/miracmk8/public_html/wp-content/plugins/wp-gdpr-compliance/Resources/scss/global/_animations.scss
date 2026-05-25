@@ -1,0 +1,75 @@
+/**
+ * Animations.
+ * ----------------------------------------------------------------------------
+ */
+
+@use 'sass:math';
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes slide-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+// issues with elementor see https://vanons.atlassian.net/browse/WGCC-168
+//[data-animation] {
+//    opacity: 0;
+//
+//    &[data-animation-appearing] {
+//        animation-name: fade-in;
+//        animation-duration: $duration;
+//        animation-timing-function: $easing;
+//        animation-fill-mode: forwards;
+//
+//        &[data-animation='slide-down'] {
+//            animation-name: slide-down;
+//        }
+//    }
+//}
+
+@include breakpoint(large) {
+    @for $i from 1 through 40 {
+        [data-animation][data-animation-delay='#{$i * 100}'][data-animation-delay='#{$i * 100}'] {
+            animation-delay: math.div($i, 10)s;
+        }
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    [data-animation] {
+        animation-duration: 0.001s !important;
+        animation-delay: 0.001s !important;
+    }
+}
+
+@keyframes barberpole {
+    100% {
+        background-position: 100% 100%;
+    }
+}

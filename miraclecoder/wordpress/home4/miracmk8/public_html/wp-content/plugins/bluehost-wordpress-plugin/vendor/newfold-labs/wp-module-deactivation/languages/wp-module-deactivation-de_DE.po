@@ -1,0 +1,129 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: newfold-labswp-module-staging\n"
+"Report-Msgid-Bugs-To: https://github.com/newfold-labs/wp-module-deactivation/issues\n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-12-12T19:31:01+00:00\n"
+"PO-Revision-Date: 2025-02-19 16:54\n"
+"Language: de_DE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: wp-module-deactivation\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: newfold-labswp-module-staging\n"
+"X-Crowdin-Project-ID: 764889\n"
+"X-Crowdin-Language: de\n"
+"X-Crowdin-File: wp-module-deactivation.pot\n"
+"X-Crowdin-File-ID: 52\n"
+
+#: includes/DeactivationSurvey.php:28
+msgid "Plugin Deactivation Survey"
+msgstr "Plugin-Deaktivierungs-Umfrage"
+
+#: includes/DeactivationSurvey.php:30
+#, php-format
+msgid "Thank you for using the %s plugin!"
+msgstr "Danke, dass Sie das %s Plugin verwenden!"
+
+#: includes/DeactivationSurvey.php:33
+msgid "Please take a moment to let us know why you're deactivating this plugin."
+msgstr "Bitte nehmen Sie sich einen Moment Zeit, um uns wissen zu lassen, warum Sie dieses Plugin deaktivieren."
+
+#: includes/DeactivationSurvey.php:34
+msgid "Plugin Deactivation Form"
+msgstr "Plugin Deaktivierung Formular"
+
+#: includes/DeactivationSurvey.php:35
+msgid "Why are you deactivating this plugin?"
+msgstr "Warum wird dieses Plugin deaktiviert?"
+
+#: includes/DeactivationSurvey.php:36
+msgid "Please share the reason here..."
+msgstr "Bitte teilen Sie den Grund hier..."
+
+#: includes/DeactivationSurvey.php:37
+msgid "Submit & Deactivate"
+msgstr "Senden & deaktivieren"
+
+#: includes/DeactivationSurvey.php:38
+msgid "Submit and Deactivate Plugin"
+msgstr "Plugin senden und deaktivieren"
+
+#: includes/DeactivationSurvey.php:39
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: includes/DeactivationSurvey.php:40
+msgid "Cancel Deactivation"
+msgstr "Deaktivierung abbrechen"
+
+#: includes/DeactivationSurvey.php:41
+msgid "Skip & Deactivate"
+msgstr "Überspringen & deaktivieren"
+
+#: includes/DeactivationSurvey.php:42
+msgid "Skip and Deactivate Plugin"
+msgstr "Plugin überspringen und deaktivieren"
+
+#: includes/DeactivationSurvey.php:43
+msgid "Continue"
+msgstr "Weiter"
+
+#: includes/DeactivationSurvey.php:44
+msgid "Continue Deactivation"
+msgstr "Deaktivierung fortsetzen"
+
+#: includes/DeactivationSurvey.php:45
+msgid "Are you sure you want to deactivate?"
+msgstr "Sind Sie sicher, dass Sie die Aktivierung deaktivieren möchten?"
+
+#: includes/DeactivationSurvey.php:46
+msgid "Deactivating"
+msgstr "Deaktivieren"
+
+#: includes/DeactivationSurvey.php:48
+#, php-format
+msgid "If the %s plugin is deactivated, these features will no longer work:"
+msgstr "Wenn das %s Plugin deaktiviert ist, funktionieren diese Funktionen nicht mehr:"
+
+#: includes/DeactivationSurvey.php:54
+#, php-format
+msgid "%s Caching"
+msgstr "%s Cache"
+
+#: includes/DeactivationSurvey.php:57
+msgid "Automatically clears the server page cache when your site updates"
+msgstr "Leert automatisch den Serverseiten-Cache beim Aktualisieren Ihrer Seite"
+
+#: includes/DeactivationSurvey.php:62
+#, php-format
+msgid "%s Staging"
+msgstr "%s Staging"
+
+#: includes/DeactivationSurvey.php:65
+msgid "Create a staging copy of your site to safely test changes"
+msgstr "Erstellen Sie eine Staging-Kopie Ihrer Website, um Änderungen sicher zu testen"
+
+#: includes/DeactivationSurvey.php:69
+msgid "WooCommerce Tools"
+msgstr "WooCommerce Tools"
+
+#: includes/DeactivationSurvey.php:70
+msgid "Run campaigns and promotions on your store"
+msgstr "Kampagnen und Werbeaktionen in Ihrem Shop ausführen"
+
+#: includes/DeactivationSurvey.php:74
+msgid "Wonder Blocks & Patterns Library"
+msgstr "Wunder Blöcke & Muster Bibliothek"
+
+#: includes/DeactivationSurvey.php:75
+msgid "Dozens of beautiful block templates and patterns"
+msgstr "Dutzende von schönen Blockvorlagen und Mustern"
+
+#: includes/DeactivationSurvey.php:80
+#, php-format
+msgid "Need Help? Check the %1$shelp center%2$s for support."
+msgstr "Brauchen Sie Hilfe? Überprüfen Sie das %1$sHilfezentrum%2$s für Unterstützung."
